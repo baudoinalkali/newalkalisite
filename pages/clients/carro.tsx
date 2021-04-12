@@ -19,6 +19,7 @@ import ClientContainer from '../../components/ClientContainer'
 import ClientBlocks from '../../content/clientPages/clientBlocks'
 
 
+
 function Carro() {
   const carroImages = ClientBlocks.carro.map(carro =>
     <AngledImage
