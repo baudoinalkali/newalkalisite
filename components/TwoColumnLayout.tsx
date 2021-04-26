@@ -4,12 +4,12 @@ const TwoColumnLayout = props => {
     }
 
     return (
-        <div className={`${props.style} py-24 px-14 xl:px-0`}>
+        <div className={`${props.style} py-24 px-10 xl:px-0`}>
             <div className={flexType()}>
-                <div className="w-full lg:w-3/6">
+                <div className="w-full lg:w-1/2">
                     {props.child1}
                 </div>
-                <div className="w-full lg:w-3/6">
+                <div className="w-full lg:w-1/2">
                     {props.child2}
                 </div>
             </div>

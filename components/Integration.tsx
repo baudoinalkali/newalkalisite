@@ -25,6 +25,7 @@ const Integrations = props => {
                     )
                 }
             </div>
+            <p className="text-center text-lg font-open pt-16">and many more</p>
         </div>
     )
 }

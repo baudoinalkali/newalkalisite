@@ -2,7 +2,7 @@ const ServiceHeroContent = {
     wordpress: [
         {
             sub: "WordPress Website Development",
-            title: "Customizing and developing high-performance WordPress websites is what we do",
+            title: "Customizing and developing high-performance WordPress websites that deliver results is what we do",
             backgroundImg: "cartalk-hero.webp",
         },
     ],

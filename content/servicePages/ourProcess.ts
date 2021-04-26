@@ -3,12 +3,12 @@ const OurProcess = {
         {
             title: "Project Discovery",
             icon: "faSearch",
-            step: "Identify your objectives and your website's functionality requirements<br />Identify your objectives and your website's functionality requirements<br />Identify your objectives and your website's functionality requirements<br />Identify your objectives and your website's functionality requirements<br />Identify your objectives and your website's functionality requirements<br />Identify your objectives and your website's functionality requirements<br />Identify your objectives and your website's functionality requirements"
+            step: "Form deep understanding of your businesses' objectives and desired website functionality<br /><br />Identify and research typical customer journey to assist in creating an optimal user experience<br /><br />Develop website sitemap, architecture, user journey and experience<br /><br />Present "
         },
         {
             title: "Web Design",
             icon: "faPaintBrush",
-            step: "Identify your objectives and your website's functionality requirements<br />Identify your objectives and your website's functionality requirements<br />Identify your objectives and your website's functionality requirements<br />Identify your objectives and your website's functionality requirements<br />Identify your objectives and your website's functionality requirements<br />Identify your objectives and your website's functionality requirements<br />Identify your objectives and your website's functionality requirements"
+            step: "Create style guide or adapt one based on existing brand collateral"
         },
         {
             title: "Web Development",
