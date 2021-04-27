@@ -3,7 +3,7 @@ const SEO = {
         {
             title: "Are You Currently Optimizing SEO For Leads?",
             text: "Customized content and design, 100% tailored to your exact specifications; nothing beats bespoke. Let our specialists transform your vision into a brilliant reality. You deserve an eye-catching website. Using pre-made templates can oftentimes wind up looking too generalized. Let a professional take the worry and frustration out of establishing a dynamic web presence. We consult all potential clients on what will best fit their needs when it comes to a custom build or using a template as a starting point. Learn more about some pros and cons between a custom built and a templated approach below:",
-            image: "/images/custom-built.png",
+            image: "/images/currently-optimizing.png",
             altText: ""
         },
     ],
@@ -11,7 +11,7 @@ const SEO = {
         {
             title: "Leverage Your Online Presence to the Fullest",
             text: "Customized content and design, 100% tailored to your exact specifications; nothing beats bespoke. Let our specialists transform your vision into a brilliant reality. You deserve an eye-catching website. Using pre-made templates can oftentimes wind up looking too generalized. Let a professional take the worry and frustration out of establishing a dynamic web presence. We consult all potential clients on what will best fit their needs when it comes to a custom build or using a template as a starting point. Learn more about some pros and cons between a custom built and a templated approach below:",
-            image: "/images/custom-built.png",
+            image: "/images/leverage.png",
             altText: ""
         },
     ],

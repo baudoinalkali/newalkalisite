@@ -16,7 +16,12 @@ const IntegrationContent = {
         { "name": "Service Titan", "fileName": "service-titan", altText:"" },
         { "name": "Slack", "fileName": "slack", altText:"" },
         { "name": "Zapier", "fileName": "zapier", altText:"" },
-        { "name": "Zendesk", "fileName": "zendesk", altText:"" }
+        { "name": "Zendesk", "fileName": "zendesk", altText:"" },
+        { "name": "Intercom", "fileName": "intercom", altText:"" },
+        { "name": "ConvertKit", "fileName": "convertkit", altText:"" },
+        { "name": "Zoho", "fileName": "zoho", altText:"" },
+
+
     ],
     social: [
         { "name": "Facebook", "fileName": "facebook", altText:"" },

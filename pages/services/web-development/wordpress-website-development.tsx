@@ -118,15 +118,15 @@ function WordPressWebsiteDevelopment() {
             )}
         </div>
         <div className="">
-            <div className="p-4 py-24 px-0 lg:px-14">
+            <div className="py-24 px-0 lg:px-14">
                 <div className="flex flex-col space-x-0 lg:space-x-14 lg:flex-row m-auto justify-between items-center max-w-7xl">
-                    <div className="w-5/6 lg:w-1/2 pb-20 lg:pb-0">
+                    <div className="px-10 w-full lg:w-1/2 2xl:px-0 pb-20 lg:pb-0">
                         <h3 className="text-3xl md:text-4xl font-play font-bold m-auto leading-tight">WordPress Website Development</h3>
                         <p className="text-alkaligrey-400 font-open max-w-4xl text-lg font-normal pt-7">
                             Standing out in a crowded marketplace can be difficult. Our specialty is not only driving interested users to your site and catching their attention once there but enticing them to engage and come back for more. Whether your site is orientated toward Sales, Information, Charity, or something else, we’ve seen it all, so we do it all. Let our team of talented, inspired professionals give your website the attention it deserves, leaving you free to devote your attention to what matters to you!
                         </p>
                     </div>
-                    <div className="z-0 pointer-events-none">
+                    <div className="z-0 pointer-events-none w-96 md:w-auto">
                         <div className="angled-mockup rounded-md shadow-2xl">
                             <div className="browser-mockup z-0">
                                 <div style={{ fontSize: '0' }}>
@@ -140,15 +140,15 @@ function WordPressWebsiteDevelopment() {
                                     />
                                 </div>
                             </div>
-                            <div className="bg-white stat-container float-right -mr-6 shadow-2xl p-7 rounded-md text-center uppercase font-medium text-sm -mt-14 relative">
+                            <div className="bg-white stat-container float-right -mr-6 shadow-2xl p-7 rounded-md text-center uppercase font-medium text-sm -mt-14 relative w-80 lg:w-5/6">
                                 <p className="pb-4">Wordpress Statistics</p>
                                 <div className="flex justify-between items-center max-w-7xl m-auto">
                                     <div className="w-1/2 m-auto -ml-3 border-r">
-                                        <p className="font-bold text-5xl pb-4"><FontAwesomeIcon className="text-2xl relative top-0 mr-3" icon={faCaretUp}></FontAwesomeIcon>40%</p>
+                                        <p className="font-bold text-3xl lg:text-5xl pb-4"><FontAwesomeIcon className="text-2xl relative top-0 mr-3" icon={faCaretUp}></FontAwesomeIcon>40%</p>
                                         <p className="text-xs ml-4">Sites Use WordPress</p>
                                     </div>
                                     <div className="w-1/2 m-auto">
-                                        <p className="font-bold text-5xl pb-4"><FontAwesomeIcon className="text-2xl relative top-0 mr-3" icon={faCaretUp}></FontAwesomeIcon>150%</p>
+                                        <p className="font-bold text-3xl lg:text-5xl pb-4"><FontAwesomeIcon className="text-2xl relative top-0 mr-3" icon={faCaretUp}></FontAwesomeIcon>150%</p>
                                         <p className="text-xs ml-4">Monthly Leads Request</p>
                                     </div>
                                 </div>
@@ -163,9 +163,9 @@ function WordPressWebsiteDevelopment() {
             child1={customBuiltText}
             child2={customBuiltImage}
         />
-        <div className="py-24 pt-0 bg-alkaligrey-300">
+        <div className="py-24 pt-0 bg-alkaligrey-300 px-10 2xl:px-0">
             <div className="flex flex-col space-x-0 lg:space-x-14 lg:flex-row m-auto justify-between max-w-7xl">
-                <div className="w-full lg:w-3/6 px-14 2xl:px-0">
+                <div className="w-full lg:w-1/2">
                     <h4 className="text-3xl md:text-4xl font-play font-bold m-auto leading-tight pt-7">Advantages:</h4>
                     <div className="difference-listG">
                         <ul>
@@ -178,7 +178,7 @@ function WordPressWebsiteDevelopment() {
                         </ul>
                     </div>
                 </div>
-                <div className="w-full lg:w-3/6 px-14 2xl:px-0">
+                <div className="w-full lg:w-1/2">
                     <h4 className="text-3xl md:text-4xl font-play font-bold m-auto leading-tight pt-7">Disadvantages:</h4>
                     <div className="difference-listR">
                         <ul>
@@ -195,7 +195,7 @@ function WordPressWebsiteDevelopment() {
             text="Do you have an idea and vision for your website but not sure where to start? Our team of professionals are standing by to answer any questions you may have. Whether you need a free audit of your current website or want to discuss specifics of a new WordPress website build, we look forward to serving you!"
             buttonText="Schedule a Discovery Call"
         />
-        <div className="py-24 px-14 2xl:px-0">
+        <div className="pt-24 px-10 2xl:px-0">
             <h6 className="text-3xl md:text-4xl pb-7 text-center font-play font-bold m-auto leading-tight">Not All Websites Are Created Equal</h6>
             <p className="font-open text-center max-w-4xl m-auto text-lg font-normal pt-4">
                 An unfortunate reality of WordPress websites, particularly template based build are the overeliance on plugins, lack of customization
@@ -213,7 +213,7 @@ function WordPressWebsiteDevelopment() {
             child2={seoImage}
         />
 
-        <div className="-mt-72 px-14 2xl:px-0">
+        <div className="-mt-72 px-10 2xl:px-0">
             <h3 className="text-3xl md:text-4xl text-center font-play font-bold m-auto leading-tight pb-14">Hear It Straight From Our Clients</h3>
         </div>
         <div className="relative z-20">

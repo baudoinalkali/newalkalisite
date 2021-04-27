@@ -1,15 +1,15 @@
-import TempMobileNav from '../Navigation/TempMobileNav'
-import TempDesktopNav from '../Navigation/TempDesktopNav'
+import MobileNavigation from './MobileNavigation'
+import DesktopNavigation from './DesktopNavigation'
 
 const CombinedNavigation = props => {
     return (
         <div>
             <div className="contents lg:hidden">
-                <TempMobileNav
+                <MobileNavigation
                 />
             </div>
             <div className="hidden lg:contents">
-                <TempDesktopNav
+                <DesktopNavigation
                     headerColor={props.headerColor}
                 />
             </div>
