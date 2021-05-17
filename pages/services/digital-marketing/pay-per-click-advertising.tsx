@@ -11,6 +11,8 @@ import Testimonials from '../../../content/testimonials'
 import seoProcess from '../../../content/servicePages/ourProcess'
 import OurProcessComp from '../../../components/Services/OurProcess'
 import CombinedNavigation from '../../../components/Navigation/CombinedNavigation';
+import PPCServices from '../../../content/servicePages/serviceBlocks'
+import ServiceBlocks from '../../../components/Services/ServiceBlocks';
 
 
 function PayPerClick() {
@@ -86,8 +88,8 @@ function PayPerClick() {
 
     return (
         <div>
-            <CombinedNavigation 
-            
+            <CombinedNavigation
+
             />
             {ServiceHeroContent.ppc.map(ppc =>
                 <ServiceHero
@@ -110,37 +112,15 @@ function PayPerClick() {
             <div className="py-24">
                 <h6 className="text-3xl md:text-4xl text-center font-play font-bold m-auto leading-tight">AdWords Isn't The Only Game in Town Anymore</h6>
                 <p className="text-center text-alkaligrey-400 pt-4 text-lg max-w-xl m-auto">We can manage your pay-per-click campagins on more than just AdWords. See what types of campaigns we can manage for you below:</p>
-                <div className="max-w-7xl m-auto grid grid-cols-3 gap-x-14 gap-y-14 pt-24">
-                    <div className="rounded shadow-2xl p-7">
-                        <img className="w-14" src="/images/alkalismall.png" />
-                        <h4 className="py-3 font-bold">Search</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.</p>
-                    </div>
-                    <div className="rounded shadow-2xl p-7">
-                        <img className="w-14" src="/images/alkalismall.png" />
-                        <h4 className="py-3 font-bold">Local Service Ads</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.</p>
-                    </div>
-                    <div className="rounded shadow-2xl p-7">
-                        <img className="w-14" src="/images/alkalismall.png" />
-                        <h4 className="py-3 font-bold">Shopping</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.</p>
-                    </div>
-                    <div className="rounded shadow-2xl p-7">
-                        <img className="w-14" src="/images/alkalismall.png" />
-                        <h4 className="py-3 font-bold">Conversion Flywheel</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.</p>
-                    </div>
-                    <div className="rounded shadow-2xl p-7">
-                        <img className="w-14" src="/images/alkalismall.png" />
-                        <h4 className="py-3 font-bold">Social Advertising</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.</p>
-                    </div>
-                    <div className="rounded shadow-2xl p-7">
-                        <img className="w-14" src="/images/alkalismall.png" />
-                        <h4 className="py-3 font-bold">Tailored Reporting</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.</p>
-                    </div>
+                <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14 pt-20">
+                    {PPCServices.PPC.map(PPC =>
+                        <ServiceBlocks
+                            serviceTitle={PPC.serviceTitle}
+                            serviceText={PPC.serviceText}
+                            image={PPC.image}
+                            altText={PPC.altText}
+                        />
+                    )}
                 </div>
                 <div className="text-center pt-24">
                     <Modal
