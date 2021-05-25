@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
+import { faCaretUp } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
 import ServiceHero from '../../../components/Services/ServiceHero';
 import ServiceHeroContent from '../../../content/servicePages/serviceHeroContent'
 import StandardImage from '../../../components/StandardImage'
@@ -101,11 +103,45 @@ function SearchEngineOptimization() {
                     backgroundImg={searchEngineOptimization.backgroundImg}
                 />
             )}
-            <TwoColumnLayout
-                style=""
-                child2={seoImage1}
-                child1={seoText1}
-            />
+            <div className="py-24 px-0 lg:px-14">
+                <div className="flex flex-col space-x-0 lg:space-x-14 lg:flex-row m-auto justify-between items-center max-w-7xl">
+                    <div className="px-10 w-full lg:w-1/2 2xl:px-0 pb-20 lg:pb-0">
+                        <h3 className="text-3xl md:text-4xl font-play font-bold m-auto leading-tight">Start Seeing Results in Just 2 Months!</h3>
+                        <p className="text-alkaligrey-400 font-open max-w-4xl text-lg font-normal pt-7">
+                            Standing out in a crowded marketplace can be difficult. Our specialty is not only driving interested users to your site and catching their attention once there but enticing them to engage and come back for more. Whether your site is orientated toward Sales, Information, Charity, or something else, we’ve seen it all, so we do it all. Let our team of talented, inspired professionals give your website the attention it deserves, leaving you free to devote your attention to what matters to you!
+                        </p>
+                    </div>
+                    <div className="z-0 pointer-events-none w-96 md:w-auto">
+                        <div className="angled-mockup rounded-md shadow-2xl">
+                            <div className="browser-mockup z-0">
+                                <div style={{ fontSize: '0' }}>
+                                    <Image
+                                        src="/images/wordpress-stats.png"
+                                        alt=""
+                                        className="rounded-b-md"
+                                        width={588}
+                                        height={410}
+                                        quality={100}
+                                    />
+                                </div>
+                            </div>
+                            <div className="bg-white stat-container float-right -mr-6 shadow-2xl p-7 rounded-md text-center uppercase font-medium text-sm -mt-14 relative w-80 lg:w-5/6">
+                                <p className="pb-4">Wordpress Statistics</p>
+                                <div className="flex justify-between items-center max-w-7xl m-auto">
+                                    <div className="w-1/2 m-auto -ml-3 border-r">
+                                        <p className="font-bold text-3xl lg:text-5xl pb-4"><FontAwesomeIcon className="text-2xl relative top-0 mr-3" icon={faCaretUp}></FontAwesomeIcon>40%</p>
+                                        <p className="text-xs ml-4">Sites Use WordPress</p>
+                                    </div>
+                                    <div className="w-1/2 m-auto">
+                                        <p className="font-bold text-3xl lg:text-5xl pb-4"><FontAwesomeIcon className="text-2xl relative top-0 mr-3" icon={faCaretUp}></FontAwesomeIcon>150%</p>
+                                        <p className="text-xs ml-4">Monthly Leads Request</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <TwoColumnLayout
                 flexType="reverse"
                 style="bg-alkaligrey-300"

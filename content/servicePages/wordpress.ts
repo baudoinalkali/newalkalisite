@@ -10,7 +10,7 @@ const Wordpress = {
     customBuilt: [
         {
             title: "Custom-Built WordPress vs. Templated WordPress",
-            text: "Customized content and design, 100% tailored to your exact specifications; nothing beats bespoke. Let our specialists transform your vision into a brilliant reality. You deserve an eye-catching website. Using pre-made templates can oftentimes wind up looking too generalized. Let a professional take the worry and frustration out of establishing a dynamic web presence. We consult all potential clients on what will best fit their needs when it comes to a custom build or using a template as a starting point. Learn more about some pros and cons between a custom built and a templated approach below:",
+            text: "Customized content and design, 100% tailored to your exact specifications; nothing beats bespoke. Let our specialists transform your vision into a brilliant reality. You deserve an eye-catching website. Using pre-made templates can oftentimes wind up looking too generic. Let a professional take the worry and frustration out of establishing a dynamic web presence. We consult all potential clients on what will best fit their needs when it comes to a custom build or using a template as a starting point. Learn more about some pros and cons between a custom built and a templated approach below:",
             image: "/images/custom-built-shadow.png",
             altText: ""
         },
@@ -34,7 +34,7 @@ const Wordpress = {
     userExperience: [
         {
             title: "Headline for User Experience",
-            text: "User Experience begins as soon as the user lays eyes on your site and doesn’t end until well after they have left. The unfortunate truth is that one negative interaction can undo ten positive ones; don’t let the intricacies of interactive media stop you from realizing your dream. Buttons, card readers, links, and images are just a small part of UX. Our team of experts has made keeping current their passion.",
+            text: "It’s critical that you put your user’s digital experience above all. Designing a seamless user experience shouldn’t be an afterthought. Building websites that are easy to navigate, built with a specific purpose in mind, and tailored to your target audience is critical. We do a deep-dive into understanding your business and customers so that we can create an optimal digital experience for specifically tailored to them.",
             image: "/images/user-experience.png",
             altText: ""
         },
@@ -50,7 +50,7 @@ const Wordpress = {
     conversion: [
         {
             title: "Headline for Conversion",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis diam, scelerisque at porta a, vulputate a purus. Fusce ipsum diam, pellentesque a scelerisque sollicitudin, cursus nec tellus. In sit amet laoreet quam. Proin euismod metus ut consectetur ultrices. Suspendisse ac est eget augue venenatis congue ac a odio. Sed feugiat elementum malesuada. Phasellus augue dolor, accumsan quis ante in, eleifend placerat metus.",
+            text: "To successfully convert leads your website should leverage a lot more than a simple contact form or call-to-action. Options such as case studies, testimonials, and customer relationship management integrations should be implemented. We work with you to understand your current business processes and seamlessly integrate these effective conversion tools when possible.",
             image: "/images/conversion.png",
             altText: ""
         },

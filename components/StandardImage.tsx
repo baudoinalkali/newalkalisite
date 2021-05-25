@@ -33,6 +33,7 @@ const StandardImage = (props) => {
             alt={props.altText}
             width={600}
             height={450}
+            quality={100}
             />
             </div>
         </div>
