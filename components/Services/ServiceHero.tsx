@@ -1,5 +1,4 @@
 import Modal from '../Modal'
-import BGParticles from '../BGParticles'
 
 const ServiceHero = props => {
     return (
@@ -7,7 +6,6 @@ const ServiceHero = props => {
             <div className="App" style={{ position: 'relative', overflow: "hidden" }}>
                 <div style={{ position: 'absolute' }}>
                     <div className="w-screen h-screen">
-                        <BGParticles />
                     </div>
 
                 </div>
