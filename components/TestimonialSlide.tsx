@@ -13,11 +13,11 @@ const TestimonialSlide = (props) => {
                         />
                         <div className={`absolute inset-0 opacity-75 ${props.backgroundOverlay}`}></div>
                         <Image 
-                            className="relativer"
+                            className="relative"
                             src={props.logo}
                             alt={props.altText}
-                            width={300}
-                            height={150}
+                            width={props.logoWidth}
+                            height={props.logoHeight}
                         />
                     </div>
                     <div className="relative lg:w-7/12 bg-white">

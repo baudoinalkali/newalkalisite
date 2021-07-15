@@ -55,7 +55,7 @@ export const MobileNavigation = () => {
                 <nav className='flex items-center flex-wrap p-7 max-w-7xl m-auto'>
                     <a className='inline-flex items-center p-2 mr-4 ' style={{ fontSize: '0' }}>
                         <Image
-                            src="/images/alkali-logo-blue.png"
+                            src="/images/alkali-logo-blue.svg"
                             width={160}
                             height={34}
                             alt=""

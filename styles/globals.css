@@ -16,6 +16,58 @@ li:hover > button svg { transform: rotate(-270deg) }
 .min-w-32 { min-width: 8rem }
 
 
+.calendly-inline-widget {
+	height: 700px !important;
+  }
+
+  ._2rxQ07L_sk._1M_9Lld7A7 {
+	margin-top: 10rem !important;
+  }
+  
+  ._2rxQ07L_sk {
+	margin: 0 !important;
+  }
+  
+  .iSDZ5t7E7z._22yXaHFtuz._15N04lKjtm {
+	margin-top: -5rem !important;
+  }
+  
+  .meeting-popup-container--inner {
+	height: 800px;
+  }
+  
+  .meeting-popup-container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 3rem !important;
+	height: 800px;
+  }
+
+  @media only screen and (max-width: 980px) {
+	.calendly-calendar {
+	  height: 500px !important;
+	}
+  }
+  
+  .hubspot-calendar {
+	height: 50vh !important;
+  }
+
+  @media only screen and (max-width: 800px) {
+	.meeting-popup-container {
+	  width: 95vw !important;
+	  margin: 0 10px !important;
+	}
+	.meeting-popup-container--inner {
+	  height: 85vh !important;
+	}
+  
+	.hubspot-calendar {
+	  width: 100% !important;
+	  height: 80vh !important;
+	}
+  }
+  
 
 .footer-icon-container {
 	-webkit-text-size-adjust: 100%;
