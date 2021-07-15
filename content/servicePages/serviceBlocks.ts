@@ -61,55 +61,55 @@ const ServiceBlocksContent = {
         {
             serviceTitle:"Keyword Research & Strategy",
             serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",   
-            image:"/images/digital-marketing/seo/keyword-research.png",
+            image:"/images/digital-marketing/seo/keyword-research.svg",
             altText:""
         },
         {
             serviceTitle:"Technical SEO",
             serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
-            image:"/images/digital-marketing/seo/technical-seo.png",
+            image:"/images/digital-marketing/seo/technical-seo.svg",
             altText:""   
         },
         {
             serviceTitle:"On-Site SEO",
             serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
-            image:"/images/digital-marketing/seo/on-site-seo.png",
+            image:"/images/digital-marketing/seo/on-site-seo.svg",
             altText:""   
         },
         {
             serviceTitle:"Off-Site SEO",
             serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
-            image:"/images/digital-marketing/seo/off-site-seo.png",
+            image:"/images/digital-marketing/seo/off-site-seo.svg",
             altText:""  
         },
         {
             serviceTitle:"Link Building",
             serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
-            image:"/images/digital-marketing/seo/link-building.png",
+            image:"/images/digital-marketing/seo/link-building.svg",
             altText:""   
         },
         {
             serviceTitle:"Content Writing",
             serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
-            image:"/images/digital-marketing/seo/content-writing.png",
+            image:"/images/digital-marketing/seo/content-writing.svg",
             altText:""   
         },
         {
             serviceTitle:"Analytics Tracking",
             serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
-            image:"/images/digital-marketing/seo/analytics-tracking.png",
+            image:"/images/digital-marketing/seo/analytics-tracking.svg",
             altText:""   
         },
         {
             serviceTitle:"Local SEO",
             serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
-            image:"/images/digital-marketing/seo/local-seo.png",
+            image:"/images/digital-marketing/seo/local-seo.svg",
             altText:""   
         },
         {
             serviceTitle:"Competitive Analysis",
             serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
-            image:"/images/digital-marketing/seo/competitive-analysis.png",
+            image:"/images/digital-marketing/seo/competitive-analysis.svg",
             altText:""  
         },
     ],
