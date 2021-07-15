@@ -42,7 +42,9 @@ const Testimonials = {
             background: "/images/carro-testimonial-bg.jpg",
             backgroundOverlay: "bg-pink-300",
             company: "Carro",
-            logo: "/images/carro-logo.png",
+            logo: "/images/clients/carro/logo.svg",
+            logoWidth: "200",
+            logoHeight: "100",
             altText: " ",
             name: "Eric Sanchez, Operations Manager",
             quote: "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."

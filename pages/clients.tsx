@@ -2,13 +2,12 @@ import ClientCardContainer from '../components/Clients/ClientCardContainer'
 import Header from '../components/Header'
 import ClientMainPage from '../content/clientPages/clientMainPage'
 import ClientCard from '../components/Clients/ClientCard'
+import CombinedNavigation from '../components/Navigation/CombinedNavigation'
 
 function Clients() {
   const testClient = ClientMainPage[0];
   return <div>
-    < Header
-    headerColor="blue"
-    />
+    <CombinedNavigation />
     <div className="pt-36 pb-24 flex max-w-6xl justify-center m-auto">
       <div className="text-center bg-alkaligrey-500 mx-5 w-36 text-alkaligrey-700 rounded-md p-2 border border-alkaligray-700">
         All

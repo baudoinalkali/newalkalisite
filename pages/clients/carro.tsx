@@ -63,7 +63,6 @@ function Carro() {
         />
       )}
     </div>
-
     {CarroHeroContent.carro.map(carro =>
         <ClientAbout
           name={carro.name}
@@ -90,6 +89,8 @@ function Carro() {
             company={carro.company}
             key={`designTestimonialFor${carro.company}`}
             logo={carro.logo}
+            logoWidth={carro.logoWidth}
+            logoHeight={carro.logoHeight}
             altText={carro.altText}
             name={carro.name}
             quote={carro.quote}
