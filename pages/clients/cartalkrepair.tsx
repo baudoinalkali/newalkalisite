@@ -11,6 +11,7 @@ import Testimonials from '../../content/testimonials'
 import React from 'react'
 import ClientMainPage from '../../content/clientPages/clientMainPage'
 import ClientCard from '../../components/Clients/ClientCard'
+import Image from 'next/image'
 
 function CarTalkRepair() {
   return <div className="m-auto">
@@ -88,16 +89,7 @@ function CarTalkRepair() {
       </div>
     </div>
     <div className="">
-      <ResponsiveScreens
-        style="text-center py-36 overflow-hidden"
-        link="https://getcarro.com"
-        title="First Impressions Matter Experience Their Website For Yourself"
-        buttonName="Visit Site"
-        desktopImgL="../images/carro-desktop-brand.png"
-        desktopImgR="../images/carro-desktop-score.png"
-        tabletImg="../images/carro-tablet.png"
-        phoneImg="../images/carro-phone.png"
-      />
+
     </div>
     <ClientCardContainer>
       {ClientMainPage.map(clientMainPage =>

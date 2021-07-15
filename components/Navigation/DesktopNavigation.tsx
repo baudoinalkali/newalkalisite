@@ -8,7 +8,7 @@ const DesktopNavigation = (props) => {
         return `${props.headerColor === "white" ? 'text-white hover:text-alkaligrey-700' : 'hover:text-alkali-500'} dropbtn font-play font-bold uppercase inline-block p-5`
     }
     const headerLogoColor = () => {
-        return `${props.headerColor === "white" ? '/images/alkali-logo-white.png' : '/images/alkali-logo-blue.png'}`
+        return `${props.headerColor === "white" ? '/images/alkali-logo-white.svg' : '/images/alkali-logo-blue.svg'}`
     }
     const headerCTAColor = () => {
         return `${props.headerColor === "white" ? 'text-alkaligrey-800 bg-white hover:bg-alkaligrey-700' : 'text-white bg-alkali-500 hover:bg-alkali-700'} p-3 px-6 font-semibold shadow-2xl rounded-md`
