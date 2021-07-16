@@ -64,6 +64,8 @@ const Testimonials = {
             backgroundOverlay: "bg-gray-50",
             company: "Homewatch Amelia",
             logo: "/images/amelia-logo.png",
+            logoWidth: "275",
+            logoHeight: "125",
             altText: "",
             name: "Ann Wood, Owner",
             quote: "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."

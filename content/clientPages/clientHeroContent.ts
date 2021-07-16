@@ -5,6 +5,8 @@ const ClientHeroContent = {
             about: "Carro is the world’s largest collaborative commerce network, with more than 25,000 brands and 6.5 million influencers. The platform seamlessly enables brands to work with influencers and each other so they can sell more, together.",
             slug: "amelia",
             heroImage: "/images/carro-header-image.png",
+            heroImageWidth:"725",
+            heroImageHeight:"500",
             backgroundOverlay: "true",
             sub: "Home Service",
             title: "Homewatch Amelia Island",

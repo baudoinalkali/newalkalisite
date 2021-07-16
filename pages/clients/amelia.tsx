@@ -58,9 +58,8 @@ function Amelia() {
           title={amelia.title}
           backgroundImg={amelia.backgroundImg}
           service={amelia.service}
-          heroImage={amelia.heroImage}
           serviceSlug={amelia.serviceSlug}
-          style="py-24"
+          style="py-40"
           key={`ameliaAmeliaHeroContentFor${amelia.title}`}
         />
       )}
@@ -93,6 +92,8 @@ function Amelia() {
             company={amelia.company}
             key={`designTestimonialFor${amelia.company}`}
             logo={amelia.logo}
+            logoWidth={amelia.logoWidth}
+            logoHeight={amelia.logoHeight}
             altText={amelia.altText}
             name={amelia.name}
             quote={amelia.quote}

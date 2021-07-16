@@ -8,7 +8,7 @@ const ClientHeader = props => {
 
     return (
         <div className={headerBackgroundType()} style={{ backgroundImage: `url(${props.backgroundImg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
-            <CombinedNavigation 
+            <CombinedNavigation
                 headerColor="white"
             />
             <div className={`max-w-7xl flex justify-between items-center m-auto ${props.style}`}>
@@ -18,21 +18,18 @@ const ClientHeader = props => {
                     <div className="">
                         <div className="">
                             {props.service.map(service =>
-                                <span className="border border-white p-2 mr-7 rounded-md text-xs text-center text-white uppercase font-open font-bold hover:bg-white hover:text-alkaligrey-800" key={service}>
-                                    <a href={props.serviceSlug}>
+                                <a href={props.serviceSlug}>
+                                    <span className="border border-white p-2 mr-7 rounded-md text-xs text-center text-white uppercase font-open font-bold hover:bg-white hover:text-alkaligrey-800" key={service}>
                                         {service}
-                                    </a>
-                                </span>
+                                    </span>
+                                </a>
                             )}
                         </div>
                     </div>
                 </div>
                 <div className="invisible md:visible">
-                    <Image 
+                    <img
                         src={props.heroImage}
-                        width={725}
-                        height={500}
-                        priority={true}
                     />
                 </div>
             </div>
