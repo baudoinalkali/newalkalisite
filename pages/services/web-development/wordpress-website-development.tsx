@@ -225,6 +225,8 @@ function WordPressWebsiteDevelopment() {
                         company={testimonial.company}
                         key={`designTestimonialFor${testimonial.company}`}
                         logo={testimonial.logo}
+                        logoWidth={testimonial.logoWidth}
+                        logoHeight={testimonial.logoHeight}
                         altText={testimonial.altText}
                         name={testimonial.name}
                         quote={testimonial.quote}
