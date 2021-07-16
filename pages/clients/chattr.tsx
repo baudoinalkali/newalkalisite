@@ -102,12 +102,12 @@ function Carro() {
       child1={carroResultText}
       child2={carroResultImage}
     />
-    <div className="p-4 py-24 bg-alkali-500">
+    <div className="p-4 py-24 bg-clients-chattr">
       <div className="flex flex-col lg:flex-row justify-between items-center max-w-7xl m-auto mx-3 xl:mx-auto">
         <div><h3 className="text-4xl font-bold max-w-7xl m-auto text-white leading-tight text-center mb-14 lg:mb-0">We're here to realize your vision.</h3></div>
         <div className="">
           <Modal
-            style="p-3 px-6 font-semibold text-white rounded-md transition hover:text-alkali-500 duration-500 ease-in-out border border-white hover:bg-white"
+            style="p-3 px-6 font-semibold text-white rounded-md transition hover:text-clients-chattr duration-500 ease-in-out border border-white hover:bg-white"
             text="Schedule a call"
           />
         </div>
