@@ -20,13 +20,13 @@ function CarTalkRepair() {
         <Header />
         <div className="max-w-7xl flex justify-between items-center m-auto py-56">
           <div className="ml-7 2xl:mx-0">
-            <p className="uppercase text-white font-open font-medium">Automotive</p>
-            <h1 className="text-6xl text-white font-play font-bold pt-3 py-10">CarTalk Repair</h1>
+            <p className="uppercase text-white font-medium">Automotive</p>
+            <h1 className="text-6xl text-white font-bold pt-3 py-10">CarTalk Repair</h1>
             <div className="max-w-7xl m-auto flex space-x-7">
-              <div className="border border-white p-2 px-5 tracking-widest rounded-md text-xs text-center text-white uppercase font-play font-bold hover:bg-white hover:text-alkaligrey-800">
+              <div className="border border-white p-2 px-5 tracking-widest rounded-md text-xs text-center text-white uppercase font-bold hover:bg-white hover:text-alkaligrey-800">
                 Web Development
               </div>
-              <div className="border border-white p-2 px-5 tracking-widest rounded-md text-xs text-center text-white uppercase font-play font-bold hover:bg-white hover:text-alkaligrey-800">
+              <div className="border border-white p-2 px-5 tracking-widest rounded-md text-xs text-center text-white uppercase font-bold hover:bg-white hover:text-alkaligrey-800">
                 Branding
               </div>
             </div>
@@ -36,11 +36,11 @@ function CarTalkRepair() {
     </div>
     <div className="py-24 flex flex-col md:flex-row justify-between max-w-7xl items-center justify-center m-auto mx-7 xl:mx-auto">
       <div className="w-full xs:w-1/2 pb-14 lg:pb-0">
-        <h3 className="text-4xl alkaligrey-800 font-play font-bold m-auto leading-tight pb-4 lg:pb-7">About CarTalk Repair</h3>
-        <a href="https://cartalkrepair.com" target="_blank" rel="noopener noreferrer" className="uppercase font-open font-bold text-lg text-alkali-500 duration-500 hover:mr-3">Visit Website</a><FontAwesomeIcon className="text-alkali-500 ml-3" icon={faLongArrowAltRight}></FontAwesomeIcon>
+        <h3 className="text-4xl alkaligrey-800 font-bold m-auto leading-tight pb-4 lg:pb-7">About CarTalk Repair</h3>
+        <a href="https://cartalkrepair.com" target="_blank" rel="noopener noreferrer" className="uppercase font-bold text-lg text-alkali-500 duration-500 hover:mr-3">Visit Website</a><FontAwesomeIcon className="text-alkali-500 ml-3" icon={faLongArrowAltRight}></FontAwesomeIcon>
       </div>
       <div className="w-full xs:w-1/2 ">
-        <p className="text-alkaligrey-400 font-open max-w-4xl text-lg font-normal">Carro is the world’s largest collaborative commerce network, with more than 25,000 brands and 6.5 million influencers. The platform seamlessly enables brands to work with influencers and each other so they can sell more, together.</p>
+        <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal">Carro is the world’s largest collaborative commerce network, with more than 25,000 brands and 6.5 million influencers. The platform seamlessly enables brands to work with influencers and each other so they can sell more, together.</p>
       </div>
     </div>
     <div className="max-w-7xl m-auto">
@@ -79,7 +79,7 @@ function CarTalkRepair() {
     />
     <div className="p-4 py-24 bg-alkali-500">
       <div className="flex flex-col lg:flex-row justify-between items-center max-w-7xl m-auto mx-3 xl:mx-auto">
-        <div><h3 className="text-4xl font-play font-bold max-w-7xl m-auto text-white leading-tight text-center mb-14 lg:mb-0">We're here to realize your vision.</h3></div>
+        <div><h3 className="text-4xl font-bold max-w-7xl m-auto text-white leading-tight text-center mb-14 lg:mb-0">We're here to realize your vision.</h3></div>
         <div className="">
           <Modal
             style="p-3 px-6 font-semibold text-alkali-500 shadow-2xl rounded-md transition duration-500 ease-in-out bg-white hover:bg-alkali-700"

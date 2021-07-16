@@ -15,7 +15,7 @@ const FAQDropdown = (props) => {
                                 } w-4 h-4 text-alkali-500 pl ml-4`}
                         />
                     </Disclosure.Button>
-                    <Disclosure.Panel className="px-4 pt-4 pb-2 text-md text-alkaligrey-400 font-open">
+                    <Disclosure.Panel className="px-4 pt-4 pb-2 text-md text-alkaligrey-400">
                         {props.answer}
                     </Disclosure.Panel>
                 </>

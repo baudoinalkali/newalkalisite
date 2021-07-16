@@ -3,8 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
+      'sans': ['Inter'],
       'play': ['Play'],
-      'open': ['Open Sans']
+      'open': ['Open Sans'],
     },
     extend: {
       colors: {
@@ -23,11 +24,14 @@ module.exports = {
         alkaligrey: {
           '200': '#eeeff2',
           '300': '#f8f8f8',
-          '400': '#949494',
+          '400': '#6b7280',
           '500': '#f0f0f0',
           '600': '#646464',
           '700': '#bcbcbc',
-          '800': '#272e35',
+          '800': '#111827',
+        },
+        clients: {
+          'chattr': '#36ad8b',
         }
       },
       margin : {

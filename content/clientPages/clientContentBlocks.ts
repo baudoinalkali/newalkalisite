@@ -49,12 +49,56 @@ const ClientContentBlocks = {
             image: "/images/wordpress-versus.svg",
             altText: ""
         },
-    ]
+    ],
+    chattr: {
+        goal:
+            [
+                {
+                    image: "/images/carro-before.png",
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation."
+                },
+            ],
+        result:
+            [
+                {
+                    image: "/images/clients/chattr/desktop-left.png",
+                    sub: "The Result",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation."
+                },
+            ],
+    },
+    ben: {
+        goal:
+            [
+                {
+                    image: "/images/carro-before.png",
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation."
+                },
+            ],
+        result:
+            [
+                {
+                    image: "/images/clients/chattr/desktop-left.png",
+                    sub: "The Result",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation."
+                },
+            ],
+    },
 }
 
 const CarroContent = ClientContentBlocks.carro;
 
 const AmeliaContent = ClientContentBlocks.amelia;
 
-export { CarroContent, AmeliaContent }
+const ChattrContent = ClientContentBlocks.chattr
+
+const BenContent = ClientContentBlocks.ben
+
+export { CarroContent, AmeliaContent, ChattrContent, BenContent}
 export default ClientContentBlocks

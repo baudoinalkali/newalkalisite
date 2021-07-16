@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;wght@500;wght@600;wght@700&display=swap');
 @import "~slick-carousel/slick/slick.css"; 
@@ -576,6 +577,18 @@ button {
 
 .portfolio-image--left {
   transform: translate3d(-20%,0,0) rotate(-45deg);
+}
+
+@media only screen and (max-width:1024px) {
+	.portfolio-image--left {
+		transform: translate3d(0,0,0) rotate(-45deg);
+	}
+}
+
+@media only screen and (max-width:1024px) {
+	.portfolio-image--right {
+		transform: translate3d(0,0,0) rotate(45deg);
+	}
 }
 
 .portfolio-image-container {

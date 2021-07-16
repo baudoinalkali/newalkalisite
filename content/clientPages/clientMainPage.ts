@@ -15,9 +15,9 @@ const clientMainPage = [
         slug: 'amelia',
     },
     {
-        name: "Carro",
-        backgroundImg: "/images/carro-cover.jpg",
-        slug: 'carro'
+        name: "Chattr",
+        backgroundImg: "/images/clients/chattr/chattr-slide-bg.jpg",
+        slug: 'chattr'
     }
 ]
 export default clientMainPage;

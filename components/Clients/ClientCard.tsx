@@ -20,7 +20,7 @@ const ClientCard = (props) => {
             className="object-center object-cover pointer-events-none rounded-md"
             src={props.backgroundImg}
           />
-          <h3 className="relative font-open rounded-md text-3xl text-white pl-2 pt-80 pl-5 pb-4">{props.name}</h3>
+          <h3 className="relative rounded-md text-3xl text-white pl-2 pt-80 pl-5 pb-4">{props.name}</h3>
         </animated.div>
       </div>
     </a>

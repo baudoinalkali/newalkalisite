@@ -12,7 +12,7 @@ const ResultsBlocks = (props) => {
                 />
             </div>
             <div>
-                <h3 className="text-alkali-500 relative font-play font-bold text-4xl py-4 pb-4 text-center md:text-left">{props.result}</h3>
+                <h3 className="text-alkali-500 relative font-bold text-4xl py-4 pb-4 text-center md:text-left">{props.result}</h3>
                 <p className="uppercase text-md">{props.resultName}</p>
             </div>
         </div>

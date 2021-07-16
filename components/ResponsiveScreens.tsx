@@ -3,7 +3,7 @@ import Image from 'next/image'
 const ResponsiveScreens = props => {
     return (
         <div className={`text-center ${props.style} overflow-hidden`}>
-            <h3 className="text-center text-3xl md:text-4xl font-play font-bold max-w-2xl m-auto mb-10 leading-tight">First Impressions Matter Experience Their Website For Yourself</h3>
+            <h3 className="text-center text-3xl md:text-4xl font-bold max-w-2xl m-auto mb-10 leading-tight">First Impressions Matter Experience Their Website For Yourself</h3>
             <a href={props.link} className="">
                 <button className="p-3 px-12 font-semibold text-white shadow-2xl rounded-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-600 transform hover:-translate-y-1 hover:scale-110">
                     Visit Site

@@ -28,8 +28,8 @@ export default function MeetingPopUp(props) {
                     className="p-1 ml-auto border-0 float-right text-3xl leading-none font-semibold outline-none focus:outline-none relative z-50"
                     onClick={() => setShowModal(false)}
                   >
-                    <span className="text-5xl text-chablack-300 block outline-none focus:outline-none z-50">
-                    <b>×</b>
+                    <span className="block outline-none focus:outline-none z-50">
+                    <FontAwesomeIcon className="text-4xl text-black hover:text-alkali-500 transition duration-300" icon={faTimes}></FontAwesomeIcon>
                     </span>
                   </button>
                 </div>

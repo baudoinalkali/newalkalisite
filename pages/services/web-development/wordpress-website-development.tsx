@@ -121,8 +121,8 @@ function WordPressWebsiteDevelopment() {
             <div className="py-24 px-0 lg:px-14">
                 <div className="flex flex-col space-x-0 lg:space-x-14 lg:flex-row m-auto justify-between items-center max-w-7xl">
                     <div className="px-10 w-full lg:w-1/2 2xl:px-0 pb-20 lg:pb-0">
-                        <h3 className="text-3xl md:text-4xl font-play font-bold m-auto leading-tight">WordPress Website Development</h3>
-                        <p className="text-alkaligrey-400 font-open max-w-4xl text-lg font-normal pt-7">
+                        <h3 className="text-3xl md:text-4xl font-bold m-auto leading-tight">WordPress Website Development</h3>
+                        <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">
                             Standing out in a crowded marketplace can be difficult. Our specialty is not only driving interested users to your site and catching their attention once there but enticing them to engage and come back for more. Whether your site is orientated toward Sales, Information, Charity, or something else, we’ve seen it all, so we do it all. Let our team of talented, inspired professionals give your website the attention it deserves, leaving you free to devote your attention to what matters to you!
                         </p>
                     </div>
@@ -166,7 +166,7 @@ function WordPressWebsiteDevelopment() {
         <div className="py-24 pt-0 bg-alkaligrey-300 px-10 2xl:px-0">
             <div className="flex flex-col space-x-0 lg:space-x-14 lg:flex-row m-auto justify-between max-w-7xl">
                 <div className="w-full lg:w-1/2">
-                    <h4 className="text-3xl md:text-4xl font-play font-bold m-auto leading-tight pt-7">Advantages:</h4>
+                    <h4 className="text-3xl md:text-4xl font-bold m-auto leading-tight pt-7">Advantages:</h4>
                     <div className="difference-listG">
                         <ul>
                             <li className="list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.</li>
@@ -179,7 +179,7 @@ function WordPressWebsiteDevelopment() {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2">
-                    <h4 className="text-3xl md:text-4xl font-play font-bold m-auto leading-tight pt-7">Disadvantages:</h4>
+                    <h4 className="text-3xl md:text-4xl font-bold m-auto leading-tight pt-7">Disadvantages:</h4>
                     <div className="difference-listR">
                         <ul>
                             <li className="list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.</li>
@@ -196,8 +196,8 @@ function WordPressWebsiteDevelopment() {
             buttonText="Schedule a Discovery Call"
         />
         <div className="pt-24 px-10 2xl:px-0">
-            <h6 className="text-3xl md:text-4xl pb-7 text-center font-play font-bold m-auto leading-tight">Not All Websites Are Created Equal</h6>
-            <p className="font-open text-center max-w-4xl m-auto text-lg font-normal pt-4">
+            <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">Not All Websites Are Created Equal</h6>
+            <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
                 An unfortunate reality of WordPress websites, particularly template based build are the overeliance on plugins, lack of customization
             </p>
         </div>
@@ -214,7 +214,7 @@ function WordPressWebsiteDevelopment() {
         />
 
         <div className="-mt-72 px-10 2xl:px-0">
-            <h3 className="text-3xl md:text-4xl text-center font-play font-bold m-auto leading-tight pb-14">Hear It Straight From Our Clients</h3>
+            <h3 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-14">Hear It Straight From Our Clients</h3>
         </div>
         <div className="relative z-20">
             <TestimonialSlider>
@@ -266,8 +266,8 @@ function WordPressWebsiteDevelopment() {
         />
 
         <div className="py-24 px-14 2xl:px-0 bg-white">
-            <h6 className="text-3xl md:text-4xl pb-7 text-center font-play font-bold m-auto leading-tight">Integration Is the Name of the Game</h6>
-            <p className="font-open text-center max-w-4xl m-auto text-lg font-normal pt-4">
+            <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">Integration Is the Name of the Game</h6>
+            <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
                 A website shouldn't only be an extension of your business or brand that looks good. It should fit within and optimize your existing business processes. Integrations shouldn't be an afterthought, but a central part of your next website build.
             </p>
         </div>
@@ -276,8 +276,8 @@ function WordPressWebsiteDevelopment() {
         />
         <div className="bg-alkaligrey-300 pb-24">
             <div className="py-24 px-14 2xl:px-0">
-                <h6 className="text-3xl md:text-4xl pb-7 text-center font-play font-bold m-auto leading-tight">How Our Process Works</h6>
-                <p className="font-open text-center max-w-4xl m-auto text-lg font-normal pt-4">
+                <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">How Our Process Works</h6>
+                <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
                     Transparency, communication, and customer focus are consistent themes throughout all the services we perform. Curious how our process for creating your next WordPress website would work? Learn more about our process below.
                 </p>
             </div>
@@ -293,7 +293,7 @@ function WordPressWebsiteDevelopment() {
             )}
         </div>
         <div className="py-24 max-w-7xl m-auto">
-            <h6 className="text-3xl md:text-4xl pb-7 text-center font-play font-bold m-auto leading-tight">Frequently Asked Questions About Our WordPress Development</h6>
+            <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">Frequently Asked Questions About Our WordPress Development</h6>
             <div className="w-full px-4 pt-16">
                 <div className="p-2 mx-auto bg-white rounded-2xl">
                     <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">

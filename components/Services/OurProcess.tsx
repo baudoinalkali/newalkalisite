@@ -15,7 +15,7 @@ const OurProcess = props => {
     }
 
     const eventTitleContainerClass = () => {
-        return `${props.type % 2 === 0 ? `md:rounded-r-md` : `md:rounded-l-md`} bg-alkali-500 relative shadow-none md:shadow-2xl text-white font-open text-xl flex align-center justify-center w-full md:w-3/12 rounded-none relative 1-10`
+        return `${props.type % 2 === 0 ? `md:rounded-r-md` : `md:rounded-l-md`} bg-alkali-500 relative shadow-none md:shadow-2xl text-white text-xl flex align-center justify-center w-full md:w-3/12 rounded-none relative 1-10`
     }
 
     const eventTextContainerClass = () => {
