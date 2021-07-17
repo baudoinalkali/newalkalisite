@@ -34,6 +34,25 @@ function Clients() {
         />
       )}
     </ClientCardContainer>
+    <div className="max-w-7xl m-auto">
+    <div className="grid grid-cols-3 space-x-20">
+      <div className="rounded-md shadow-2xl pt-7 px-7 h-[300px] overflow-hidden">
+          <div className="font-bold text-4xl">Carro</div>
+          <div>Technology</div>
+          <img className="pt-10" src="/images/clients/carro/page-preview.png"></img>
+      </div>
+      <div className="rounded-md shadow-2xl">
+          <div>Carro</div>
+          <div>Technology</div>
+          <img src=""></img>
+      </div>
+      <div className="rounded-md shadow-2xl">
+          <div>Carro</div>
+          <div>Technology</div>
+          <img src=""></img>
+      </div>
+    </div>
+    </div>
   </div>
 }
 

@@ -100,7 +100,7 @@ function SocialMediaMarketing() {
                 child1={socialImage2}
                 child2={socialText2}
             />
-            <div className="py-24 px-14 2xl:px-0">
+            <div className="py-24 px-7">
                 <h6 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-24">Our Social Media Marketing Services</h6>
                 <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
                     {SocialServices.Social.map(Social =>
@@ -113,7 +113,7 @@ function SocialMediaMarketing() {
                     )}
                 </div>
             </div>
-            <div className="bg-alkaligrey-300 py-24 px-14 2xl:px-0">
+            <div className="bg-alkaligrey-300 py-24 px-7">
                 <div className="flex space-x-0 lg:space-x-14 flex-col lg:flex-row m-auto justify-between items-center max-w-7xl">
                     <div className="w-full lg:w-1/2">
                         <Image
@@ -150,6 +150,8 @@ function SocialMediaMarketing() {
                             company={testimonial.company}
                             key={`designTestimonialFor${testimonial.company}`}
                             logo={testimonial.logo}
+                            logoWidth={testimonial.logoWidth}
+                            logoHeight={testimonial.logoHeight}
                             altText={testimonial.altText}
                             name={testimonial.name}
                             quote={testimonial.quote}
@@ -200,25 +202,7 @@ function SocialMediaMarketing() {
                     }
                 </div>
             </div>
-            <div className="bg-white">
-                <div className="py-24 px-14 2xl:px-0">
-                    <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">How Our Process Works</h6>
-                    <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo, urna ut ultrices maximus, felis libero ultricies justo, quis bibendum ante felis dictum augue. Etiam efficitur odio non tortor finibus feugiat mollis quis ex. Mauris porta tellus a dignissim vestibulum. Praesent sagittis sodales ex, nec.
-                </p>
-                </div>
-                {seoProcess.seo.map((seo, index) =>
-                    <OurProcessComp
-                        style=""
-                        title={seo.title}
-                        step={seo.step}
-                        icon={seo.icon}
-                        type={index}
-                        isLastItem={index === seoProcess.seo.length - 1}
-                    />
-                )}
-            </div>
-            <div className="bg-alkaligrey-300">
+            <div className="">
                 <div className="py-24 max-w-7xl m-auto">
                     <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">Frequently Asked Questions About Our Social Media Marketing Services</h6>
                     <div className="w-full px-4 pt-16">

@@ -46,7 +46,7 @@ const DesktopNavigation = (props) => {
                                         </div>
                                     </div>
                                     <div>
-                                        <h3 className="font-bold text-3xl pb-4">Digital Marketing</h3>
+                                        <h3 className="font-bold text-lg pb-4">Digital Marketing</h3>
                                         {SiteMap.digitalMarketing.links.map(digitalMarketing =>
                                             <SiteMapContainer
                                                 name={digitalMarketing.name}
@@ -55,7 +55,7 @@ const DesktopNavigation = (props) => {
                                         )}
                                     </div>
                                     <div className="">
-                                        <h3 className="font-bold text-3xl pb-4">Web Development</h3>
+                                        <h3 className="font-bold text-lg pb-4">Web Development</h3>
                                         {SiteMap.webDevelopment.links.map(webDevelopment =>
                                             <SiteMapContainer
                                                 name={webDevelopment.name}
@@ -64,7 +64,7 @@ const DesktopNavigation = (props) => {
                                         )}
                                     </div>
                                     <div className="">
-                                        <h3 className="font-bold text-3xl pb-4">Web Design</h3>
+                                        <h3 className="font-bold text-lg pb-4">Web Design</h3>
                                         {SiteMap.webDesign.links.map(webDesign =>
                                             <SiteMapContainer
                                                 name={webDesign.name}

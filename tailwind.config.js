@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'jit',
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './content/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -47,6 +48,8 @@ module.exports = {
       overflow: ['hover'],
       height: ['hover'],
       margin: ['hover'],
+      width: ['group-hover'],
+      display: ['group-hover', 'hover']
     },
   },
   plugins: [],

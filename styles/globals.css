@@ -151,6 +151,7 @@ li:hover > button svg { transform: rotate(-270deg) }
   .dropdownmega-content {
 	display: none;
 	position: absolute;
+	justify-content: center !important;
 	background-color: #f9f9f9;
 	width: 100%;
 	left: 0;

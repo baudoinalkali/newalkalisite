@@ -2,7 +2,7 @@ const Testimonials = {
     wordpress: [
         {
             background: "/images/CarTalk-Testimonial-Image.jpg",
-            backgroundOverlay: "bg-alkali-600",
+            brandColor: "#00baff",
             company: "CarTalkRepair",
             logo: "/images/cartalk-logo.png",
             logoWidth: "300",
@@ -14,6 +14,7 @@ const Testimonials = {
         {
             background: "/images/carro-testimonial-bg.jpg",
             backgroundOverlay: 'bg-pink-300',
+            brandColor: '#F9A8D4',
             company: "Carro",
             logo: "/images/carro-logo.png",
             logoWidth: "200",

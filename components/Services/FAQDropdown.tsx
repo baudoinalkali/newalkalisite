@@ -7,7 +7,7 @@ const FAQDropdown = (props) => {
         <Disclosure as="div" className="mt-2">
             {({ open }) => (
                 <>
-                    <Disclosure.Button className="flex items-center hover:bg-alkaligrey-200 justify-between w-full py-5 px-3 text-lg font-medium text-left text-black rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    <Disclosure.Button className="flex px-3 items-center hover:bg-alkaligrey-200 justify-between w-full py-5 text-lg font-medium text-left text-black rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                         <span>{props.question}</span>
                         <FontAwesomeIcon
                             icon={faChevronRight}

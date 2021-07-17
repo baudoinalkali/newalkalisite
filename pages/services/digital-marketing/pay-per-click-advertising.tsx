@@ -13,7 +13,8 @@ import OurProcessComp from '../../../components/Services/OurProcess'
 import CombinedNavigation from '../../../components/Navigation/CombinedNavigation';
 import PPCServices from '../../../content/servicePages/serviceBlocks'
 import ServiceBlocks from '../../../components/Services/ServiceBlocks';
-
+import PPCFAQ from '../../../content/servicePages/faq'
+import FAQDropdown from '../../../components/Services/FAQDropdown';
 
 function PayPerClick() {
     const seoImage1 = PPC.text1.map(text1 =>
@@ -109,8 +110,8 @@ function PayPerClick() {
                 child1={seoImage2}
                 child2={seoText2}
             />
-            <div className="py-24">
-                <h6 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight">AdWords Isn't The Only Game in Town Anymore</h6>
+            <div className="py-24 px-7">
+                <h6 className="text-4xl md:text-5xl text-center max-w-3xl m-auto font-bold m-auto leading-tight">AdWords Isn't The Only Game in Town Anymore</h6>
                 <p className="text-center text-alkaligrey-400 pt-4 text-lg max-w-xl m-auto">We can manage your pay-per-click campagins on more than just AdWords. See what types of campaigns we can manage for you below:</p>
                 <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14 pt-20">
                     {PPCServices.PPC.map(PPC =>
@@ -146,6 +147,8 @@ function PayPerClick() {
                             company={testimonial.company}
                             key={`designTestimonialFor${testimonial.company}`}
                             logo={testimonial.logo}
+                            logoWidth={testimonial.logoWidth}
+                            logoHeight={testimonial.logoHeight}
                             altText={testimonial.altText}
                             name={testimonial.name}
                             quote={testimonial.quote}
@@ -225,25 +228,22 @@ function PayPerClick() {
                 child2={seoImage5}
                 child1={seoText5}
             />
-            <div className="bg-alkaligrey-300 pb-24">
-                <div className="py-24 px-14 2xl:px-0">
-                    <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">How Our Process Works</h6>
-                    <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo, urna ut ultrices maximus, felis libero ultricies justo, quis bibendum ante felis dictum augue. Etiam efficitur odio non tortor finibus feugiat mollis quis ex. Mauris porta tellus a dignissim vestibulum. Praesent sagittis sodales ex, nec.
-            </p>
+            <div className="">
+                <div className="py-24 max-w-7xl m-auto px-7">
+                    <h6 className="text-4xl md:text-5xl pb-7 max-w-3xl m-auto text-center font-bold m-auto leading-tight">Frequently Asked Questions About Our SEO Services</h6>
+                    <div className="w-full pt-16">
+                        <div className="mx-auto rounded-2xl">
+                            <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-20 gap-y-10">
+                                {PPCFAQ.PPC.map(PPC =>
+                                    <FAQDropdown
+                                        question={PPC.question}
+                                        answer={PPC.answer}
+                                    />
+                                )}
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                {seoProcess.seo.map((seo, index) =>
-                    <OurProcessComp
-                        style=""
-                        title={seo.title}
-                        step={seo.step}
-                        icon={seo.icon}
-                        type={index}
-                    />
-                )}
-                <div className="max-w-5xl bg-white py-20 m-auto rounded-md shadow-2xl text-alkali-500 text-center text-white text-3xl z-20 relative">
-                    Start Seeing Results
-            </div>
             </div>
         </div>
     )

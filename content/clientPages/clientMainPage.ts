@@ -18,6 +18,11 @@ const clientMainPage = [
         name: "Chattr",
         backgroundImg: "/images/clients/chattr/chattr-slide-bg.jpg",
         slug: 'chattr'
+    },
+    {
+        name: "Blockchain Education Network",
+        backgroundImg: "/images/clients/chattr/chattr-slide-bg.jpg",
+        slug: 'ben'   
     }
 ]
 export default clientMainPage;
