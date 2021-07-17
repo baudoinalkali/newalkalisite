@@ -11,7 +11,7 @@ const TestimonialSlide = (props) => {
                             src={props.background}
                             layout="fill"
                         />
-                        <div className={`absolute inset-0 opacity-75 ${props.backgroundOverlay}`}></div>
+                        <div style={{ backgroundColor: `${props.brandColor}`}} className="absolute inset-0 opacity-75"></div>
                         <Image 
                             className="relative"
                             src={props.logo}
@@ -25,14 +25,14 @@ const TestimonialSlide = (props) => {
                             <polygon points="50,0 100,0 50,100 0,100" />
                         </svg>
                         <div className="relative py-12 lg:py-24 px-8 lg:px-16 text-gray-700 leading-relaxed">
-                            <p className="text-gray-900 font-open font-medium">
+                            <p className="text-gray-900">
                                 {props.quote}
                             </p>
-                            <p className="mt-3 font-open font-bold">
+                            <p className="mt-5 font-bold">
                                 {`- ${props.name}`}
                             </p>
                             <p className="mt-6">
-                                <a href={`/clients/`} className="font-medium font-open duration-500 text-black hover:text-alkali-500">{`Learn more about ${props.company}'s project `}&rarr;</a>
+                                <a href={`/clients/${props.slug}`} style={{ color: `${props.brandColor}`}} className="font-medium duration-500 hover:text-gray-900"> {`Learn more about ${props.company}'s project `}&rarr;</a>
                             </p>
                         </div>
                     </div>

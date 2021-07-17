@@ -58,9 +58,8 @@ function Amelia() {
           title={amelia.title}
           backgroundImg={amelia.backgroundImg}
           service={amelia.service}
-          heroImage={amelia.heroImage}
           serviceSlug={amelia.serviceSlug}
-          style="py-24"
+          style="py-40"
           key={`ameliaAmeliaHeroContentFor${amelia.title}`}
         />
       )}
@@ -93,6 +92,8 @@ function Amelia() {
             company={amelia.company}
             key={`designTestimonialFor${amelia.company}`}
             logo={amelia.logo}
+            logoWidth={amelia.logoWidth}
+            logoHeight={amelia.logoHeight}
             altText={amelia.altText}
             name={amelia.name}
             quote={amelia.quote}
@@ -109,7 +110,7 @@ function Amelia() {
 
     <div className="p-4 py-24 bg-alkali-500">
       <div className="flex flex-col lg:flex-row justify-between items-center max-w-7xl m-auto mx-3 xl:mx-auto">
-        <div><h3 className="text-4xl font-play font-bold max-w-7xl m-auto text-white leading-tight text-center mb-14 lg:mb-0">We're here to realize your vision.</h3></div>
+        <div><h3 className="text-4xl font-bold max-w-7xl m-auto text-white leading-tight text-center mb-14 lg:mb-0">We're here to realize your vision.</h3></div>
         <div className="">
           <Modal
             style="p-3 px-6 font-semibold text-alkaligrey-800 shadow-2xl rounded-md transition duration-500 ease-in-out bg-white hover:bg-alkaligrey-700"

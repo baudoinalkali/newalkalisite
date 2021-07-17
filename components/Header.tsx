@@ -4,7 +4,7 @@ import SiteMapContainer from '../components/SiteMapContainer'
 
 const Header = props => {
     const headerDropDownColor = () => {
-        return `${props.headerColor === "white" ? 'text-white hover:text-alkaligrey-700' : 'hover:text-alkali-500'} dropbtn font-play duration-500 font-bold uppercase inline-block p-5`
+        return `${props.headerColor === "white" ? 'text-white hover:text-alkaligrey-700' : 'hover:text-alkali-500'} dropbtn duration-500 font-bold uppercase inline-block p-5`
     }
     const headerLogoColor = () => {
         return `${props.headerColor === "white" ? '/images/alkali-logo-white.png' : '/images/alkali-logo-blue.png'}`
@@ -13,7 +13,7 @@ const Header = props => {
         return `${props.headerColor === "white" ? 'text-alkaligrey-800 bg-white hover:bg-alkaligrey-700' : 'text-white bg-alkali-500 hover:bg-alkali-700'} mt-1 p-3 px-6 font-semibold shadow-2xl rounded-md transition duration-500 ease-in-out`
     }
     const headerNonDropDown = () => {
-        return `${props.headerColor === "white" ? 'text-white hover:text-alkaligrey-700' : 'hover:text-alkali-500'} font-play duration-500 font-bold uppercase inline-block p-5`
+        return `${props.headerColor === "white" ? 'text-white hover:text-alkaligrey-700' : 'hover:text-alkali-500'} duration-500 font-bold uppercase inline-block p-5`
     }
     return (
         <div className={props.style}>

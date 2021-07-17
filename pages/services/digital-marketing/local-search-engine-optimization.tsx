@@ -16,7 +16,8 @@ import ServiceBlocks from '../../../components/Services/ServiceBlocks';
 import ServiceBlocksContent from '../../../content/servicePages/serviceBlocks'
 import ServiceResultsContent from '../../../content/servicePages/resultsBlock'
 import ResultsBlocks from '../../../components/Services/ResultsBlocks';
-
+import FAQDropdown from '../../../components/Services/FAQDropdown';
+import LocalSEOFAQ from '../../../content/servicePages/faq'
 
 function LocalSearchEngineOptimization() {
     const seoImage1 = LocalSEO.text1.map(text1 =>
@@ -111,7 +112,7 @@ function LocalSearchEngineOptimization() {
                 child2={seoText2}
             />
             <div className="py-24 px-14 2xl:px-0">
-                <h6 className="text-3xl md:text-4xl text-center font-play font-bold m-auto leading-tight pb-24">Our Local SEO Services</h6>
+                <h6 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-24">Our Local SEO Services</h6>
                 <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
                     {ServiceBlocksContent.localSEO.map(localSEO =>
                         <ServiceBlocks
@@ -134,7 +135,7 @@ function LocalSearchEngineOptimization() {
                         />
                     </div>
                     <div className="w-full lg:w-1/2">
-                        <h2 className="text-2xl md:text-3xl font-play font-bold leading-tight">Get a Complementary Local SEO Audit</h2>
+                        <h2 className="text-2xl md:text-3xl font-bold leading-tight">Get a Complementary Local SEO Audit</h2>
                         <form className="flex rounded-md my-7 shadow-2xl">
                             <input className="rounded-l-lg border-t pl-4 w-screen border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="yourwebsite.com" />
                             <button className="p-3 px-6 font-semibold text-white rounded-r-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-700">Submit</button>
@@ -150,7 +151,7 @@ function LocalSearchEngineOptimization() {
                 child1={seoText3}
             />
             <div className="px-14 pt-36 2xl:px-0">
-                <h3 className="text-3xl md:text-4xl text-center font-play font-bold m-auto leading-tight pb-14">Hear It Straight From Our Clients</h3>
+                <h3 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-14">Hear It Straight From Our Clients</h3>
             </div>
             <div className="relative z-20 -mb-48 ">
                 <TestimonialSlider>
@@ -161,6 +162,8 @@ function LocalSearchEngineOptimization() {
                             company={testimonial.company}
                             key={`designTestimonialFor${testimonial.company}`}
                             logo={testimonial.logo}
+                            logoWidth={testimonial.logoWidth}
+                            logoHeight={testimonial.logoHeight}
                             altText={testimonial.altText}
                             name={testimonial.name}
                             quote={testimonial.quote}
@@ -176,7 +179,7 @@ function LocalSearchEngineOptimization() {
             />
 
             <div className="py-24 px-14 2xl:px-0">
-                <h6 className="text-3xl md:text-4xl pb-14 text-center font-play font-bold m-auto leading-tight">You Give Us Trust, We Give You Results</h6>
+                <h6 className="text-3xl md:text-4xl pb-14 text-center font-bold m-auto leading-tight">You Give Us Trust, We Give You Results</h6>
                 <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
                     {ServiceResultsContent.localSEO.map(localSEO =>
                         <ResultsBlocks
@@ -199,23 +202,22 @@ function LocalSearchEngineOptimization() {
                 child2={seoImage5}
                 child1={seoText5}
             />
-            <div className="bg-alkaligrey-300 pb-24">
-                <div className="py-24 px-14 2xl:px-0">
-                    <h6 className="text-3xl md:text-4xl pb-7 text-center font-play font-bold m-auto leading-tight">How Our Process Works</h6>
-                    <p className="font-open text-center max-w-4xl m-auto text-lg font-normal pt-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo, urna ut ultrices maximus, felis libero ultricies justo, quis bibendum ante felis dictum augue. Etiam efficitur odio non tortor finibus feugiat mollis quis ex. Mauris porta tellus a dignissim vestibulum. Praesent sagittis sodales ex, nec.
-                    </p>
+            <div className="px-7">
+                <div className="py-24 max-w-7xl m-auto">
+                    <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">Frequently Asked Questions About Our SEO Services</h6>
+                    <div className="w-full pt-16">
+                        <div className="mx-auto rounded-2xl">
+                            <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
+                                {LocalSEOFAQ.LocalSEO.map(LocalSEO =>
+                                    <FAQDropdown
+                                        question={LocalSEO.question}
+                                        answer={LocalSEO.answer}
+                                    />
+                                )}
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                {seoProcess.seo.map((seo, index) =>
-                    <OurProcessComp
-                        style=""
-                        title={seo.title}
-                        step={seo.step}
-                        icon={seo.icon}
-                        type={index}
-                        isLastItem={index === seoProcess.seo.length - 1}
-                    />
-                )}
             </div>
         </div>
     )

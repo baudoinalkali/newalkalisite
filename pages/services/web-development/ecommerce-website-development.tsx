@@ -109,8 +109,8 @@ function EcommerceWebsiteDevelopment() {
             <div className="p-4 py-24 px-0 lg:px-14">
                 <div className="flex flex-col space-x-0 lg:space-x-14 lg:flex-row m-auto justify-between items-center max-w-7xl">
                     <div className="w-5/6 lg:w-1/2 pb-20 lg:pb-0">
-                        <h3 className="text-3xl md:text-4xl font-play font-bold m-auto leading-tight">E-commerce Website Development</h3>
-                        <p className="text-alkaligrey-400 font-open max-w-4xl text-lg font-normal pt-7">
+                        <h3 className="text-3xl md:text-4xl font-bold m-auto leading-tight">E-commerce Website Development</h3>
+                        <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">
                             Standing out in a crowded marketplace can be difficult. Our specialty is not only driving interested users to your site and catching their attention once there but enticing them to engage and come back for more. Whether your site is orientated toward Sales, Information, Charity, or something else, we’ve seen it all, so we do it all. Let our team of talented, inspired professionals give your website the attention it deserves, leaving you free to devote your attention to what matters to you!
                         </p>
                     </div>
@@ -147,7 +147,7 @@ function EcommerceWebsiteDevelopment() {
             </div>
         </div>
         <div className="py-24 px-14 2xl:px-0 bg-alkaligrey-300">
-            <h6 className="text-3xl md:text-4xl text-center font-play font-bold m-auto leading-tight pb-24">Our E-commerce Services</h6>
+            <h6 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-24">Our E-commerce Services</h6>
             <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
                 {EcommerceServices.Ecommerce.map(Ecommerce =>
                     <ServiceBlocks
@@ -166,8 +166,8 @@ function EcommerceWebsiteDevelopment() {
             buttonText="Schedule a Discovery Call"
         />
         <div className="pt-24 px-14 2xl:px-0">
-            <h6 className="text-3xl md:text-4xl pb-7 text-center font-play font-bold m-auto leading-tight">Tailored for Your Business</h6>
-            <p className="font-open text-center max-w-2xl m-auto text-lg font-normal pt-4">
+            <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">Tailored for Your Business</h6>
+            <p className="text-center max-w-2xl m-auto text-lg font-normal pt-4">
                 There are a lot of e-commerce platforms out there. We work with you to make the right choice based on the needs of your business.
             </p>
         </div>
@@ -189,7 +189,7 @@ function EcommerceWebsiteDevelopment() {
             child1={image4}
         />
         <div className="px-14 pt-24 2xl:px-0">
-            <h3 className="text-3xl md:text-4xl text-center font-play font-bold m-auto leading-tight pb-14">Hear It Straight From Our Clients</h3>
+            <h3 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-14">Hear It Straight From Our Clients</h3>
         </div>
         <div className="relative mb-3 z-20">
             <TestimonialSlider>
@@ -234,8 +234,8 @@ function EcommerceWebsiteDevelopment() {
         />
 
         <div className="py-24 px-14 2xl:px-0 bg-white">
-            <h6 className="text-3xl md:text-4xl pb-7 text-center font-play font-bold m-auto leading-tight">Keep Your Store Connected</h6>
-            <p className="font-open text-center max-w-4xl m-auto text-lg font-normal pt-4">
+            <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">Keep Your Store Connected</h6>
+            <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
                 Platforms such as Shopify, WooCommerce, and BigCommerce have countless third-party integrations. This provides endless opportunities to streamline your workflow, ultimately allowing you to spend more time on other aspects of your business.
             </p>
         </div>
@@ -244,8 +244,8 @@ function EcommerceWebsiteDevelopment() {
         />
         <div className="bg-alkaligrey-300 pb-24">
             <div className="py-24 px-14 2xl:px-0">
-                <h6 className="text-3xl md:text-4xl pb-7 text-center font-play font-bold m-auto leading-tight">How Our Process Works</h6>
-                <p className="font-open text-center max-w-4xl m-auto text-lg font-normal pt-4">
+                <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">How Our Process Works</h6>
+                <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
                     Transparency, communication, and customer focus are consistent themes throughout all the services we perform. Curious how our process for creating your next WordPress website would work? Learn more about our process below.
                 </p>
             </div>
@@ -263,7 +263,7 @@ function EcommerceWebsiteDevelopment() {
             </div>
         </div>
         <div className="py-24 max-w-7xl m-auto">
-            <h6 className="text-3xl md:text-4xl pb-7 text-center font-play font-bold m-auto leading-tight">Frequently Asked Questions About Our WordPress Development</h6>
+            <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">Frequently Asked Questions About Our WordPress Development</h6>
             <div className="w-full px-4 pt-16">
                 <div className="p-2 mx-auto bg-white rounded-2xl">
                     <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">

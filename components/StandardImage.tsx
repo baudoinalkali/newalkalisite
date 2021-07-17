@@ -27,13 +27,10 @@ const StandardImage = (props) => {
     return (
         <div>
             <div className={imageContainerAngle()} style={{fontSize: '0'}}>
-            <Image 
+            <img 
             className={imageAngle()}
             src={props.image}
             alt={props.altText}
-            width={600}
-            height={450}
-            quality={100}
             />
             </div>
         </div>

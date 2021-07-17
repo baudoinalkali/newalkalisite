@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const DesktopNavigation = (props) => {
     const headerDropDownColor = () => {
-        return `${props.headerColor === "white" ? 'text-white hover:text-alkaligrey-700' : 'hover:text-alkali-500'} dropbtn font-play font-bold uppercase inline-block p-5`
+        return `${props.headerColor === "white" ? 'text-white hover:text-alkaligrey-700' : 'hover:text-alkali-500'} dropbtn font-bold uppercase inline-block p-5`
     }
     const headerLogoColor = () => {
         return `${props.headerColor === "white" ? '/images/alkali-logo-white.svg' : '/images/alkali-logo-blue.svg'}`
@@ -14,7 +14,7 @@ const DesktopNavigation = (props) => {
         return `${props.headerColor === "white" ? 'text-alkaligrey-800 bg-white hover:bg-alkaligrey-700' : 'text-white bg-alkali-500 hover:bg-alkali-700'} p-3 px-6 font-semibold shadow-2xl rounded-md`
     }
     const headerNonDropDown = () => {
-        return `${props.headerColor === "white" ? 'text-white hover:text-alkaligrey-700' : 'hover:text-alkali-500'} text-lg font-play font-bold uppercase inline-block p-5`
+        return `${props.headerColor === "white" ? 'text-white hover:text-alkaligrey-700' : 'hover:text-alkali-500'} text-md font-bold uppercase inline-block p-5`
     }
     return (
         <div className="py-7">
@@ -41,12 +41,12 @@ const DesktopNavigation = (props) => {
                                 <div className="flex justify-between max-w-7xl m-auto py-14">
                                     <div className="items-center flex">
                                         <div>
-                                            <h3 className="font-play font-bold text-3xl">Our Services</h3>
+                                            <h3 className="font-bold text-3xl">Our Services</h3>
                                             <p className="max-w-xs">Learn more about how we help your specific business.</p>
                                         </div>
                                     </div>
                                     <div>
-                                        <h3 className="font-play font-bold text-3xl pb-4">Digital Marketing</h3>
+                                        <h3 className="font-bold text-lg pb-4">Digital Marketing</h3>
                                         {SiteMap.digitalMarketing.links.map(digitalMarketing =>
                                             <SiteMapContainer
                                                 name={digitalMarketing.name}
@@ -55,7 +55,7 @@ const DesktopNavigation = (props) => {
                                         )}
                                     </div>
                                     <div className="">
-                                        <h3 className="font-play font-bold text-3xl pb-4">Web Development</h3>
+                                        <h3 className="font-bold text-lg pb-4">Web Development</h3>
                                         {SiteMap.webDevelopment.links.map(webDevelopment =>
                                             <SiteMapContainer
                                                 name={webDevelopment.name}
@@ -64,7 +64,7 @@ const DesktopNavigation = (props) => {
                                         )}
                                     </div>
                                     <div className="">
-                                        <h3 className="font-play font-bold text-3xl pb-4">Web Design</h3>
+                                        <h3 className="font-bold text-lg pb-4">Web Design</h3>
                                         {SiteMap.webDesign.links.map(webDesign =>
                                             <SiteMapContainer
                                                 name={webDesign.name}

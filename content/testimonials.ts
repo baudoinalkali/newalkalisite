@@ -2,9 +2,11 @@ const Testimonials = {
     wordpress: [
         {
             background: "/images/CarTalk-Testimonial-Image.jpg",
-            backgroundOverlay: "bg-alkali-600",
+            brandColor: "#00baff",
             company: "CarTalkRepair",
             logo: "/images/cartalk-logo.png",
+            logoWidth: "300",
+            logoHeight: "140",
             altText: " ",
             name: "Cody Lintz, Owner",
             quote: "Starting off as a new business we realized the importance of having a sound online presence early on. We are extremely grateful we found Alkali we did. They have provided us the tools we need to adequately serve our customers."
@@ -12,8 +14,11 @@ const Testimonials = {
         {
             background: "/images/carro-testimonial-bg.jpg",
             backgroundOverlay: 'bg-pink-300',
+            brandColor: '#F9A8D4',
             company: "Carro",
             logo: "/images/carro-logo.png",
+            logoWidth: "200",
+            logoHeight: "100",
             altText: " ",
             name: "Eric Sanchez, Operations Manager",
             quote: "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
@@ -25,6 +30,8 @@ const Testimonials = {
             backgroundOverlay: "bg-alkali-600",
             company: "CarTalkRepair - Design",
             logo: "/images/CarTalk-Repair.png",
+            logoWidth: "200",
+            logoHeight: "100",
             name: "Cody Lintz, Owner",
             quote: 'Here is a modified testimonial for CarTalkRepair that focuses on design instead of development.'
         },
@@ -33,6 +40,8 @@ const Testimonials = {
             backgroundOverlay: "bg-pink-300",
             company: "Carro - Design",
             logo: "/images/carro-logo.png",
+            logoWidth: "200",
+            logoHeight: "100",
             name: "Eric Sanchez, Operations Manager",
             quote: 'This is a different testimonial, about design work instead of development.'
         },
@@ -56,6 +65,8 @@ const Testimonials = {
             backgroundOverlay: "bg-gray-50",
             company: "Homewatch Amelia",
             logo: "/images/amelia-logo.png",
+            logoWidth: "275",
+            logoHeight: "125",
             altText: "",
             name: "Ann Wood, Owner",
             quote: "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."

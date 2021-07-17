@@ -10,7 +10,7 @@ const ServiceHeroContent = {
     searchEngineOptimization: [
         {
             sub: "Search Engine Optimization",
-            title: "Propelling companies and brands up in rankink is what we do",
+            title: "Propelling companies and brands up in ranking is what we do",
             backgroundImg: "cartalk-hero.jpg"
         }
     ],

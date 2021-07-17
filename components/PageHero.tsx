@@ -5,8 +5,8 @@ const PageHero = props => {
         <div className="flex justify-between items-center max-w-7xl m-auto pt-12">
             <div className="w-3/5 z-10">
                 <div className="">
-                    <h1 className="text-6xl font-play font-bold max-w-2xl">{props.title}</h1>
-                    <p className="text-lg pt-11 max-w-2xl font-open">{props.text}</p>
+                    <h1 className="text-6xl font-bold max-w-2xl">{props.title}</h1>
+                    <p className="text-lg pt-11 max-w-2xl">{props.text}</p>
                     <div className="flex max-w-7xl m-auto items-center pt-7">
                         <div>
                             <a href={props.button1url}>
