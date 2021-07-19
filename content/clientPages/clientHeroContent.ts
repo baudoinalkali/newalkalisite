@@ -57,12 +57,28 @@ const ClientHeroContent = {
             serviceSlug: ["/services/web-development/wordpress-website-development"]
         }
     ],
+    bobtail: [
+        {
+            
+            name: "Bobtail",
+            about: "Bobtail empowers carriers with powerful financial tools that help them grow their business and serve them with honesty, transparency, and fairness.",
+            slug: "ben",
+            backgroundOverlay: "true",
+            heroImage: "/images/clients/ben/ben-hero-image.png",
+            backgroundImg: "/images/clients/bobtail/hero-background.jpg",
+            sub: "Technology",
+            title: "Bobtail",
+            service: ["WordPress Web Development"],
+            serviceSlug: ["/services/web-development/wordpress-website-development"]
+        }
+    ],
 }
 
 const CarroHeroContent = ClientHeroContent.carro
 const AmeliaHeroContent = ClientHeroContent.amelia
 const ChattrHeroContent = ClientHeroContent.chattr
 const BenHeroContent = ClientHeroContent.ben
+const BobtailContent = ClientHeroContent.bobtail
 
-export { CarroHeroContent, AmeliaHeroContent, ChattrHeroContent, BenHeroContent }
+export { CarroHeroContent, AmeliaHeroContent, ChattrHeroContent, BenHeroContent, BobtailContent }
 export default ClientHeroContent;

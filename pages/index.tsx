@@ -7,6 +7,7 @@ import ResponsiveScreens from '../components/ResponsiveScreens'
 import Modal from '../components/Modal'
 import Footer from '../components/Footer'
 import DesktopNavigation from "../components/Navigation/DesktopNavigation";
+import HomeTestimonialSlider from "../components/HomeTestimonialSlider";
 
 export default function Home() {
   return (
@@ -43,6 +44,49 @@ export default function Home() {
       <div className="pt-24">
         <h3 className="text-4xl pt-2 pb-16  font-bold text-center">What Our Clients Say</h3>
       </div>
+      <section>
+        <div className="grid grid-cols-3 gap-x-10">
+          <div className="shadow-2xl rounded-md">
+            <div className="p-10 py-14">
+              Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.
+            </div>
+            <div className="bg-pink-300 flex px-10 py-7 items-center gap-x-10">
+              <div>
+                <img src="/images/clients/bobtail/logo.svg"/>
+              </div>
+              <div>
+                Client Name
+              </div>
+            </div>
+          </div>
+          <div className="shadow-2xl rounded-md">
+            <div className="p-10 py-14">
+              Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.
+            </div>
+            <div className="bg-pink-300 flex px-10 py-7 items-center gap-x-10">
+              <div>
+                <img src="/images/clients/bobtail/logo.svg"/>
+              </div>
+              <div>
+                Client Name
+              </div>
+            </div>
+          </div>
+          <div className="shadow-2xl rounded-md">
+            <div className="p-10 py-14">
+              Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.
+            </div>
+            <div className="bg-pink-300 flex px-10 py-7 items-center gap-x-10">
+              <div>
+                <img src="/images/clients/bobtail/logo.svg"/>
+              </div>
+              <div>
+                Client Name
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <div className="py-24 pb-10">
         <h3 id="services" className="text-5xl font-bold text-center">Our Services</h3>
       </div>

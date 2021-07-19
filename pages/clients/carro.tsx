@@ -85,7 +85,7 @@ function Carro() {
           <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
             background={carro.background}
-            brandColor="#F9A8D4"
+            brandColor={carro.brandColor}
             company={carro.company}
             key={`designTestimonialFor${carro.company}`}
             logo={carro.logo}
@@ -131,15 +131,6 @@ function Carro() {
         phoneLink={carro.phoneLink}
       />
     )}
-    <ClientCardContainer>
-      {ClientMainPage.map(clientMainPage =>
-        <ClientCard
-          name={clientMainPage.name}
-          backgroundImg={clientMainPage.backgroundImg}
-          slug={clientMainPage.slug}
-        />
-      )}
-    </ClientCardContainer>
   </div>
 }
 
