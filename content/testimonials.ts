@@ -95,7 +95,7 @@ const Testimonials = {
     ],
     carro: [
         {
-            background: "/images/carro-testimonial-bg.jpg",
+            background: "/images/clients/carro/carro-testimonial-bg.jpg",
             backgroundOverlay: "bg-pink-300",
             brandColor: "#F9A8D4",
             company: "Carro",
