@@ -24,6 +24,53 @@ const Testimonials = {
             quote: "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
         }
     ],
+    homepage: [
+        {
+            background: "/images/CarTalk-Testimonial-Image.jpg",
+            brandColor: "#00baff",
+            company: "CarTalkRepair",
+            logo: "/images/cartalk-logo.png",
+            logoWidth: "300",
+            logoHeight: "140",
+            altText: " ",
+            name: "Cody Lintz, Owner",
+            quote: "Starting off as a new business we realized the importance of having a sound online presence early on. We are extremely grateful we found Alkali we did. They have provided us the tools we need to adequately serve our customers."
+        },
+        {
+            background: "/images/CarTalk-Testimonial-Image.jpg",
+            brandColor: "#00baff",
+            company: "CarTalkRepair",
+            logo: "/images/cartalk-logo.png",
+            logoWidth: "300",
+            logoHeight: "140",
+            altText: " ",
+            name: "Cody Lintz, Owner",
+            quote: "Starting off as a new business we realized the importance of having a sound online presence early on. We are extremely grateful we found Alkali we did. They have provided us the tools we need to adequately serve our customers."
+        },
+        {
+            background: "/images/CarTalk-Testimonial-Image.jpg",
+            brandColor: "#00baff",
+            company: "CarTalkRepair",
+            logo: "/images/cartalk-logo.png",
+            logoWidth: "300",
+            logoHeight: "140",
+            altText: " ",
+            name: "Cody Lintz, Owner",
+            quote: "Starting off as a new business we realized the importance of having a sound online presence early on. We are extremely grateful we found Alkali we did. They have provided us the tools we need to adequately serve our customers."
+        },
+        {
+            background: "/images/carro-testimonial-bg.jpg",
+            backgroundOverlay: 'bg-pink-300',
+            brandColor: '#F9A8D4',
+            company: "Carro",
+            logo: "/images/carro-logo.png",
+            logoWidth: "200",
+            logoHeight: "100",
+            altText: " ",
+            name: "Eric Sanchez, Operations Manager",
+            quote: "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+        }
+    ],
     design: [
         {
             background: "/images/CarTalk-Testimonial-Image.jpg",
@@ -48,8 +95,9 @@ const Testimonials = {
     ],
     carro: [
         {
-            background: "/images/carro-testimonial-bg.jpg",
+            background: "/images/clients/carro/carro-testimonial-bg.jpg",
             backgroundOverlay: "bg-pink-300",
+            brandColor: "#F9A8D4",
             company: "Carro",
             logo: "/images/clients/carro/logo.svg",
             logoWidth: "200",
@@ -71,13 +119,31 @@ const Testimonials = {
             name: "Ann Wood, Owner",
             quote: "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
         }
-    ]
+    ],
+    bobtail: [
+        {
+            background: "/images/clients/bobtail/slide-bg.jpg",
+            backgroundOverlay: "bg-pink-300",
+            brandColor: "#07433f",
+            company: "Bobtail",
+            logo: "/images/clients/bobtail/logo.svg",
+            logoWidth: "250",
+            logoHeight: "50",
+            altText: "",
+            name: "Gurvir Singh, Managing Director",
+            quote: "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+        }
+    ],
 }
 
 const CarroSlide = Testimonials.carro
 
 const AmeliaSlide = Testimonials.amelia
 
-export { CarroSlide, AmeliaSlide }
+const BobtailSlide = Testimonials.bobtail
+
+const HomepageSlide = Testimonials.homepage
+
+export { CarroSlide, AmeliaSlide, BobtailSlide, HomepageSlide }
 
 export default Testimonials;

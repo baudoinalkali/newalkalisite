@@ -2,7 +2,7 @@ import Modal from '../../components/Modal'
 import ResponsiveScreens from '../../components/ResponsiveScreens'
 import ClientCardContainer from '../../components/Clients/ClientCardContainer'
 import TestimonialSlide from '../../components/TestimonialSlide'
-import AmeliaSlide from '../../content/testimonials'
+import BobtailSlide from '../../content/testimonials'
 import TwoColumnLayout from '../../components/TwoColumnLayout'
 import StandardImage from '../../components/StandardImage'
 import StandardTextBlock from '../../components/StandardTextBlock'
@@ -10,7 +10,7 @@ import ClientMainPage from '../../content/clientPages/clientMainPage'
 import ClientCard from '../../components/Clients/ClientCard'
 import AmeliaContent from '../../content/clientPages/clientContentBlocks'
 import AmeliaScreenImages from '../../content/clientPages/screenImages'
-import AmeliaHeroContent from '../../content/clientPages/clientHeroContent'
+import BobtailHeroContent from '../../content/clientPages/clientHeroContent'
 import ClientHeader from '../../components/Clients/ClientHeader'
 import ClientAbout from '../../components/Clients/ClientAbout'
 
@@ -50,27 +50,27 @@ function Amelia() {
   )
 
   return <div className="m-auto">
-    <div className="carro-bg">
-      {AmeliaHeroContent.amelia.map(amelia =>
+    <div className="">
+      {BobtailHeroContent.bobtail.map(bobtail =>
         <ClientHeader
-          sub={amelia.sub}
-          backgroundOverlay={amelia.backgroundOverlay}
-          title={amelia.title}
-          backgroundImg={amelia.backgroundImg}
-          service={amelia.service}
-          serviceSlug={amelia.serviceSlug}
+          sub={bobtail.sub}
+          backgroundOverlay={bobtail.backgroundOverlay}
+          title={bobtail.title}
+          backgroundImg={bobtail.backgroundImg}
+          service={bobtail.service}
+          serviceSlug={bobtail.serviceSlug}
           style="py-40"
-          key={`ameliaAmeliaHeroContentFor${amelia.title}`}
+          key={`ameliaAmeliaHeroContentFor${bobtail.title}`}
         />
       )}
     </div>
 
-    {AmeliaHeroContent.amelia.map(amelia =>
+    {BobtailHeroContent.bobtail.map(bobtail =>
         <ClientAbout
-          name={amelia.name}
-          about={amelia.about}
-          slug={amelia.title}
-          key={`ameliaAmeliaHeroContentFor${amelia.title}`}
+          name={bobtail.name}
+          about={bobtail.about}
+          slug={bobtail.title}
+          key={`ameliaAmeliaHeroContentFor${bobtail.title}`}
         />
       )}
 
@@ -84,19 +84,20 @@ function Amelia() {
 
     <div className="mx-14">
       <div className="pb-24 -mt-56">
-        {AmeliaSlide.amelia.map(amelia =>
+        {BobtailSlide.bobtail.map(bobtail =>
           <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
-            background={amelia.background}
-            backgroundOverlay={amelia.backgroundOverlay}
-            company={amelia.company}
-            key={`designTestimonialFor${amelia.company}`}
-            logo={amelia.logo}
-            logoWidth={amelia.logoWidth}
-            logoHeight={amelia.logoHeight}
-            altText={amelia.altText}
-            name={amelia.name}
-            quote={amelia.quote}
+            background={bobtail.background}
+            backgroundOverlay={bobtail.backgroundOverlay}
+            brandColor={bobtail.brandColor}
+            company={bobtail.company}
+            key={`designTestimonialFor${bobtail.company}`}
+            logo={bobtail.logo}
+            logoWidth={bobtail.logoWidth}
+            logoHeight={bobtail.logoHeight}
+            altText={bobtail.altText}
+            name={bobtail.name}
+            quote={bobtail.quote}
           />
         )}
       </div>

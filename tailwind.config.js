@@ -49,7 +49,8 @@ module.exports = {
       height: ['hover'],
       margin: ['hover'],
       width: ['group-hover'],
-      display: ['group-hover', 'hover']
+      display: ['group-hover', 'hover'],
+      visibility: ['group-hover', 'group-hover']
     },
   },
   plugins: [],

@@ -91,15 +91,6 @@ function CarTalkRepair() {
     <div className="">
 
     </div>
-    <ClientCardContainer>
-      {ClientMainPage.map(clientMainPage =>
-        <ClientCard
-          name={clientMainPage.name}
-          backgroundImg={clientMainPage.backgroundImg}
-          slug={clientMainPage.slug}
-        />
-      )}
-    </ClientCardContainer>
   </div>
 }
 

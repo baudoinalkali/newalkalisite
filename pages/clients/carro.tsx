@@ -6,16 +6,14 @@ import Testimonials from '../../content/testimonials'
 import TwoColumnLayout from '../../components/TwoColumnLayout'
 import StandardImage from '../../components/StandardImage'
 import StandardTextBlock from '../../components/StandardTextBlock'
-import ClientMainPage from '../../content/clientPages/clientMainPage'
 import ClientCard from '../../components/Clients/ClientCard'
-import CarroContent from '../../content/clientPages/clientContentBlocks'
-import CarroScreenImages from '../../content/clientPages/screenImages'
-import CarroHeroContent from '../../content/clientPages/clientHeroContent'
+import CarroContent from '../../content/clientPages/clientContent'
 import ClientHeader from '../../components/Clients/ClientHeader'
 import ClientAbout from '../../components/Clients/ClientAbout'
 
+
 function Carro() {
-  const carroGoalImage = CarroContent.carro.goal.map(Carro =>
+  const carroGoalImage = CarroContent.carro.section1.map(Carro =>
     <StandardImage
       imageAngle="left"
       image={Carro.image}
@@ -23,7 +21,7 @@ function Carro() {
     />
   )
 
-  const carroGoalText = CarroContent.carro.goal.map(Carro =>
+  const carroGoalText = CarroContent.carro.section1.map(Carro =>
     <StandardTextBlock
       sub={Carro.sub}
       title={Carro.title}
@@ -32,7 +30,7 @@ function Carro() {
     />
   )
 
-  const carroResultImage = CarroContent.carro.result.map(carro =>
+  const carroResultImage = CarroContent.carro.section2.map(carro =>
     <StandardImage
       imageAngle="right"
       image={carro.image}
@@ -40,7 +38,7 @@ function Carro() {
     />
   )
 
-  const carroResultText = CarroContent.carro.result.map(carro =>
+  const carroResultText = CarroContent.carro.section2.map(carro =>
     <StandardTextBlock
       sub={carro.sub}
       title={carro.title}
@@ -51,23 +49,22 @@ function Carro() {
 
   return <div className="m-auto">
     <div className="carro-bg">
-      {CarroHeroContent.carro.map(carro =>
+      {CarroContent.carro.hero.map(carro =>
         <ClientHeader
-          sub={carro.sub}
-          title={carro.title}
-          backgroundImg={carro.backgroundImg}
+          sub={carro.industry}
+          title={carro.name}
           service={carro.service}
-          heroImage={carro.heroImage}
           serviceSlug={carro.serviceSlug}
+          heroImage={carro.image}
           style="py-24"
         />
       )}
     </div>
-    {CarroHeroContent.carro.map(carro =>
+    {CarroContent.carro.about.map(carro =>
         <ClientAbout
           name={carro.name}
-          about={carro.about}
-          slug={carro.title}
+          about={carro.bio}
+          slug={carro.slug}
         />
       )}
 
@@ -85,7 +82,7 @@ function Carro() {
           <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
             background={carro.background}
-            brandColor="#F9A8D4"
+            brandColor={carro.brandColor}
             company={carro.company}
             key={`designTestimonialFor${carro.company}`}
             logo={carro.logo}
@@ -117,7 +114,7 @@ function Carro() {
       </div>
     </div>
     
-    {CarroScreenImages.carro.map(carro =>
+    {CarroContent.carro.screens.map(carro =>
       <ResponsiveScreens
         style="py-24 overflow-hidden"
         link="https://getcarro.com"
@@ -131,15 +128,6 @@ function Carro() {
         phoneLink={carro.phoneLink}
       />
     )}
-    <ClientCardContainer>
-      {ClientMainPage.map(clientMainPage =>
-        <ClientCard
-          name={clientMainPage.name}
-          backgroundImg={clientMainPage.backgroundImg}
-          slug={clientMainPage.slug}
-        />
-      )}
-    </ClientCardContainer>
   </div>
 }
 

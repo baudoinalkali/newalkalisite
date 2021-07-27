@@ -204,6 +204,7 @@ function SearchEngineOptimization() {
                             altText={testimonial.altText}
                             name={testimonial.name}
                             quote={testimonial.quote}
+                            slugVisibility="true"
                         />
                     )}
                 </TestimonialSlider>

@@ -128,15 +128,6 @@ function Ben() {
         phoneLink="https://ben.ai/product"
       />
     )}
-    <ClientCardContainer>
-      {ClientMainPage.map(clientMainPage =>
-        <ClientCard
-          name={clientMainPage.name}
-          backgroundImg={clientMainPage.backgroundImg}
-          slug={clientMainPage.slug}
-        />
-      )}
-    </ClientCardContainer>
   </div>
 }
 
