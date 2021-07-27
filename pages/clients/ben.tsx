@@ -8,14 +8,14 @@ import StandardImage from '../../components/StandardImage'
 import StandardTextBlock from '../../components/StandardTextBlock'
 import ClientMainPage from '../../content/clientPages/clientMainPage'
 import ClientCard from '../../components/Clients/ClientCard'
-import BenContent from '../../content/clientPages/clientContentBlocks'
+import BenContent from '../../content/clientPages/clientContent'
 import CarroScreenImages from '../../content/clientPages/screenImages'
 import BenHeroContent from '../../content/clientPages/clientHeroContent'
 import ClientHeader from '../../components/Clients/ClientHeader'
 import ClientAbout from '../../components/Clients/ClientAbout'
 
 function Ben() {
-  const carroGoalImage = BenContent.ben.goal.map(ben =>
+  const carroGoalImage = BenContent.ben.section1.map(ben =>
     <StandardImage
       imageAngle="left"
       image={ben.image}
@@ -23,7 +23,7 @@ function Ben() {
     />
   )
 
-  const carroGoalText = BenContent.ben.goal.map(ben =>
+  const carroGoalText = BenContent.ben.section1.map(ben =>
     <StandardTextBlock
       sub={ben.sub}
       title={ben.title}
@@ -32,7 +32,7 @@ function Ben() {
     />
   )
 
-  const carroResultImage = BenContent.ben.result.map(ben =>
+  const carroResultImage = BenContent.ben.section2.map(ben =>
     <StandardImage
       imageAngle="right"
       image={ben.image}
@@ -40,7 +40,7 @@ function Ben() {
     />
   )
 
-  const carroResultText = BenContent.ben.result.map(ben =>
+  const carroResultText = BenContent.ben.section2.map(ben =>
     <StandardTextBlock
       sub={ben.sub}
       title={ben.title}
@@ -63,11 +63,12 @@ function Ben() {
         />
       )}
     </div>
-    {BenHeroContent.ben.map(ben =>
+    {BenContent.ben.about.map(ben =>
       <ClientAbout
         name={ben.name}
-        about={ben.about}
-        slug={ben.title}
+        about={ben.bio}
+        slug={ben.slug}
+        brandColor={ben.brandColor}
       />
     )}
 
@@ -87,8 +88,8 @@ function Ben() {
           brandColor="#FF936B"
           company="ben"
           logo="/images/clients/ben/logo.svg"
-          logoWidth="200"
-          logoHeight="200"
+          logoWidth="225"
+          logoHeight="71"
           altText=""
           slug="ben"
           name="Jim Schimpf, Founder"
@@ -116,7 +117,7 @@ function Ben() {
 
     {CarroScreenImages.carro.map(carro =>
       <ResponsiveScreens
-        style="py-24 overflow-hidden"
+        style="py-36 overflow-hidden"
         link="https://ben.ai"
         desktopLeft="/images/clients/ben/desktop-left.png"
         desktopRight="/images/clients/ben/desktop-right.png"

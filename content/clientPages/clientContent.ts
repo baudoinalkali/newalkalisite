@@ -16,7 +16,8 @@ const ClientContent = {
                 {
                     name: "Carro",
                     slug: "https://getcarro.com",
-                    bio: "Carro is the world’s largest collaborative commerce network, with more than 25,000 brands and 6.5 million influencers. The platform seamlessly enables brands to work with influencers and each other so they can sell more, together."
+                    bio: "Carro is the world’s largest collaborative commerce network, with more than 25,000 brands and 6.5 million influencers. The platform seamlessly enables brands to work with influencers and each other so they can sell more, together.",
+                    brandColor: "#ff936b"
                 },
             ],
         section1:
@@ -52,6 +53,273 @@ const ClientContent = {
             ],
     },
 
+    chattr: {
+        hero:
+            [
+                {
+                    industry: "Technology",
+                    name: "Chattr",
+                    service: ["Custom Web Development", "Web Design"],
+                    serviceSlug: ["/services/web-development/"],
+                    image: "/images/clients/chattr/chattr-hero-image.svg",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "Chattr",
+                    slug: "https://chattr.ai",
+                    bio: "Chattr’s AI-powered digital assistant manages the retail hiring experience from engagement to offer."
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/chattr/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/chattr/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/chattr/desktop-left.png",
+                    desktopLeftLink: "https://chattr.ai",
+                    desktopRight: "/images/clients/chattr/desktop-right.png",
+                    desktopRightLink: "https://chattr.ai/about",
+                    tablet: "/images/clients/chattr/tablet.png",
+                    tabletLink: "https://chattr.ai/pricing",
+                    phone: "/images/clients/chattr/mobile.png",
+                    phoneLink: "https://chattr.ai/product",
+                },
+            ],
+    },
+
+    ben: {
+        hero:
+            [
+                {
+                    industry: "Non-profit",
+                    name: "Blockchain Education Network",
+                    service: ["Custom Web Development"],
+                    serviceSlug: ["/services/web-development/"],
+                    image: "/images/clients/ben/ben-hero-image.png",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "Blockchain Education Network",
+                    slug: "https://blockchainedu.org",
+                    bio: "The Blockchain Education Network (BEN) is an international nonprofit organization dedicated to forming a robust network of student organizations for blockchain education, innovation, and development. . BEN was designed to help nascent, burgeoning, and not-yet existing college organizations build a presence on their respective campuses, receive administrative recognition and funding, and to help students connect with similar college groups. We provide educational and professional resources, contacts, speakers, and guidance in order to usher in a new era of electronic finance and innovation.",
+                    brandColor: "#ff936b", 
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/ben/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/ben/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/ben/desktop-left.png",
+                    desktopLeftLink: "https://chattr.ai",
+                    desktopRight: "/images/clients/ben/desktop-right.png",
+                    desktopRightLink: "https://chattr.ai/about",
+                    tablet: "/images/clients/ben/tablet.png",
+                    tabletLink: "https://chattr.ai/pricing",
+                    phone: "/images/clients/ben/mobile.png",
+                    phoneLink: "https://chattri.ai/product",
+                },
+            ],
+    },
+
+    bobtail: {
+        hero:
+            [
+                {
+                    industry: "Financial Services",
+                    name: "Bobtail",
+                    service: ["Custom Web Development"],
+                    serviceSlug: ["/services/web-development/"],
+                    backgroundImg: "/images/clients/bobtail/hero-background.jpg",
+                    backgroundOverlay: "true",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "Bobtail",
+                    slug: "https://blockchainedu.org",
+                    bio: "Bobtail empowers carriers with powerful financial tools that help them grow their business and serve them with honesty, transparency, and fairness.",
+                    brandColor: "#ff936b", 
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/bobtail/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/bobtail/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/bobtail/desktop-left.png",
+                    desktopLeftLink: "https://chattr.ai",
+                    desktopRight: "/images/clients/bobtail/desktop-right.png",
+                    desktopRightLink: "https://chattr.ai/about",
+                    tablet: "/images/clients/bobtail/tablet.png",
+                    tabletLink: "https://chattr.ai/pricing",
+                    phone: "/images/clients/bobtail/mobile.png",
+                    phoneLink: "https://chattri.ai/product",
+                },
+            ],
+    },
+
+    thf: {
+        hero:
+            [
+                {
+                    industry: "Automotive",
+                    name: "The HID Factory",
+                    service: ["Custom Web Development"],
+                    serviceSlug: ["/services/web-development/"],
+                    backgroundImg: "/images/clients/bobtail/hero-background.jpg",
+                    backgroundOverlay: "true",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "The HID Factory",
+                    slug: "https://blockchainedu.org",
+                    bio: "Bobtail empowers carriers with powerful financial tools that help them grow their business and serve them with honesty, transparency, and fairness.",
+                    brandColor: "#ff936b", 
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/the-hid-factory/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/the-hid-factory/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/the-hid-factory/desktop-left.png",
+                    desktopLeftLink: "https://chattr.ai",
+                    desktopRight: "/images/clients/the-hid-factory/desktop-right.png",
+                    desktopRightLink: "https://chattr.ai/about",
+                    tablet: "/images/clients/the-hid-factory/tablet.png",
+                    tabletLink: "https://chattr.ai/pricing",
+                    phone: "/images/clients/the-hid-factory/mobile.png",
+                    phoneLink: "https://chattri.ai/product",
+                },
+            ],
+    },
+
+    magnetite: {
+        hero:
+            [
+                {
+                    industry: "Home Service",
+                    name: "Magnetite",
+                    service: ["Custom Web Development"],
+                    serviceSlug: ["/services/web-development/"],
+                    backgroundImg: "/images/clients/magnetite/hero-background.jpg",
+                    backgroundOverlay: "true",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "Magnetite",
+                    slug: "https://magnetite.com",
+                    bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
+                    brandColor: "#ff936b", 
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/magnetite/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/magnetite/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/magnetite/desktop-left.png",
+                    desktopLeftLink: "https://chattr.ai",
+                    desktopRight: "/images/clients/magnetite/desktop-right.png",
+                    desktopRightLink: "https://chattr.ai/about",
+                    tablet: "/images/clients/magnetite/tablet.png",
+                    tabletLink: "https://chattr.ai/pricing",
+                    phone: "/images/clients/magnetite/mobile.png",
+                    phoneLink: "https://chattri.ai/product",
+                },
+            ],
+    },
+
     amelia: [
         {
             image: "/images/amelia-desktop2.png",
@@ -78,6 +346,16 @@ const ClientContent = {
 
 const CarroContent = ClientContent.carro
 
-export { CarroContent }
+const ChattrContent = ClientContent.chattr
+
+const BenContent = ClientContent.ben
+
+const BobtailContent = ClientContent.bobtail
+
+const THFContent = ClientContent.thf
+
+const MagnetiteContent = ClientContent.magnetite
+
+export { CarroContent, ChattrContent, BenContent, BobtailContent, THFContent, MagnetiteContent }
 
 export default ClientContent

@@ -69,6 +69,14 @@ li:hover > button svg { transform: rotate(-270deg) }
 	}
   }
   
+.client-card-bg {
+	transition-duration: 1500ms !important;
+}
+
+.client-card-bg:hover {
+	background-image: none !important;
+	transition-duration: 1500ms !important;
+}
 
 .footer-icon-container {
 	-webkit-text-size-adjust: 100%;

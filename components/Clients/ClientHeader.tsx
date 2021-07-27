@@ -10,6 +10,7 @@ const ClientHeader = props => {
         <section className={headerBackgroundType()} style={{ backgroundImage: `url(${props.backgroundImg})`, backgroundColor: `${props.backgroundColor}`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
             <CombinedNavigation
                 headerColor="white"
+                headerLogoColor="white"
             />
             <div className={`max-w-7xl flex-col lg:flex-row flex justify-between items-center m-auto ${props.style} px-7`}>
                 <div className="w-full lg:w-1/2 2xl:mx-0">

@@ -18,7 +18,7 @@ const DesktopNavigation = (props) => {
     }
     return (
         <div className="py-7">
-            <div className="flex justify-between items-center max-w-7xl m-auto px-10 2xl:px-0">
+            <div className="flex justify-between items-center max-w-7xl m-auto px-7">
                 <div>
                     <a href="/">
                         <Image

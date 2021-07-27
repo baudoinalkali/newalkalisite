@@ -6,6 +6,7 @@ const CombinedNavigation = props => {
         <div>
             <div className="contents lg:hidden">
                 <MobileNavigation
+                    headerColor={props.headerColor}
                 />
             </div>
             <div className="hidden lg:contents">
