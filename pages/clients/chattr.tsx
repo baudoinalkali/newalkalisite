@@ -8,14 +8,14 @@ import StandardImage from '../../components/StandardImage'
 import StandardTextBlock from '../../components/StandardTextBlock'
 import ClientMainPage from '../../content/clientPages/clientMainPage'
 import ClientCard from '../../components/Clients/ClientCard'
-import ChattrContent from '../../content/clientPages/clientContentBlocks'
+import ChattrContent from '../../content/clientPages/clientContent'
 import CarroScreenImages from '../../content/clientPages/screenImages'
 import ChattrHeroContent from '../../content/clientPages/clientHeroContent'
 import ClientHeader from '../../components/Clients/ClientHeader'
 import ClientAbout from '../../components/Clients/ClientAbout'
 
 function Carro() {
-  const carroGoalImage = ChattrContent.chattr.goal.map(chattr =>
+  const carroGoalImage = ChattrContent.chattr.section1.map(chattr =>
     <StandardImage
       imageAngle="left"
       image={chattr.image}
@@ -23,7 +23,7 @@ function Carro() {
     />
   )
 
-  const carroGoalText = ChattrContent.chattr.goal.map(chattr =>
+  const carroGoalText = ChattrContent.chattr.section1.map(chattr =>
     <StandardTextBlock
       sub={chattr.sub}
       title={chattr.title}
@@ -32,7 +32,7 @@ function Carro() {
     />
   )
 
-  const carroResultImage = ChattrContent.chattr.result.map(chattr =>
+  const carroResultImage = ChattrContent.chattr.section2.map(chattr =>
     <StandardImage
       imageAngle="right"
       image={chattr.image}
@@ -40,7 +40,7 @@ function Carro() {
     />
   )
 
-  const carroResultText = ChattrContent.chattr.result.map(chattr =>
+  const carroResultText = ChattrContent.chattr.section2.map(chattr =>
     <StandardTextBlock
       sub={chattr.sub}
       title={chattr.title}
@@ -51,23 +51,23 @@ function Carro() {
 
   return <div className="m-auto overflow-hidden">
     <div className="">
-      {ChattrHeroContent.chattr.map(chattr =>
+      {ChattrContent.chattr.hero.map(chattr =>
         <ClientHeader
-          sub={chattr.sub}
-          title={chattr.title}
+          sub={chattr.industry}
+          title={chattr.name}
           backgroundColor="#36ad8b"
           service={chattr.service}
-          heroImage={chattr.heroImage}
+          heroImage={chattr.image}
           serviceSlug={chattr.serviceSlug}
           style="py-20 lg:py-56"
         />
       )}
     </div>
-    {ChattrHeroContent.chattr.map(chattr =>
+    {ChattrContent.chattr.about.map(chattr =>
       <ClientAbout
         name={chattr.name}
-        about={chattr.about}
-        slug={chattr.title}
+        about={chattr.bio}
+        slug={chattr.slug}
       />
     )}
 
@@ -114,18 +114,18 @@ function Carro() {
       </div>
     </div>
 
-    {CarroScreenImages.carro.map(carro =>
+    {ChattrContent.chattr.screens.map(chattr =>
       <ResponsiveScreens
         style="py-24 overflow-hidden"
         link="https://chattr.ai"
-        desktopLeft="/images/clients/chattr/desktop-left.png"
-        desktopRight="/images/clients/chattr/desktop-right.png"
-        tablet="/images/clients/chattr/tablet.png"
-        phone="/images/clients/chattr/mobile.png"
-        desktopLeftLink="https://chattr.ai"
-        desktopRightLink="https://chattr.ai/about"
-        tabletLink="https://chattr.ai/pricing"
-        phoneLink="https://chattr.ai/product"
+        desktopLeft={chattr.desktopLeft}
+        desktopRight={chattr.desktopRight}
+        tablet={chattr.tablet}
+        phone={chattr.phone}
+        desktopLeftLink={chattr.desktopLeftLink}
+        desktopRightLink={chattr.desktopRightLink}
+        tabletLink={chattr.tabletLink}
+        phoneLink={chattr.phoneLink}
       />
     )}
   </div>

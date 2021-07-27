@@ -8,8 +8,8 @@ const ClientAbout = props => {
                 <div className="w-full text-center lg:text-left xs:w-1/2 pb-14 lg:pb-0">
                     <h3 className="text-4xl alkaligrey-800 font-bold m-auto leading-tight pb-4 lg:pb-7">{`About ${props.name}`}</h3>
                     <div className="flex items-center justify-center lg:justify-start">
-                        <a href={props.slug} target="_blank" rel="noopener noreferrer" className="uppercase font-bold text-lg text-alkali-500 duration-500 hover:mr-3">Visit Website</a>
-                        <FontAwesomeIcon className="text-alkali-500 ml-3 w-5" icon={faLongArrowAltRight}></FontAwesomeIcon>
+                        <a href={props.slug} target="_blank" rel="noopener noreferrer" className="uppercase font-bold text-lg duration-500 hover:mr-3" style={{color: `${props.brandColor}`}}>Visit Website</a>
+                        <FontAwesomeIcon className="ml-3 w-5" icon={faLongArrowAltRight} style={{color:`${props.brandColor}`}}></FontAwesomeIcon>
                     </div>
 
                 </div>

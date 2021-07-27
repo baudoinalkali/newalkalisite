@@ -8,14 +8,14 @@ import StandardImage from '../../components/StandardImage'
 import StandardTextBlock from '../../components/StandardTextBlock'
 import ClientMainPage from '../../content/clientPages/clientMainPage'
 import ClientCard from '../../components/Clients/ClientCard'
-import AmeliaContent from '../../content/clientPages/clientContentBlocks'
+import BobtailContent from '../../content/clientPages/clientContent'
 import AmeliaScreenImages from '../../content/clientPages/screenImages'
 import BobtailHeroContent from '../../content/clientPages/clientHeroContent'
 import ClientHeader from '../../components/Clients/ClientHeader'
 import ClientAbout from '../../components/Clients/ClientAbout'
 
 function Amelia() {
-  const ameliaGoalImage = AmeliaContent.amelia.goal.map(amelia =>
+  const ameliaGoalImage = BobtailContent.bobtail.section1.map(amelia =>
     <StandardImage
       imageAngle="left"
       image={amelia.image}
@@ -23,7 +23,7 @@ function Amelia() {
     />
   )
 
-  const ameliaGoalText = AmeliaContent.amelia.goal.map(amelia =>
+  const ameliaGoalText = BobtailContent.bobtail.section1.map(amelia =>
     <StandardTextBlock
       sub={amelia.sub}
       title={amelia.title}
@@ -32,7 +32,7 @@ function Amelia() {
     />
   )
 
-  const ameliaResultImage = AmeliaContent.amelia.result.map(amelia =>
+  const ameliaResultImage = BobtailContent.bobtail.section2.map(amelia =>
     <StandardImage
       imageAngle="right"
       image={amelia.image}
@@ -40,7 +40,7 @@ function Amelia() {
     />
   )
 
-  const ameliaResultText = AmeliaContent.amelia.result.map(amelia =>
+  const ameliaResultText = BobtailContent.bobtail.section2.map(amelia =>
     <StandardTextBlock
       sub={amelia.sub}
       title={amelia.title}
@@ -51,26 +51,26 @@ function Amelia() {
 
   return <div className="m-auto">
     <div className="">
-      {BobtailHeroContent.bobtail.map(bobtail =>
+      {BobtailContent.bobtail.hero.map(bobtail =>
         <ClientHeader
-          sub={bobtail.sub}
-          backgroundOverlay={bobtail.backgroundOverlay}
-          title={bobtail.title}
+          sub={bobtail.industry}
+          title={bobtail.name}
           backgroundImg={bobtail.backgroundImg}
+          backgroundOverlay={bobtail.backgroundOverlay}
           service={bobtail.service}
           serviceSlug={bobtail.serviceSlug}
           style="py-40"
-          key={`ameliaAmeliaHeroContentFor${bobtail.title}`}
+          key={`ameliaAmeliaHeroContentFor${bobtail.name}`}
         />
       )}
     </div>
 
-    {BobtailHeroContent.bobtail.map(bobtail =>
+    {BobtailContent.bobtail.about.map(bobtail =>
         <ClientAbout
           name={bobtail.name}
-          about={bobtail.about}
-          slug={bobtail.title}
-          key={`ameliaAmeliaHeroContentFor${bobtail.title}`}
+          about={bobtail.bio}
+          slug={bobtail.name}
+          key={`ameliaAmeliaHeroContentFor${bobtail.name}`}
         />
       )}
 
@@ -121,7 +121,7 @@ function Amelia() {
       </div>
     </div>
     
-    {AmeliaScreenImages.amelia.map(amelia =>
+    {BobtailContent.bobtail.screens.map(amelia =>
       <ResponsiveScreens
         style="py-24 overflow-hidden"
         link="https://getcarro.com"

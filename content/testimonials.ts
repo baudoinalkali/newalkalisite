@@ -134,6 +134,20 @@ const Testimonials = {
             quote: "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
         }
     ],
+    thf: [
+        {
+            background: "/images/clients/thf/logo.png",
+            backgroundOverlay: "bg-pink-300",
+            brandColor: "#07433f",
+            company: "Bobtail",
+            logo: "/images/clients/bobtail/logo.svg",
+            logoWidth: "250",
+            logoHeight: "50",
+            altText: "",
+            name: "Gurvir Singh, Managing Director",
+            quote: "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+        }
+    ],
 }
 
 const CarroSlide = Testimonials.carro
@@ -144,6 +158,8 @@ const BobtailSlide = Testimonials.bobtail
 
 const HomepageSlide = Testimonials.homepage
 
-export { CarroSlide, AmeliaSlide, BobtailSlide, HomepageSlide }
+const THFSlide = Testimonials.thf 
+
+export { CarroSlide, AmeliaSlide, BobtailSlide, HomepageSlide, THFSlide }
 
 export default Testimonials;
