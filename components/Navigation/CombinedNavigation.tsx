@@ -1,5 +1,6 @@
 import MobileNavigation from './MobileNavigation'
 import DesktopNavigation from './DesktopNavigation'
+import DesktopNavigationTest from './DesktopNavigationTest'
 
 const CombinedNavigation = props => {
     return (
@@ -10,7 +11,7 @@ const CombinedNavigation = props => {
                 />
             </div>
             <div className="hidden lg:contents">
-                <DesktopNavigation
+                <DesktopNavigationTest 
                     headerColor={props.headerColor}
                 />
             </div>
