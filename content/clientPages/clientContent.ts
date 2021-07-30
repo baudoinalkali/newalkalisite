@@ -319,7 +319,59 @@ const ClientContent = {
                 },
             ],
     },
-
+    goCottage: {
+        hero:
+            [
+                {
+                    industry: "Real Estate",
+                    name: "Go-Cottage",
+                    service: ["WordPress Web Development"],
+                    serviceSlug: ["/services/wordpress-websites-development/"],
+                    backgroundImg: "/images/clients/go-cottage/hero-background.jpg",
+                    backgroundOverlay: "true",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "Go-Cottage",
+                    slug: "https://go-cottage.com",
+                    bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
+                    brandColor: "#ff936b", 
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/go-cottage/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/go-cottage/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/go-cottage/desktop-left.png",
+                    desktopLeftLink: "https://go-cottage/about",
+                    desktopRight: "/images/clients/go-cottage/desktop-right.png",
+                    desktopRightLink: "https://go-cottage/directions",
+                    tablet: "/images/clients/go-cottage/tablet.png",
+                    tabletLink: "https://go-cottage",
+                    phone: "/images/clients/go-cottage/mobile.png",
+                    phoneLink: "https://go-cottage/two-bedroom-cottage",
+                },
+            ],
+    },
     amelia: [
         {
             image: "/images/amelia-desktop2.png",
@@ -356,6 +408,8 @@ const THFContent = ClientContent.thf
 
 const MagnetiteContent = ClientContent.magnetite
 
-export { CarroContent, ChattrContent, BenContent, BobtailContent, THFContent, MagnetiteContent }
+const GoCottageContent = ClientContent.goCottage
+
+export { CarroContent, ChattrContent, BenContent, BobtailContent, THFContent, MagnetiteContent, GoCottageContent }
 
 export default ClientContent

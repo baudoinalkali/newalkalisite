@@ -87,6 +87,7 @@ function Amelia() {
         {AmeliaSlide.amelia.map(amelia =>
           <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
+            brandColor={amelia.brandColor}
             background={amelia.background}
             backgroundOverlay={amelia.backgroundOverlay}
             company={amelia.company}

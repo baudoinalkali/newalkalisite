@@ -17,13 +17,13 @@ export default function About() {
   return (
     <div className="">
       <div className="bg-alkaligrey-300">
-      <CombinedNavigation />
-      <div className="py-36 flex text-center justify-center z-20">
-        <div className="relative z-20">
-          <h1 className="text-alkaligrey-800 font-bold pt-5 text-4xl md:text-6xl lg:text-7xl max-w-6xl">About Alkali</h1>
-          <p className="text-white py-10 text-alkaligrey-800 max-w-2xl m-auto text-xl lg:text-2xl">Learn more about Alkali and the values that drive us to deliver for our clients, employees, and partners.</p>
+        <CombinedNavigation />
+        <div className="py-36 flex text-center justify-center z-20">
+          <div className="relative z-20">
+            <h1 className="text-alkaligrey-800 font-bold pt-5 text-5xl lg:text-6xl max-w-6xl">About Alkali</h1>
+            <p className="text-white py-10 text-alkaligrey-800 max-w-2xl m-auto text-xl lg:text-2xl">Learn more about Alkali and the values that drive us to deliver for our clients, employees, and partners.</p>
+          </div>
         </div>
-      </div>
       </div>
       <div className="">
         <SplitTextImageAlt
@@ -134,14 +134,14 @@ export default function About() {
           </div>
         </div>
         <div className="w-5/6 lg:w-full m-auto bg-alkali-500 py-24 mb-24">
-                <h5 className="text-4xl text-center text-white font-bold m-auto leading-tight">Your Next Adventure is Waiting</h5>
-                <p className="text-white pt-7 pb-10 text-center max-w-md m-auto text-lg font-normal">If our values align with yours, we'd love to connect. Check out our open positions.</p>
-                <div className="flex justify-center">
-                  <button className="p-4 px-6 font-semibold text-white hover:text-alkali-500 hover:bg-white rounded-md transition duration-500 ease-in-out border border-white">
-                    See Open Positions
-                  </button>
-                </div>
-            </div>
+          <h5 className="text-4xl text-center text-white font-bold m-auto leading-tight">Your Next Adventure is Waiting</h5>
+          <p className="text-white pt-7 pb-10 text-center max-w-md m-auto text-lg font-normal">If our values align with yours, we'd love to connect. Check out our open positions.</p>
+          <div className="flex justify-center">
+            <button className="p-4 px-6 font-semibold text-white hover:text-alkali-500 hover:bg-white rounded-md transition duration-500 ease-in-out border border-white">
+              See Open Positions
+            </button>
+          </div>
+        </div>
       </section>
     </div>
 
