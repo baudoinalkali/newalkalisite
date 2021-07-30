@@ -20,7 +20,7 @@ export default function About() {
         <CombinedNavigation />
         <div className="py-36 flex text-center justify-center z-20">
           <div className="relative z-20">
-            <h1 className="text-alkaligrey-800 font-bold pt-5 text-4xl md:text-6xl lg:text-7xl max-w-6xl">Partners</h1>
+            <h1 className="text-alkaligrey-800 font-bold pt-5 text-5xl lg:text-6xl max-w-6xl">Partners</h1>
             <p className="text-white py-10 text-alkaligrey-800 max-w-2xl m-auto text-xl lg:text-2xl">We've formed strategic partnerships to provide the most value to our clients. Learn more about these below.</p>
           </div>
         </div>

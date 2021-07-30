@@ -8,7 +8,7 @@ const Testimonials = {
             logoWidth: "300",
             logoHeight: "140",
             altText: " ",
-            name: "Cody Lintz, Owner",
+            name: "Sharon Middendorf",
             quote: "Starting off as a new business we realized the importance of having a sound online presence early on. We are extremely grateful we found Alkali we did. They have provided us the tools we need to adequately serve our customers."
         },
         {
@@ -27,13 +27,13 @@ const Testimonials = {
     homepage: [
         {
             background: "/images/CarTalk-Testimonial-Image.jpg",
-            brandColor: "#00baff",
-            company: "CarTalkRepair",
-            logo: "/images/cartalk-logo.png",
+            brandColor: "#36ad8b",
+            company: "Chattr",
+            logo: "/images/clients/chattr/logo.svg",
             logoWidth: "300",
             logoHeight: "140",
             altText: " ",
-            name: "Cody Lintz, Owner",
+            name: "Jim Schimpf, Owner",
             quote: "Starting off as a new business we realized the importance of having a sound online presence early on. We are extremely grateful we found Alkali we did. They have provided us the tools we need to adequately serve our customers."
         },
         {
@@ -111,6 +111,7 @@ const Testimonials = {
         {
             background: "/images/amelia-slide-bg.jpg",
             backgroundOverlay: "bg-gray-50",
+            brandColor: "#F9FAFB",
             company: "Homewatch Amelia",
             logo: "/images/amelia-logo.png",
             logoWidth: "275",

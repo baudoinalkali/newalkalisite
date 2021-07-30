@@ -275,24 +275,6 @@ function WordPressWebsiteDevelopment() {
         <Integration
             style="pb-24 bg-white py-14 2xl:px-0"
         />
-        <div className="bg-alkaligrey-300 pb-24">
-            <div className="py-24 px-14 2xl:px-0">
-                <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">How Our Process Works</h6>
-                <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
-                    Transparency, communication, and customer focus are consistent themes throughout all the services we perform. Curious how our process for creating your next WordPress website would work? Learn more about our process below.
-                </p>
-            </div>
-            {wordpressProcess.wordpress.map((wordpress, index) =>
-                <OurProcessComp
-                    style=""
-                    title={wordpress.title}
-                    step={wordpress.step}
-                    icon={wordpress.icon}
-                    type={index}
-                    isLastItem={index === wordpressProcess.wordpress.length - 1}
-                />
-            )}
-        </div>
         <div className="py-24 max-w-7xl m-auto">
             <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">Frequently Asked Questions About Our WordPress Development</h6>
             <div className="w-full px-4 pt-16">

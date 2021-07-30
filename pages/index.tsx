@@ -22,52 +22,10 @@ export default function Home() {
         />
       </div>
       <div className="">
-        <h3 className="text-4xl pt-2 pb-16 font-bold text-center">What Our Clients Say</h3>
+        <h3 className="text-5xl pt-2 pb-20 font-bold text-center">What Our Clients Say</h3>
       </div>
-      <section>
-        <div className="grid grid-cols-3 gap-x-10">
-          <div className="shadow-2xl rounded-md bg-white">
-            <div className="p-10 py-14">
-              Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.
-            </div>
-            <div className="flex px-10 py-7 items-center gap-x-10 rounded-b-md" style={{backgroundColor:"#07433f"}}>
-              <div>
-                <img src="/images/clients/bobtail/logo.svg" />
-              </div>
-              <div className="text-white">
-                Client Name
-              </div>
-            </div>
-          </div>
-          <div className="shadow-2xl rounded-md bg-white">
-            <div className="p-10 py-14">
-              Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.
-            </div>
-            <div className="flex px-10 py-7 items-center gap-x-10 rounded-b-md" style={{backgroundColor:"#f9a8d4"}}>
-              <div>
-                <img width="90" src="/images/clients/carro/logo.svg" />
-              </div>
-              <div className="text-white">
-                Client Name
-              </div>
-            </div>
-          </div>
-          <div className="shadow-2xl rounded-md bg-white">
-            <div className="p-10 py-14">
-              Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.
-            </div>
-            <div className="flex px-10 py-7 items-center gap-x-10 rounded-b-md" style={{backgroundColor:"#ff936b"}}>
-              <div>
-                <img width="90" src="/images/clients/ben/logo.svg" />
-              </div>
-              <div>
-                Client Name
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div className="bg-alkaligrey-300 pt-40 -mt-40">
+      <HomeTestimonialSlider />
+      <div className="bg-alkaligrey-300 pt-40 -mt-60">
       <h3 id="services" className="pt-40 pb-10 text-5xl font-bold text-center">Our Services</h3>
         <div className="services-home py-36 flex max-w-7xl space-x-10 justify-center m-auto">
           <a className="w-1/3 group shadow-2xl rounded-md p-10 hover:bg-alkali-500 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" href="">

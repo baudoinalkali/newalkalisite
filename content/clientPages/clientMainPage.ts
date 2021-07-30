@@ -22,7 +22,7 @@ const clientMainPage = [
     },
     {
         name: "Homewatch Amelia",
-        backgroundImage: "",
+        backgroundImage: "/images/clients/amelia/testimonial-bg.png",
         industry: "Home Service",
         slug: "amelia",
         backgroundColor: "#4f80c2"
@@ -40,6 +40,13 @@ const clientMainPage = [
         industry: "Home Service",
         slug: "magnetite",
         backgroundColor: "#46b7e6"
+    },
+    {
+        name: "Go-Cottage",
+        backgroundImage: "/images/clients/go-cottage/testimonial-bg.png",
+        industry: "Real Estate",
+        slug: "the-hid-factory",
+        backgroundColor: "#B3D079"
     },
     {
         name: "The HID Factory",
@@ -99,13 +106,6 @@ const clientMainPage = [
     },
     {
         name: "Reflections Therapy",
-        backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
-        industry: "Automotive",
-        slug: "the-hid-factory",
-        backgroundColor: "#26a8f6"
-    },
-    {
-        name: "Go-Cottage",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
         slug: "the-hid-factory",
