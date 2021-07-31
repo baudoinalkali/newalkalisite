@@ -24,17 +24,17 @@ const digitalMarketing = [
   },
 ]
 
-const MobileDropdown = (props) =>{
+const MobileDropdown = (props) => {
   const headerDropDownColor = () => {
     return `${props.headerColor === "white" ? 'text-white' : 'text-alkali-500'}`
   }
 
   return (
-    <div className="w-full max-w-sm px-4 top-16">
+    <div className="w-full max-w-sm top-16">
       <Popover>
         {({ open }) => (
           <>
-            <Popover.Button className="block" style={{width: '24px'}}>
+            <Popover.Button className="block" style={{ width: '24px' }}>
               <FontAwesomeIcon
                 icon={faBars}
                 className={`${open ? '' : ''} mobile-dropdown ${headerDropDownColor()} text-xl group-hover:text-opacity-80 transition ease-in-out duration-150`}
@@ -46,8 +46,8 @@ const MobileDropdown = (props) =>{
                 <div className="relative grid gap-8 bg-white p-7 lg:grid-cols-2">
                   <ul className="space-y-4 font-mont text-chablack-300 hover:text-chablack-500">
                     <li>
-                    <li>
-                    <div className="bg-white rounded-2xl">
+                      <li>
+                        <div className="bg-white rounded-2xl">
                           <Disclosure>
                             {({ open }) => (
                               <>
@@ -61,22 +61,22 @@ const MobileDropdown = (props) =>{
                                 <Disclosure.Panel className="pl-3 text-gray-500">
                                   <ul className="mb-4 ml-3 space-y-4 text-black font-proximasemi text-md text-chablack-300 hover:text-chablack-500">
                                     <li>
-                                      <a href="/about">SEO</a>
+                                      <a href="/services/digital-marketing/search-engine-optimization">SEO</a>
                                     </li>
                                     <li>
-                                      <a href="/learn">Local SEO</a>
+                                      <a href="/services/digital-marketing/local-search-engine-optimization">Local SEO</a>
                                     </li>
                                     <li>
-                                      <a href="/about/clubs">PPC & Retargeting</a>
+                                      <a href="/services/digital-marketing/pay-per-click-advertising">PPC & Retargeting</a>
                                     </li>
                                     <li>
-                                      <a href="/about/team">Content Marketing</a>
+                                      <a href="/services/digital-marketing/content-marketing">Content Marketing</a>
                                     </li>
                                     <li>
-                                      <a href="/about/partners">Social Media Marketing</a>
+                                      <a href="/services/digital-marketing/social-media-marketing">Social Media Marketing</a>
                                     </li>
                                     <li>
-                                      <a href="/about/alumni">Reputation Management</a>
+                                      <a href="/services/digital-marketing/reputation-management">Reputation Management</a>
                                     </li>
                                   </ul>
                                 </Disclosure.Panel>
@@ -96,13 +96,13 @@ const MobileDropdown = (props) =>{
                                 <Disclosure.Panel className="pl-3 pt-4 text-gray-500">
                                   <ul className="ml-3 space-y-4 text-black font-proximasemi text-md text-chablack-300 hover:text-chablack-500">
                                     <li>
-                                      <a href="/about">WordPress Websites</a>
+                                      <a href="/services/website-development/wordpress-website-developement">WordPress Websites</a>
                                     </li>
                                     <li>
-                                      <a href="/learn">E-commerce Websites</a>
+                                      <a href="/services/web-development/ecommerce-website-development">E-commerce Websites</a>
                                     </li>
                                     <li>
-                                      <a href="/about/clubs">Custom Websites</a>
+                                      <a href="/services/web-development/custom-website-development">Custom Websites</a>
                                     </li>
                                   </ul>
                                 </Disclosure.Panel>
@@ -133,10 +133,38 @@ const MobileDropdown = (props) =>{
                             )}
                           </Disclosure>
                         </div>
-                    </li>
+                      </li>
                     </li>
                     <li>
-                     <a className="hover:text-benorange-500 text-black transition duration-500" href="/about">About</a>
+                      <a className="hover:text-benorange-500 text-black transition duration-500" href="/clients">Clients</a>
+                    </li>
+                    <li>
+                      <Disclosure>
+                        {({ open }) => (
+                          <>
+                            <Disclosure.Button className="my-4 flex items-center font-mont text-chablack-300 hover:text-chablack-500 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                              <span>About</span>
+                              <ChevronRightIcon
+                                className={`${open ? 'transform rotate-90' : ''
+                                  } w-5 h-5 text-chagreen-300 ml-3`}
+                              />
+                            </Disclosure.Button>
+                            <Disclosure.Panel className="pl-3 text-gray-500">
+                              <ul className="ml-3 space-y-4 text-black font-proximasemi text-md text-chablack-300 hover:text-chablack-500">
+                                <li>
+                                  <a href="/about">About Us</a>
+                                </li>
+                                <li>
+                                  <a href="/about/partners">Partners</a>
+                                </li>
+                                <li>
+                                  <a href="/about/careers">Careers</a>
+                                </li>
+                              </ul>
+                            </Disclosure.Panel>
+                          </>
+                        )}
+                      </Disclosure>
                     </li>
                     <li>
                       <a className="hover:text-benorange-500 text-black transition duration-500" href="/contact">Contact</a>
@@ -144,7 +172,7 @@ const MobileDropdown = (props) =>{
                   </ul>
                 </div>
                 <div className="bg-white pb-7 text-center">
-                    CTA HERE
+                  CTA HERE
                 </div>
               </div>
             </Popover.Panel>

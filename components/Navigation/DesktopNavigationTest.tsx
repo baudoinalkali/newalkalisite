@@ -18,7 +18,7 @@ const DesktopNavigationDropDown = (props) => {
     }
 
     return (
-        <div className="py-10">
+        <nav className="py-10">
             <div className="max-w-7xl m-auto flex justify-between px-7 items-center">
                 <a href="/"><img width="160" src={`${headerLogoColor()}`} /></a>
                 <div>
@@ -44,7 +44,7 @@ const DesktopNavigationDropDown = (props) => {
                     />
                 </div>
             </div>
-        </div>
+        </nav>
     )
 }
 

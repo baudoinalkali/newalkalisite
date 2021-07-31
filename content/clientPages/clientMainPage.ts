@@ -45,7 +45,7 @@ const clientMainPage = [
         name: "Go-Cottage",
         backgroundImage: "/images/clients/go-cottage/testimonial-bg.png",
         industry: "Real Estate",
-        slug: "the-hid-factory",
+        slug: "go-cottage",
         backgroundColor: "#B3D079"
     },
     {
@@ -59,112 +59,112 @@ const clientMainPage = [
         name: "CarTalk Repair",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
-        backgroundColor: "#26a8f6"
+        slug: "cartalk-repair",
+        backgroundColor: "#bf1e2e"
     },
     {
         name: "The Blue Collar Success Group",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
-        industry: "Automotive",
-        slug: "the-hid-factory",
-        backgroundColor: "#26a8f6"
+        industry: "Home Service",
+        slug: "bluecollar",
+        backgroundColor: "#0a98cc"
     },
     {
         name: "Zexster",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
-        industry: "Automotive",
-        slug: "the-hid-factory",
-        backgroundColor: "#26a8f6"
+        industry: "Technology",
+        slug: "zexster",
+        backgroundColor: "#0780ff"
     },
     {
         name: "Lessons That Rock",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
-        industry: "Automotive",
-        slug: "the-hid-factory",
-        backgroundColor: "#26a8f6"
+        industry: "Music",
+        slug: "lessons-that-rock",
+        backgroundColor: "#20bef0"
     },
     {
         name: "Safe-Dry",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
+        slug: "safe-dry",
         backgroundColor: "#26a8f6"
     },
     {
         name: "HBP",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
+        slug: "hbp",
         backgroundColor: "#26a8f6"
     },
     {
         name: "Pennies for Education and Health",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
+        slug: "peh",
         backgroundColor: "#26a8f6"
     },
     {
         name: "Reflections Therapy",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
+        slug: "reflections-therapy",
         backgroundColor: "#26a8f6"
     },
     {
         name: "Moeller's Bakery",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
+        slug: "moellers-bakery",
         backgroundColor: "#26a8f6"
     },
     {
         name: "AWP Delivers",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
+        slug: "awp",
         backgroundColor: "#26a8f6"
     },
     {
         name: "Fireside Investments",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
+        slug: "fireside-investments",
         backgroundColor: "#26a8f6"
     },
     {
         name: "Player Boost",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
+        slug: "player-boost",
         backgroundColor: "#26a8f6"
     },
     {
-        name: "Popbowl7",
+        name: "Popbowl",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
+        slug: "popbowl",
         backgroundColor: "#26a8f6"
     },
     {
         name: "Oklahoma On Demand",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
+        slug: "oklahoma-on-demand",
         backgroundColor: "#26a8f6"
     },
     {
         name: "AJ Locksmith",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
+        slug: "aj-locksmith",
         backgroundColor: "#26a8f6"
     },
     {
         name: "Kerry Hart",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Automotive",
-        slug: "the-hid-factory",
+        slug: "kerry-hart",
         backgroundColor: "#26a8f6"
     },
 ]

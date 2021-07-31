@@ -45,8 +45,13 @@ const webDesignLinks = [
 
 export default function AboutDropdown(props) {
   const dropdownTextColor = () => {
-    return `${props.headerColor === "white" ? 'hover:text-alkaligrey-700' : 'hover:text-alkali-500'} text-md font-bold uppercase`
+    return `${props.headerColor === "white" ? 'text-white hover:text-alkaligrey-700' : 'hover:text-alkali-500'} text-md font-bold uppercase`
   }
+
+  const dropdownTextColorOpen = () => {
+    return `${props.headerColor === "white" ? 'text-alkaligrey-700' : 'text-alkali-500'}`
+  }
+
 
   return (
     <div className="">
@@ -58,7 +63,7 @@ export default function AboutDropdown(props) {
                 ${open ? '' : 'text-opacity-90'}
                 ${dropdownTextColor()} duration-500 uppercase group bg-orange-700 rounded-md inline-flex items-center text-base font-bold text-md hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
             >
-              <span className={`${open ? 'text-alkali-500' : ''}`}>About</span>
+              <span className={`${open ? `${dropdownTextColorOpen()}` : ''}`}>About</span>
               <ChevronDownIcon
                 className={`${open ? 'transform -rotate-90 text-alkali-500' : 'text-opacity-70'}
                   ml-2 h-5 w-5 text-orange-300 group-hover:text-opacity-80 transition ease-in-out duration-150`}

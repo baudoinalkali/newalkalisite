@@ -18,7 +18,7 @@ export default function About() {
     <div className="">
       <div className="bg-alkaligrey-300">
         <CombinedNavigation />
-        <div className="py-36 flex text-center justify-center z-20">
+        <div className="py-20 flex text-center justify-center z-20">
           <div className="relative z-20">
             <h1 className="text-alkaligrey-800 font-bold pt-5 text-5xl lg:text-6xl max-w-6xl">Careers</h1>
             <p className="text-white py-10 text-alkaligrey-800 max-w-2xl m-auto text-xl lg:text-2xl">If you're looking for your next adventure, check out our open positions below.</p>

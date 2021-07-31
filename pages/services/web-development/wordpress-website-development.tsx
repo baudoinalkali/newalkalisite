@@ -26,6 +26,7 @@ function WordPressWebsiteDevelopment() {
         <StandardImage
             image={customBuilt.image}
             imageAngle="none"
+            key={customBuilt.image}
         />
     )
 
@@ -33,6 +34,7 @@ function WordPressWebsiteDevelopment() {
         <StandardTextBlock
             title={customBuilt.title}
             text={customBuilt.text}
+            key={customBuilt.title}
         />
     )
 
@@ -40,6 +42,7 @@ function WordPressWebsiteDevelopment() {
         <StandardImage
             image={responsiveDesign.image}
             imageAngle="none"
+            key={responsiveDesign.image}
         />
     )
 
@@ -47,6 +50,7 @@ function WordPressWebsiteDevelopment() {
         <StandardTextBlock
             title={responsiveDesign.title}
             text={responsiveDesign.text}
+            key={responsiveDesign.title}
         />
     )
 
@@ -54,6 +58,7 @@ function WordPressWebsiteDevelopment() {
         <StandardImage
             image={seo.image}
             imageAngle="none"
+            key={seo.image}
         />
     )
 
@@ -61,6 +66,7 @@ function WordPressWebsiteDevelopment() {
         <StandardTextBlock
             title={seo.title}
             text={seo.text}
+            key={seo.title}
         />
     )
 
@@ -68,6 +74,7 @@ function WordPressWebsiteDevelopment() {
         <StandardImage
             image={userExperience.image}
             imageAngle="none"
+            key={userExperience.image}
         />
     )
 
@@ -75,6 +82,7 @@ function WordPressWebsiteDevelopment() {
         <StandardTextBlock
             title={userExperience.title}
             text={userExperience.text}
+            key={userExperience.title}
         />
     )
 
@@ -82,6 +90,7 @@ function WordPressWebsiteDevelopment() {
         <StandardImage
             image={performance.image}
             imageAngle="none"
+            key={performance.image}
         />
     )
 
@@ -89,6 +98,7 @@ function WordPressWebsiteDevelopment() {
         <StandardTextBlock
             title={performance.title}
             text={performance.text}
+            key={performance.title}
         />
     )
 
@@ -96,6 +106,7 @@ function WordPressWebsiteDevelopment() {
         <StandardImage
             image={conversion.image}
             imageAngle="none"
+            key={conversion.image}
         />
     )
 
@@ -103,6 +114,7 @@ function WordPressWebsiteDevelopment() {
         <StandardTextBlock
             title={conversion.title}
             text={conversion.text}
+            key={conversion.title}
         />
     )
 
@@ -114,6 +126,7 @@ function WordPressWebsiteDevelopment() {
                     sub={wordpress.sub}
                     title={wordpress.title}
                     backgroundImg={wordpress.backgroundImg}
+                    key={wordpress.title}
                 />
             )}
         </div>
@@ -258,6 +271,7 @@ function WordPressWebsiteDevelopment() {
                 desktopRightLink={carro.desktopRightLink}
                 tabletLink={carro.tabletLink}
                 phoneLink={carro.phoneLink}
+                key={carro.desktopLeft}
             />
         )}
         <TwoColumnLayout
@@ -284,6 +298,7 @@ function WordPressWebsiteDevelopment() {
                             <FAQDropdown
                                 question={wordpress.question}
                                 answer={wordpress.answer}
+                                key={wordpress.question}
                             />
                         )}
                     </div>

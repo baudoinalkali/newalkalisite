@@ -11,7 +11,7 @@ import HomeTestimonialSlider from "../components/HomeTestimonialSlider";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <HomeHero />
       <div className="">
         <SplitTextImageAlt

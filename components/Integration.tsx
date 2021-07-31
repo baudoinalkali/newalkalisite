@@ -15,6 +15,7 @@ const Integrations = props => {
                                 className="object-center object-cover pointer-events-none rounded-full duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                                 src={`/images/icons/${wordpress.fileName}.png`}
                                 alt={wordpress.altText}
+                                key={wordpress.name}
                             />
                             <div className="IntegrationIconContainer relative z-1">
                                 <div className="IntegrationIcon text-center py-16 m-auto shadow-2xl h-36 w-36 rounded-full bg-center">
