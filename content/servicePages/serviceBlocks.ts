@@ -264,6 +264,44 @@ const ServiceBlocksContent = {
             image:"/images/digital-marketing/ppc/tailored-reporting.png",
             altText:""   
         },
+    ],
+    reputation: [
+        {
+            serviceTitle:"Reputation Repair",
+            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",   
+            image:"/images/digital-marketing/ppc/search.png",
+            altText:""
+        },
+        {
+            serviceTitle:"Review Monitoring",
+            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            image:"/images/digital-marketing/ppc/local-service-ads.png",
+            altText:""   
+        },
+        {
+            serviceTitle:"Review Response",
+            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            image:"/images/digital-marketing/ppc/shopping.png",
+            altText:""   
+        },
+        {
+            serviceTitle:"Online Listings Management",
+            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            image:"/images/digital-marketing/ppc/conversion-flywheel.png",
+            altText:""  
+        },
+        {
+            serviceTitle:"Review Solutions",
+            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            image:"/images/digital-marketing/ppc/social-advertising.png",
+            altText:""   
+        },
+        {
+            serviceTitle:"Content Removal",
+            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            image:"/images/digital-marketing/ppc/tailored-reporting.png",
+            altText:""   
+        },
     ]
 }
 
@@ -273,7 +311,8 @@ const EcommerceServices = ServiceBlocksContent.Ecommerce
 const ContentMarketingServices = ServiceBlocksContent.ContentMarketing
 const SocialServices = ServiceBlocksContent.Social
 const PPCServices = ServiceBlocksContent.PPC
+const ReputationServices = ServiceBlocksContent.reputation
 
-export {LocalSEOServices, SEOServices, EcommerceServices, ContentMarketingServices, SocialServices, PPCServices}
+export {LocalSEOServices, SEOServices, EcommerceServices, ContentMarketingServices, SocialServices, PPCServices, ReputationServices}
 
 export default ServiceBlocksContent;

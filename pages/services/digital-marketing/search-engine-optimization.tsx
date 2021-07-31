@@ -92,7 +92,7 @@ function SearchEngineOptimization() {
     )
 
     return (
-        <div>
+        <div className="overflow-hidden">
             <CombinedNavigation
 
             />
@@ -215,7 +215,7 @@ function SearchEngineOptimization() {
                 child1={seoImage4}
                 child2={seoText4}
             />
-            <div className="py-24 px-14 2xl:px-0">
+            <div className="py-24 px-7 2xl:px-0">
                 <h6 className="text-3xl md:text-4xl pb-24 text-center font-bold m-auto leading-tight">You Give Us Trust, We Give You Results</h6>
                 <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
                     {SEOResults.SEO.map(SEO =>

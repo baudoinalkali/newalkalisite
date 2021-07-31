@@ -3,7 +3,7 @@ import CombinedNavigation from '../components/Navigation/CombinedNavigation'
 
 function HomeHero() {
   return <section>
-    <div className="bg-alkaligrey-200 px-7">
+    <div className="bg-alkaligrey-200">
       <CombinedNavigation />
       <div className="pt-24 flex text-center justify-center z-20">
         <div className="relative z-20">

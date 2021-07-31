@@ -10,7 +10,7 @@ import seoProcess from '../../../content/servicePages/ourProcess'
 import OurProcessComp from '../../../components/Services/OurProcess'
 import Image from 'next/image'
 import CombinedNavigation from '../../../components/Navigation/CombinedNavigation';
-import SocialServices from '../../../content/servicePages/serviceBlocks'
+import ReputationServices from '../../../content/servicePages/serviceBlocks'
 import ServiceBlocks from '../../../components/Services/ServiceBlocks';
 import ResultsBlocks from '../../../components/Services/ResultsBlocks';
 import SEOResults from '../../../content/servicePages/resultsBlock'
@@ -82,11 +82,11 @@ function SocialMediaMarketing() {
             <CombinedNavigation
 
             />
-            {ServiceHeroContent.social.map(social =>
+            {ServiceHeroContent.reputation.map(reputation =>
                 <ServiceHero
-                    sub={social.sub}
-                    title={social.title}
-                    backgroundImg={social.backgroundImg}
+                    sub={reputation.sub}
+                    title={reputation.title}
+                    backgroundImg={reputation.backgroundImg}
                 />
             )}
             <TwoColumnLayout
@@ -103,12 +103,12 @@ function SocialMediaMarketing() {
             <div className="py-24 px-7">
                 <h6 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-24">Our Social Media Marketing Services</h6>
                 <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-                    {SocialServices.Social.map(Social =>
+                    {ReputationServices.reputation.map(reputation =>
                         <ServiceBlocks
-                            serviceTitle={Social.serviceTitle}
-                            serviceText={Social.serviceText}
-                            image={Social.image}
-                            altText={Social.altText}
+                            serviceTitle={reputation.serviceTitle}
+                            serviceText={reputation.serviceText}
+                            image={reputation.image}
+                            altText={reputation.altText}
                         />
                     )}
                 </div>
@@ -179,7 +179,7 @@ function SocialMediaMarketing() {
                     )}
                 </div>
             </div>
-            <div className="bg-alkaligrey-300 py-24 px-7">
+            <div className="bg-alkaligrey-300 py-24">
                 <h6 className="text-3xl md:text-4xl pb-24 text-center font-bold m-auto leading-tight">Platforms We Work With</h6>
                 <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 max-w-3xl m-auto">
                     {
@@ -205,7 +205,7 @@ function SocialMediaMarketing() {
             </div>
             <div className="">
                 <div className="py-24 max-w-7xl m-auto">
-                    <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight px-7">Frequently Asked Questions About Our Social Media Marketing Services</h6>
+                    <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">Frequently Asked Questions About Our Social Media Marketing Services</h6>
                     <div className="w-full px-4 pt-16">
                         <div className="p-2 mx-auto rounded-2xl">
                             <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">

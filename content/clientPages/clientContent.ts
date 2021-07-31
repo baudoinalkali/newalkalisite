@@ -372,6 +372,272 @@ const ClientContent = {
                 },
             ],
     },
+    cartalkRepair: {
+        hero:
+            [
+                {
+                    industry: "Automotive",
+                    name: "CarTalk Repair",
+                    service: ["WordPress Web Development"],
+                    serviceSlug: ["/services/wordpress-websites-development/"],
+                    backgroundImg: "/images/clients/cartalk-repair/hero-background.jpg",
+                    backgroundOverlay: "true",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "CarTalk Repair",
+                    slug: "https://cartalkrepair.com",
+                    bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
+                    brandColor: "#bf1e2e", 
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/cartalk-repair/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/cartalk-repair/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/cartalk-repair/desktop-left.png",
+                    desktopLeftLink: "https://go-cottage/about",
+                    desktopRight: "/images/clients/cartalk-repair/desktop-right.png",
+                    desktopRightLink: "https://go-cottage/directions",
+                    tablet: "/images/clients/cartalk-repair/tablet.png",
+                    tabletLink: "https://go-cottage",
+                    phone: "/images/clients/cartalk-repair/mobile.png",
+                    phoneLink: "https://go-cottage/two-bedroom-cottage",
+                },
+            ],
+    },
+    bluecollar: {
+        hero:
+            [
+                {
+                    industry: "Home Service",
+                    name: "The Blue Collar Success Group",
+                    service: ["WordPress Web Development"],
+                    serviceSlug: ["/services/wordpress-websites-development/"],
+                    backgroundImg: "/images/clients/bluecollar/hero-background.jpg",
+                    backgroundOverlay: "true",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "The Blue Collar Success Group",
+                    slug: "https://thebluecollarsuccessgroup.com",
+                    bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
+                    brandColor: "#0a98cc", 
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/bluecollar/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/bluecollar/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/bluecollar/desktop-left.png",
+                    desktopLeftLink: "https://go-cottage/about",
+                    desktopRight: "/images/clients/bluecollar/desktop-right.png",
+                    desktopRightLink: "https://go-cottage/directions",
+                    tablet: "/images/clients/bluecollar/tablet.png",
+                    tabletLink: "https://go-cottage",
+                    phone: "/images/clients/bluecollar/mobile.png",
+                    phoneLink: "https://go-cottage/two-bedroom-cottage",
+                },
+            ],
+    },
+    zexster: {
+        hero:
+            [
+                {
+                    industry: "Technology",
+                    name: "Zexster",
+                    service: ["WordPress Web Development"],
+                    serviceSlug: ["/services/wordpress-websites-development/"],
+                    backgroundImg: "/images/clients/zexster/hero-background.jpg",
+                    backgroundOverlay: "true",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "The Blue Collar Success Group",
+                    slug: "https://thebluecollarsuccessgroup.com",
+                    bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
+                    brandColor: "#0780ff", 
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/zexster/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/zexster/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/zexster/desktop-left.png",
+                    desktopLeftLink: "https://go-cottage/about",
+                    desktopRight: "/images/clients/zexster/desktop-right.png",
+                    desktopRightLink: "https://go-cottage/directions",
+                    tablet: "/images/clients/zexster/tablet.png",
+                    tabletLink: "https://go-cottage",
+                    phone: "/images/clients/zexster/mobile.png",
+                    phoneLink: "https://go-cottage/two-bedroom-cottage",
+                },
+            ],
+    },
+    lessonsThatRock: {
+        hero:
+            [
+                {
+                    industry: "Music",
+                    name: "Lessons That Rock",
+                    service: ["WordPress Web Development"],
+                    serviceSlug: ["/services/wordpress-websites-development/"],
+                    backgroundImg: "/images/clients/lessons-that-rock/hero-background.jpg",
+                    backgroundOverlay: "true",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "Lessons That Rock",
+                    slug: "https://thebluecollarsuccessgroup.com",
+                    bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
+                    brandColor: "#20bef0", 
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/lessons-that-rock/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/lessons-that-rock/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/lessons-that-rock/desktop-left.png",
+                    desktopLeftLink: "https://go-cottage/about",
+                    desktopRight: "/images/clients/lessons-that-rock/desktop-right.png",
+                    desktopRightLink: "https://go-cottage/directions",
+                    tablet: "/images/clients/lessons-that-rock/tablet.png",
+                    tabletLink: "https://go-cottage",
+                    phone: "/images/clients/lessons-that-rock/mobile.png",
+                    phoneLink: "https://go-cottage/two-bedroom-cottage",
+                },
+            ],
+    },
+
+    safeDry: {
+        hero:
+            [
+                {
+                    industry: "Home Service",
+                    name: "Safe-Dry",
+                    service: ["SEO", "Local SEO", "Reputation Management"],
+                    serviceSlug: ["/services/wordpress-websites-development/"],
+                    backgroundImg: "/images/clients/lessons-that-rock/hero-background.jpg",
+                    backgroundOverlay: "true",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "Lessons That Rock",
+                    slug: "https://thebluecollarsuccessgroup.com",
+                    bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
+                    brandColor: "#20bef0", 
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/lessons-that-rock/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/lessons-that-rock/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/lessons-that-rock/desktop-left.png",
+                    desktopLeftLink: "https://go-cottage/about",
+                    desktopRight: "/images/clients/lessons-that-rock/desktop-right.png",
+                    desktopRightLink: "https://go-cottage/directions",
+                    tablet: "/images/clients/lessons-that-rock/tablet.png",
+                    tabletLink: "https://go-cottage",
+                    phone: "/images/clients/lessons-that-rock/mobile.png",
+                    phoneLink: "https://go-cottage/two-bedroom-cottage",
+                },
+            ],
+    },
     amelia: [
         {
             image: "/images/amelia-desktop2.png",
@@ -410,6 +676,15 @@ const MagnetiteContent = ClientContent.magnetite
 
 const GoCottageContent = ClientContent.goCottage
 
-export { CarroContent, ChattrContent, BenContent, BobtailContent, THFContent, MagnetiteContent, GoCottageContent }
+const CarTalkContent = ClientContent.cartalkRepair
+
+const BlueCollarContent = ClientContent.bluecollar
+
+const ZexsterContent = ClientContent.zexster
+
+const LessonsContent = ClientContent.lessonsThatRock
+
+const SafeDryContent = ClientContent.safeDry
+export { CarroContent, ChattrContent, BenContent, BobtailContent, THFContent, MagnetiteContent, GoCottageContent, CarTalkContent, BlueCollarContent, ZexsterContent, LessonsContent, SafeDryContent }
 
 export default ClientContent

@@ -88,7 +88,7 @@ function PayPerClick() {
     )
 
     return (
-        <div>
+        <div className="overflow-hidden">
             <CombinedNavigation
 
             />
@@ -164,9 +164,9 @@ function PayPerClick() {
                 child2={seoText4}
             />
             <div className="bg-alkaligrey-300">
-                <div className="py-36 max-w-7xl m-auto">
+                <div className="py-36 max-w-7xl m-auto px-7">
                     <h6 className="text-3xl md:text-4xl pb-14 text-center font-bold m-auto leading-tight">You Give Us Trust, We Give You Results</h6>
-                    <div className="grid grid-cols-3 gap-x-14 gap-y-14 pt-10">
+                    <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
                         <div className="flex items-center bg-white rounded-md shadow-2xl justify-between px-7 py-4">
                             <div>
                                 <img className="w-36" src="/images/alkalismall.png" />

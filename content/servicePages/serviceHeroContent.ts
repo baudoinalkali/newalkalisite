@@ -49,6 +49,13 @@ const ServiceHeroContent = {
             title: "Sell more products. Build repeat customers",
             backgroundImg: "cartalk-hero.jpg"
         }
+    ],
+    reputation: [
+        {
+            sub: "Reputation Management",
+            title: "Sell more products. Build repeat customers",
+            backgroundImg: "cartalk-hero.jpg"
+        }
     ]
 }
 

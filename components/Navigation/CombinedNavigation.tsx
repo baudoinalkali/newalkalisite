@@ -10,8 +10,8 @@ const CombinedNavigation = props => {
                     headerColor={props.headerColor}
                 />
             </div>
-            <div className="hidden lg:contents">
-                <DesktopNavigationTest 
+            <div className="fixed hidden lg:contents">
+                <DesktopNavigationTest
                     headerColor={props.headerColor}
                 />
             </div>
