@@ -1,43 +1,46 @@
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Popover, Transition } from '@headlessui/react'
-import { Disclosure } from '@headlessui/react'
-import { ChevronRightIcon } from '@heroicons/react/solid'
-
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Popover, Transition } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
+import { ChevronRightIcon } from "@heroicons/react/solid";
 
 const digitalMarketing = [
   {
-    name: 'SEO',
-    href: '/product',
+    name: "SEO",
+    href: "/product",
   },
   {
-    name: 'Local SEO',
-    href: '/pricing',
+    name: "Local SEO",
+    href: "/pricing",
   },
   {
-    name: 'PPC & Retargeting',
-    href: '##',
+    name: "PPC & Retargeting",
+    href: "##",
   },
   {
-    name: 'Content Marketing',
-    href: '/about',
+    name: "Content Marketing",
+    href: "/about",
   },
-]
+];
 
 const MobileDropdown = (props) => {
   const headerDropDownColor = () => {
-    return `${props.headerColor === "white" ? 'text-white' : 'text-alkali-500'}`
-  }
+    return `${
+      props.headerColor === "white" ? "text-white" : "text-alkali-500"
+    }`;
+  };
 
   return (
     <div className="w-full max-w-sm top-16">
       <Popover>
         {({ open }) => (
           <>
-            <Popover.Button className="block" style={{ width: '24px' }}>
+            <Popover.Button className="block" style={{ width: "24px" }}>
               <FontAwesomeIcon
                 icon={faBars}
-                className={`${open ? '' : ''} mobile-dropdown ${headerDropDownColor()} text-xl group-hover:text-opacity-80 transition ease-in-out duration-150`}
+                className={`${
+                  open ? "" : ""
+                } mobile-dropdown ${headerDropDownColor()} text-xl group-hover:text-opacity-80 transition ease-in-out duration-150`}
                 aria-hidden="true"
               />
             </Popover.Button>
@@ -54,29 +57,42 @@ const MobileDropdown = (props) => {
                                 <Disclosure.Button className="my-4 flex items-center font-mont text-chablack-300 hover:text-chablack-500 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                                   <span>Digital Marketing</span>
                                   <ChevronRightIcon
-                                    className={`${open ? 'transform rotate-90' : ''
-                                      } w-5 h-5 text-chagreen-300 ml-3`}
+                                    className={`${
+                                      open ? "transform rotate-90" : ""
+                                    } w-5 h-5 text-chagreen-300 ml-3`}
                                   />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="pl-3 text-gray-500">
                                   <ul className="mb-4 ml-3 space-y-4 text-black font-proximasemi text-md text-chablack-300 hover:text-chablack-500">
                                     <li>
-                                      <a href="/services/digital-marketing/search-engine-optimization">SEO</a>
+                                      <a href="/services/digital-marketing/search-engine-optimization">
+                                        SEO
+                                      </a>
                                     </li>
                                     <li>
-                                      <a href="/services/digital-marketing/local-search-engine-optimization">Local SEO</a>
+                                      <a href="/services/digital-marketing/local-search-engine-optimization">
+                                        Local SEO
+                                      </a>
                                     </li>
                                     <li>
-                                      <a href="/services/digital-marketing/pay-per-click-advertising">PPC & Retargeting</a>
+                                      <a href="/services/digital-marketing/pay-per-click-advertising">
+                                        PPC & Retargeting
+                                      </a>
                                     </li>
                                     <li>
-                                      <a href="/services/digital-marketing/content-marketing">Content Marketing</a>
+                                      <a href="/services/digital-marketing/content-marketing">
+                                        Content Marketing
+                                      </a>
                                     </li>
                                     <li>
-                                      <a href="/services/digital-marketing/social-media-marketing">Social Media Marketing</a>
+                                      <a href="/services/digital-marketing/social-media-marketing">
+                                        Social Media Marketing
+                                      </a>
                                     </li>
                                     <li>
-                                      <a href="/services/digital-marketing/reputation-management">Reputation Management</a>
+                                      <a href="/services/digital-marketing/reputation-management">
+                                        Reputation Management
+                                      </a>
                                     </li>
                                   </ul>
                                 </Disclosure.Panel>
@@ -89,20 +105,27 @@ const MobileDropdown = (props) => {
                                 <Disclosure.Button className="flex items-center font-mont text-chablack-300 hover:text-chablack-500 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                                   <span>Web Development</span>
                                   <ChevronRightIcon
-                                    className={`${open ? 'transform rotate-90' : ''
-                                      } w-5 h-5 text-chagreen-300 ml-3`}
+                                    className={`${
+                                      open ? "transform rotate-90" : ""
+                                    } w-5 h-5 text-chagreen-300 ml-3`}
                                   />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="pl-3 pt-4 text-gray-500">
                                   <ul className="ml-3 space-y-4 text-black font-proximasemi text-md text-chablack-300 hover:text-chablack-500">
                                     <li>
-                                      <a href="/services/website-development/wordpress-website-developement">WordPress Websites</a>
+                                      <a href="/services/website-development/wordpress-website-developement">
+                                        WordPress Websites
+                                      </a>
                                     </li>
                                     <li>
-                                      <a href="/services/web-development/ecommerce-website-development">E-commerce Websites</a>
+                                      <a href="/services/web-development/ecommerce-website-development">
+                                        E-commerce Websites
+                                      </a>
                                     </li>
                                     <li>
-                                      <a href="/services/web-development/custom-website-development">Custom Websites</a>
+                                      <a href="/services/web-development/custom-website-development">
+                                        Custom Websites
+                                      </a>
                                     </li>
                                   </ul>
                                 </Disclosure.Panel>
@@ -115,8 +138,9 @@ const MobileDropdown = (props) => {
                                 <Disclosure.Button className="my-4 flex items-center font-mont text-chablack-300 hover:text-chablack-500 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                                   <span>Web Design</span>
                                   <ChevronRightIcon
-                                    className={`${open ? 'transform rotate-90' : ''
-                                      } w-5 h-5 text-chagreen-300 ml-3`}
+                                    className={`${
+                                      open ? "transform rotate-90" : ""
+                                    } w-5 h-5 text-chagreen-300 ml-3`}
                                   />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="pl-3 text-gray-500">
@@ -125,7 +149,9 @@ const MobileDropdown = (props) => {
                                       <a href="/about">Logo Design</a>
                                     </li>
                                     <li>
-                                      <a href="/learn">Pre-Development Mockups</a>
+                                      <a href="/learn">
+                                        Pre-Development Mockups
+                                      </a>
                                     </li>
                                   </ul>
                                 </Disclosure.Panel>
@@ -136,7 +162,12 @@ const MobileDropdown = (props) => {
                       </li>
                     </li>
                     <li>
-                      <a className="hover:text-benorange-500 text-black transition duration-500" href="/clients">Clients</a>
+                      <a
+                        className="hover:text-benorange-500 text-black transition duration-500"
+                        href="/clients"
+                      >
+                        Clients
+                      </a>
                     </li>
                     <li>
                       <Disclosure>
@@ -145,8 +176,9 @@ const MobileDropdown = (props) => {
                             <Disclosure.Button className="my-4 flex items-center font-mont text-chablack-300 hover:text-chablack-500 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                               <span>About</span>
                               <ChevronRightIcon
-                                className={`${open ? 'transform rotate-90' : ''
-                                  } w-5 h-5 text-chagreen-300 ml-3`}
+                                className={`${
+                                  open ? "transform rotate-90" : ""
+                                } w-5 h-5 text-chagreen-300 ml-3`}
                               />
                             </Disclosure.Button>
                             <Disclosure.Panel className="pl-3 text-gray-500">
@@ -167,21 +199,24 @@ const MobileDropdown = (props) => {
                       </Disclosure>
                     </li>
                     <li>
-                      <a className="hover:text-benorange-500 text-black transition duration-500" href="/contact">Contact</a>
+                      <a
+                        className="hover:text-benorange-500 text-black transition duration-500"
+                        href="/contact"
+                      >
+                        Contact
+                      </a>
                     </li>
                   </ul>
                 </div>
-                <div className="bg-white pb-7 text-center">
-                  CTA HERE
-                </div>
+                <div className="bg-white pb-7 text-center">CTA HERE</div>
               </div>
             </Popover.Panel>
           </>
         )}
       </Popover>
     </div>
-  )
-}
+  );
+};
 
 function IconOne() {
   return (
@@ -213,7 +248,7 @@ function IconOne() {
         strokeWidth="2"
       />
     </svg>
-  )
+  );
 }
 
 function IconTwo() {
@@ -239,7 +274,7 @@ function IconTwo() {
         strokeWidth="2"
       />
     </svg>
-  )
+  );
 }
 
 function IconThree() {
@@ -259,7 +294,7 @@ function IconThree() {
       <rect x="29" y="16" width="2" height="20" fill="#FB923C" />
       <rect x="33" y="12" width="2" height="24" fill="#FB923C" />
     </svg>
-  )
+  );
 }
 
-export default MobileDropdown
+export default MobileDropdown;
