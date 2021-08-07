@@ -30,12 +30,18 @@ const IntegrationContent = {
         { "name": "LinkedIn", "fileName": "linkedin", altText:"" },
         { "name": "Snapchat", "fileName": "snapchat", altText:"" },
         { "name": "Pinterest", "fileName": "pinterest", altText:"" }
+    ],
+    reputation: [
+        { "name": "Yelp", "fileName": "yelp", altText:"" },
+        { "name": "Google", "fileName": "google", altText:"" },
+        { "name": "Facebook", "fileName": "facebook", altText:"" }
     ]
 }
 
 const WordPressIntegrations = IntegrationContent.wordpress
 const SocialIntegrations = IntegrationContent.social
+const ReputationIntegrations = IntegrationContent.reputation
 
-export {WordPressIntegrations, SocialIntegrations}
+export {WordPressIntegrations, SocialIntegrations, ReputationIntegrations}
 
 export default IntegrationContent;
