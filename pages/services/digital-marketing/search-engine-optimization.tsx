@@ -106,9 +106,9 @@ function SearchEngineOptimization() {
             <div className="py-24 px-7">
                 <div className="flex flex-col space-x-0 lg:space-x-14 lg:flex-row m-auto justify-between items-center max-w-7xl">
                     <div className="w-full lg:w-1/2 2xl:px-0 pb-20 lg:pb-0">
-                        <h3 className="text-4xl md:text-5xl font-bold m-auto leading-tight">Start Seeing Results in Just 2 Months!</h3>
+                        <h3 className="text-4xl md:text-5xl font-bold m-auto leading-tight">Start Seeing Results in Just 2-3 Months!</h3>
                         <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">
-                            Standing out in a crowded marketplace can be difficult. Our specialty is not only driving interested users to your site and catching their attention once there but enticing them to engage and come back for more. Whether your site is orientated toward Sales, Information, Charity, or something else, we’ve seen it all, so we do it all. Let our team of talented, inspired professionals give your website the attention it deserves, leaving you free to devote your attention to what matters to you!
+                            Are you feeling frustrated that your website isn't climbing the Google ladder? Don't worry, we're here to help! SEO traffic generates some of the highest quality leads when compared to paid methods such as Google AdWords. We help our clients by assessing, strategizing, implementing, and tracking SEO efforts to provide transformational results in as little as 2-3 months.
                         </p>
                     </div>
                     <div className="z-0 pointer-events-none w-96 md:w-auto">
@@ -165,9 +165,9 @@ function SearchEngineOptimization() {
                 <div className="flex space-x-0 lg:space-x-14 flex-col lg:flex-row m-auto justify-between items-center max-w-7xl">
                     <div className="w-full lg:w-1/2">
                         <Image
-                            src="/images/audit.png"
-                            width={490}
-                            height={335}
+                            src="/images/audit.svg"
+                            width={600}
+                            height={450}
                             quality={100}
                         />
                     </div>

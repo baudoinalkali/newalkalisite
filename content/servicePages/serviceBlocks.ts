@@ -60,55 +60,55 @@ const ServiceBlocksContent = {
     SEO: [
         {
             serviceTitle:"Keyword Research & Strategy",
-            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",   
+            serviceText:"Determining the correct keywords to focus on is a critical component to any successful SEO campaign. We analyze the keywords your currently rank for, provide you a detailed action repord, and detailed recommendations for other appropriate keywords.",   
             image:"/images/digital-marketing/seo/keyword-research.svg",
             altText:""
         },
         {
             serviceTitle:"Technical SEO",
-            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            serviceText:"Improving your website's performance can have a significant impact on your rankings. Fixing these potential errors not only have a significant upside for your ranking, but can also improve your website's overall user experience.",
             image:"/images/digital-marketing/seo/technical-seo.svg",
             altText:""   
         },
         {
             serviceTitle:"On-Site SEO",
-            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            serviceText:"Enhance your overall visibility and reach by optimizing your on-site content. We ensure that every aspect of your website's content is optimized. The more you tailor data to search engines, the better outcome you will receive!",
             image:"/images/digital-marketing/seo/on-site-seo.svg",
             altText:""   
         },
         {
             serviceTitle:"Off-Site SEO",
-            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            serviceText:"After optimizing on-site SEO, the next best step for increasing exposure is through off-site SEO. We leverage industry best practices to increase your website's rankings, traffic, and conversions.",
             image:"/images/digital-marketing/seo/off-site-seo.svg",
             altText:""  
         },
         {
             serviceTitle:"Link Building",
-            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            serviceText:"Backlinks, more specifically high quality and ethically sourced backlinks, are an immensely important part of any SEO effort. Not all backlinks are created equal which is why we ensure our clients receive high quality and relevant links.",
             image:"/images/digital-marketing/seo/link-building.svg",
             altText:""   
         },
         {
             serviceTitle:"Content Writing",
-            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            serviceText:"Search engines love content, but not everyone loves writing it. We assist in the creation and optimization of content across various industries and niches. We have the content covered so you can focus on other areas of your business.",
             image:"/images/digital-marketing/seo/content-writing.svg",
             altText:""   
         },
         {
             serviceTitle:"Analytics Tracking",
-            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            serviceText:"At the core of SEO is analytics. Analytics allow us to gauge the progress that has been made through campaigns. This vital data allows us to communicate the outcome of a campaign and see where future improvements can be made.",
             image:"/images/digital-marketing/seo/analytics-tracking.svg",
             altText:""   
         },
         {
             serviceTitle:"Local SEO",
-            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            serviceText:"Increasing your local visibility by leveraging platforms such as Google My Business (GMB) is a no-brainer. We assist in optimizing your profile and can even assist with reputation management. GMB helps you reach local audiences blazing fast.",
             image:"/images/digital-marketing/seo/local-seo.svg",
             altText:""   
         },
         {
             serviceTitle:"Competitive Analysis",
-            serviceText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ex, sodales ac ipsum volutpat, mattis.",
+            serviceText:"The competitive landscape is always changing, which is why you need to be on top of what your competitors are doing. Analyzing your competitor's efforts allows you to stay a step ahead and ensure your rankings don't fall.",
             image:"/images/digital-marketing/seo/competitive-analysis.svg",
             altText:""  
         },

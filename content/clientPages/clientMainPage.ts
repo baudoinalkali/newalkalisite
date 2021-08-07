@@ -56,25 +56,11 @@ const clientMainPage = [
         backgroundColor: "#26a8f6"
     },
     {
-        name: "CarTalk Repair",
-        backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
-        industry: "Automotive",
-        slug: "cartalk-repair",
-        backgroundColor: "#bf1e2e"
-    },
-    {
         name: "The Blue Collar Success Group",
         backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
         industry: "Home Service",
         slug: "bluecollar",
         backgroundColor: "#0a98cc"
-    },
-    {
-        name: "Zexster",
-        backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
-        industry: "Technology",
-        slug: "zexster",
-        backgroundColor: "#0780ff"
     },
     {
         name: "Lessons That Rock",
