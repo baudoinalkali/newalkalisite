@@ -1,6 +1,6 @@
-import '../styles/globals.css';
-import 'tailwindcss/tailwind.css';
-import Footer from "../components/Footer"
+import "../styles/globals.css";
+import "tailwindcss/tailwind.css";
+import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
