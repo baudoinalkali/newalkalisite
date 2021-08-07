@@ -4,7 +4,7 @@ const ClientCardTest = (props) => {
   return (
     <a href={`/clients/${props.slug}`}>
       <div
-        className="group duration-500 rounded shadow-2xl px-4 pb-10 m-auto client-card-bg flex flex-col justify-end"
+        className="group duration-500 rounded shadow-2xl px-4 pb-10 pt-10 m-auto client-card-bg flex flex-col justify-end"
         style={{
           height: "475px",
           backgroundImage: `url("${props.backgroundImage}")`,

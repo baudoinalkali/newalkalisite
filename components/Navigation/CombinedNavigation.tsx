@@ -5,6 +5,8 @@ import { Fragment } from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 
+const NON_SCROLLED_HEADER_BACKGROUND = "transparent";
+
 const CombinedNavigation = (props) => {
   const {
     headerColor = "",
@@ -33,19 +35,24 @@ const CombinedNavigation = (props) => {
     if (scrolled) {
       background = headerBackground;
     } else {
-      background = "transparent";
+      background = NON_SCROLLED_HEADER_BACKGROUND;
     }
   }
 
   return (
     <div>
       <div className="contents lg:hidden">
-        <MobileNavigation headerColor={headerColor} background={background} />
+        <MobileNavigation
+          headerColor={headerColor}
+          background={background}
+          scrolled={scrolled}
+        />
       </div>
       <div className="fixed hidden lg:contents">
         <DesktopNavigationTest
           headerColor={headerColor}
           background={background}
+          scrolled={scrolled}
         />
       </div>
     </div>

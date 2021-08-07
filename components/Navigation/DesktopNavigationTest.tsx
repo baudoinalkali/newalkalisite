@@ -32,11 +32,12 @@ const DesktopNavigationDropDown = (props) => {
   return (
     <Fragment>
       <nav
-        className={`py-10 fixed left-0 right-0 top-0 z-50 ${props.background}`}
+        className={`py-10 fixed left-0 right-0 top-0 z-50 transition duration-300 ${
+          props.scrolled ? "shadow-2xl" : ""
+        } ${props.background}`}
         style={{
           backgroundColor: props.background,
-          transition: "0.3s ease-in-out",
-          transform: "translateZ(0)",
+          transform: "translateZ(0)", // Trigger hardware acceleration
         }}
       >
         <div className="max-w-7xl m-auto flex justify-between px-7 items-center">
