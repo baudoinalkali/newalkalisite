@@ -6,7 +6,7 @@ function Footer() {
             <div className="max-w-7xl m-auto">
             <div className="footer-icon-container">
                 <Image 
-                src="/images/alkalismall.png"
+                src="/images/alkali-logo-small.svg"
                 width={80}
                 height={80}
                 />

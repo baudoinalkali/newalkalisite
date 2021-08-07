@@ -17,7 +17,7 @@ import SEOResults from '../../../content/servicePages/resultsBlock'
 import FAQDropdown from '../../../components/Services/FAQDropdown';
 import SocialFAQ from '../../../content/servicePages/faq'
 import SocialMarketing from '../../../content/servicePages/social'
-import SocialIntegrations from '../../../content/servicePages/integrationContent'
+import ReputationIntegrations from '../../../content/servicePages/integrationContent'
 
 function SocialMediaMarketing() {
     const socialImage1 = SocialMarketing.text1.map(text1 =>
@@ -182,20 +182,19 @@ function SocialMediaMarketing() {
             <div className="bg-alkaligrey-300 py-24">
                 <h6 className="text-3xl md:text-4xl pb-24 text-center font-bold m-auto leading-tight">Platforms We Work With</h6>
                 <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 max-w-3xl m-auto">
-                    {
-                        SocialIntegrations.social.map((social) =>
+                    {ReputationIntegrations.reputation.map((reputation) =>
                             <div className="relative m-auto" style={{ fontSize: '0' }}>
                                 <Image
                                     height={144}
                                     width={144}
                                     quality={100}
                                     className="object-center object-cover pointer-events-none rounded-full duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-                                    src={`/images/icons/${social.fileName}.png`}
-                                    alt={social.altText}
+                                    src={`/images/icons/${reputation.fileName}.png`}
+                                    alt={reputation.altText}
                                 />
                                 <div className="IntegrationIconContainer relative z-1">
                                     <div className="IntegrationIcon text-center py-16 m-auto shadow-2xl h-36 w-36 rounded-full bg-center">
-                                        <span className="IconSpan transition duration-500 pointer-events-none shadow-2xl relative-30">{social.name}</span>
+                                        <span className="IconSpan transition duration-500 pointer-events-none shadow-2xl relative-30">{reputation.name}</span>
                                     </div>
                                 </div>
                             </div>
