@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import CalendlyCalendar from "./CalendlyCalendar";
 
-const AuditPopup = (props) => {
+const AuditFormPopup = (props) => {
   const {
     portalId = "8864686",
     formId = "709807a1-6f13-43d7-8f14-657988818e27",
@@ -120,4 +120,4 @@ const AuditPopup = (props) => {
   ) : null;
 };
 
-export default AuditPopup;
+export default AuditFormPopup;
