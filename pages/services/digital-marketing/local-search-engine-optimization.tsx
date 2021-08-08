@@ -18,6 +18,7 @@ import ServiceResultsContent from "../../../content/servicePages/resultsBlock";
 import ResultsBlocks from "../../../components/Services/ResultsBlocks";
 import FAQDropdown from "../../../components/Services/FAQDropdown";
 import LocalSEOFAQ from "../../../content/servicePages/faq";
+import AuditPopup from "../../../components/AuditPopup";
 
 function LocalSearchEngineOptimization() {
   const seoImage1 = LocalSEO.text1.map((text1) => (
@@ -201,6 +202,8 @@ function LocalSearchEngineOptimization() {
           </div>
         </div>
       </div>
+
+      <AuditPopup />
     </div>
   );
 }

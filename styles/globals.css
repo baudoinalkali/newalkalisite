@@ -56,6 +56,11 @@ li:hover > button svg {
   height: 800px;
 }
 
+.hs-form-popup-container {
+  max-width: 1200px;
+  width: 100%;
+}
+
 @media only screen and (max-width: 980px) {
   .calendly-calendar {
     height: 500px !important;
