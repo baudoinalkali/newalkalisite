@@ -50,8 +50,8 @@ const HomeTestimonialSlider = () => {
   return (
     <div className="">
       <Slider {...settings}>
-        {HomepageSlide.homepage.map((props) => (
-          <div className="px-4 pb-20 duration-500">
+        {HomepageSlide.homepage.map((props, idx) => (
+          <div key={idx} className="px-4 pb-20 duration-500">
             <div
               className="group shadow-2xl rounded-md client-testimonial-container--home"
               style={{ backgroundColor: `${props.brandColor}` }}
