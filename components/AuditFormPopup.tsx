@@ -11,12 +11,13 @@ const AuditFormPopup = (props) => {
     portalId = "8864686",
     formId = "709807a1-6f13-43d7-8f14-657988818e27",
     firstPromptDelay = 15000, // How many milliseconds after the user stays on the page that the popup should open
-    timeoutBetweenPrompts = 3000, // How many milliseconds since the last time the popup was closed it can be reopened
+    timeoutBetweenPrompts = 300, // How many milliseconds since the last time the popup was closed it can be reopened
   } = props;
 
   const [show, setShow] = useState(false);
   const [showCalendy, setShowCalendy] = useState(false);
   const hasMouseOut = useRef(false);
+  const showModalRef = useRef(false);
 
   const handleToggle = (evt) => {
     evt.stopPropagation();
@@ -29,10 +30,11 @@ const AuditFormPopup = (props) => {
     localStorage.setItem(localStorageKey, `${new Date().getTime()}`);
     setShow(false);
     setShowCalendy(false);
+    showModalRef.current = false;
   }
 
   function openPopup() {
-    if (show) return;
+    if (showModalRef.current) return;
 
     const formLastClosedTime = localStorage.getItem(localStorageKey);
 
@@ -43,20 +45,23 @@ const AuditFormPopup = (props) => {
         return;
     }
 
+    showModalRef.current = true;
     setShow(true);
   }
 
   function mouseOutOpenPopup() {
     if (hasMouseOut.current) return;
+    if (showModalRef.current) return;
+
     hasMouseOut.current = true;
     openPopup();
   }
 
   useEffect(() => {
     setTimeout(openPopup, firstPromptDelay);
-    document.addEventListener("mouseleave", mouseOutOpenPopup);
+    document.body.addEventListener("mouseleave", mouseOutOpenPopup);
     return () => {
-      document.removeEventListener("mouseleave", mouseOutOpenPopup);
+      document.body.removeEventListener("mouseleave", mouseOutOpenPopup);
     };
   }, []);
 
