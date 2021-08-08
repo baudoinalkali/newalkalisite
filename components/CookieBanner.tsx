@@ -27,7 +27,7 @@ const CookieBanner = (props) => {
 
   return (
     <div
-      className="fixed bottom-0 left-0 right-0 pt-5 pb-5 transform-gpu translate-y-100 transition-all duration-700 bg-alkali-500 text-white"
+      className="fixed bottom-0 left-0 right-0 pt-5 pb-5 transform-gpu translate-y-100 transition-all duration-700 bg-alkali-500 text-white z-40"
       style={{ transform: show ? "translateY(0)" : "translateY(200%)" }}
     >
       <div className="max-w-7xl px-4 w-full mx-auto flex flex-col sm:flex-row items-center justify-between text-center sm:text-left">

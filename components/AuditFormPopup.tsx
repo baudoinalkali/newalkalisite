@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import HubspotForm from "react-hubspot-form";
 import { Portal } from "@headlessui/react";
 import { faSpinner, faTimes } from "@fortawesome/free-solid-svg-icons";
@@ -16,6 +16,7 @@ const AuditFormPopup = (props) => {
 
   const [show, setShow] = useState(false);
   const [showCalendy, setShowCalendy] = useState(false);
+  const hasMouseOut = useRef(false);
 
   const handleToggle = (evt) => {
     evt.stopPropagation();
@@ -45,19 +46,25 @@ const AuditFormPopup = (props) => {
     setShow(true);
   }
 
+  function mouseOutOpenPopup() {
+    if (hasMouseOut.current) return;
+    hasMouseOut.current = true;
+    openPopup();
+  }
+
   useEffect(() => {
     setTimeout(openPopup, firstPromptDelay);
-    document.addEventListener("mouseleave", openPopup);
+    document.addEventListener("mouseleave", mouseOutOpenPopup);
     return () => {
-      document.removeEventListener("mouseleave", openPopup);
+      document.removeEventListener("mouseleave", mouseOutOpenPopup);
     };
   }, []);
 
   return show ? (
     <Portal>
-      <div className="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+      <div className="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none flex items-center justify-center">
         <div className="hs-form-popup-container relative my-6 mx-auto px-5">
-          <div className="border-0 md:px-10 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+          <div className="hs-form-popup-container--inner border-0 md:px-10 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
             <div
               className="flex items-start justify-between p-5 pb-0 md:mb-0 md:pb-5 rounded-t z-50"
               style={{ marginBottom: -60 }}
