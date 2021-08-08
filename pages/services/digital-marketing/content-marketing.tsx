@@ -18,7 +18,7 @@ import Content from "../../../content/servicePages/contentMarketing";
 import ContentMarketingServices from "../../../content/servicePages/serviceBlocks";
 import FAQDropdown from "../../../components/Services/FAQDropdown";
 import ContentMarketingFAQ from "../../../content/servicePages/faq";
-import AuditPopup from "../../../components/AuditPopup";
+import AuditFormPopup from "../../../components/AuditFormPopup";
 
 function ContentMarketing() {
   const contentImage1 = Content.text1.map((text1) => (
@@ -197,7 +197,7 @@ function ContentMarketing() {
         </div>
       </div>
 
-      <AuditPopup />
+      <AuditFormPopup />
     </div>
   );
 }

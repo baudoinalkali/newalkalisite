@@ -19,7 +19,7 @@ import ResultsBlocks from "../../../components/Services/ResultsBlocks";
 import SEOResults from "../../../content/servicePages/resultsBlock";
 import FAQDropdown from "../../../components/Services/FAQDropdown";
 import SEOFAQ from "../../../content/servicePages/faq";
-import AuditPopup from "../../../components/AuditPopup";
+import AuditFormPopup from "../../../components/AuditFormPopup";
 
 function SearchEngineOptimization() {
   const seoImage1 = SEO.text1.map((text1) => (
@@ -261,7 +261,7 @@ function SearchEngineOptimization() {
         </div>
       </div>
 
-      <AuditPopup />
+      <AuditFormPopup />
     </div>
   );
 }

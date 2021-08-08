@@ -32,12 +32,16 @@ const AuditPopup = (props) => {
 
   function openPopup() {
     if (show) return;
+
     const formLastClosedTime = localStorage.getItem(localStorageKey);
+
     if (formLastClosedTime && isFinite(Number(formLastClosedTime))) {
       const currentTime = new Date().getTime();
+
       if (currentTime - Number(formLastClosedTime) < timeoutBetweenPrompts)
         return;
     }
+
     setShow(true);
   }
 
@@ -77,6 +81,7 @@ const AuditPopup = (props) => {
                   <CalendlyCalendar />
                 ) : (
                   <div style={{ minHeight: 600 }}>
+                    {/* Hubspot Form */}
                     <HubspotForm
                       portalId={portalId}
                       formId={formId}
@@ -95,6 +100,7 @@ const AuditPopup = (props) => {
                   </div>
                 )}
 
+                {/* Calendy/Form Toggle Button */}
                 <button
                   className="text-white bg-alkali-500 hover:bg-alkali-700 p-3 px-6 font-semibold shadow-2xl rounded-md"
                   onClick={handleToggle}
@@ -108,7 +114,8 @@ const AuditPopup = (props) => {
           </div>
         </div>
       </div>
-      <div className="meeting-pop-up-opacity opacity-25 fixed inset-0 z-40 bg-black ml-0"></div>
+
+      <div className="meeting-pop-up-opacity opacity-25 fixed inset-0 z-40 bg-black ml-0" />
     </Portal>
   ) : null;
 };

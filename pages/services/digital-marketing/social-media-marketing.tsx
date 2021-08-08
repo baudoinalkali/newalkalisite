@@ -18,7 +18,7 @@ import FAQDropdown from "../../../components/Services/FAQDropdown";
 import SocialFAQ from "../../../content/servicePages/faq";
 import SocialMarketing from "../../../content/servicePages/social";
 import SocialIntegrations from "../../../content/servicePages/integrationContent";
-import AuditPopup from "../../../components/AuditPopup";
+import AuditFormPopup from "../../../components/AuditFormPopup";
 
 function SocialMediaMarketing() {
   const socialImage1 = SocialMarketing.text1.map((text1) => (
@@ -214,7 +214,7 @@ function SocialMediaMarketing() {
         </div>
       </div>
 
-      <AuditPopup />
+      <AuditFormPopup />
     </div>
   );
 }

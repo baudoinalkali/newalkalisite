@@ -15,7 +15,7 @@ import PPCServices from "../../../content/servicePages/serviceBlocks";
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
 import PPCFAQ from "../../../content/servicePages/faq";
 import FAQDropdown from "../../../components/Services/FAQDropdown";
-import AuditPopup from "../../../components/AuditPopup";
+import AuditFormPopup from "../../../components/AuditFormPopup";
 
 function PayPerClick() {
   const seoImage1 = PPC.text1.map((text1) => (
@@ -231,7 +231,7 @@ function PayPerClick() {
         </div>
       </div>
 
-      <AuditPopup />
+      <AuditFormPopup />
     </div>
   );
 }
