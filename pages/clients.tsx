@@ -26,8 +26,9 @@ function Clients() {
       </div>
       <div className="max-w-7xl m-auto pt-36">
         <ClientCardContainer>
-          {ClientMainPage.map((clientMainPage) => (
+          {ClientMainPage.map((clientMainPage, idx) => (
             <ClientCardTest2
+              key={idx}
               name={clientMainPage.name}
               backgroundColor={clientMainPage.backgroundColor}
               backgroundImage={clientMainPage.backgroundImage}

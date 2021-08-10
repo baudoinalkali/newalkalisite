@@ -32,7 +32,7 @@ const DesktopNavigationDropDown = (props) => {
   return (
     <Fragment>
       <nav
-        className={`py-10 fixed left-0 right-0 top-0 z-40 transition duration-300 ${
+        className={`fix-fouc py-10 fixed left-0 right-0 top-0 z-40 transition duration-300 ${
           props.scrolled ? "shadow-2xl" : ""
         } ${props.background}`}
         style={{

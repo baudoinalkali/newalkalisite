@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import HomepageSlide from "../content/testimonials";
 import ClientCardTest from "./Clients/ClientCardTest2";
 import ClientMainPage from "../content/clientPages/clientMainPage";
+import { useState } from "react";
+import { useRef } from "react";
 
 const HomeClientsSlider = (props) => {
   const settings = {

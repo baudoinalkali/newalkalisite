@@ -68,6 +68,22 @@ li:hover > button svg {
   overflow: auto;
 }
 
+.next-image-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.next-image-wrapper::before {
+  content: "";
+  display: block;
+  padding-bottom: var(--aspectRatio);
+}
+
+.next-image-wrapper img {
+  object-fit: cover;
+}
+
 @media only screen and (max-width: 980px) {
   .calendly-calendar {
     height: 500px !important;
