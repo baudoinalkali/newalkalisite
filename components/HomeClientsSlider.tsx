@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import HomepageSlide from "../content/testimonials";
 import ClientCardTest from "./Clients/ClientCardTest2";
 import ClientMainPage from "../content/clientPages/clientMainPage";
+import { useState } from "react";
+import { useRef } from "react";
 
 const HomeClientsSlider = (props) => {
   const settings = {
@@ -42,10 +44,10 @@ const HomeClientsSlider = (props) => {
   };
 
   return (
-    <div className="">
+    <div>
       <Slider {...settings}>
-        {ClientMainPage.map((clientMainPage) => (
-          <div className="px-4 pb-20 duration-500">
+        {ClientMainPage.map((clientMainPage, idx) => (
+          <div key={idx} className="px-4 pb-20 duration-500">
             <ClientCardTest
               name={clientMainPage.name}
               backgroundColor={clientMainPage.backgroundColor}

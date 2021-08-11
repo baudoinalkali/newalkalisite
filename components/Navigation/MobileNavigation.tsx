@@ -15,7 +15,7 @@ const MobileNav = (props) => {
     <Fragment>
       <nav>
         <div
-          className={`max-w-7xl flex m-auto justify-between items-center px-7 py-7 fixed left-0 right-0 top-0 z-50 transition duration-300 ${
+          className={`max-w-7xl flex m-auto justify-between items-center px-7 py-7 fixed left-0 right-0 top-0 z-40 transition duration-300 ${
             props.scrolled ? "shadow-2xl" : ""
           } ${props.background}`}
           style={{

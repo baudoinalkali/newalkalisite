@@ -1,13 +1,21 @@
-import "../styles/globals.css";
 import "tailwindcss/tailwind.css";
+import "../styles/globals.css";
 import Footer from "../components/Footer";
+import CookieBanner from "../components/CookieBanner";
+import { Fragment } from "react";
+import useFixFouc from "../hooks/useFixFouc";
 
 function MyApp({ Component, pageProps }) {
+  useFixFouc();
+
   return (
-    <div>
-      <Component {...pageProps} />
-      <Footer />
-    </div>
+    <Fragment>
+      <div>
+        <Component {...pageProps} />
+        <Footer />
+        <CookieBanner />
+      </div>
+    </Fragment>
   );
 }
 

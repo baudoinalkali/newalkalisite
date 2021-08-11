@@ -1,68 +1,74 @@
-import { Popover, Transition } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/solid'
-import { Fragment } from 'react'
+import { Popover, Transition } from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/solid";
+import { Fragment } from "react";
 
 const digitalMarketingLinks = [
   {
-    name: 'SEO',
-    href: '/services/digital-marketing/search-engine-optimization',
+    name: "SEO",
+    href: "/services/digital-marketing/search-engine-optimization",
   },
   {
-    name: 'Local SEO',
-    href: '/services/digital-marketing/local-search-engine-optimization',
+    name: "Local SEO",
+    href: "/services/digital-marketing/local-search-engine-optimization",
   },
   {
-    name: 'PPC & Retargeting',
-    href: '/services/digital-marketing/pay-per-click-advertising',
+    name: "PPC & Retargeting",
+    href: "/services/digital-marketing/pay-per-click-advertising",
   },
   {
-    name: 'Content Marketing',
-    href: '/services/digital-marketing/content-marketing',
+    name: "Content Marketing",
+    href: "/services/digital-marketing/content-marketing",
   },
   {
-    name: 'Social Media Marketing',
-    href: '/services/digital-marketing/social-media-marketing',
+    name: "Social Media Marketing",
+    href: "/services/digital-marketing/social-media-marketing",
   },
   {
-    name: 'Reputation Management',
-    href: '/services/digital-marketing/reputation-management',
-  }
-]
+    name: "Reputation Management",
+    href: "/services/digital-marketing/reputation-management",
+  },
+];
 
 const webDevelopmentLinks = [
   {
-    name: 'WordPress Websites',
-    href: '/services/web-development/wordpress-website-development',
+    name: "WordPress Websites",
+    href: "/services/web-development/wordpress-website-development",
   },
   {
-    name: 'E-commerce Websites',
-    href: '/services/web-development/ecommerce-website-development',
+    name: "E-commerce Websites",
+    href: "/services/web-development/ecommerce-website-development",
   },
   {
-    name: 'Custom Websites',
-    href: '/services/web-development/custom-website-development',
-  }
-]
+    name: "Custom Websites",
+    href: "/services/web-development/custom-website-development",
+  },
+];
 
 const webDesignLinks = [
   {
-    name: 'Logo Design',
-    href: '/services/web-design/logo-design',
+    name: "Logo Design",
+    href: "/services/web-design/logo-design",
   },
   {
-    name: 'Pre-Development Mockups',
-    href: '/services/web-design/pre-development-mockups',
-  }
-]
+    name: "Pre-Development Mockups",
+    href: "/services/web-design/pre-development-mockups",
+  },
+];
 
 export default function SolutionsDropdown(props) {
   const dropdownTextColor = () => {
-    return `${props.headerColor === "white" ? 'text-white hover:text-alkaligrey-700' : 'hover:text-alkali-500'} text-md font-bold uppercase`
-}   
+    return `${
+      props.headerColor === "white"
+        ? "text-white hover:text-alkaligrey-700"
+        : "hover:text-alkali-500"
+    } text-md font-bold uppercase`;
+  };
 
-const dropdownTextColorOpen = () => {
-  return `${props.headerColor === "white" ? 'text-alkaligrey-700' : 'text-alkali-500'}`
-}   
+  const dropdownTextColorOpen = () => {
+    return `${
+      props.headerColor === "white" ? "text-alkaligrey-700" : "text-alkali-500"
+    }`;
+  };
 
   return (
     <div className="">
@@ -70,74 +76,80 @@ const dropdownTextColorOpen = () => {
         {({ open }) => (
           <>
             <Popover.Button
-              className={`
-                ${open ? '' : ''}
-                ${dropdownTextColor()} duration-500 uppercase group bg-orange-700 rounded-md inline-flex items-center text-base font-bold text-md hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
+              className={`${
+                open ? dropdownTextColorOpen() : dropdownTextColor()
+              } duration-500 uppercase group bg-orange-700 rounded-md inline-flex items-center text-base font-bold text-md hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
             >
-              <span className={`${open ? `${dropdownTextColorOpen()}` : ''}`}>Solutions</span>
+              <span>Solutions</span>
               <ChevronDownIcon
-                className={`${open ? `transform -rotate-90 text-white ${dropdownTextColorOpen()}` : 'text-opacity-70'}
+                className={`${
+                  open
+                    ? `transform -rotate-90 text-white ${dropdownTextColorOpen()}`
+                    : "text-opacity-70"
+                }
                   ml-2 h-5 w-5 text-orange-300 group-hover:text-opacity-80 transition ease-in-out duration-150`}
                 aria-hidden="true"
               />
             </Popover.Button>
-              <Popover.Panel className="absolute z-50 w-screen max-w-sm mt-3 transform -translate-x-1/4 mt-10 ml-14 sm:px-0 lg:max-w-4xl">
-                <div className="overflow-hidden rounded-lg p-7 bg-white shadow-2xl ring-1 ring-black ring-opacity-5 grid grid-cols-3">
-                  <div className="relative p-7">
-                    <div className="font-bold text-lg pb-4">Digital Marketing</div>
-                    {digitalMarketingLinks.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className="flex items-center py-3 transition duration-150 ease-in-out rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
-                      >
-                        <div className="">
-                          <p className="text-md hover:text-alkali-500 duration-500 font-medium text-gray-900">
-                            {item.name}
-                          </p>
-                        </div>
-                      </a>
-                    ))}
+            <Popover.Panel className="absolute z-50 w-screen max-w-sm mt-3 transform -translate-x-1/4 mt-10 ml-14 sm:px-0 lg:max-w-4xl">
+              <div className="overflow-hidden rounded-lg p-7 bg-white shadow-2xl ring-1 ring-black ring-opacity-5 grid grid-cols-3">
+                <div className="relative p-7">
+                  <div className="font-bold text-lg pb-4">
+                    Digital Marketing
                   </div>
-                  <div className="relative bg-white p-7">
-                  <div className="font-bold text-lg pb-4">Web Development</div>
-                    {webDevelopmentLinks.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className="flex items-center py-3 transition duration-150 ease-in-out rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
-                      >
-                        <div className="">
-                          <p className="text-md font-medium hover:text-alkali-500 duration-500 text-gray-900">
-                            {item.name}
-                          </p>
-                        </div>
-                      </a>
-                    ))}
-                  </div>
-                  <div className="relative bg-white p-7">
-                  <div className="font-bold text-lg pb-4">Web Design</div>
-                    {webDesignLinks.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className="flex items-center py-3 transition duration-150 ease-in-out rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
-                      >
-                        <div className="">
-                          <p className="text-md font-medium hover:text-alkali-500 duration-500 text-gray-900">
-                            {item.name}
-                          </p>
-                        </div>
-                      </a>
-                    ))}
-                  </div>
+                  {digitalMarketingLinks.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="flex items-center py-3 transition duration-150 ease-in-out rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
+                    >
+                      <div className="">
+                        <p className="text-md hover:text-alkali-500 duration-500 font-medium text-gray-900">
+                          {item.name}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
                 </div>
-              </Popover.Panel>
+                <div className="relative bg-white p-7">
+                  <div className="font-bold text-lg pb-4">Web Development</div>
+                  {webDevelopmentLinks.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="flex items-center py-3 transition duration-150 ease-in-out rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
+                    >
+                      <div className="">
+                        <p className="text-md font-medium hover:text-alkali-500 duration-500 text-gray-900">
+                          {item.name}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+                <div className="relative bg-white p-7">
+                  <div className="font-bold text-lg pb-4">Web Design</div>
+                  {webDesignLinks.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="flex items-center py-3 transition duration-150 ease-in-out rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
+                    >
+                      <div className="">
+                        <p className="text-md font-medium hover:text-alkali-500 duration-500 text-gray-900">
+                          {item.name}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </Popover.Panel>
           </>
         )}
       </Popover>
     </div>
-  )
+  );
 }
 
 function IconOne() {
@@ -170,7 +182,7 @@ function IconOne() {
         strokeWidth="2"
       />
     </svg>
-  )
+  );
 }
 
 function IconTwo() {
@@ -196,7 +208,7 @@ function IconTwo() {
         strokeWidth="2"
       />
     </svg>
-  )
+  );
 }
 
 function IconThree() {
@@ -216,5 +228,5 @@ function IconThree() {
       <rect x="29" y="16" width="2" height="20" fill="#FB923C" />
       <rect x="33" y="12" width="2" height="24" fill="#FB923C" />
     </svg>
-  )
+  );
 }
