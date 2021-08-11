@@ -36,8 +36,7 @@ export default function MeetingPopUp(props) {
                 {/*body*/}
                 <div className="relative p-0 md:p-6 flex-auto">
                   <div className="max-w-7xl m-auto">
-                    <div className="meetings-iframe-container" data-src="https://meetings.hubspot.com/nbaudoin?embed=true"></div>
-                    <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+                    <CalendlyCalendar />
                   </div>
                 </div>
                 {/*footer*/}
