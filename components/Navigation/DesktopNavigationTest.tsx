@@ -40,9 +40,15 @@ const DesktopNavigationDropDown = (props) => {
           transform: "translateZ(0)", // Trigger hardware acceleration
         }}
       >
-        <div className="max-w-7xl m-auto flex justify-between px-7 items-center">
+        <div className="max-w-7xl m-auto flex justify-between items-center">
           <a href="/">
-            <img width="160" src={`${headerLogoColor()}`} />
+            <Image 
+              src={`${headerLogoColor()}`} 
+              width="160"
+              height="34"
+              quality={100}
+              priority={true}
+            />
           </a>
           <div>
             <ul className={`flex justify-between gap-x-14 text-md font-bold`}>
