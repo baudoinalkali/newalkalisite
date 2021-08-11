@@ -3,7 +3,8 @@ import { InlineWidget } from "react-calendly";
 const CalendlyCalendar = () => {
   return (
     <div className="App">
-      <InlineWidget url="https://calendly.com/alkali/lsa-consultation" styles={{height: '800px'}}/>
+    <div className="meetings-iframe-container" data-src="https://meetings.hubspot.com/nbaudoin?embed=true"></div>
+    <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
     </div>
   );
 };

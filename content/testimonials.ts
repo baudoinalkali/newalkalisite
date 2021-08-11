@@ -76,6 +76,19 @@ const Testimonials = {
       quote:
         "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
     },
+    {
+      background: "/images/carro-testimonial-bg.jpg",
+      backgroundOverlay: "bg-pink-300",
+      brandColor: "#F9A8D4",
+      company: "Carro",
+      logo: "/images/carro-logo.png",
+      logoWidth: "200",
+      logoHeight: "100",
+      altText: " ",
+      name: "Eric Sanchez, Operations Manager",
+      quote:
+        "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
+    },
   ],
   design: [
     {

@@ -62,7 +62,7 @@ class BGParticles extends Component{
                       },
                       "move": {
                         "enable": true,
-                        "speed": 1,
+                        "speed": .7,
                         "direction": "none",
                         "random": false,
                         "straight": false,
@@ -83,7 +83,7 @@ class BGParticles extends Component{
                           "mode": "repulse"
                         },
                         "onclick": {
-                          "enable": true,
+                          "enable": false,
                           "mode": "push"
                         },
                         "resize": true

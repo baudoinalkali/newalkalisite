@@ -16,39 +16,39 @@ import ResultsBlocks from "../../../components/Services/ResultsBlocks";
 import SEOResults from "../../../content/servicePages/resultsBlock";
 import FAQDropdown from "../../../components/Services/FAQDropdown";
 import SocialFAQ from "../../../content/servicePages/faq";
-import SocialMarketing from "../../../content/servicePages/social";
+import ReputationManagement from "../../../content/servicePages/reputation";
 import ReputationIntegrations from "../../../content/servicePages/integrationContent";
 
-function SocialMediaMarketing() {
-  const socialImage1 = SocialMarketing.text1.map((text1) => (
+function Reputation() {
+  const socialImage1 = ReputationManagement.text1.map((text1) => (
     <StandardImage image={text1.image} imageAngle="none" />
   ));
 
-  const socialText1 = SocialMarketing.text1.map((text1) => (
+  const socialText1 = ReputationManagement.text1.map((text1) => (
     <StandardTextBlock title={text1.title} text={text1.text} />
   ));
 
-  const socialImage2 = SocialMarketing.text2.map((text2) => (
+  const socialImage2 = ReputationManagement.text2.map((text2) => (
     <StandardImage image={text2.image} imageAngle="none" />
   ));
 
-  const socialText2 = SocialMarketing.text2.map((text2) => (
+  const socialText2 = ReputationManagement.text2.map((text2) => (
     <StandardTextBlock title={text2.title} text={text2.text} />
   ));
 
-  const socialImage3 = SocialMarketing.text3.map((text3) => (
+  const socialImage3 = ReputationManagement.text3.map((text3) => (
     <StandardImage image={text3.image} imageAngle="none" />
   ));
 
-  const socialText3 = SocialMarketing.text3.map((text3) => (
+  const socialText3 = ReputationManagement.text3.map((text3) => (
     <StandardTextBlock title={text3.title} text={text3.text} />
   ));
 
-  const socialImage4 = SocialMarketing.text4.map((text4) => (
+  const socialImage4 = ReputationManagement.text4.map((text4) => (
     <StandardImage image={text4.image} imageAngle="none" />
   ));
 
-  const socialText4 = SocialMarketing.text4.map((text4) => (
+  const socialText4 = ReputationManagement.text4.map((text4) => (
     <StandardTextBlock title={text4.title} text={text4.text} />
   ));
 
@@ -65,7 +65,11 @@ function SocialMediaMarketing() {
           backgroundImg={reputation.backgroundImg}
         />
       ))}
-      <TwoColumnLayout style="" child2={socialImage1} child1={socialText1} />
+      <TwoColumnLayout
+        style=""
+        child2={socialImage1}
+        child1={socialText1}
+      />
       <TwoColumnLayout
         flexType="reverse"
         style="bg-alkaligrey-300"
@@ -216,4 +220,4 @@ function SocialMediaMarketing() {
   );
 }
 
-export default SocialMediaMarketing;
+export default Reputation;

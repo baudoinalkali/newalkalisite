@@ -60,7 +60,7 @@ export default function AboutDropdown(props) {
           <>
             <Popover.Button
               className={`
-                ${open ? '' : 'text-opacity-90'}
+                ${open ? '' : ''}
                 ${dropdownTextColor()} duration-500 uppercase group bg-orange-700 rounded-md inline-flex items-center text-base font-bold text-md hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
             >
               <span className={`${open ? `${dropdownTextColorOpen()}` : ''}`}>About</span>
