@@ -113,7 +113,7 @@ const MobileDropdown = (props) => {
                                 <Disclosure.Panel className="pl-3 pt-4 text-gray-500">
                                   <ul className="ml-3 space-y-4 text-black font-proximasemi text-md text-chablack-300 hover:text-chablack-500">
                                     <li>
-                                      <a href="/services/website-development/wordpress-website-developement">
+                                      <a href="/services/web-development/wordpress-website-development">
                                         WordPress Websites
                                       </a>
                                     </li>
