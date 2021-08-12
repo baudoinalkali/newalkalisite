@@ -55,7 +55,11 @@ const ClientHeader = (props) => {
           </div>
         </div>
         <div className="hidden lg:flex">
-          <img src={props.heroImage} />
+          <Image 
+            src={props.heroImage}
+            width={props.heroImageWidth}
+            height={props.heroImageHeight}
+          />
         </div>
       </div>
     </section>
