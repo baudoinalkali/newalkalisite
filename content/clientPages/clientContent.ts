@@ -9,6 +9,8 @@ const ClientContent = {
                     service: ["WordPress Web Development"],
                     serviceSlug: ["/services/web-development/wordpress-website-development"],
                     image: "/images/clients/carro/carro-header-image.png",
+                    width: "600",
+                    height: "414"
                 },
             ],
         about:
