@@ -54,6 +54,14 @@ class MyDocument extends Document {
             async
             defer
           />
+
+          <script
+            async
+            defer
+            dangerouslySetInnerHTML={{
+              __html: `window.hsConversationsSettings = { loadImmediately: false };`,
+            }}
+          />
           {/* End HubSpot Scripts */}
 
           {/* Prevent fouc (flash of unstyled component) and transition firing on load for firefox */}
