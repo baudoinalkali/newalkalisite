@@ -4,11 +4,7 @@ import StandardImage from "../../../components/StandardImage";
 import StandardTextBlock from "../../../components/StandardTextBlock";
 import TwoColumnLayout from "../../../components/TwoColumnLayout";
 import ServiceLeadSection from "../../../components/ServiceLeadSection";
-import TestimonialSlide from "../../../components/TestimonialSlide";
-import TestimonialSlider from "../../../components/TestimonialSlider";
 import Testimonials from "../../../content/testimonials";
-import seoProcess from "../../../content/servicePages/ourProcess";
-import OurProcessComp from "../../../components/Services/OurProcess";
 import Image from "next/image";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
@@ -16,9 +12,12 @@ import ServiceResultsContent from "../../../content/servicePages/resultsBlock";
 import ResultsBlocks from "../../../components/Services/ResultsBlocks";
 import Content from "../../../content/servicePages/contentMarketing";
 import ContentMarketingServices from "../../../content/servicePages/serviceBlocks";
-import FAQDropdown from "../../../components/Services/FAQDropdown";
 import ContentMarketingFAQ from "../../../content/servicePages/faq";
 import AuditFormPopup from "../../../components/AuditFormPopup";
+import dynamic from 'next/dynamic';
+const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
+const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
+const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function ContentMarketing() {
   const contentImage1 = Content.text1.map((text1) => (
