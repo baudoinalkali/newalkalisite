@@ -59,6 +59,8 @@ function Carro() {
             backgroundColor="#36ad8b"
             service={chattr.service}
             heroImage={chattr.image}
+            heroImageWidth={chattr.width}
+            heroImageHeight={chattr.height}
             serviceSlug={chattr.serviceSlug}
             style="py-20 lg:py-56"
           />
@@ -70,7 +72,7 @@ function Carro() {
 
       <TwoColumnLayout
         flexType="reverse"
-        style="bg-alkaligrey-300 py-24 pb-80 mb-6"
+        style="bg-alkaligrey-300 py-24 pb-80 mb-6 "
         child1={carroGoalImage}
         child2={carroGoalText}
       ></TwoColumnLayout>
@@ -88,7 +90,7 @@ function Carro() {
             altText=""
             slug="chattr"
             name="Jim Schimpf, Founder"
-            quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+            quote="Alkali not only delivered on the technical skills, but they literally acted like one of our team members diving head first, always available, immediate responses, over-communication and adherence to timelines."
           />
         </div>
       </div>

@@ -58,11 +58,19 @@ function WordPressWebsiteDevelopment() {
   );
 
   const seoImage = Wordpress.seo.map((seo) => (
-    <StandardImage image={seo.image} imageAngle="none" key={seo.image} />
+    <StandardImage
+      image={seo.image}
+      imageAngle="none"
+      key={seo.image}
+    />
   ));
 
   const seoText = Wordpress.seo.map((seo) => (
-    <StandardTextBlock title={seo.title} text={seo.text} key={seo.title} />
+    <StandardTextBlock
+      title={seo.title}
+      text={seo.text}
+      key={seo.title}
+    />
   ));
 
   const userExperienceImage = Wordpress.userExperience.map((userExperience) => (

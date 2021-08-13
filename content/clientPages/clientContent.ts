@@ -64,6 +64,8 @@ const ClientContent = {
                     service: ["Custom Web Development", "Web Design"],
                     serviceSlug: ["/services/web-development/"],
                     image: "/images/clients/chattr/chattr-hero-image.svg",
+                    width: "600",
+                    height: "197"
                 },
             ],
         about:
@@ -71,15 +73,15 @@ const ClientContent = {
                 {
                     name: "Chattr",
                     slug: "https://chattr.ai",
-                    bio: "Chattr’s AI-powered digital assistant manages the retail hiring experience from engagement to offer."
+                    bio: "Chattr’s AI-powered digital assistant manages the retail hiring experience from engagement to offer. Their easy to use platform enables business owners to streamline their hiring process, dramatically reducing the costs involved in the traditional hiring process."
                 },
             ],
         section1:
             [
                 {
                     sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    title: "A New Beginning",
+                    text: "With a new brand identity, the team at Chattr were looking to recreate their website and blog from the group up. Early on in the process they communicated their primary goals to be: bring the brand elements to life, communicate the happiness companies get from using their product, and be insanely fast. Working closely with their team, we were able to check all these boxes and delivery something truly unique.",
                     image: "/images/clients/chattr/section1.png"
                 },
             ],
@@ -87,8 +89,8 @@ const ClientContent = {
             [
                 {
                     sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    title: "Engaging and Fast",
+                    text: "To emphasize the new branding elements we leveraged advanced animation. At the center of Chattr are the applicants and employers that use it. To showcase this we utilized images of people with subtle branding elements throughout. To meet the performance benchmarks we wanted we opted to leverage Next.js for the primary site and a custom WordPress setup we were able to drastically improve their website's performance across the board. As a result, the website loads an average of 97% faster.",
                     image: "/images/clients/chattr/section2.png"
                 },
             ],
@@ -116,6 +118,8 @@ const ClientContent = {
                     service: ["Custom Web Development"],
                     serviceSlug: ["/services/web-development/"],
                     image: "/images/clients/ben/ben-hero-image.png",
+                    width: "490",
+                    height: "500"
                 },
             ],
         about:
@@ -131,17 +135,17 @@ const ClientContent = {
             [
                 {
                     sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    title: "S",
+                    text: "Blockchain Education Network engaged us to recreate their existing site entirely, allowing them to align with their audience better. At the core of BEN is their community, and keeping that community informed and updated is critical. In addition, they are an international organization, and with that comes many people needing to be involved in content. To ensure they have a streamlined process for adding and changing content, they wanted to connect the site to their existing data systems.",
                     image: "/images/clients/ben/section1.png"
                 },
             ],
         section2:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Result",
+                    title: "Total Connectivity",
+                    text: "BEN leverages Monday.com for much of its organizational functions. Therefore, it was clear that enabling them to update their website content through a Monday board would be highly productive. Utilizing Monday's API, we set up much of the site to leverage Monday as a content management system. As a result, BEN can easily update and add content while also having a front-end that resonates more with their demographic. Leveraging Next.js for the website's front-end, we delivered a lightning-fast web experience for BEN's members.",
                     image: "/images/clients/ben/section2.png"
                 },
             ],
@@ -166,17 +170,20 @@ const ClientContent = {
                 {
                     industry: "Financial Services",
                     name: "Bobtail",
-                    service: ["Custom Web Development"],
-                    serviceSlug: ["/services/web-development/"],
+                    service: ["WordPress Web Development"],
+                    serviceSlug: ["/services/web-development/wordpress-website-development"],
                     backgroundImg: "/images/clients/bobtail/hero-background.jpg",
                     backgroundOverlay: "true",
+                    image: "/",
+                    width: "100",
+                    height: "100"
                 },
             ],
         about:
             [
                 {
                     name: "Bobtail",
-                    slug: "https://blockchainedu.org",
+                    slug: "https://bobtail.com",
                     bio: "Bobtail empowers carriers with powerful financial tools that help them grow their business and serve them with honesty, transparency, and fairness.",
                     brandColor: "#ff936b", 
                 },
@@ -274,10 +281,13 @@ const ClientContent = {
                 {
                     industry: "Home Service",
                     name: "Magnetite",
-                    service: ["Custom Web Development"],
-                    serviceSlug: ["/services/web-development/"],
+                    service: ["WordPress Web Development", "Branding"],
+                    serviceSlug: ["/services/web-development/", ""],
                     backgroundImg: "/images/clients/magnetite/hero-background.jpg",
                     backgroundOverlay: "true",
+                    image: "/",
+                    width: "100",
+                    height: "100"
                 },
             ],
         about:

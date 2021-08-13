@@ -60,6 +60,9 @@ function Amelia() {
             backgroundOverlay={bobtail.backgroundOverlay}
             service={bobtail.service}
             serviceSlug={bobtail.serviceSlug}
+            heroImage={bobtail.image}
+            heroImageWidth={bobtail.width}
+            heroImageHeight={bobtail.height}
             style="py-40"
             key={`ameliaAmeliaHeroContentFor${bobtail.name}`}
           />
@@ -70,7 +73,7 @@ function Amelia() {
         <ClientAbout
           name={bobtail.name}
           about={bobtail.bio}
-          slug={bobtail.name}
+          slug={bobtail.slug}
           key={`ameliaAmeliaHeroContentFor${bobtail.name}`}
         />
       ))}
