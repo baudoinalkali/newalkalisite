@@ -4,7 +4,6 @@ import Testimonials from "../../content/testimonials";
 import TwoColumnLayout from "../../components/TwoColumnLayout";
 import StandardImage from "../../components/StandardImage";
 import StandardTextBlock from "../../components/StandardTextBlock";
-import ClientCard from "../../components/Clients/ClientCard";
 import CarroContent from "../../content/clientPages/clientContent";
 import ClientHeader from "../../components/Clients/ClientHeader";
 import ClientAbout from "../../components/Clients/ClientAbout";
@@ -48,7 +47,7 @@ function Carro() {
   ));
 
   return (
-    <div className="m-auto">
+    <div className="m-auto overflow-hidden">
       <div className="carro-bg">
         {CarroContent.carro.hero.map((carro) => (
           <ClientHeader
@@ -57,6 +56,8 @@ function Carro() {
             service={carro.service}
             serviceSlug={carro.serviceSlug}
             heroImage={carro.image}
+            heroImageWidth={carro.width}
+            heroImageHeight={carro.height}
             style="py-24"
           />
         ))}

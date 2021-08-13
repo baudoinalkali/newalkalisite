@@ -6,7 +6,7 @@ import ClientCardTest2 from "../components/Clients/ClientCardTest2";
 function Clients() {
   return (
     <div>
-      <div className="bg-alkaligrey-300">
+      <div className="bg-alkaligrey-300 px-7">
         <CombinedNavigation headerBackground="bg-alkaligrey-300" />
         <div className="py-20 flex text-center justify-center z-20">
           <div className="relative z-20">
