@@ -11,13 +11,13 @@ import ServiceHero from "../../../components/Services/ServiceHero";
 import CarroScreenImages from "../../../content/clientPages/screenImages";
 import Image from "next/image";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
-import FAQDropdown from "../../../components/Services/FAQDropdown";
 import WordpressFAQ from "../../../content/servicePages/faq";
 import dynamic from 'next/dynamic';
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const ResponsiveScreens = dynamic(() => import("../../../components/ResponsiveScreens"));
 const Integration = dynamic(() => import("../../../components/Integration"));
+const FAQDropdown = dynamic(()=>import("../../../components/Services/FAQDropdown"));
 
 function WordPressWebsiteDevelopment() {
   const customBuiltImage = Wordpress.customBuilt.map((customBuilt) => (
