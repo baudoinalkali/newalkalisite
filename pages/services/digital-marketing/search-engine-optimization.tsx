@@ -68,12 +68,11 @@ function SearchEngineOptimization() {
         headerBackground="bg-alkali-500"
         headerColor="white"
       />
-      {ServiceHeroContent.searchEngineOptimization.map(
-        (searchEngineOptimization) => (
+      {SEO.headline.map(
+        (headline) => (
           <ServiceHero
-            sub={searchEngineOptimization.sub}
-            title={searchEngineOptimization.title}
-            backgroundImg={searchEngineOptimization.backgroundImg}
+            sub={headline.subTitle}
+            title={headline.title}
           />
         )
       )}
@@ -88,8 +87,8 @@ function SearchEngineOptimization() {
               specialty is not only driving interested users to your site and
               catching their attention once there but enticing them to engage
               and come back for more. Whether your site is orientated toward
-              Sales, Information, Charity, or something else, we’ve seen it all,
-              so we do it all. Let our team of talented, inspired professionals
+              Sales, Information, Charity, or something else,
+              we can help propel you higher in ranking. Let our team of talented, inspired professionals
               give your website the attention it deserves, leaving you free to
               devote your attention to what matters to you!
             </p>
@@ -162,9 +161,9 @@ function SearchEngineOptimization() {
         <div className="flex space-x-0 lg:space-x-14 flex-col lg:flex-row m-auto justify-between items-center max-w-7xl">
           <div className="w-full lg:w-1/2">
             <Image
-              src="/images/audit.png"
-              width={490}
-              height={335}
+              src="/images/free-audit.svg"
+              width={600}
+              height={450}
               quality={100}
             />
           </div>

@@ -10,6 +10,7 @@ import wordpressProcess from "../../../content/servicePages/ourProcess";
 import OurProcessComp from "../../../components/Services/OurProcess";
 import TwoColumnLayout from "../../../components/TwoColumnLayout";
 import StandardImage from "../../../components/StandardImage";
+import ServiceImage from "../../../components/Services/ServiceImage";
 import StandardTextBlock from "../../../components/StandardTextBlock";
 import ServiceHeroContent from "../../../content/servicePages/serviceHeroContent";
 import ServiceHero from "../../../components/Services/ServiceHero";
@@ -22,9 +23,11 @@ import WordpressFAQ from "../../../content/servicePages/faq";
 
 function WordPressWebsiteDevelopment() {
   const customBuiltImage = Wordpress.customBuilt.map((customBuilt) => (
-    <StandardImage
+    <ServiceImage
       image={customBuilt.image}
       imageAngle="none"
+      height={customBuilt.height}
+      width={customBuilt.width}
       key={customBuilt.image}
     />
   ));
@@ -58,9 +61,11 @@ function WordPressWebsiteDevelopment() {
   );
 
   const seoImage = Wordpress.seo.map((seo) => (
-    <StandardImage
+    <ServiceImage
       image={seo.image}
       imageAngle="none"
+      height={seo.height}
+      width={seo.width}
       key={seo.image}
     />
   ));
@@ -141,7 +146,7 @@ function WordPressWebsiteDevelopment() {
         <div className="py-24 px-0 lg:px-14">
           <div className="flex flex-col space-x-0 lg:space-x-14 lg:flex-row m-auto justify-between items-center max-w-7xl">
             <div className="px-10 w-full lg:w-1/2 2xl:px-0 pb-20 lg:pb-0">
-              <h2 className="text-3xl md:text-4xl font-bold m-auto leading-tight">
+              <h2 className="text-4xl md:text-5xl font-bold m-auto leading-tight">
                 WordPress Website Development
               </h2>
               <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">
@@ -214,28 +219,19 @@ function WordPressWebsiteDevelopment() {
             <div className="difference-listG">
               <ul>
                 <li className="list-item">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam arcu ex, sodales ac ipsum volutpat, mattis.
+                  Bespoke design tailored to your brand, better serving your marketing objectives and communicating your organization's mission
                 </li>
                 <li className="list-item">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam arcu ex, sodales ac ipsum volutpat, mattis.
+                  Faster page load times, decreasing important metrics such as bounce rate while improving the overall user experience
                 </li>
                 <li className="list-item">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam arcu ex, sodales ac ipsum volutpat, mattis.
+                  Custom SEO foundation tailored to your business, improving how search engine crawlers interact with your site
                 </li>
                 <li className="list-item">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam arcu ex, sodales ac ipsum volutpat, mattis.
+                  Eliminate unnecessary elements that cause clutter and slow down the performance of your website
                 </li>
                 <li className="list-item">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam arcu ex, sodales ac ipsum volutpat, mattis.
-                </li>
-                <li className="list-item">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam arcu ex, sodales ac ipsum volutpat, mattis.
+                  Seamlessly scales with your business
                 </li>
               </ul>
             </div>
@@ -247,12 +243,10 @@ function WordPressWebsiteDevelopment() {
             <div className="difference-listR">
               <ul>
                 <li className="list-item">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam arcu ex, sodales ac ipsum volutpat, mattis.
+                  Longer timeline for completion than a traditional template-based alternative
                 </li>
                 <li className="list-item">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam arcu ex, sodales ac ipsum volutpat, mattis.
+                  Custom sites require a larger upfront investment than template-based sites
                 </li>
               </ul>
             </div>
@@ -266,7 +260,7 @@ function WordPressWebsiteDevelopment() {
         buttonText="Schedule a Discovery Call"
       />
       <div className="pt-24 px-10 2xl:px-0">
-        <h2 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
+        <h2 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-tight">
           Not All Websites Are Created Equal
         </h2>
         <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
@@ -287,7 +281,7 @@ function WordPressWebsiteDevelopment() {
       />
 
       <div className="-mt-72 px-10 2xl:px-0">
-        <h2 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-14">
+        <h2 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
           Hear It Straight From Our Clients
         </h2>
       </div>
@@ -343,7 +337,7 @@ function WordPressWebsiteDevelopment() {
       />
 
       <div className="py-24 px-14 2xl:px-0 bg-white">
-        <h2 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
+        <h2 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-tight">
           Integration Is the Name of the Game
         </h2>
         <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
