@@ -31,7 +31,7 @@ const PPC = {
             title: "Maximize All Available Platforms",
             text: "Did you know more than 50% of internet traffic was going to be from smartphones and mobile devices ten years ago? When you look at your site from a computer, does it look and work the same way as a smartphone? How about an iPhone user's experience versus an Android? Let us worry about things like fluid design, scroll bars, and usability.",
             image: "/images/digital-marketing/ppc/maximize-platforms.svg",
-            altText: "",
+            altText: " ",
             width: "600",
             height: "450"
         },
@@ -40,7 +40,7 @@ const PPC = {
         {
             title: "Our Ethical Commitment",
             text: "Did you know more than 50% of internet traffic was going to be from smartphones and mobile devices ten years ago? When you look at your site from a computer, does it look and work the same way as a smartphone? How about an iPhone user's experience versus an Android? Let us worry about things like fluid design, scroll bars, and usability.",
-            image: "/images/responsive-design.png",
+            image: "/images/digital-marketing/ppc/ethical-commitment.svg",
             altText: "",
             width: "600",
             height: "450"
@@ -51,7 +51,9 @@ const PPC = {
             title: "A Critical Digital Touchpoint",
             text: "Did you know more than 50% of internet traffic was going to be from smartphones and mobile devices ten years ago? When you look at your site from a computer, does it look and work the same way as a smartphone? How about an iPhone user's experience versus an Android? Let us worry about things like fluid design, scroll bars, and usability.",
             image: "/images/responsive-design.png",
-            altText: ""
+            altText: "",
+            width: "600",
+            height: "450"
         },
     ],
     features: [

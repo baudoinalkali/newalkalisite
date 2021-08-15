@@ -117,7 +117,7 @@ function WordPressWebsiteDevelopment() {
   ));
 
   const conversionImage = Wordpress.conversion.map((conversion) => (
-    <StandardImage
+    <ServiceImage
       image={conversion.image}
       imageAngle="none"
       height={conversion.height}

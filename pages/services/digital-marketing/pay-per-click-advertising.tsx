@@ -72,7 +72,12 @@ function PayPerClick() {
   ));
 
   const seoImage5 = PPC.text5.map((text5) => (
-    <StandardImage image={text5.image} imageAngle="none" />
+    <ServiceImage 
+    image={text5.image} 
+    imageAngle="none" 
+    width={text5.width}
+    height={text5.height}
+    />
   ));
 
   const seoText5 = PPC.text5.map((text5) => (

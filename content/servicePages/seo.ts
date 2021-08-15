@@ -20,7 +20,7 @@ const SEO = {
             text: "Many people spend the time and effort to optimize their SEO, but they aren’t tailoring their optimizations for audiences that will provide a lasting impact. We take a step back and thoroughly understand your business, what’s working and what’s not, your competitor landscape, and formulate and implement a strategy to position yourself to get leads you actually want. It’s cool to be number one, but if you’re not getting the leads you want, it really doesn’t matter. We deliver real results, not artificial placings for non-competitive keywords.",
             image: "/images/digital-marketing/seo/optimizing.svg",
             altText: "",
-            width: "650",
+            width: "600",
             height: "450"
         },
     ],

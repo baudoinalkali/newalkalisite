@@ -25,7 +25,7 @@ function ContentMarketing() {
   const contentImage1 = Content.text1.map((text1) => (
     <ServiceImage 
     image={text1.image} 
-    imageAngle="none" 
+    imageAngle="none " 
     width={text1.width}
     height={text1.height}
     />
@@ -113,9 +113,9 @@ function ContentMarketing() {
         <div className="flex space-x-0 lg:space-x-14 flex-col lg:flex-row m-auto justify-between items-center max-w-7xl">
           <div className="w-full lg:w-1/2">
             <Image
-              src="/images/audit.png"
-              width={490}
-              height={335}
+              src="/images/free-audit.svg"
+              width={600}
+              height={450}
               quality={100}
             />
           </div>

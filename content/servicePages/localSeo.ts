@@ -11,8 +11,8 @@ const LocalSEO = {
             text: "If you’re not a national business, it can be challenging to figure out how to optimize your site for organic search results and get your business in the eyes of people in your backyard. The big national players dominate the generic keywords everyone is searching for, so what can you do? Leveraging local SEO, you can increase your local ranking in the areas where it matters most. We help you optimize for local SEO. More importantly, we help you determine what keywords you should be pursuing by gaining a deep understanding of your business, competitive analysis, and keyword research.",
             image: "/images/digital-marketing/local-seo/attract-customers.svg",
             altText: " ",
-            height: "515",
-            width: "600"
+            height: "480",
+            width: "650"
         },
     ],
     text2: [
