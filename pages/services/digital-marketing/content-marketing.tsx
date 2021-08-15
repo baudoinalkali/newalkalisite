@@ -19,10 +19,16 @@ import ContentMarketingServices from "../../../content/servicePages/serviceBlock
 import FAQDropdown from "../../../components/Services/FAQDropdown";
 import ContentMarketingFAQ from "../../../content/servicePages/faq";
 import AuditFormPopup from "../../../components/AuditFormPopup";
+import ServiceImage from "../../../components/Services/ServiceImage";
 
 function ContentMarketing() {
   const contentImage1 = Content.text1.map((text1) => (
-    <StandardImage image={text1.image} imageAngle="none" />
+    <ServiceImage 
+    image={text1.image} 
+    imageAngle="none" 
+    width={text1.width}
+    height={text1.height}
+    />
   ));
 
   const contentText1 = Content.text1.map((text1) => (
@@ -30,7 +36,12 @@ function ContentMarketing() {
   ));
 
   const contentImage2 = Content.text2.map((text2) => (
-    <StandardImage image={text2.image} imageAngle="none" />
+    <ServiceImage 
+    image={text2.image} 
+    imageAngle="none" 
+    width={text2.width}
+    height={text2.height}
+    />
   ));
 
   const contentText2 = Content.text2.map((text2) => (
@@ -38,7 +49,12 @@ function ContentMarketing() {
   ));
 
   const contentImage3 = Content.text3.map((text3) => (
-    <StandardImage image={text3.image} imageAngle="none" />
+    <ServiceImage 
+    image={text3.image} 
+    imageAngle="none" 
+    width={text3.width}
+    height={text3.height}
+    />
   ));
 
   const contentText3 = Content.text3.map((text3) => (
@@ -46,7 +62,12 @@ function ContentMarketing() {
   ));
 
   const contentImage4 = Content.text4.map((text4) => (
-    <StandardImage image={text4.image} imageAngle="none" />
+    <ServiceImage 
+    image={text4.image} 
+    imageAngle="none" 
+    width={text4.width}
+    height={text4.height}
+    />
   ));
 
   const contentText4 = Content.text4.map((text4) => (

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ServiceImage = (props) => {
     return (
-        <div>
+        <div className="mx-auto flex justify-center">
             <Image 
             src={props.image} 
             alt={props.altText}

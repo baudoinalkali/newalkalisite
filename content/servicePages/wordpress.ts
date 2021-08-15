@@ -1,62 +1,79 @@
 const Wordpress = {
+    headline: [
+        {
+            subTitle: "WordPress Website Development",
+            title: "Bespoke WordPress solutions that drive results",
+            titleLength: "max-w-3xl"
+        }
+    ],
     wordpressWebsiteDevelopment: [
         {
             title: "WordPress Website Development",
-            text: "WordPress is the most popular content management system on the planet, comprising approximately 34% of all the websites on the internet today. Having a professional website built with WordPress has never been this easy. Remaining up to date with ever-changing software, updates, and best practices can be overwhelming, but that’s why we’re here. Ensuring your visitors have a smoothly and frictionless experience is our number one priority. From your site’s launch and beyond we take care of what’s under the hood, so you don’t have to.",
+            text: "You’ve probably heard of WordPress, but here is the short version: WordPress started as a way for people to create blogs easily, but it has evolved so much over the years. It is now the most widely used Content Management System (CMS) in the world. Now, it's leveraged by people from all walks of life and all levels of business. From Fortune 500 companies to someone starting their first blog, WordPress suits a variety of use cases. If you’re looking for guidance on if WordPress is suitable for you, we can help! We have been designing, developing, and customizing WordPress for years.",
             image: "/images/web-development/responsive.png",
-            altText: ""        
+            altText: "",
+            width: "600",
+            height: "450"     
         },
     ],
     customBuilt: [
         {
             title: "Custom-Built WordPress vs. Templated WordPress",
-            text: "Customized content and design, 100% tailored to your exact specifications; nothing beats bespoke. Let our specialists transform your vision into a brilliant reality. You deserve an eye-catching website. Using pre-made templates can oftentimes wind up looking too generic. Let a professional take the worry and frustration out of establishing a dynamic web presence. We consult all potential clients on what will best fit their needs when it comes to a custom build or using a template as a starting point. Learn more about some pros and cons between a custom built and a templated approach below:",
-            image: "/images/web-development/custom-built3.svg",
+            text: "Customized content and design, 100% tailored to your exact specifications; nothing beats bespoke! Let our specialists transform your vision into a brilliant reality. You deserve an eye-catching website. Using pre-made templates can often wind up looking too generic. We take the worry and frustration out of establishing a dynamic web presence by being with you every step of the way. We consult all potential clients on what will best fit their needs when it comes to a custom build or using a template as a starting point. Learn more about some pros and cons between a custom build and a templated approach below:",
+            image: "/images/web-development/custom-built.svg",
             altText: "",
             width: "600",
-            height: "435"
+            height: "450"   
         },
     ],
     responsiveDesign: [
         {
             title: "Full Adoption for All Devices",
-            text: "Did you know more than 50% of internet traffic was going to be from smartphones and mobile devices ten years ago? When you look at your site from a computer, does it look and work the same way as a smartphone? How about an iPhone user's experience versus an Android? Let us worry about things like fluid design, scroll bars, and usability.",
+            text: "People are on their phones every day. Whether it’s because they’re out and about or because it’s more convenient for them, people are browsing websites on their phones more than ever. No one wants to have someone pull up their website and have it not looking its best. So we make sure that your website is fully responsive. We don’t just make it look “acceptable” on devices other than desktops; we ensure it’s specifically tailored and looking its best. People navigate websites differently on phones and tablets, and adapting to that is critical for your online presence.",
             image: "/images/web-development/responsive-design.svg",
-            altText: ""
+            altText: "",
+            width: "600",
+            height: "450"   
         },
     ],
     seo: [
         {
             title: "Maximizing Your Findability",
-            text: "We've been in the business of driving business for years now, and over that time, we've learned a thing or two about keywords, search terms, and maximizing algorithms. Search engines use certain words found in specific places on your site to catalog and rank search results. Let us fine-tune and turbocharge your site for maximum exposure out of the box. To learn more about our SEO services here.",
+            text: "Everyone wants to rank higher, but to do that, the SEO foundation of your website needs to be solid. If search engines cannot thoroughly crawl your site because optimization was an afterthought, you won’t be in as good of a position to succeed. SEO is unfortunately often an afterthought in most website builds, but not with us. We make sure that we set our clients up for success, whether they choose to use us later on for SEO services or not. We provide every website a solid SEO foundation! From all the standard on-page optimizations to site speed and Core Web Vitals, we have you covered.",
             image: "/images/web-development/search-engine-optimization.svg",
             altText: "",
-            width: "700",
-            height: "600"
+            width: "650",
+            height: "490"   
         },
     ],
     userExperience: [
         {
             title: "User Experience Tailored to Your Audience",
-            text: "It’s critical that you put your user’s digital experience above all. Designing a seamless user experience shouldn’t be an afterthought. Building websites that are easy to navigate, built with a specific purpose in mind, and tailored to your target audience is critical. We do a deep-dive into understanding your business and customers so that we can create an optimal digital experience for specifically tailored to them.",
+            text: "It’s critical that you put your user’s digital experience front and center when developing a website. Designing a seamless user experience shouldn’t be an afterthought. Building websites that are easy to navigate, built with a specific purpose in mind, and tailored to your target audience is critical. We do a deep dive into understanding your business and customers so that we can create an optimal digital experience specifically tailored to them. No business or industry is the same, so neither should your user experience.",
             image: "/images/web-development/user-experience.svg",
-            altText: ""
+            altText: "",
+            width: "600",
+            height: "450"   
         },
     ],
     performance: [
         {
             title: "Insanely Fast",
-            text: "Unless you keep your finger on the pulse of technology and innovation, changes and trends can catch you by surprise. Keeping the technical stuff under the stewardship of a dedicated professional can save you money and time. Balancing not only speed and responsiveness but over-all data weight and complexity too, we make sure you have precisely as much content and usability as necessary, without overloading your site with needless additions.",
+            text: "We often hear WordPress and slow in the same sentence. Unfortunately, this false narrative has become more prevalent because many people leverage inexpensive hosting plans and overuse plugins. We build lightning-fast WordPress websites that deliver an unrivaled customer experience while minimizing potential points of resource strain whenever possible. Leveraging our years of experience and technical expertise, we create your website utilizing tried and true methods, ensuring your site is easy to maintain while being lightning-fast.",
             image: "/images/web-development/performance.svg",
-            altText: ""
+            altText: "",
+            width: "675",
+            height: "505"   
         },
     ],
     conversion: [
         {
             title: "Positioned to Convert",
-            text: "To successfully convert leads your website should leverage a lot more than a simple contact form or call-to-action. Options such as case studies, testimonials, and customer relationship management integrations should be implemented. We work with you to understand your current business processes and seamlessly integrate these effective conversion tools when possible.",
+            text: "Every website should have a goal front and center. Are you looking to build out your email list? Drive someone towards a purchase or donation? These actions need to be a focal point of your website and not an afterthought. We take time to understand what is essential to your business to best position you to succeed in your online journey. Whatever your goal is, we can help drive traffic and conversions.",
             image: "/images/web-development/conversion.svg",
-            altText: ""
+            altText: "",
+            width: "600",
+            height: "450"   
         },
     ]
 }

@@ -42,9 +42,11 @@ function WordPressWebsiteDevelopment() {
 
   const responsiveDesignImage = Wordpress.responsiveDesign.map(
     (responsiveDesign) => (
-      <StandardImage
+      <ServiceImage
         image={responsiveDesign.image}
         imageAngle="none"
+        height={responsiveDesign.height}
+        width={responsiveDesign.width}
         key={responsiveDesign.image}
       />
     )
@@ -79,9 +81,11 @@ function WordPressWebsiteDevelopment() {
   ));
 
   const userExperienceImage = Wordpress.userExperience.map((userExperience) => (
-    <StandardImage
+    <ServiceImage
       image={userExperience.image}
       imageAngle="none"
+      height={userExperience.height}
+      width={userExperience.width}
       key={userExperience.image}
     />
   ));
@@ -95,9 +99,11 @@ function WordPressWebsiteDevelopment() {
   ));
 
   const performanceImage = Wordpress.performance.map((performance) => (
-    <StandardImage
+    <ServiceImage
       image={performance.image}
       imageAngle="none"
+      height={performance.height}
+      width={performance.width}
       key={performance.image}
     />
   ));
@@ -114,6 +120,8 @@ function WordPressWebsiteDevelopment() {
     <StandardImage
       image={conversion.image}
       imageAngle="none"
+      height={conversion.height}
+      width={conversion.width}
       key={conversion.image}
     />
   ));
@@ -133,11 +141,11 @@ function WordPressWebsiteDevelopment() {
           headerBackground="bg-alkali-500"
           headerColor="white"
         />
-        {ServiceHeroContent.wordpress.map((wordpress) => (
+        {Wordpress.headline.map((wordpress) => (
           <ServiceHero
-            sub={wordpress.sub}
+            sub={wordpress.subTitle}
             title={wordpress.title}
-            backgroundImg={wordpress.backgroundImg}
+            titleLength={wordpress.titleLength}
             key={wordpress.title}
           />
         ))}
@@ -150,15 +158,12 @@ function WordPressWebsiteDevelopment() {
                 WordPress Website Development
               </h2>
               <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">
-                Standing out in a crowded marketplace can be difficult. Our
-                specialty is not only driving interested users to your site and
-                catching their attention once there but enticing them to engage
-                and come back for more. Whether your site is orientated toward
-                Sales, Information, Charity, or something else, we’ve seen it
-                all, so we do it all. Let our team of talented, inspired
-                professionals give your website the attention it deserves,
-                leaving you free to devote your attention to what matters to
-                you!
+              You’ve probably heard of WordPress, but here is the short version: WordPress started as a way for people to create
+              blogs easily, but it has evolved so much over the years. It is now the most widely used Content Management System 
+              (CMS) in the world. Now, it's leveraged by people from all walks of life and all levels of business. From Fortune 
+              500 companies to someone starting their first blog, WordPress suits a variety of use cases. If you’re looking for 
+              guidance on if WordPress is suitable for you, we can help! We have been designing, developing, and customizing WordPress 
+              for years.
               </p>
             </div>
             <div className="z-0 pointer-events-none w-96 md:w-auto">

@@ -19,10 +19,17 @@ import SocialFAQ from "../../../content/servicePages/faq";
 import SocialMarketing from "../../../content/servicePages/social";
 import SocialIntegrations from "../../../content/servicePages/integrationContent";
 import AuditFormPopup from "../../../components/AuditFormPopup";
+import { text } from "@fortawesome/fontawesome-svg-core";
+import ServiceImage from "../../../components/Services/ServiceImage";
 
 function SocialMediaMarketing() {
   const socialImage1 = SocialMarketing.text1.map((text1) => (
-    <StandardImage image={text1.image} imageAngle="none" />
+    <ServiceImage 
+    image={text1.image} 
+    imageAngle="none" 
+    width={text1.width}
+    height={text1.height}
+    />
   ));
 
   const socialText1 = SocialMarketing.text1.map((text1) => (
@@ -30,7 +37,12 @@ function SocialMediaMarketing() {
   ));
 
   const socialImage2 = SocialMarketing.text2.map((text2) => (
-    <StandardImage image={text2.image} imageAngle="none" />
+    <ServiceImage 
+    image={text2.image} 
+    imageAngle="none" 
+    width={text2.width}
+    height={text2.height}
+    />
   ));
 
   const socialText2 = SocialMarketing.text2.map((text2) => (
@@ -38,7 +50,12 @@ function SocialMediaMarketing() {
   ));
 
   const socialImage3 = SocialMarketing.text3.map((text3) => (
-    <StandardImage image={text3.image} imageAngle="none" />
+    <ServiceImage 
+    image={text3.image} 
+    imageAngle="none" 
+    width={text3.width}
+    height={text3.height}
+    />
   ));
 
   const socialText3 = SocialMarketing.text3.map((text3) => (
@@ -46,7 +63,12 @@ function SocialMediaMarketing() {
   ));
 
   const socialImage4 = SocialMarketing.text4.map((text4) => (
-    <StandardImage image={text4.image} imageAngle="none" />
+    <ServiceImage 
+    image={text4.image} 
+    imageAngle="none" 
+    width={text4.width}
+    height={text4.height}
+    />
   ));
 
   const socialText4 = SocialMarketing.text4.map((text4) => (
@@ -90,11 +112,11 @@ function SocialMediaMarketing() {
       </div>
       <div className="bg-alkaligrey-300 py-24 px-7">
         <div className="flex space-x-0 lg:space-x-14 flex-col lg:flex-row m-auto justify-between items-center max-w-7xl">
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-1/2 flex justify-center">
             <Image
-              src="/images/audit.png"
-              width={490}
-              height={335}
+              src="/images/digital-marketing/social/free-audit.svg"
+              width={450}
+              height={450}
               quality={100}
             />
           </div>

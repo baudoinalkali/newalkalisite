@@ -20,6 +20,8 @@ import SEOResults from "../../../content/servicePages/resultsBlock";
 import FAQDropdown from "../../../components/Services/FAQDropdown";
 import SEOFAQ from "../../../content/servicePages/faq";
 import AuditFormPopup from "../../../components/AuditFormPopup";
+import { text } from "@fortawesome/fontawesome-svg-core";
+import ServiceImage from "../../../components/Services/ServiceImage";
 
 function SearchEngineOptimization() {
   const seoImage1 = SEO.text1.map((text1) => (
@@ -31,7 +33,12 @@ function SearchEngineOptimization() {
   ));
 
   const seoImage2 = SEO.text2.map((text2) => (
-    <StandardImage image={text2.image} imageAngle="none" />
+    <ServiceImage
+      image={text2.image}
+      imageAngle="none"
+      width={text2.width}
+      height={text2.height}
+    />
   ));
 
   const seoText2 = SEO.text2.map((text2) => (
@@ -39,7 +46,12 @@ function SearchEngineOptimization() {
   ));
 
   const seoImage3 = SEO.text3.map((text3) => (
-    <StandardImage image={text3.image} imageAngle="none" />
+    <ServiceImage
+      image={text3.image}
+      imageAngle="none"
+      width={text3.width}
+      height={text3.height}
+    />
   ));
 
   const seoText3 = SEO.text3.map((text3) => (
@@ -47,7 +59,12 @@ function SearchEngineOptimization() {
   ));
 
   const seoImage4 = SEO.text4.map((text4) => (
-    <StandardImage image={text4.image} imageAngle="none" />
+    <ServiceImage
+      image={text4.image}
+      imageAngle="none"
+      width={text4.width}
+      height={text4.height}
+    />
   ));
 
   const seoText4 = SEO.text4.map((text4) => (
@@ -55,7 +72,12 @@ function SearchEngineOptimization() {
   ));
 
   const seoImage5 = SEO.text5.map((text5) => (
-    <StandardImage image={text5.image} imageAngle="none" />
+    <ServiceImage
+      image={text5.image}
+      imageAngle="none"
+      width={text5.width}
+      height={text5.height}
+    />
   ));
 
   const seoText5 = SEO.text5.map((text5) => (
@@ -73,6 +95,7 @@ function SearchEngineOptimization() {
           <ServiceHero
             sub={headline.subTitle}
             title={headline.title}
+            titleLength={headline.titleLength}
           />
         )
       )}
@@ -83,14 +106,13 @@ function SearchEngineOptimization() {
               Start Seeing Results in Just 2 Months!
             </h3>
             <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">
-              Standing out in a crowded marketplace can be difficult. Our
-              specialty is not only driving interested users to your site and
-              catching their attention once there but enticing them to engage
-              and come back for more. Whether your site is orientated toward
-              Sales, Information, Charity, or something else,
-              we can help propel you higher in ranking. Let our team of talented, inspired professionals
-              give your website the attention it deserves, leaving you free to
-              devote your attention to what matters to you!
+              Organic SEO traffic provides some of the highest quality leads, generally much
+              better than Google AdWords or other forms of PPC. By optimizing your organic SEO,
+              you are positioning yourself at the top of the search results, reducing your reliance
+              and need to shell out money for paid ads that generate no results after you stop. If
+              you’re looking for a partner to assist you in your SEO journey, you’re in the right place.
+              Our team of experts takes the time to understand your business and its needs, delivering
+              you results in just 2 months!
             </p>
           </div>
           <div className="z-0 pointer-events-none w-96 md:w-auto">
@@ -147,22 +169,22 @@ function SearchEngineOptimization() {
           Our SEO Services
         </h6>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {SEOServices.SEO.map((SEO) => (
+          {SEO.features.map((features) => (
             <ServiceBlocks
-              serviceTitle={SEO.serviceTitle}
-              serviceText={SEO.serviceText}
-              image={SEO.image}
-              altText={SEO.altText}
+              serviceTitle={features.serviceTitle}
+              serviceText={features.serviceText}
+              image={features.image}
+              altText={features.altText}
             />
           ))}
         </div>
       </div>
       <div className="bg-alkaligrey-300 py-24 px-14 2xl:px-0">
         <div className="flex space-x-0 lg:space-x-14 flex-col lg:flex-row m-auto justify-between items-center max-w-7xl">
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-1/2 flex justify-center">
             <Image
-              src="/images/free-audit.svg"
-              width={600}
+              src="/images/digital-marketing/seo/free-audit.svg"
+              width={500}
               height={450}
               quality={100}
             />
@@ -245,14 +267,17 @@ function SearchEngineOptimization() {
       />
       <div className="">
         <div className="py-24 max-w-7xl m-auto px-7">
-          <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
+          <h6 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-normal max-w-3xl">
             Frequently Asked Questions About Our SEO Services
           </h6>
           <div className="w-full pt-16">
             <div className="mx-auto rounded-2xl">
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-                {SEOFAQ.SEO.map((SEO) => (
-                  <FAQDropdown question={SEO.question} answer={SEO.answer} />
+                {SEO.faq.map((faq) => (
+                  <FAQDropdown
+                    question={faq.question}
+                    answer={faq.answer}
+                  />
                 ))}
               </div>
             </div>
