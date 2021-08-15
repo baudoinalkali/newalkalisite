@@ -5,18 +5,17 @@ import StandardTextBlock from "../../../components/StandardTextBlock";
 import PPC from "../../../content/servicePages/payPerClick";
 import TwoColumnLayout from "../../../components/TwoColumnLayout";
 import Modal from "../../../components/Modal";
-import TestimonialSlide from "../../../components/TestimonialSlide";
-import TestimonialSlider from "../../../components/TestimonialSlider";
 import Testimonials from "../../../content/testimonials";
-import seoProcess from "../../../content/servicePages/ourProcess";
-import OurProcessComp from "../../../components/Services/OurProcess";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
 import PPCServices from "../../../content/servicePages/serviceBlocks";
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
 import PPCFAQ from "../../../content/servicePages/faq";
-import FAQDropdown from "../../../components/Services/FAQDropdown";
 import AuditFormPopup from "../../../components/AuditFormPopup";
 import ServiceImage from "../../../components/Services/ServiceImage";
+import dynamic from 'next/dynamic';
+const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
+const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
+const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function PayPerClick() {
   const seoImage1 = PPC.text1.map((text1) => (
