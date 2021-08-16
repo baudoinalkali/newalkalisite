@@ -75,6 +75,42 @@ const Wordpress = {
             width: "600",
             height: "450"   
         },
+    ],
+    faq: [
+        {
+            question: "Is WordPress the right CMS for me?",
+            answer: "WordPress is the most popular content management system, and as a result, has many benefits due to its broad adoption. While it is undoubtedly the most popular option, other platforms such as Drupal, Squarespace, Webflow, and Wix are worth exploring. To best advise you, we recommend reaching out, and we can determine your best course of action. This enables us to provide you the best guidance, armed with all the information."
+        },
+        {
+            question: "How much does a WordPress solution cost?",
+            answer: "WordPress website design and development costs vary greatly. To provide pricing for your specific project, please reach out to us for a free consultation to thoroughly understand your project requirements and the implications that would have on pricing."
+        },
+        {
+            question: "Do you offer support or customization for existing WordPress websites?",
+            answer: "If you are looking to refresh an existing site, make minor adjustments, or have someone conduct ongoing support and maintenance, we can assist you. In some cases, it might make more sense to redesign an existing site rather than start from the ground. We would be glad to discuss the specifics of your needs so that we may offer proper guidance."
+        },
+        {
+            question: "Should I choose a custom-built WordPress site or a template-based one?",
+            answer: "It is common for companies just starting out to use a template-based website due to the lower development costs. While it is less expensive, there are many drawbacks, such as limited customization, slower performance, and limited optimization for SEO. A custom WordPress site ensures that everything is built with one thing in mind, your business. As a result, they can be better optimized and completely bespoke to you."
+        },
+        {
+            question: "How long does it take to develop a WordPress website?",
+            answer: "Typical Custom WordPress builds will take around 2-4 months, and template-based builds will range from 4-6 weeks. These estimates can vary based on your specific project's complexity, scope, and functionality."
+        }
+    ],
+    responsiveScreens: [
+        {
+            link: "/clients",
+            buttonName: "View Clients",
+            desktopLeft: "/images",
+            desktopRight: "/images",
+            tablet: "/images",
+            phone: "/images",
+            desktopLeftLink: "/images",
+            desktopRightLink: "/images",
+            tabletLink: "/images",
+            phoneLink: "/images"
+        }
     ]
 }
 

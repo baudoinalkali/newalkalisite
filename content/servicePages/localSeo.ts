@@ -11,8 +11,8 @@ const LocalSEO = {
             text: "If you’re not a national business, it can be challenging to figure out how to optimize your site for organic search results and get your business in the eyes of people in your backyard. The big national players dominate the generic keywords everyone is searching for, so what can you do? Leveraging local SEO, you can increase your local ranking in the areas where it matters most. We help you optimize for local SEO. More importantly, we help you determine what keywords you should be pursuing by gaining a deep understanding of your business, competitive analysis, and keyword research.",
             image: "/images/digital-marketing/local-seo/attract-customers.svg",
             altText: " ",
-            height: "515",
-            width: "600"
+            height: "480",
+            width: "650"
         },
     ],
     text2: [
@@ -113,8 +113,24 @@ const LocalSEO = {
     ],
     faq: [
         {
-            question: "question",
-            answer: "answer"
+            question: "How much do your local SEO services cost?",
+            answer: "We calculate a monthly retainer fee based on the specifics of your project. Each engagement is different, and instead of having a blanket price, we like to tailor it specifically for the client as not every business needs the same services."
+        },
+        {
+            question: "How long does it take to start seeing results?",
+            answer: "Like most SEO campaigns, you can expect to see results in as little as 2-3 months. Although it takes that much time for the overachieving effect to be reached, your business will enjoy the benefits from Google My Business optimizations and NAP citations almost immediately."
+        },
+        {
+            question: "Is local SEO something I should be focusing on?",
+            answer: "If you are looking to target a specific area or having a physical store, local SEO is something you need to leverage. Local SEO helps potential customers find you locally. Making the proper optimizations can get you in front of people local to you."
+        },
+        {
+            question: "Can you audit our local SEO strategy?",
+            answer: "We can perform a comprehensive audit of your website and supporting systems. We’ll pinpoint the strengths and weaknesses of your current strategy and develop a powerful strategy that puts you in a position to succeed."
+        },
+        {
+            question: "How is local SEO different from SEO?",
+            answer: "Traditional SEO involves improving your website’s ranking on search results. Local SEO involves location-specific keywords. Leveraging geo-tags, maps, reviews, and local citations, search engines like Google can connect your local business with customers in your area."
         }
     ]
 }

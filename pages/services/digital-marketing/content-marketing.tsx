@@ -24,7 +24,7 @@ function ContentMarketing() {
   const contentImage1 = Content.text1.map((text1) => (
     <ServiceImage 
     image={text1.image} 
-    imageAngle="none" 
+    imageAngle="none " 
     width={text1.width}
     height={text1.height}
     />
@@ -79,11 +79,11 @@ function ContentMarketing() {
         headerBackground="bg-alkali-500"
         headerColor="white"
       />
-      {ServiceHeroContent.contentMarketing.map((contentMarketing) => (
+      {Content.headline.map((headline) => (
         <ServiceHero
-          sub={contentMarketing.sub}
-          title={contentMarketing.title}
-          backgroundImg={contentMarketing.backgroundImg}
+          sub={headline.subTitle}
+          title={headline.title}
+          titleLength={headline.titleLength}
         />
       ))}
       <TwoColumnLayout style="" child2={contentImage1} child1={contentText1} />
@@ -98,12 +98,12 @@ function ContentMarketing() {
           Our Content Marketing Services
         </h6>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {ContentMarketingServices.ContentMarketing.map((ContentMarketing) => (
+          {Content.features.map((features) => (
             <ServiceBlocks
-              serviceTitle={ContentMarketing.serviceTitle}
-              serviceText={ContentMarketing.serviceText}
-              image={ContentMarketing.image}
-              altText={ContentMarketing.altText}
+              serviceTitle={features.serviceTitle}
+              serviceText={features.serviceText}
+              image={features.image}
+              altText={features.altText}
             />
           ))}
         </div>
@@ -112,9 +112,9 @@ function ContentMarketing() {
         <div className="flex space-x-0 lg:space-x-14 flex-col lg:flex-row m-auto justify-between items-center max-w-7xl">
           <div className="w-full lg:w-1/2">
             <Image
-              src="/images/audit.png"
-              width={490}
-              height={335}
+              src="/images/free-audit.svg"
+              width={600}
+              height={450}
               quality={100}
             />
           </div>
@@ -168,24 +168,8 @@ function ContentMarketing() {
           ))}
         </TestimonialSlider>
       </div>
-
-      <div className="pt-72 mt-3 bg-alkaligrey-300 py-24 px-7">
-        <h6 className="text-3xl md:text-4xl pb-14 text-center font-bold m-auto leading-tight">
-          You Give Us Trust, We Give You Results
-        </h6>
-        <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {ServiceResultsContent.localSEO.map((localSEO) => (
-            <ResultsBlocks
-              image={localSEO.image}
-              result={localSEO.result}
-              resultName={localSEO.resultName}
-              altText={localSEO.altText}
-            />
-          ))}
-        </div>
-      </div>
       <ServiceLeadSection
-        style="bg-alkali-500 py-24"
+        style="bg-alkali-500 py-24 pt-96"
         title="We're Here to Realize Your Vision"
         text="Do you have an idea and vision for your website but not sure where to start? Our team of professionals are standing by to answer any questions you may have. Whether you need a free audit of your current website or want to discuss specifics of a new WordPress website build, we look forward to serving you!"
         buttonText="Schedule a Discovery Call"
@@ -203,11 +187,11 @@ function ContentMarketing() {
           <div className="w-full px-4 pt-16">
             <div className="p-2 mx-auto rounded-2xl">
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-                {ContentMarketingFAQ.ContentMarketing.map(
-                  (ContentMarketing) => (
+                {Content.faq.map(
+                  (faq) => (
                     <FAQDropdown
-                      question={ContentMarketing.question}
-                      answer={ContentMarketing.answer}
+                      question={faq.question}
+                      answer={faq.answer}
                     />
                   )
                 )}

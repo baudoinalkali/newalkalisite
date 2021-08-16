@@ -29,9 +29,9 @@ const PPC = {
     text3: [
         {
             title: "Maximize All Available Platforms",
-            text: "Did you know more than 50% of internet traffic was going to be from smartphones and mobile devices ten years ago? When you look at your site from a computer, does it look and work the same way as a smartphone? How about an iPhone user's experience versus an Android? Let us worry about things like fluid design, scroll bars, and usability.",
+            text: "While Google AdWords is a staple in PPC campaigns, leveraging other platforms in conjunction sets you up for success. Most customers interact with several platforms daily, so it only makes sense to maximize your exposure by being present on as many platforms as possible. This increase in exposure allows you to create a common digital thread across multiple platforms, leveraging data to provide unique advertising based on specific behaviors.",
             image: "/images/digital-marketing/ppc/maximize-platforms.svg",
-            altText: "",
+            altText: " ",
             width: "600",
             height: "450"
         },
@@ -39,8 +39,8 @@ const PPC = {
     text4: [
         {
             title: "Our Ethical Commitment",
-            text: "Did you know more than 50% of internet traffic was going to be from smartphones and mobile devices ten years ago? When you look at your site from a computer, does it look and work the same way as a smartphone? How about an iPhone user's experience versus an Android? Let us worry about things like fluid design, scroll bars, and usability.",
-            image: "/images/responsive-design.png",
+            text: "PPC can be a complex topic and can require lengthy conversations before establishing a working relationship. We think this dialogue is essential and wouldn’t have it any other way. At Alkali, we seek to not only perform services but ensure our clients are educated on their options. Throughout your journey, you may have questions, and we are here to help. As Albert Einstein once said, “If you can't explain it simply, you don't understand it well enough.” We use those words as a guiding principle in every engagement. We seek to provide advice that would best benefit your business, not ourselves. We don’t hide behind acronyms and fancy phrasing; we serve and educate you through the entire journey.",
+            image: "/images/digital-marketing/ppc/ethical-commitment.svg",
             altText: "",
             width: "600",
             height: "450"
@@ -51,7 +51,9 @@ const PPC = {
             title: "A Critical Digital Touchpoint",
             text: "Did you know more than 50% of internet traffic was going to be from smartphones and mobile devices ten years ago? When you look at your site from a computer, does it look and work the same way as a smartphone? How about an iPhone user's experience versus an Android? Let us worry about things like fluid design, scroll bars, and usability.",
             image: "/images/responsive-design.png",
-            altText: ""
+            altText: "",
+            width: "600",
+            height: "450"
         },
     ],
     features: [
@@ -94,8 +96,25 @@ const PPC = {
     ],
     faq: [
         {
-            question: "questions",
-            answer: "answer"
+            question: "How much do your charge for PPC services?",
+            answer: "We calculate a monthly retainer fee based on the specifics of your project. Each engagement is different, and instead of having a blanket price, we like to tailor it specifically for the client as not every business needs the same services."
+        },
+        {
+            question: "How long does it take to see results?",
+            answer: "Unlike organic marketing methods, paid advertising can generate results immediately. You can have your brand put at the top of search results or other highly trafficked websites, driving traffic and results immediately."
+        },
+        {
+            question: "What platforms offer PPC?",
+            answer: "Most major platforms offer some form of PPC. The most notable are Google, Facebook, YouTube, LinkedIn, and Bing. We formulate a strategy that leverages the most appropriate platform or platforms to drive value to your business."
+        },
+        {
+            question: "Can you audit an existing campaign?",
+            answer: "Yes, we can do a deep dive into past or present campaign performances and formulate a strategy that drives results."
+        },
+        {
+            question: "Should I be leveraging PPC?",
+            answer: "Most businesses can benefit from leveraging PPC. Whether it’s to increase awareness or drive sales, PPC offers a way to get immediate results, unlike organic strategies."
+
         }
     ]
 }

@@ -19,13 +19,16 @@ import Image from "next/image";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
 import FAQDropdown from "../../../components/Services/FAQDropdown";
 import WordpressFAQ from "../../../content/servicePages/faq";
+import ServiceImage from "../../../components/Services/ServiceImage";
 
 function WordPressWebsiteDevelopment() {
   const customBuiltImage = Custom.customBuilt.map((customBuilt) => (
-    <StandardImage
+    <ServiceImage
       image={customBuilt.image}
       imageAngle="none"
       key={customBuilt.image}
+      width={customBuilt.width}
+      height={customBuilt.height}
     />
   ));
 
@@ -39,10 +42,12 @@ function WordPressWebsiteDevelopment() {
 
   const responsiveDesignImage = Custom.responsiveDesign.map(
     (responsiveDesign) => (
-      <StandardImage
+      <ServiceImage
         image={responsiveDesign.image}
         imageAngle="none"
         key={responsiveDesign.image}
+        width={responsiveDesign.width}
+        height={responsiveDesign.height}
       />
     )
   );
@@ -58,7 +63,13 @@ function WordPressWebsiteDevelopment() {
   );
 
   const seoImage = Custom.seo.map((seo) => (
-    <StandardImage image={seo.image} imageAngle="none" key={seo.image} />
+    <ServiceImage 
+    image={seo.image} 
+    imageAngle="none" 
+    key={seo.image} 
+    width={seo.width}
+    height={seo.height}
+    />
   ));
 
   const seoText = Custom.seo.map((seo) => (
@@ -66,10 +77,12 @@ function WordPressWebsiteDevelopment() {
   ));
 
   const userExperienceImage = Custom.userExperience.map((userExperience) => (
-    <StandardImage
+    <ServiceImage
       image={userExperience.image}
       imageAngle="none"
       key={userExperience.image}
+      width={userExperience.width}
+      height={userExperience.height}
     />
   ));
 
@@ -82,10 +95,12 @@ function WordPressWebsiteDevelopment() {
   ));
 
   const performanceImage = Custom.performance.map((performance) => (
-    <StandardImage
+    <ServiceImage
       image={performance.image}
       imageAngle="none"
       key={performance.image}
+      width={performance.width}
+      height={performance.height}
     />
   ));
 
@@ -98,10 +113,12 @@ function WordPressWebsiteDevelopment() {
   ));
 
   const conversionImage = Custom.conversion.map((conversion) => (
-    <StandardImage
+    <ServiceImage
       image={conversion.image}
       imageAngle="none"
       key={conversion.image}
+      width={conversion.width}
+      height={conversion.height}
     />
   ));
 

@@ -1,6 +1,6 @@
 const IntegrationContent = {
     wordpress: [
-        { "name": "Facebook", "fileName": "facebook", altText:""},
+        { "name": "Facebook", "fileName": "facebook", altText:" "},
         { "name": "Hubspot", "fileName": "hubspot", altText:"" },
         { "name": "Outlook", "fileName": "outlook", altText:"" },
         { "name": "Shopify", "fileName": "shopify", altText:"" },
@@ -8,8 +8,8 @@ const IntegrationContent = {
         { "name": "Asana", "fileName": "asana", altText:"" },
         { "name": "Calendly", "fileName": "calendly", altText:"" },
         { "name": "Constant Contact", "fileName": "constant-contact", altText:"" },
-        { "name": "Gsuite", "fileName": "gsuite", altText:"" },
-        { "name": "Infusionsoft", "fileName": "infusionsoft", altText:"" },
+        { "name": "Gsuite", "fileName": "gmail", altText:"" },
+        { "name": "Keap", "fileName": "keap", altText:"" },
         { "name": "Instagram", "fileName": "instagram", altText:"" },
         { "name": "Quickbooks", "fileName": "quickbooks", altText:"" },
         { "name": "Salesforce", "fileName": "salesforce", altText:"" },
@@ -18,7 +18,7 @@ const IntegrationContent = {
         { "name": "Zapier", "fileName": "zapier", altText:"" },
         { "name": "Zendesk", "fileName": "zendesk", altText:"" },
         { "name": "Intercom", "fileName": "intercom", altText:"" },
-        { "name": "ConvertKit", "fileName": "convertkit", altText:"" },
+        { "name": "ConvertKit", "fileName": "convert-kit", altText:"" },
         { "name": "Zoho", "fileName": "zoho", altText:"" },
 
 
@@ -29,7 +29,11 @@ const IntegrationContent = {
         { "name": "YouTube", "fileName": "youtube", altText:"" },
         { "name": "LinkedIn", "fileName": "linkedin", altText:"" },
         { "name": "Snapchat", "fileName": "snapchat", altText:"" },
-        { "name": "Pinterest", "fileName": "pinterest", altText:"" }
+        { "name": "Pinterest", "fileName": "pinterest", altText:"" },
+        { "name": "Messenger", "fileName": "messenger", altText:"" },
+        { "name": "Reddit", "fileName": "reddit", altText:"" },
+        { "name": "WhatsApp", "fileName": "whatsapp", altText:"" },
+        { "name": "WeChat", "fileName": "wechat", altText:"" }      
     ],
     reputation: [
         { "name": "Yelp", "fileName": "yelp", altText:"" },

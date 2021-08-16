@@ -116,7 +116,7 @@ function WordPressWebsiteDevelopment() {
   ));
 
   const conversionImage = Wordpress.conversion.map((conversion) => (
-    <StandardImage
+    <ServiceImage
       image={conversion.image}
       imageAngle="none"
       height={conversion.height}
@@ -319,19 +319,20 @@ function WordPressWebsiteDevelopment() {
         child1={performanceImage}
         child2={performanceText}
       />
-      {CarroScreenImages.carro.map((carro) => (
+      {Wordpress.responsiveScreens.map((responsiveScreens) => (
         <ResponsiveScreens
           style="py-36 pb-12 overflow-hidden z-30 relative"
-          link="https://getcarro.com"
-          desktopLeft={carro.desktopLeft}
-          desktopRight={carro.desktopRight}
-          tablet={carro.tablet}
-          phone={carro.phone}
-          desktopLeftLink={carro.desktopLeftLink}
-          desktopRightLink={carro.desktopRightLink}
-          tabletLink={carro.tabletLink}
-          phoneLink={carro.phoneLink}
-          key={carro.desktopLeft}
+          link="/clients"
+          buttonName={responsiveScreens.buttonName}
+          desktopLeft={responsiveScreens.desktopLeft}
+          desktopRight={responsiveScreens.desktopRight}
+          tablet={responsiveScreens.tablet}
+          phone={responsiveScreens.phone}
+          desktopLeftLink={responsiveScreens.desktopLeftLink}
+          desktopRightLink={responsiveScreens.desktopRightLink}
+          tabletLink={responsiveScreens.tabletLink}
+          phoneLink={responsiveScreens.phoneLink}
+          key={responsiveScreens.desktopLeft}
         />
       ))}
       <TwoColumnLayout
@@ -359,11 +360,11 @@ function WordPressWebsiteDevelopment() {
         <div className="w-full px-4 pt-16">
           <div className="p-2 mx-auto bg-white rounded-2xl">
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-              {WordpressFAQ.wordpress.map((wordpress) => (
+              {Wordpress.faq.map((faq) => (
                 <FAQDropdown
-                  question={wordpress.question}
-                  answer={wordpress.answer}
-                  key={wordpress.question}
+                  question={faq.question}
+                  answer={faq.answer}
+                  key={faq.question}
                 />
               ))}
             </div>

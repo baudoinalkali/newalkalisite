@@ -177,22 +177,7 @@ function Reputation() {
         child1={socialImage4}
         child2={socialText4}
       />
-      <div className="py-24 px-7">
-        <h6 className="text-3xl md:text-4xl pb-24 text-center font-bold m-auto leading-tight">
-          You Give Us Trust, We Give You Results
-        </h6>
-        <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {SEOResults.SEO.map((SEO) => (
-            <ResultsBlocks
-              image={SEO.image}
-              result={SEO.result}
-              resultName={SEO.resultName}
-              altText={SEO.altText}
-            />
-          ))}
-        </div>
-      </div>
-      <div className="bg-alkaligrey-300 py-24">
+      <div className="py-36">
         <h6 className="text-3xl md:text-4xl pb-24 text-center font-bold m-auto leading-tight">
           Platforms We Work With
         </h6>

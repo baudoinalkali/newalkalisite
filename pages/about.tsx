@@ -1,6 +1,8 @@
 import SplitTextImageAlt from "../components/SplitTextImageAlt";
 import CombinedNavigation from "../components/Navigation/CombinedNavigation";
 import ServiceBlocks from "../components/Services/ServiceBlocks";
+import ServiceLeadSection from "../components/ServiceLeadSection";
+import AboutContent from "../content/about";
 import dynamic from 'next/dynamic';
 const TestimonialSlide = dynamic(() => import("../components/TestimonialSlide"));
 
@@ -22,55 +24,29 @@ export default function About() {
         </div>
       </div>
       <div className="">
-        <SplitTextImageAlt
+        <SplitTextImage
           style="py-36 z-0"
-          title="Our Commitment"
+          title="Constantly Evolving"
           image="/images/custom-built.png"
-          text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
+          text="Alkali, formerly Alkali Designs, was founded in 2015 as a web design and development company. Over the years, we have expanded our service offerings to meet the needs of our clients. We pride ourselves on being technology and marketing experts that are deeply client-oriented. We strive to bring our diverse experiences and knowledge to every client engagement, providing the best possible outcome. We have the technology and marketing experience to bring your vision to life and the commitment to client satisfaction to leave no stone unturned while doing so."
         />
       </div>
       <div className="bg-alkaligrey-300 py-36">
+        <div className="px-7 pb-36 2xl:px-0">
         <h6 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-20">
-          Core Values
+          Our SEO Services
         </h6>
-        <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14 pb-40">
-          <ServiceBlocks
-            serviceTitle="Test"
-            serviceText="Test"
-            image="/images/alkali-icon-blue.svg"
-            altText="test"
-          />
-          <ServiceBlocks
-            serviceTitle="Test"
-            serviceText="Test"
-            image="/images/alkali-icon-blue.svg"
-            altText="test"
-          />
-          <ServiceBlocks
-            serviceTitle="Test"
-            serviceText="Test"
-            image="/images/alkali-icon-blue.svg"
-            altText="test"
-          />
-          <ServiceBlocks
-            serviceTitle="Test"
-            serviceText="Test"
-            image="/images/alkali-icon-blue.svg"
-            altText="test"
-          />
-          <ServiceBlocks
-            serviceTitle="Test"
-            serviceText="Test"
-            image="/images/alkali-icon-blue.svg"
-            altText="test"
-          />
-          <ServiceBlocks
-            serviceTitle="Test"
-            serviceText="Test"
-            image="/images/alkali-icon-blue.svg"
-            altText="test"
-          />
+        <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
+          {AboutContent.values.map((values) => (
+            <ServiceBlocks
+              serviceTitle={values.serviceTitle}
+              serviceText={values.serviceText}
+              image={values.image}
+              altText={values.altText}
+            />
+          ))}
         </div>
+      </div>
         <div className="px-7 -mb-80">
           <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
@@ -85,6 +61,14 @@ export default function About() {
             quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
           />
         </div>
+      </div>
+      <div className="">
+        <SplitTextImage
+          style="py-36 pt-80 z-0"
+          title="Why we do what we do"
+          image="/images/custom-built.png"
+          text="At our core, we genuinely believe that for a business to succeed, they need to have a well-rounded online presence. We don’t look at our services as one-off tasks that need to get checked off for a business to succeed. When a potential client comes to us and says they need help, we don’t say yes and start working. Instead, we spend the time to gain a deep understanding of their business, their struggles, and goals, and we proceed with those front and center. Our solutions have the opportunity to drastically impact a business for the better, and we do everything we can to make sure they do."
+        />
       </div>
       <div className="pt-80">
         <h3 className="text-4xl md:text-5xl pt-2 pb-24 font-bold text-center">
