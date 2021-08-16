@@ -128,7 +128,7 @@ const ClientContent = {
                     name: "Blockchain Education Network",
                     slug: "https://blockchainedu.org",
                     bio: "The Blockchain Education Network (BEN) is an international nonprofit organization dedicated to forming a robust network of student organizations for blockchain education, innovation, and development. . BEN was designed to help nascent, burgeoning, and not-yet existing college organizations build a presence on their respective campuses, receive administrative recognition and funding, and to help students connect with similar college groups. We provide educational and professional resources, contacts, speakers, and guidance in order to usher in a new era of electronic finance and innovation.",
-                    brandColor: "#ff936b", 
+                    brandColor: "#ff936b",
                 },
             ],
         section1:
@@ -185,7 +185,7 @@ const ClientContent = {
                     name: "Bobtail",
                     slug: "https://bobtail.com",
                     bio: "Bobtail empowers carriers with powerful financial tools that help them grow their business and serve them with honesty, transparency, and fairness.",
-                    brandColor: "#ff936b", 
+                    brandColor: "#ff936b",
                 },
             ],
         section1:
@@ -239,7 +239,7 @@ const ClientContent = {
                     name: "The HID Factory",
                     slug: "https://blockchainedu.org",
                     bio: "Bobtail empowers carriers with powerful financial tools that help them grow their business and serve them with honesty, transparency, and fairness.",
-                    brandColor: "#ff936b", 
+                    brandColor: "#ff936b",
                 },
             ],
         section1:
@@ -296,7 +296,7 @@ const ClientContent = {
                     name: "Magnetite",
                     slug: "https://magnetite.com",
                     bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
-                    brandColor: "#ff936b", 
+                    brandColor: "#ff936b",
                 },
             ],
         section1:
@@ -349,7 +349,7 @@ const ClientContent = {
                     name: "Go-Cottage",
                     slug: "https://go-cottage.com",
                     bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
-                    brandColor: "#ff936b", 
+                    brandColor: "#ff936b",
                 },
             ],
         section1:
@@ -402,7 +402,7 @@ const ClientContent = {
                     name: "CarTalk Repair",
                     slug: "https://cartalkrepair.com",
                     bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
-                    brandColor: "#bf1e2e", 
+                    brandColor: "#bf1e2e",
                 },
             ],
         section1:
@@ -455,7 +455,7 @@ const ClientContent = {
                     name: "The Blue Collar Success Group",
                     slug: "https://thebluecollarsuccessgroup.com",
                     bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
-                    brandColor: "#0a98cc", 
+                    brandColor: "#0a98cc",
                 },
             ],
         section1:
@@ -508,7 +508,7 @@ const ClientContent = {
                     name: "The Blue Collar Success Group",
                     slug: "https://thebluecollarsuccessgroup.com",
                     bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
-                    brandColor: "#0780ff", 
+                    brandColor: "#0780ff",
                 },
             ],
         section1:
@@ -561,7 +561,7 @@ const ClientContent = {
                     name: "Lessons That Rock",
                     slug: "https://thebluecollarsuccessgroup.com",
                     bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
-                    brandColor: "#20bef0", 
+                    brandColor: "#20bef0",
                 },
             ],
         section1:
@@ -615,7 +615,7 @@ const ClientContent = {
                     name: "Lessons That Rock",
                     slug: "https://thebluecollarsuccessgroup.com",
                     bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
-                    brandColor: "#20bef0", 
+                    brandColor: "#20bef0",
                 },
             ],
         section1:
@@ -650,20 +650,64 @@ const ClientContent = {
                 },
             ],
     },
-    amelia: [
-        {
-            image: "/images/amelia-desktop2.png",
-            sub: "The Goal",
-            title: "Test Title",
-            text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation."
-        },
-        {
-            image: "/images/amelia-desktop.png",
-            sub: "The Goal 2",
-            title: "Test Title",
-            text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation."
-        }
-    ],
+
+    amelia: {
+        hero:
+            [
+                {
+                    industry: "Home Services",
+                    name: "Homewatch Amelia",
+                    service: ["WordPress Web Development"],
+                    serviceSlug: ["/services/web-development/wordpress-website-development"],
+                    backgroundImg: "/images/clients/bobtail/hero-background.jpg",
+                    backgroundOverlay: "true",
+                    image: "/",
+                    width: "100",
+                    height: "100"
+                },
+            ],
+        about:
+            [
+                {
+                    name: "Lessons That Rock",
+                    slug: "https://thebluecollarsuccessgroup.com",
+                    bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
+                    brandColor: "#20bef0",
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/lessons-that-rock/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Goal",
+                    title: "Test Title",
+                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    image: "/images/clients/lessons-that-rock/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/lessons-that-rock/desktop-left.png",
+                    desktopLeftLink: "https://go-cottage/about",
+                    desktopRight: "/images/clients/lessons-that-rock/desktop-right.png",
+                    desktopRightLink: "https://go-cottage/directions",
+                    tablet: "/images/clients/lessons-that-rock/tablet.png",
+                    tabletLink: "https://go-cottage",
+                    phone: "/images/clients/lessons-that-rock/mobile.png",
+                    phoneLink: "https://go-cottage/two-bedroom-cottage",
+                },
+            ],
+    },
+
     cartalk: [
         {
             title: "Custom-Built WordPress vs. Templated WordPress",
@@ -675,6 +719,8 @@ const ClientContent = {
 }
 
 const CarroContent = ClientContent.carro
+
+const AmeliaContent = ClientContent.amelia
 
 const ChattrContent = ClientContent.chattr
 
@@ -697,6 +743,6 @@ const ZexsterContent = ClientContent.zexster
 const LessonsContent = ClientContent.lessonsThatRock
 
 const SafeDryContent = ClientContent.safeDry
-export { CarroContent, ChattrContent, BenContent, BobtailContent, THFContent, MagnetiteContent, GoCottageContent, CarTalkContent, BlueCollarContent, ZexsterContent, LessonsContent, SafeDryContent }
+export { CarroContent, ChattrContent, BenContent, AmeliaContent, BobtailContent, THFContent, MagnetiteContent, GoCottageContent, CarTalkContent, BlueCollarContent, ZexsterContent, LessonsContent, SafeDryContent }
 
 export default ClientContent
