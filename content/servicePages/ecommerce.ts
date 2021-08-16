@@ -79,9 +79,17 @@ const Ecommerce = {
     ],
     faq: [
         {
-            question: "question",
-            answer: "answer",
+            question: "How long does it take to develop an e-commerce project?",
+            answer: "Typical e-commerce projects will take around 2-4 months. This estimate is based on our experience, but timelines can vary based on your specific project's complexity, scope, and functionality."
         },
+        {
+            question: "How much does an e-commere solution cost?",
+            answer: "E-commerce development projects costs vary greatly. To provide pricing for your specific project, please reach out to us for a free consultation to thoroughly understand your project requirements and the implications that would have on pricing."
+        },
+        {
+            question: "Can you support or customize an existing e-commerce website?",
+            answer: "If you are looking to refresh an existing e-commerce site, make minor adjustments, or have someone conduct ongoing support and maintenance, we can assist you. In some cases, it might make more sense to redesign an existing site rather than start from the ground. We would be glad to discuss the specifics of your needs so that we may offer proper guidance."
+        }
     ]
 }
 

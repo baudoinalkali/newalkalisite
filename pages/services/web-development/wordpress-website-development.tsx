@@ -360,11 +360,11 @@ function WordPressWebsiteDevelopment() {
         <div className="w-full px-4 pt-16">
           <div className="p-2 mx-auto bg-white rounded-2xl">
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-              {WordpressFAQ.wordpress.map((wordpress) => (
+              {Wordpress.faq.map((faq) => (
                 <FAQDropdown
-                  question={wordpress.question}
-                  answer={wordpress.answer}
-                  key={wordpress.question}
+                  question={faq.question}
+                  answer={faq.answer}
+                  key={faq.question}
                 />
               ))}
             </div>

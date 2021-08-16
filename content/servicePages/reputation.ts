@@ -5,8 +5,8 @@ const ReputationManagement = {
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis diam, scelerisque at porta a, vulputate a purus. Fusce ipsum diam, pellentesque a scelerisque sollicitudin, cursus nec tellus. In sit amet laoreet quam. Proin euismod metus ut consectetur ultrices. Suspendisse ac est eget augue venenatis congue ac a odio. Sed feugiat elementum malesuada. Phasellus augue dolor, accumsan quis ante in, eleifend placerat metus.",
             image: "/images/digital-marketing/reputation/protect-what-matters.svg",
             altText: "",
-            width: "600",
-            height: "450"       
+            width: "675",
+            height: "455"       
         },
     ],
     text2: [
@@ -16,7 +16,7 @@ const ReputationManagement = {
             image: "/images/digital-marketing/reputation/represented-fairly-online.svg",
             altText: "",
             width: "600",
-            height: "450"   
+            height: "400"   
         },
     ],
     text3: [
@@ -26,7 +26,7 @@ const ReputationManagement = {
             image: "/images/digital-marketing/reputation/integrate-seamlessly.svg",
             altText: "",
             width: "600",
-            height: "450"   
+            height: "400"   
         },
     ],
     text4: [

@@ -80,11 +80,11 @@ function ContentMarketing() {
         headerBackground="bg-alkali-500"
         headerColor="white"
       />
-      {ServiceHeroContent.contentMarketing.map((contentMarketing) => (
+      {Content.headline.map((headline) => (
         <ServiceHero
-          sub={contentMarketing.sub}
-          title={contentMarketing.title}
-          backgroundImg={contentMarketing.backgroundImg}
+          sub={headline.subTitle}
+          title={headline.title}
+          titleLength={headline.titleLength}
         />
       ))}
       <TwoColumnLayout style="" child2={contentImage1} child1={contentText1} />
@@ -99,12 +99,12 @@ function ContentMarketing() {
           Our Content Marketing Services
         </h6>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {ContentMarketingServices.ContentMarketing.map((ContentMarketing) => (
+          {Content.features.map((features) => (
             <ServiceBlocks
-              serviceTitle={ContentMarketing.serviceTitle}
-              serviceText={ContentMarketing.serviceText}
-              image={ContentMarketing.image}
-              altText={ContentMarketing.altText}
+              serviceTitle={features.serviceTitle}
+              serviceText={features.serviceText}
+              image={features.image}
+              altText={features.altText}
             />
           ))}
         </div>
@@ -204,11 +204,11 @@ function ContentMarketing() {
           <div className="w-full px-4 pt-16">
             <div className="p-2 mx-auto rounded-2xl">
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-                {ContentMarketingFAQ.ContentMarketing.map(
-                  (ContentMarketing) => (
+                {Content.faq.map(
+                  (faq) => (
                     <FAQDropdown
-                      question={ContentMarketing.question}
-                      answer={ContentMarketing.answer}
+                      question={faq.question}
+                      answer={faq.answer}
                     />
                   )
                 )}
