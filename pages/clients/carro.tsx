@@ -1,6 +1,5 @@
 import Modal from "../../components/Modal";
-import ResponsiveScreens from "../../components/ResponsiveScreens";
-import TestimonialSlide from "../../components/TestimonialSlide";
+import ClientCardContainer from "../../components/Clients/ClientCardContainer";
 import Testimonials from "../../content/testimonials";
 import TwoColumnLayout from "../../components/TwoColumnLayout";
 import StandardImage from "../../components/StandardImage";
@@ -8,6 +7,9 @@ import StandardTextBlock from "../../components/StandardTextBlock";
 import CarroContent from "../../content/clientPages/clientContent";
 import ClientHeader from "../../components/Clients/ClientHeader";
 import ClientAbout from "../../components/Clients/ClientAbout";
+import dynamic from 'next/dynamic';
+const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
+const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
 function Carro() {
   const carroGoalImage = CarroContent.carro.section1.map((Carro) => (
