@@ -97,6 +97,20 @@ const Wordpress = {
             question: "How long does it take to develop a WordPress website?",
             answer: "Typical Custom WordPress builds will take around 2-4 months, and template-based builds will range from 4-6 weeks. These estimates can vary based on your specific project's complexity, scope, and functionality."
         }
+    ],
+    responsiveScreens: [
+        {
+            link: "/clients",
+            buttonName: "View Clients",
+            desktopLeft: "/images",
+            desktopRight: "/images",
+            tablet: "/images",
+            phone: "/images",
+            desktopLeftLink: "/images",
+            desktopRightLink: "/images",
+            tabletLink: "/images",
+            phoneLink: "/images"
+        }
     ]
 }
 

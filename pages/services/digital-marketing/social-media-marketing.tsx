@@ -24,11 +24,11 @@ import ServiceImage from "../../../components/Services/ServiceImage";
 
 function SocialMediaMarketing() {
   const socialImage1 = SocialMarketing.text1.map((text1) => (
-    <ServiceImage 
-    image={text1.image} 
-    imageAngle="none" 
-    width={text1.width}
-    height={text1.height}
+    <ServiceImage
+      image={text1.image}
+      imageAngle="none"
+      width={text1.width}
+      height={text1.height}
     />
   ));
 
@@ -37,11 +37,11 @@ function SocialMediaMarketing() {
   ));
 
   const socialImage2 = SocialMarketing.text2.map((text2) => (
-    <ServiceImage 
-    image={text2.image} 
-    imageAngle="none" 
-    width={text2.width}
-    height={text2.height}
+    <ServiceImage
+      image={text2.image}
+      imageAngle="none"
+      width={text2.width}
+      height={text2.height}
     />
   ));
 
@@ -50,11 +50,11 @@ function SocialMediaMarketing() {
   ));
 
   const socialImage3 = SocialMarketing.text3.map((text3) => (
-    <ServiceImage 
-    image={text3.image} 
-    imageAngle="none" 
-    width={text3.width}
-    height={text3.height}
+    <ServiceImage
+      image={text3.image}
+      imageAngle="none"
+      width={text3.width}
+      height={text3.height}
     />
   ));
 
@@ -63,11 +63,11 @@ function SocialMediaMarketing() {
   ));
 
   const socialImage4 = SocialMarketing.text4.map((text4) => (
-    <ServiceImage 
-    image={text4.image} 
-    imageAngle="none" 
-    width={text4.width}
-    height={text4.height}
+    <ServiceImage
+      image={text4.image}
+      imageAngle="none"
+      width={text4.width}
+      height={text4.height}
     />
   ));
 
@@ -81,11 +81,11 @@ function SocialMediaMarketing() {
         headerBackground="bg-alkali-500"
         headerColor="white"
       />
-      {ServiceHeroContent.social.map((social) => (
+      {SocialMarketing.headline.map((headline) => (
         <ServiceHero
-          sub={social.sub}
-          title={social.title}
-          backgroundImg={social.backgroundImg}
+          sub={headline.subTitle}
+          title={headline.title}
+          titleLength={headline.titleLength}
         />
       ))}
       <TwoColumnLayout style="" child2={socialImage1} child1={socialText1} />
@@ -96,16 +96,16 @@ function SocialMediaMarketing() {
         child2={socialText2}
       />
       <div className="py-24 px-7">
-        <h6 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-24">
+        <h6 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-24">
           Our Social Media Marketing Services
         </h6>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {SocialServices.Social.map((Social) => (
+          {SocialMarketing.features.map((features) => (
             <ServiceBlocks
-              serviceTitle={Social.serviceTitle}
-              serviceText={Social.serviceText}
-              image={Social.image}
-              altText={Social.altText}
+              serviceTitle={features.serviceTitle}
+              serviceText={features.serviceText}
+              image={features.image}
+              altText={features.altText}
             />
           ))}
         </div>
@@ -146,7 +146,7 @@ function SocialMediaMarketing() {
         child1={socialText3}
       />
       <div className="-mt-72 px-7">
-        <h3 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-24">
+        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-24">
           Hear It Straight From Our Clients
         </h3>
       </div>
@@ -176,25 +176,10 @@ function SocialMediaMarketing() {
         child2={socialText4}
       />
       <div className="py-24 px-7">
-        <h6 className="text-3xl md:text-4xl pb-24 text-center font-bold m-auto leading-tight">
-          You Give Us Trust, We Give You Results
-        </h6>
-        <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {SEOResults.SEO.map((SEO) => (
-            <ResultsBlocks
-              image={SEO.image}
-              result={SEO.result}
-              resultName={SEO.resultName}
-              altText={SEO.altText}
-            />
-          ))}
-        </div>
-      </div>
-      <div className="bg-alkaligrey-300 py-24 px-7">
-        <h6 className="text-3xl md:text-4xl pb-24 text-center font-bold m-auto leading-tight">
+        <h6 className="text-4xl md:text-5xl pb-24 text-center font-bold m-auto leading-tight">
           Platforms We Work With
         </h6>
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 max-w-3xl m-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-y-10 max-w-7xl m-auto">
           {SocialIntegrations.social.map((social) => (
             <div className="relative m-auto" style={{ fontSize: "0" }}>
               <Image
@@ -202,7 +187,7 @@ function SocialMediaMarketing() {
                 width={144}
                 quality={100}
                 className="object-center object-cover pointer-events-none rounded-full duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-                src={`/images/icons/${social.fileName}.png`}
+                src={`/images/icons/${social.fileName}.svg`}
                 alt={social.altText}
               />
               <div className="IntegrationIconContainer relative z-1">
@@ -224,10 +209,10 @@ function SocialMediaMarketing() {
           <div className="w-full px-4 pt-16">
             <div className="p-2 mx-auto rounded-2xl">
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-                {SocialFAQ.Social.map((Social) => (
+                {SocialMarketing.faq.map((faq) => (
                   <FAQDropdown
-                    question={Social.question}
-                    answer={Social.answer}
+                    question={faq.question}
+                    answer={faq.answer}
                   />
                 ))}
               </div>

@@ -188,22 +188,6 @@ function LocalSearchEngineOptimization() {
         child1={seoImage4}
         child2={seoText4}
       />
-
-      <div className="py-24 px-7">
-        <h6 className="text-3xl md:text-4xl pb-14 text-center font-bold m-auto leading-tight">
-          You Give Us Trust, We Give You Results
-        </h6>
-        <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {ServiceResultsContent.localSEO.map((localSEO) => (
-            <ResultsBlocks
-              image={localSEO.image}
-              result={localSEO.result}
-              resultName={localSEO.resultName}
-              altText={localSEO.altText}
-            />
-          ))}
-        </div>
-      </div>
       <ServiceLeadSection
         style="bg-alkali-500 py-24"
         title="We're Here to Realize Your Vision"

@@ -169,24 +169,8 @@ function ContentMarketing() {
           ))}
         </TestimonialSlider>
       </div>
-
-      <div className="pt-72 mt-3 bg-alkaligrey-300 py-24 px-7">
-        <h6 className="text-3xl md:text-4xl pb-14 text-center font-bold m-auto leading-tight">
-          You Give Us Trust, We Give You Results
-        </h6>
-        <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {ServiceResultsContent.localSEO.map((localSEO) => (
-            <ResultsBlocks
-              image={localSEO.image}
-              result={localSEO.result}
-              resultName={localSEO.resultName}
-              altText={localSEO.altText}
-            />
-          ))}
-        </div>
-      </div>
       <ServiceLeadSection
-        style="bg-alkali-500 py-24"
+        style="bg-alkali-500 py-24 pt-96"
         title="We're Here to Realize Your Vision"
         text="Do you have an idea and vision for your website but not sure where to start? Our team of professionals are standing by to answer any questions you may have. Whether you need a free audit of your current website or want to discuss specifics of a new WordPress website build, we look forward to serving you!"
         buttonText="Schedule a Discovery Call"

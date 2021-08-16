@@ -20,11 +20,11 @@ import ServiceImage from "../../../components/Services/ServiceImage";
 
 function PayPerClick() {
   const seoImage1 = PPC.text1.map((text1) => (
-    <ServiceImage 
-    image={text1.image} 
-    imageAngle="none" 
-    width={text1.width}
-    height={text1.height}
+    <ServiceImage
+      image={text1.image}
+      imageAngle="none"
+      width={text1.width}
+      height={text1.height}
     />
   ));
 
@@ -33,11 +33,11 @@ function PayPerClick() {
   ));
 
   const seoImage2 = PPC.text2.map((text2) => (
-    <ServiceImage 
-    image={text2.image} 
-    imageAngle="none" 
-    width={text2.width}
-    height={text2.height}
+    <ServiceImage
+      image={text2.image}
+      imageAngle="none"
+      width={text2.width}
+      height={text2.height}
     />
   ));
 
@@ -46,11 +46,11 @@ function PayPerClick() {
   ));
 
   const seoImage3 = PPC.text3.map((text3) => (
-    <ServiceImage 
-    image={text3.image} 
-    imageAngle="none" 
-    width={text3.width}
-    height={text3.height}
+    <ServiceImage
+      image={text3.image}
+      imageAngle="none"
+      width={text3.width}
+      height={text3.height}
     />
   ));
 
@@ -59,11 +59,11 @@ function PayPerClick() {
   ));
 
   const seoImage4 = PPC.text4.map((text4) => (
-    <ServiceImage 
-    image={text4.image} 
-    imageAngle="none" 
-    width={text4.width}
-    height={text4.height}
+    <ServiceImage
+      image={text4.image}
+      imageAngle="none"
+      width={text4.width}
+      height={text4.height}
     />
   ));
 
@@ -72,11 +72,11 @@ function PayPerClick() {
   ));
 
   const seoImage5 = PPC.text5.map((text5) => (
-    <ServiceImage 
-    image={text5.image} 
-    imageAngle="none" 
-    width={text5.width}
-    height={text5.height}
+    <ServiceImage
+      image={text5.image}
+      imageAngle="none"
+      width={text5.width}
+      height={text5.height}
     />
   ));
 
@@ -164,84 +164,13 @@ function PayPerClick() {
         child1={seoImage4}
         child2={seoText4}
       />
-      <div className="bg-alkaligrey-300">
-        <div className="py-36 max-w-7xl m-auto px-7">
-          <h6 className="text-3xl md:text-4xl pb-14 text-center font-bold m-auto leading-tight">
-            You Give Us Trust, We Give You Results
-          </h6>
-          <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-            <div className="flex items-center bg-white rounded-md shadow-2xl justify-between px-7 py-4">
-              <div>
-                <img className="w-36" src="/images/alkalismall.png" />
-              </div>
-              <div>
-                <h3 className="text-alkali-500 relative font-bold text-4xl py-4 pl-5 pb-4">
-                  5,319
-                </h3>
-                <p className="pl-5 uppercase text-md">Top 5 Keywords</p>
-              </div>
-            </div>
-            <div className="flex items-center bg-white rounded-md shadow-2xl justify-between px-7 py-4">
-              <div>
-                <img className="w-36" src="/images/alkalismall.png" />
-              </div>
-              <div>
-                <h3 className="text-alkali-500 relative font-bold text-4xl py-4 pl-5 pb-4">
-                  5,319
-                </h3>
-                <p className="pl-5 uppercase text-md">Top 5 Keywords</p>
-              </div>
-            </div>
-            <div className="flex items-center bg-white rounded-md shadow-2xl justify-between px-7 py-4">
-              <div>
-                <img className="w-36" src="/images/alkalismall.png" />
-              </div>
-              <div>
-                <h3 className="text-alkali-500 relative font-bold text-4xl py-4 pl-5 pb-4">
-                  5,319
-                </h3>
-                <p className="pl-5 uppercase text-md">Top 5 Keywords</p>
-              </div>
-            </div>
-            <div className="flex items-center bg-white rounded-md shadow-2xl justify-between px-7 py-4">
-              <div>
-                <img className="w-36" src="/images/alkalismall.png" />
-              </div>
-              <div>
-                <h3 className="text-alkali-500 relative font-bold text-4xl py-4 pl-5 pb-4">
-                  5,319
-                </h3>
-                <p className="pl-5 uppercase text-md">Top 5 Keywords</p>
-              </div>
-            </div>
-            <div className="flex items-center bg-white rounded-md shadow-2xl justify-between px-7 py-4">
-              <div>
-                <img className="w-36" src="/images/alkalismall.png" />
-              </div>
-              <div>
-                <h3 className="text-alkali-500 relative font-bold text-4xl py-4 pl-5 pb-4">
-                  5,319
-                </h3>
-                <p className="pl-5 uppercase text-md">Top 5 Keywords</p>
-              </div>
-            </div>
-            <div className="flex items-center bg-white rounded-md shadow-2xl justify-between px-7 py-4">
-              <div>
-                <img className="w-36" src="/images/alkalismall.png" />
-              </div>
-              <div>
-                <h3 className="text-alkali-500 relative font-bold text-4xl py-4 pl-5 pb-4">
-                  5,319
-                </h3>
-                <p className="pl-5 uppercase text-md">Top 5 Keywords</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <TwoColumnLayout style="pt-36" child2={seoImage5} child1={seoText5} />
+      <TwoColumnLayout
+        style="pt-36 bg-alkaligrey-300"
+        child2={seoImage5}
+        child1={seoText5}
+      />
       <div className="">
-        <div className="py-24 max-w-7xl m-auto px-7">
+        <div className="py-36 max-w-7xl m-auto px-7">
           <h6 className="text-4xl md:text-5xl pb-7 max-w-3xl m-auto text-center font-bold m-auto leading-tight">
             Frequently Asked Questions About Our SEO Services
           </h6>
@@ -249,9 +178,9 @@ function PayPerClick() {
             <div className="mx-auto rounded-2xl">
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-20 gap-y-10">
                 {PPC.faq.map((faq) => (
-                  <FAQDropdown 
-                  question={faq.question} 
-                  answer={faq.answer} />
+                  <FAQDropdown
+                    question={faq.question}
+                    answer={faq.answer} />
                 ))}
               </div>
             </div>

@@ -8,7 +8,7 @@ const ResponsiveScreens = (props) => {
       </h3>
       <a href={props.link} className="">
         <button className="p-3 px-12 font-semibold text-white shadow-2xl rounded-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-600 transform hover:-translate-y-1 hover:scale-110">
-          Visit Site
+          {props.buttonName}
         </button>
       </a>
       <div id="arrow-container-container">

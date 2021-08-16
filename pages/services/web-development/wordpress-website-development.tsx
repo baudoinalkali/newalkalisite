@@ -320,19 +320,20 @@ function WordPressWebsiteDevelopment() {
         child1={performanceImage}
         child2={performanceText}
       />
-      {CarroScreenImages.carro.map((carro) => (
+      {Wordpress.responsiveScreens.map((responsiveScreens) => (
         <ResponsiveScreens
           style="py-36 pb-12 overflow-hidden z-30 relative"
-          link="https://getcarro.com"
-          desktopLeft={carro.desktopLeft}
-          desktopRight={carro.desktopRight}
-          tablet={carro.tablet}
-          phone={carro.phone}
-          desktopLeftLink={carro.desktopLeftLink}
-          desktopRightLink={carro.desktopRightLink}
-          tabletLink={carro.tabletLink}
-          phoneLink={carro.phoneLink}
-          key={carro.desktopLeft}
+          link="/clients"
+          buttonName={responsiveScreens.buttonName}
+          desktopLeft={responsiveScreens.desktopLeft}
+          desktopRight={responsiveScreens.desktopRight}
+          tablet={responsiveScreens.tablet}
+          phone={responsiveScreens.phone}
+          desktopLeftLink={responsiveScreens.desktopLeftLink}
+          desktopRightLink={responsiveScreens.desktopRightLink}
+          tabletLink={responsiveScreens.tabletLink}
+          phoneLink={responsiveScreens.phoneLink}
+          key={responsiveScreens.desktopLeft}
         />
       ))}
       <TwoColumnLayout
