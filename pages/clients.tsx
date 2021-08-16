@@ -1,11 +1,9 @@
 import ClientCardContainer from "../components/Clients/ClientCardContainer";
-import Header from "../components/Header";
 import ClientMainPage from "../content/clientPages/clientMainPage";
-import ClientCard from "../components/Clients/ClientCard";
 import CombinedNavigation from "../components/Navigation/CombinedNavigation";
+import ClientCardTest2 from "../components/Clients/ClientCardTest2";
 
 function Clients() {
-  const testClient = ClientMainPage[0];
   return (
     <div>
       <div className="bg-alkaligrey-300 px-7">

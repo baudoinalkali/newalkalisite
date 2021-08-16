@@ -1,13 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
 import ServiceLeadSection from "../../../components/ServiceLeadSection";
-import TestimonialSlider from "../../../components/TestimonialSlider";
-import TestimonialSlide from "../../../components/TestimonialSlide";
 import Testimonials from "../../../content/testimonials";
 import Wordpress from "../../../content/servicePages/wordpress";
-import Integration from "../../../components/Integration";
-import wordpressProcess from "../../../content/servicePages/ourProcess";
-import OurProcessComp from "../../../components/Services/OurProcess";
 import TwoColumnLayout from "../../../components/TwoColumnLayout";
 import StandardImage from "../../../components/StandardImage";
 import ServiceImage from "../../../components/Services/ServiceImage";
@@ -15,11 +10,15 @@ import StandardTextBlock from "../../../components/StandardTextBlock";
 import ServiceHeroContent from "../../../content/servicePages/serviceHeroContent";
 import ServiceHero from "../../../components/Services/ServiceHero";
 import CarroScreenImages from "../../../content/clientPages/screenImages";
-import ResponsiveScreens from "../../../components/ResponsiveScreens";
 import Image from "next/image";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
-import FAQDropdown from "../../../components/Services/FAQDropdown";
 import WordpressFAQ from "../../../content/servicePages/faq";
+import dynamic from 'next/dynamic';
+const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
+const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
+const ResponsiveScreens = dynamic(() => import("../../../components/ResponsiveScreens"));
+const Integration = dynamic(() => import("../../../components/Integration"));
+const FAQDropdown = dynamic(()=>import("../../../components/Services/FAQDropdown"));
 
 function WordPressWebsiteDevelopment() {
   const customBuiltImage = Wordpress.customBuilt.map((customBuilt) => (
