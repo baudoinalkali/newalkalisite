@@ -14,6 +14,7 @@ import SocialFAQ from "../../../content/servicePages/faq";
 import ReputationManagement from "../../../content/servicePages/reputation";
 import ReputationIntegrations from "../../../content/servicePages/integrationContent";
 import AuditFormPopup from "../../../components/AuditFormPopup";
+import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
@@ -21,7 +22,12 @@ const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdo
 
 function Reputation() {
   const socialImage1 = ReputationManagement.text1.map((text1) => (
-    <StandardImage image={text1.image} imageAngle="none" />
+    <ServiceImage 
+    image={text1.image} 
+    imageAngle="none" 
+    width={text1.width}
+    height={text1.height}
+    />
   ));
 
   const socialText1 = ReputationManagement.text1.map((text1) => (
@@ -29,7 +35,12 @@ function Reputation() {
   ));
 
   const socialImage2 = ReputationManagement.text2.map((text2) => (
-    <StandardImage image={text2.image} imageAngle="none" />
+    <ServiceImage 
+    image={text2.image} 
+    imageAngle="none" 
+    width={text2.width}
+    height={text2.height}
+    />
   ));
 
   const socialText2 = ReputationManagement.text2.map((text2) => (
@@ -37,7 +48,12 @@ function Reputation() {
   ));
 
   const socialImage3 = ReputationManagement.text3.map((text3) => (
-    <StandardImage image={text3.image} imageAngle="none" />
+    <ServiceImage 
+    image={text3.image} 
+    imageAngle="none" 
+    width={text3.width}
+    height={text3.height}
+    />
   ));
 
   const socialText3 = ReputationManagement.text3.map((text3) => (
@@ -45,7 +61,12 @@ function Reputation() {
   ));
 
   const socialImage4 = ReputationManagement.text4.map((text4) => (
-    <StandardImage image={text4.image} imageAngle="none" />
+    <ServiceImage 
+    image={text4.image} 
+    imageAngle="none" 
+    width={text4.width}
+    height={text4.height}
+    />
   ));
 
   const socialText4 = ReputationManagement.text4.map((text4) => (

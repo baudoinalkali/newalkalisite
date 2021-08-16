@@ -66,6 +66,9 @@ function Carro() {
             backgroundImg={magnetite.backgroundImg}
             backgroundOverlay={magnetite.backgroundOverlay}
             service={magnetite.service}
+            heroImage={magnetite.image}
+            heroImageWidth={magnetite.width}
+            heroImageHeight={magnetite.height}
             serviceSlug={magnetite.serviceSlug}
             style="py-40"
             key={`ameliaAmeliaHeroContentFor${magnetite.name}`}

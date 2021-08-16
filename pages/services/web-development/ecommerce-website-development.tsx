@@ -62,6 +62,7 @@ function EcommerceWebsiteDevelopment() {
     <StandardTextBlock title={text5.title} text={text5.text} />
   ));
 
+  
   return (
     <div className="m-auto overflow-hidden">
       <div>
@@ -85,15 +86,12 @@ function EcommerceWebsiteDevelopment() {
                 E-commerce Website Development
               </h3>
               <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">
-                Standing out in a crowded marketplace can be difficult. Our
-                specialty is not only driving interested users to your site and
-                catching their attention once there but enticing them to engage
-                and come back for more. Whether your site is orientated toward
-                Sales, Information, Charity, or something else, we’ve seen it
-                all, so we do it all. Let our team of talented, inspired
-                professionals give your website the attention it deserves,
-                leaving you free to devote your attention to what matters to
-                you!
+              Whether you’re an existing brick-and-mortar store looking to add another sales channel or about to 
+              launch your B2C product, we can help guide you along your e-commerce journey. There are many options 
+              when it comes to e-commerce platforms, which is why we’re always learning. With our knowledge and expertise, 
+              we aim to thoroughly understand your business so that we can work closely with you to see your goals realized. 
+              So if you’re looking to have a store developed from scratch, increase your conversion rate or sales, you’ve come 
+              to the right place.
               </p>
             </div>
             <div className="z-0 pointer-events-none">
@@ -145,12 +143,12 @@ function EcommerceWebsiteDevelopment() {
           Our E-commerce Services
         </h6>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {EcommerceServices.Ecommerce.map((Ecommerce) => (
+          {Ecommerce.features.map((features) => (
             <ServiceBlocks
-              serviceTitle={Ecommerce.serviceTitle}
-              serviceText={Ecommerce.serviceText}
-              image={Ecommerce.image}
-              altText={Ecommerce.altText}
+              serviceTitle={features.serviceTitle}
+              serviceText={features.serviceText}
+              image={features.image}
+              altText={features.altText}
             />
           ))}
         </div>
@@ -166,8 +164,9 @@ function EcommerceWebsiteDevelopment() {
           Tailored for Your Business
         </h6>
         <p className="text-center max-w-2xl m-auto text-lg font-normal pt-4">
-          There are a lot of e-commerce platforms out there. We work with you to
-          make the right choice based on the needs of your business.
+        There are a lot of e-commerce solutions out there, which can make the selection process 
+        complicated. To combat this, we spend the time to truly understand your business to provide a 
+        recommendation based on our years of experience.
         </p>
       </div>
       <TwoColumnLayout flexType="reverse" child1={image2} child2={text2} />
@@ -206,8 +205,8 @@ function EcommerceWebsiteDevelopment() {
       <TwoColumnLayout
         style="pt-80 -mt-48 bg-alkaligrey-300"
         flexType="reverse"
-        child1={image4}
-        child2={text4}
+        child1={image5}
+        child2={text5}
       />
       {CarroScreenImages.carro.map((carro) => (
         <ResponsiveScreens
@@ -234,10 +233,9 @@ function EcommerceWebsiteDevelopment() {
           Keep Your Store Connected
         </h6>
         <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
-          Platforms such as Shopify, WooCommerce, and BigCommerce have countless
-          third-party integrations. This provides endless opportunities to
-          streamline your workflow, ultimately allowing you to spend more time
-          on other aspects of your business.
+        Platforms such as Shopify, WooCommerce, BigCommerce, and Magento offer countless 
+        third-party integrations. These integrations provide endless opportunities to streamline 
+        your workflow, ultimately allowing you to spend more time growing your business.
         </p>
       </div>
       <Integration style="pb-24 bg-white py-14 2xl:px-0" />
@@ -248,10 +246,10 @@ function EcommerceWebsiteDevelopment() {
         <div className="w-full px-4 pt-16">
           <div className="p-2 mx-auto bg-white rounded-2xl">
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-              {WordpressFAQ.wordpress.map((wordpress) => (
+              {Ecommerce.faq.map((ecommerce) => (
                 <FAQDropdown
-                  question={wordpress.question}
-                  answer={wordpress.answer}
+                  question={ecommerce.question}
+                  answer={ecommerce.answer}
                 />
               ))}
             </div>

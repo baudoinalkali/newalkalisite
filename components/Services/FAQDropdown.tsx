@@ -16,7 +16,9 @@ const FAQDropdown = (props) => {
                         />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-md text-alkaligrey-400">
-                        {props.answer}
+                    <div dangerouslySetInnerHTML={{ __html: props.answer }}>
+
+                    </div>
                     </Disclosure.Panel>
                 </>
             )}

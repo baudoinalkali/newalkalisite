@@ -14,6 +14,8 @@ import ServiceResultsContent from "../../../content/servicePages/resultsBlock";
 import ResultsBlocks from "../../../components/Services/ResultsBlocks";
 import LocalSEOFAQ from "../../../content/servicePages/faq";
 import AuditFormPopup from "../../../components/AuditFormPopup";
+import ServiceImage from "../../../components/Services/ServiceImage";
+import { text } from "@fortawesome/fontawesome-svg-core";
 import dynamic from 'next/dynamic';
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
@@ -21,15 +23,27 @@ const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdo
 
 function LocalSearchEngineOptimization() {
   const seoImage1 = LocalSEO.text1.map((text1) => (
-    <StandardImage image={text1.image} imageAngle="none" />
+    <ServiceImage 
+    image={text1.image} 
+    height={text1.height}
+    width={text1.width}
+    />
   ));
 
   const seoText1 = LocalSEO.text1.map((text1) => (
-    <StandardTextBlock title={text1.title} text={text1.text} />
+    <StandardTextBlock 
+    title={text1.title} 
+    text={text1.text} 
+    />
   ));
 
   const seoImage2 = LocalSEO.text2.map((text2) => (
-    <StandardImage image={text2.image} imageAngle="none" />
+    <ServiceImage 
+    image={text2.image} 
+    imageAngle="none" 
+    height={text2.height}
+    width={text2.width}
+    />
   ));
 
   const seoText2 = LocalSEO.text2.map((text2) => (
@@ -37,7 +51,12 @@ function LocalSearchEngineOptimization() {
   ));
 
   const seoImage3 = LocalSEO.text3.map((text3) => (
-    <StandardImage image={text3.image} imageAngle="none" />
+    <ServiceImage 
+    image={text3.image} 
+    imageAngle="none" 
+    height={text3.height}
+    width={text3.width}
+    />
   ));
 
   const seoText3 = LocalSEO.text3.map((text3) => (
@@ -45,7 +64,12 @@ function LocalSearchEngineOptimization() {
   ));
 
   const seoImage4 = LocalSEO.text4.map((text4) => (
-    <StandardImage image={text4.image} imageAngle="none" />
+    <ServiceImage 
+    image={text4.image} 
+    imageAngle="none" 
+    height={text4.height}
+    width={text4.width}
+    />
   ));
 
   const seoText4 = LocalSEO.text4.map((text4) => (
@@ -53,7 +77,12 @@ function LocalSearchEngineOptimization() {
   ));
 
   const seoImage5 = LocalSEO.text5.map((text5) => (
-    <StandardImage image={text5.image} imageAngle="none" />
+    <ServiceImage 
+    image={text5.image} 
+    imageAngle="none" 
+    height={text5.height}
+    width={text5.width}
+    />
   ));
 
   const seoText5 = LocalSEO.text5.map((text5) => (
@@ -66,12 +95,11 @@ function LocalSearchEngineOptimization() {
         headerBackground="bg-alkali-500"
         headerColor="white"
       />
-      {ServiceHeroContent.localSearchEngineOptimization.map(
-        (localSearchEngineOptimization) => (
+      {LocalSEO.headline.map(
+        (headline) => (
           <ServiceHero
-            sub={localSearchEngineOptimization.sub}
-            title={localSearchEngineOptimization.title}
-            backgroundImg={localSearchEngineOptimization.backgroundImg}
+            sub={headline.subTitle}
+            title={headline.title}
           />
         )
       )}
@@ -87,12 +115,12 @@ function LocalSearchEngineOptimization() {
           Our Local SEO Services
         </h6>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {ServiceBlocksContent.localSEO.map((localSEO) => (
+          {LocalSEO.features.map((features) => (
             <ServiceBlocks
-              serviceTitle={localSEO.serviceTitle}
-              serviceText={localSEO.serviceText}
-              image={localSEO.image}
-              altText={localSEO.altText}
+              serviceTitle={features.serviceTitle}
+              serviceText={features.serviceText}
+              image={features.image}
+              altText={features.altText}
             />
           ))}
         </div>
@@ -190,10 +218,10 @@ function LocalSearchEngineOptimization() {
           <div className="w-full pt-16">
             <div className="mx-auto rounded-2xl">
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-                {LocalSEOFAQ.LocalSEO.map((LocalSEO) => (
+                {LocalSEO.faq.map((faq) => (
                   <FAQDropdown
-                    question={LocalSEO.question}
-                    answer={LocalSEO.answer}
+                    question={faq.question}
+                    answer={faq.answer}
                   />
                 ))}
               </div>

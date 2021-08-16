@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const ResponsiveScreens = (props) => {
   return (
-    <div className={`text-center ${props.style} overflow-hidden`}>
-      <h3 className="text-center text-4xl md:text-5xl font-bold max-w-4xl m-auto mb-10 leading-tight">
+    <div className={`text-center ${props.style} overflow-hidden px-7`}>
+      <h3 className="text-center text-4xl md:text-5xl font-bold max-w-4xl m-auto mb-10 leading-normal">
         First Impressions Matter Experience Their Website For Yourself
       </h3>
       <a href={props.link} className="">
@@ -26,6 +26,7 @@ const ResponsiveScreens = (props) => {
                     alt=""
                     width={600}
                     height={450}
+                    quality={100}
                   />
                 </div>
               </a>

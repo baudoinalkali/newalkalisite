@@ -36,11 +36,11 @@ const TestimonialSlide = (props) => {
                         <svg className="absolute h-full text-white w-24 -ml-12" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
                             <polygon points="50,0 100,0 50,100 0,100" />
                         </svg>
-                        <div className={`relative py-12 lg:py-24 px-8 lg:px-16 text-gray-700 leading-relaxed ${slugVisibilitySpacing()}`}>
+                        <div className={`relative py-12 lg:py-24 px-8 lg:px-16 text-gray-700 text-lg leading-relaxed ${slugVisibilitySpacing()}`}>
                             <p className="text-gray-900">
                                 {props.quote}
                             </p>
-                            <p className="mt-5 font-bold">
+                            <p className="mt-5 font-medium">
                                 {`- ${props.name}`}
                             </p>
                             <p className={`mt-6 flex items-center ${slugVisibilityType()}`}>

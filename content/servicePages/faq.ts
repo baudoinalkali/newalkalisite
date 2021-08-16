@@ -23,12 +23,24 @@ const FAQ = {
     ],
     SEO: [
         {
-            question: "Should I choose a custom-built WordPress site or a template-based one?",
-            answer: "It is common for companies just starting out to use a template-based website due to the lower development costs. There are many drawbacks to this such as limited customization, slower performance, and not optimized for SEO. A custom WordPress site ensures that everything is built with one thing in mind, your goals.",      
+            question: "Does My Business Need to Hire Someone to Optimize SEO?",
+            answer: "SEO is an ever-evolving field, and it takes considerable time and effort to stay on top of it. When you work with us, you get the highest quality and most up-to-date service. By engaging professionals, you also enable yourself to focus on other aspects of your business, knowing we have you covered.",      
         },
         {
-            question: "Test",
-            answer: "Test"
+            question: "How Much Do Your SEO Services Cost?",
+            answer: "We calculate a monthly retainer fee based off the specifics of your project. Each engagmeent is different, and instead of having a blanket price, we like to tailor it specifically for the client as not every business needs the same services."
+        },
+        {
+            question: "What Do Your SEO Services Entail?",
+            answer: "We offer comprehensive plans that are tailored to each specific client we work with. These can range from an initial SEO audit to ongoing support. Additionally, we provide on-page and off-page analysis and implementation, as well as providing content creation."
+        },
+        {
+            question: "When Do I Start Seeing Results?",
+            answer: "SEO is a long-term strategy that requires significant dedication and skill. After a client engages us, they can typically expect to start seeing results in as little as 2 months."
+        },
+        {
+            question: "Do You Offer Local SEO Services?",
+            answer: `Yes, we leverage our expertise of local SEO to help small businesses increase their local reach through various techniques. <a class="underline text-alkali-500" href="/services/digital-marketing/local-search-engine-optimization">Learn more about our local SEO services.</a>`
         }
     ],
     ContentMarketing: [

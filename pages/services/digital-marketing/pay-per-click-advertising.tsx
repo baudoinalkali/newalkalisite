@@ -11,6 +11,7 @@ import PPCServices from "../../../content/servicePages/serviceBlocks";
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
 import PPCFAQ from "../../../content/servicePages/faq";
 import AuditFormPopup from "../../../components/AuditFormPopup";
+import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
@@ -18,7 +19,12 @@ const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdo
 
 function PayPerClick() {
   const seoImage1 = PPC.text1.map((text1) => (
-    <StandardImage image={text1.image} imageAngle="none" />
+    <ServiceImage 
+    image={text1.image} 
+    imageAngle="none" 
+    width={text1.width}
+    height={text1.height}
+    />
   ));
 
   const seoText1 = PPC.text1.map((text1) => (
@@ -26,7 +32,12 @@ function PayPerClick() {
   ));
 
   const seoImage2 = PPC.text2.map((text2) => (
-    <StandardImage image={text2.image} imageAngle="none" />
+    <ServiceImage 
+    image={text2.image} 
+    imageAngle="none" 
+    width={text2.width}
+    height={text2.height}
+    />
   ));
 
   const seoText2 = PPC.text2.map((text2) => (
@@ -34,7 +45,12 @@ function PayPerClick() {
   ));
 
   const seoImage3 = PPC.text3.map((text3) => (
-    <StandardImage image={text3.image} imageAngle="none" />
+    <ServiceImage 
+    image={text3.image} 
+    imageAngle="none" 
+    width={text3.width}
+    height={text3.height}
+    />
   ));
 
   const seoText3 = PPC.text3.map((text3) => (
@@ -42,7 +58,12 @@ function PayPerClick() {
   ));
 
   const seoImage4 = PPC.text4.map((text4) => (
-    <StandardImage image={text4.image} imageAngle="none" />
+    <ServiceImage 
+    image={text4.image} 
+    imageAngle="none" 
+    width={text4.width}
+    height={text4.height}
+    />
   ));
 
   const seoText4 = PPC.text4.map((text4) => (
@@ -63,11 +84,11 @@ function PayPerClick() {
         headerBackground="bg-alkali-500"
         headerColor="white"
       />
-      {ServiceHeroContent.ppc.map((ppc) => (
+      {PPC.headline.map((headline) => (
         <ServiceHero
-          sub={ppc.sub}
-          title={ppc.title}
-          backgroundImg={ppc.backgroundImg}
+          sub={headline.subTitle}
+          title={headline.title}
+          titleLength={headline.titleLength}
         />
       ))}
       <TwoColumnLayout style="" child2={seoImage1} child1={seoText1} />
@@ -86,12 +107,12 @@ function PayPerClick() {
           See what types of campaigns we can manage for you below:
         </p>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14 pt-20">
-          {PPCServices.PPC.map((PPC) => (
+          {PPC.features.map((features) => (
             <ServiceBlocks
-              serviceTitle={PPC.serviceTitle}
-              serviceText={PPC.serviceText}
-              image={PPC.image}
-              altText={PPC.altText}
+              serviceTitle={features.serviceTitle}
+              serviceText={features.serviceText}
+              image={features.image}
+              altText={features.altText}
             />
           ))}
         </div>
@@ -221,8 +242,10 @@ function PayPerClick() {
           <div className="w-full pt-16">
             <div className="mx-auto rounded-2xl">
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-20 gap-y-10">
-                {PPCFAQ.PPC.map((PPC) => (
-                  <FAQDropdown question={PPC.question} answer={PPC.answer} />
+                {PPC.faq.map((faq) => (
+                  <FAQDropdown 
+                  question={faq.question} 
+                  answer={faq.answer} />
                 ))}
               </div>
             </div>

@@ -8,7 +8,6 @@ import ClientMainPage from "../../content/clientPages/clientMainPage";
 import ClientCard from "../../components/Clients/ClientCard";
 import BenContent from "../../content/clientPages/clientContent";
 import CarroScreenImages from "../../content/clientPages/screenImages";
-import BenHeroContent from "../../content/clientPages/clientHeroContent";
 import ClientHeader from "../../components/Clients/ClientHeader";
 import ClientAbout from "../../components/Clients/ClientAbout";
 import dynamic from 'next/dynamic';
@@ -53,13 +52,15 @@ function Ben() {
   return (
     <div className="m-auto overflow-hidden">
       <div className="">
-        {BenHeroContent.ben.map((ben) => (
+        {BenContent.ben.hero.map((ben) => (
           <ClientHeader
-            sub={ben.sub}
-            title={ben.title}
-            backgroundColor="#FF936B"
+            sub={ben.industry}
+            title={ben.name}
+            backgroundColor="#ff936b"
             service={ben.service}
-            heroImage={ben.heroImage}
+            heroImage={ben.image}
+            heroImageWidth={ben.width}
+            heroImageHeight={ben.height}
             serviceSlug={ben.serviceSlug}
             style="py-20 lg:py-20"
           />
@@ -93,7 +94,7 @@ function Ben() {
             logoHeight="71"
             altText=""
             slug="ben"
-            name="Jim Schimpf, Founder"
+            name="António Gomes, Director of Operations"
             quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
           />
         </div>
