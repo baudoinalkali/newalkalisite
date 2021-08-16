@@ -1,32 +1,36 @@
-import { useSpring, animated } from 'react-spring'
-import Image from 'next/image'
-
-const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
-const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
+import Link from "next/link";
+import React from "react";
+import Image from "../Image";
 
 const ClientCard = (props) => {
-  const [springProps, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40, } }))
   return (
-    <a href={`/clients/${props.slug}`}>
-      <div className="relative">
-        <animated.div
-          className="card w-64 h-96 shadow-2xl m-auto"
-          onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
-          onMouseLeave={() => set({ xys: [0, 0, 1] })}
-          style={{ transform: springProps.xys.to(trans) }}
+    <Link href={`/clients/${props.slug}`} passHref>
+      <a>
+        <div
+          className="relative group duration-500 rounded shadow-2xl px-4 pb-10 pt-10 m-auto client-card-bg flex flex-col justify-end overflow-hidden"
+          style={{ height: "475px" }}
         >
-          <Image
-            layout="fill"
-            className="object-center object-cover pointer-events-none rounded-md"
-            src={props.backgroundImg}
-          />
-          <h3 className="relative rounded-md text-3xl text-white pl-2 pt-80 pl-5 pb-4">{props.name}</h3>
-        </animated.div>
-      </div>
-    </a>
-  )
-}
+          <div className="absolute inset-0">
+            <Image aspectRatio={1.1285 / 1} src={props.backgroundImage} />
+          </div>
 
+          <div className="fix-fouc transition-none relative text-white">
+            <div>{props.industry}</div>
+            <div className="font-bold text-3xl xl:text-4xl">{props.name}</div>
+          </div>
 
+          <div
+            className="absolute inset-0 opacity-0 group-hover:opacity-100 duration-500 flex justify-center items-center"
+            style={{ backgroundColor: `${props.backgroundColor}` }}
+          >
+            <div className="justify-center p-4 px-6 w-48 m-auto font-medium text-white hover:bg-white hover:bg-opacity-20 rounded-md transition duration-500 ease-in-out border border-white hidden group-hover:flex">
+              View Project
+            </div>
+          </div>
+        </div>
+      </a>
+    </Link>
+  );
+};
 
-export default ClientCard
+export default React.memo(ClientCard);
