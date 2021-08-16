@@ -3,23 +3,22 @@ import ServiceHeroContent from "../../../content/servicePages/serviceHeroContent
 import StandardImage from "../../../components/StandardImage";
 import StandardTextBlock from "../../../components/StandardTextBlock";
 import TwoColumnLayout from "../../../components/TwoColumnLayout";
-import TestimonialSlide from "../../../components/TestimonialSlide";
-import TestimonialSlider from "../../../components/TestimonialSlider";
 import Testimonials from "../../../content/testimonials";
-import seoProcess from "../../../content/servicePages/ourProcess";
-import OurProcessComp from "../../../components/Services/OurProcess";
 import Image from "next/image";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
 import ReputationServices from "../../../content/servicePages/serviceBlocks";
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
 import ResultsBlocks from "../../../components/Services/ResultsBlocks";
 import SEOResults from "../../../content/servicePages/resultsBlock";
-import FAQDropdown from "../../../components/Services/FAQDropdown";
 import SocialFAQ from "../../../content/servicePages/faq";
 import ReputationManagement from "../../../content/servicePages/reputation";
 import ReputationIntegrations from "../../../content/servicePages/integrationContent";
 import AuditFormPopup from "../../../components/AuditFormPopup";
 import ServiceImage from "../../../components/Services/ServiceImage";
+import dynamic from 'next/dynamic';
+const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
+const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
+const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function Reputation() {
   const socialImage1 = ReputationManagement.text1.map((text1) => (
