@@ -32,7 +32,7 @@ export default function About() {
         </div>
       </div>
       <div className="">
-        <SplitTextImage
+        <SplitTextImageAlt
           style="py-36 z-0"
           title="Constantly Evolving"
           image="/images/custom-built.png"
@@ -71,7 +71,7 @@ export default function About() {
         </div>
       </div>
       <div className="">
-        <SplitTextImage
+        <SplitTextImageAlt
           style="py-36 pt-80 z-0"
           title="Why we do what we do"
           image="/images/custom-built.png"
