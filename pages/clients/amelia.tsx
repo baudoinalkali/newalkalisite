@@ -6,7 +6,7 @@ import StandardImage from "../../components/StandardImage";
 import StandardTextBlock from "../../components/StandardTextBlock";
 import ClientMainPage from "../../content/clientPages/clientMainPage";
 import ClientCard from "../../components/Clients/ClientCard";
-import AmeliaContent from "../../content/clientPages/clientContentBlocks";
+import AmeliaContent from "../../content/clientPages/clientContent";
 import AmeliaScreenImages from "../../content/clientPages/screenImages";
 import AmeliaHeroContent from "../../content/clientPages/clientHeroContent";
 import ClientHeader from "../../components/Clients/ClientHeader";
@@ -16,53 +16,56 @@ const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
 function Amelia() {
-  const ameliaGoalImage = AmeliaContent.amelia.goal.map((amelia) => (
+  const ameliaGoalImage = AmeliaContent.amelia.section1.map((section1) => (
     <StandardImage
       imageAngle="left"
-      image={amelia.image}
-      key={`ameliaGoalImageClientBlocksFor${amelia.image}`}
+      image={section1.image}
+      key={`ameliaGoalImageClientBlocksFor${section1.image}`}
     />
   ));
 
-  const ameliaGoalText = AmeliaContent.amelia.goal.map((amelia) => (
+  const ameliaGoalText = AmeliaContent.amelia.section1.map((section1) => (
     <StandardTextBlock
-      sub={amelia.sub}
-      title={amelia.title}
-      text={amelia.text}
-      key={`ameliaGoalTextClientBlocksFor${amelia.title}`}
+      sub={section1.sub}
+      title={section1.title}
+      text={section1.text}
+      key={`ameliaGoalTextClientBlocksFor${section1.title}`}
     />
   ));
 
-  const ameliaResultImage = AmeliaContent.amelia.result.map((amelia) => (
+  const ameliaResultImage = AmeliaContent.amelia.section2.map((section2) => (
     <StandardImage
       imageAngle="right"
-      image={amelia.image}
-      key={`ameliaResultImageClientBlocksFor${amelia.image}`}
+      image={section2.image}
+      key={`ameliaResultImageClientBlocksFor${section2.image}`}
     />
   ));
 
-  const ameliaResultText = AmeliaContent.amelia.result.map((amelia) => (
+  const ameliaResultText = AmeliaContent.amelia.section2.map((section2) => (
     <StandardTextBlock
-      sub={amelia.sub}
-      title={amelia.title}
-      text={amelia.text}
-      key={`ameliaResultTextClientBlocksFor${amelia.title}`}
+      sub={section2.sub}
+      title={section2.title}
+      text={section2.text}
+      key={`ameliaResultTextClientBlocksFor${section2.title}`}
     />
   ));
 
   return (
     <div className="m-auto">
       <div className="carro-bg">
-        {AmeliaHeroContent.amelia.map((amelia) => (
+      {AmeliaContent.amelia.hero.map((hero) => (
           <ClientHeader
-            sub={amelia.sub}
-            backgroundOverlay={amelia.backgroundOverlay}
-            title={amelia.title}
-            backgroundImg={amelia.backgroundImg}
-            service={amelia.service}
-            serviceSlug={amelia.serviceSlug}
+            sub={hero.industry}
+            title={hero.name}
+            backgroundImg={hero.backgroundImg}
+            backgroundOverlay={hero.backgroundOverlay}
+            service={hero.service}
+            serviceSlug={hero.serviceSlug}
+            heroImage={hero.image}
+            heroImageWidth={hero.width}
+            heroImageHeight={hero.height}
             style="py-40"
-            key={`ameliaAmeliaHeroContentFor${amelia.title}`}
+            key={`ameliaAmeliaHeroContentFor${hero.name}`}
           />
         ))}
       </div>

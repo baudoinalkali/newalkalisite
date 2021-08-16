@@ -424,15 +424,13 @@ a {
 }
 
 .difference-listG ul li::before {
-  content: "✔";
+  content: url("/images/web-development/checkmark.svg");
   font-family: icon-font, sans-serif;
-  background: rgba(39, 174, 96, 0.15);
-  color: rgba(39, 174, 96, 0.7);
   font-size: 1rem;
   width: 2rem;
   height: 2rem;
   position: absolute;
-  top: 0px;
+  top: 5px;
   left: 0px;
   display: flex;
   flex-direction: column;
@@ -442,15 +440,13 @@ a {
 }
 
 .difference-listR ul li::before {
-  content: "🗙";
+  content: url("/images/web-development/x.svg");
   font-family: icon-font, sans-serif;
-  background: rgba(235, 87, 87, 0.15);
-  color: rgba(235, 87, 87, 0.7);
   font-size: 1rem;
   width: 2rem;
   height: 2rem;
   position: absolute;
-  top: 0px;
+  top: 5px;
   left: 0px;
   display: flex;
   flex-direction: column;

@@ -1,6 +1,5 @@
 import MobileNavigation from "./MobileNavigation";
 import DesktopNavigation from "./DesktopNavigation";
-import DesktopNavigationTest from "./DesktopNavigationTest";
 import { Fragment } from "react";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -49,7 +48,7 @@ const CombinedNavigation = (props) => {
         />
       </div>
       <div className="fixed hidden lg:contents">
-        <DesktopNavigationTest
+        <DesktopNavigation
           headerColor={headerColor}
           background={background}
           scrolled={scrolled}

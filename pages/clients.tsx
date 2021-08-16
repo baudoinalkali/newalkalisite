@@ -1,7 +1,7 @@
 import ClientCardContainer from "../components/Clients/ClientCardContainer";
 import ClientMainPage from "../content/clientPages/clientMainPage";
 import CombinedNavigation from "../components/Navigation/CombinedNavigation";
-import ClientCardTest2 from "../components/Clients/ClientCardTest2";
+import ClientCard from "../components/Clients/ClientCardTest2";
 
 function Clients() {
   return (
@@ -23,7 +23,7 @@ function Clients() {
       <div className="max-w-7xl m-auto pt-36">
         <ClientCardContainer>
           {ClientMainPage.map((clientMainPage, idx) => (
-            <ClientCardTest2
+            <ClientCard
               key={idx}
               name={clientMainPage.name}
               backgroundColor={clientMainPage.backgroundColor}
