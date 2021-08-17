@@ -29,7 +29,7 @@ const SEO = {
             title: "Leverage Your Online Presence to the Fullest",
             text: "If you have an existing website, you should leverage your online presence by optimizing your SEO. A website is a digital representation of your business, and getting your business in front of the eyes of potential customers is critical for long-term success. Whether you’re looking to target new customers or increase brand recognition, taking control of your online presence is the best way to accomplish that.",
             image: "/images/digital-marketing/seo/leverage-fully.svg",
-            altText: "",
+            altText: " ",
             width: "600",
             height: "450"
         },
@@ -107,7 +107,7 @@ const SEO = {
             serviceTitle: "Competitive Analysis",
             serviceText: "The competitive landscape is constantly changing, which is why you need to be on top of what your competitors are doing. Analyzing your competitor's efforts allows you to stay a step ahead and ensure your rankings don't fall.",
             image: "/images/digital-marketing/seo/competitive-analysis.svg",
-            altText: ""
+            altText: " "
         },
     ],
     faq: [

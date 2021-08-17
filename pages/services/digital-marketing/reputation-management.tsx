@@ -80,11 +80,11 @@ function Reputation() {
         headerBackground="bg-alkali-500"
         headerColor="white"
       />
-      {ServiceHeroContent.reputation.map((reputation) => (
+      {ReputationManagement.headline.map((headline) => (
         <ServiceHero
-          sub={reputation.sub}
-          title={reputation.title}
-          backgroundImg={reputation.backgroundImg}
+          sub={headline.subTitle}
+          title={headline.title}
+          titleLength={headline.titleLength}
         />
       ))}
       <TwoColumnLayout
@@ -103,12 +103,12 @@ function Reputation() {
           Our Social Media Marketing Services
         </h6>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {ReputationServices.reputation.map((reputation) => (
+          {ReputationManagement.features.map((features) => (
             <ServiceBlocks
-              serviceTitle={reputation.serviceTitle}
-              serviceText={reputation.serviceText}
-              image={reputation.image}
-              altText={reputation.altText}
+              serviceTitle={features.serviceTitle}
+              serviceText={features.serviceText}
+              image={features.image}
+              altText={features.altText}
             />
           ))}
         </div>
