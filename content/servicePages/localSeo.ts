@@ -39,7 +39,7 @@ const LocalSEO = {
         {
             title: "Our Ethical Commitment",
             text: "Like most things in business,local SEO requires trust. Many people seek to take advantage of people who are not well versed in local SEO; that is not us. We strive to not only perform services but also educate our clients. This is a very obscure and often intentionally over complicated service area. We seek to change that. As Albert Einstein once said, “If you can't explain it simply, you don't understand it well enough.” We use those words as a guiding principle in every engagement. If you have questions along the way, we are more than happy to explain.",
-            image: "/images/digital-marketing/local-seo/ethical-commitment.svg",
+            image: "/images/ethical-commitment.svg",
             altText: "",
             height: "450",
             width: "600"

@@ -40,7 +40,7 @@ const PPC = {
         {
             title: "Our Ethical Commitment",
             text: "PPC can be a complex topic and can require lengthy conversations before establishing a working relationship. We think this dialogue is essential and wouldn’t have it any other way. At Alkali, we seek to not only perform services but ensure our clients are educated on their options. Throughout your journey, you may have questions, and we are here to help. As Albert Einstein once said, “If you can't explain it simply, you don't understand it well enough.” We use those words as a guiding principle in every engagement. We seek to provide advice that would best benefit your business, not ourselves. We don’t hide behind acronyms and fancy phrasing; we serve and educate you through the entire journey.",
-            image: "/images/digital-marketing/ppc/ethical-commitment.svg",
+            image: "/images/ethical-commitment.svg",
             altText: "",
             width: "600",
             height: "450"
