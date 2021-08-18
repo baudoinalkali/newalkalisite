@@ -424,7 +424,7 @@ a {
 }
 
 .difference-listG ul li::before {
-  content: url("/images/web-development/checkmark.svg");
+  content: url("/images/web-development/wordpress/checkmark.svg");
   font-family: icon-font, sans-serif;
   font-size: 1rem;
   width: 2rem;
@@ -440,7 +440,7 @@ a {
 }
 
 .difference-listR ul li::before {
-  content: url("/images/web-development/x.svg");
+  content: url("/images/web-development/wordpress/x.svg");
   font-family: icon-font, sans-serif;
   font-size: 1rem;
   width: 2rem;

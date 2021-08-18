@@ -129,9 +129,9 @@ function LocalSearchEngineOptimization() {
         <div className="flex space-x-0 lg:space-x-14 flex-col lg:flex-row m-auto justify-between items-center max-w-7xl">
           <div className="w-full lg:w-1/2">
             <Image
-              src="/images/audit.png"
-              width={490}
-              height={335}
+              src="/images/free-audit.svg"
+              width={500}
+              height={450}
               quality={100}
             />
           </div>

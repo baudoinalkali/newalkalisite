@@ -182,7 +182,7 @@ function SearchEngineOptimization() {
         <div className="flex space-x-0 lg:space-x-14 flex-col lg:flex-row m-auto justify-between items-center max-w-7xl">
           <div className="w-full lg:w-1/2 flex justify-center">
             <Image
-              src="/images/digital-marketing/seo/free-audit.svg"
+              src="/images/free-audit.svg"
               width={500}
               height={450}
               quality={100}
