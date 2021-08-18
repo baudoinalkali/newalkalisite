@@ -29,6 +29,10 @@ li:hover > button svg {
   min-width: 8rem;
 }
 
+#hubspot-messages-iframe-container {
+  display: none !important;
+}
+
 .calendly-inline-widget {
   height: 700px !important;
 }

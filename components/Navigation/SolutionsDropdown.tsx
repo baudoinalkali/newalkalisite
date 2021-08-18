@@ -92,7 +92,7 @@ export default function SolutionsDropdown(props) {
               />
             </Popover.Button>
             <Popover.Panel className="absolute z-50 w-screen max-w-sm mt-3 transform -translate-x-1/4 mt-10 ml-14 sm:px-0 lg:max-w-4xl">
-              <div className="overflow-hidden rounded-lg p-7 bg-white shadow-2xl ring-1 ring-black ring-opacity-5 grid grid-cols-3">
+              <div className="overflow-hidden rounded-lg p-7 pb-5 bg-white shadow-2xl ring-1 ring-black ring-opacity-5 grid grid-cols-3 -ml-12">
                 <div className="relative p-7">
                   <div className="font-bold text-lg pb-4">
                     Digital Marketing

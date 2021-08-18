@@ -181,7 +181,7 @@ function Reputation() {
         <h6 className="text-3xl md:text-4xl pb-24 text-center font-bold m-auto leading-tight">
           Platforms We Work With
         </h6>
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 max-w-3xl m-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-y-10 max-w-7xl m-auto">
           {ReputationIntegrations.reputation.map((reputation) => (
             <div className="relative m-auto" style={{ fontSize: "0" }}>
               <Image
@@ -189,7 +189,7 @@ function Reputation() {
                 width={144}
                 quality={100}
                 className="object-center object-cover pointer-events-none rounded-full duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-                src={`/images/icons/${reputation.fileName}.png`}
+                src={`/images/icons/${reputation.fileName}.svg`}
                 alt={reputation.altText}
               />
               <div className="IntegrationIconContainer relative z-1">

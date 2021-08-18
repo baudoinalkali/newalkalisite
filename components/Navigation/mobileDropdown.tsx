@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Popover, Transition } from "@headlessui/react";
 import { Disclosure } from "@headlessui/react";
 import { ChevronRightIcon } from "@heroicons/react/solid";
+import MeetingPopUp from "../Modal";
 
 const digitalMarketing = [
   {
@@ -25,9 +26,8 @@ const digitalMarketing = [
 
 const MobileDropdown = (props) => {
   const headerDropDownColor = () => {
-    return `${
-      props.headerColor === "white" ? "text-white" : "text-alkali-500"
-    }`;
+    return `${props.headerColor === "white" ? "text-white" : "text-alkali-500"
+      }`;
   };
 
   return (
@@ -38,9 +38,8 @@ const MobileDropdown = (props) => {
             <Popover.Button className="block" style={{ width: "24px" }}>
               <FontAwesomeIcon
                 icon={faBars}
-                className={`${
-                  open ? "" : ""
-                } mobile-dropdown ${headerDropDownColor()} text-xl group-hover:text-opacity-80 transition ease-in-out duration-150`}
+                className={`${open ? "" : ""
+                  } mobile-dropdown ${headerDropDownColor()} text-xl group-hover:text-opacity-80 transition ease-in-out duration-150`}
                 aria-hidden="true"
               />
             </Popover.Button>
@@ -57,9 +56,8 @@ const MobileDropdown = (props) => {
                                 <Disclosure.Button className="my-4 flex items-center font-mont text-chablack-300 hover:text-chablack-500 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                                   <span>Digital Marketing</span>
                                   <ChevronRightIcon
-                                    className={`${
-                                      open ? "transform rotate-90" : ""
-                                    } w-5 h-5 text-chagreen-300 ml-3`}
+                                    className={`${open ? "transform rotate-90" : ""
+                                      } w-5 h-5 text-chagreen-300 ml-3`}
                                   />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="pl-3 text-gray-500">
@@ -105,9 +103,8 @@ const MobileDropdown = (props) => {
                                 <Disclosure.Button className="flex items-center font-mont text-chablack-300 hover:text-chablack-500 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                                   <span>Web Development</span>
                                   <ChevronRightIcon
-                                    className={`${
-                                      open ? "transform rotate-90" : ""
-                                    } w-5 h-5 text-chagreen-300 ml-3`}
+                                    className={`${open ? "transform rotate-90" : ""
+                                      } w-5 h-5 text-chagreen-300 ml-3`}
                                   />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="pl-3 pt-4 text-gray-500">
@@ -138,9 +135,8 @@ const MobileDropdown = (props) => {
                                 <Disclosure.Button className="my-4 flex items-center font-mont text-chablack-300 hover:text-chablack-500 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                                   <span>Web Design</span>
                                   <ChevronRightIcon
-                                    className={`${
-                                      open ? "transform rotate-90" : ""
-                                    } w-5 h-5 text-chagreen-300 ml-3`}
+                                    className={`${open ? "transform rotate-90" : ""
+                                      } w-5 h-5 text-chagreen-300 ml-3`}
                                   />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="pl-3 text-gray-500">
@@ -176,9 +172,8 @@ const MobileDropdown = (props) => {
                             <Disclosure.Button className="my-4 flex items-center font-mont text-chablack-300 hover:text-chablack-500 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                               <span>About</span>
                               <ChevronRightIcon
-                                className={`${
-                                  open ? "transform rotate-90" : ""
-                                } w-5 h-5 text-chagreen-300 ml-3`}
+                                className={`${open ? "transform rotate-90" : ""
+                                  } w-5 h-5 text-chagreen-300 ml-3`}
                               />
                             </Disclosure.Button>
                             <Disclosure.Panel className="pl-3 text-gray-500">
@@ -207,8 +202,11 @@ const MobileDropdown = (props) => {
                       </a>
                     </li>
                   </ul>
+                  <MeetingPopUp
+                  style="p-4 px-8 font-semibold text-white shadow-2xl rounded-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-700"
+                  text="Schedule a Call"
+                />
                 </div>
-                <div className="bg-white pb-7 text-center">CTA HERE</div>
               </div>
             </Popover.Panel>
           </>
