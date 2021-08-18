@@ -9,8 +9,8 @@ import { useRef } from "react";
 const HomeClientsSlider = (props) => {
   const settings = {
     infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToShow: 6,
+    slidesToScroll: 6,
     autoplay: true,
     speed: 60000,
     autoplaySpeed: 0,
@@ -44,17 +44,19 @@ const HomeClientsSlider = (props) => {
   };
 
   return (
-    <div>
+    <div className="">
       <Slider {...settings}>
         {ClientMainPage.map((clientMainPage, idx) => (
           <div key={idx} className="px-4 pb-20 duration-500">
-            <ClientCard
-              name={clientMainPage.name}
-              backgroundColor={clientMainPage.backgroundColor}
-              backgroundImage={clientMainPage.backgroundImage}
-              slug={clientMainPage.slug}
-              industry={clientMainPage.industry}
-            />
+            <div className="w-96">
+              <ClientCard
+                name={clientMainPage.name}
+                backgroundColor={clientMainPage.backgroundColor}
+                backgroundImage={clientMainPage.backgroundImage}
+                slug={clientMainPage.slug}
+                industry={clientMainPage.industry}
+              />
+            </div>
           </div>
         ))}
       </Slider>

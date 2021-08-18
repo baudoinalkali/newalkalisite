@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import DesktopNavigation from "../components/Navigation/DesktopNavigation";
 import HomeTestimonialSlider from "../components/HomeTestimonialSlider";
 import HomeClientsSlider from "../components/HomeClientsSlider";
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -22,49 +23,18 @@ export default function Home() {
           text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
         />
       </div>
-
-      <div style={{width:"500px"}} className="meetings-iframe-container" data-src="https://app.hubspot.com/meetings/nbaudoin?embed=true"></div>
-    <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
-
-      <div className="bg-alkaligrey-300 py-24">
-        <h3 className="text-5xl pt-2 pb-20 font-bold text-center">
-          Some of Our Partners
-        </h3>
-        <div className="grid grid-cols-3 max-w-5xl m-auto gap-y-10">
-          <img className="m-auto" src="/images/google-partner-logo.svg" />
-          <img
-            className="m-auto align-middle"
-            src="/images/facebook-partner-logo.svg"
-          />
-          <img className="m-auto" src="/images/zapier-partner-logo.svg" />
-          <img className="m-auto" src="/images/digitalocean-partner-logo.svg" />
-          <img className="m-auto" src="/images/vercel-partner-logo.svg" />
-        </div>
-        <div className="flex justify-center pt-6">
-          <p className={`mt-6 flex items-center`}>
-            <a
-              href={`/about/partners`}
-              className="font-medium duration-500 hover:mr-3 text-alkaligrey-900"
-            >
-              {`Learn More`}
-            </a>
-            <FontAwesomeIcon
-              className="ml-3 w-5 text-alkaligrey-900"
-              icon={faLongArrowAltRight}
-            ></FontAwesomeIcon>
-          </p>
-        </div>
-      </div>
-      <div className="pt-24">
-        <h3 className="text-5xl pt-2 pb-20 font-bold text-center">
+      <div style={{ width: "500px" }} className="meetings-iframe-container" data-src="https://app.hubspot.com/meetings/nbaudoin?embed=true"></div>
+      <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+      <div className="pt-36 bg-alkaligrey-300">
+        <h3 className="text-5xl pt-2 pb-24 font-bold text-center">
           What Our Clients Say
         </h3>
       </div>
       <HomeTestimonialSlider />
-      <div className="pt-40 -mt-60">
+      <div className="py-24 pt-64 -mt-40 bg-white">
         <h3
           id="services"
-          className="pt-40 pb-10 text-5xl font-bold text-center"
+          className="pb-10 text-5xl font-bold text-center"
         >
           Our Services
         </h3>
@@ -211,27 +181,59 @@ export default function Home() {
         image="/images/web-development/custom-built.svg"
         text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
       />
-      <div className="p-4 py-24 bg-alkali-500">
-        <div className="flex flex-col lg:flex-row justify-between items-center max-w-7xl m-auto mx-3 xl:mx-auto">
-          <div>
-            <h3 className="text-4xl  font-bold max-w-7xl m-auto text-white leading-tight text-center mb-14 lg:mb-0">
-              We're here to realize your vision.
-            </h3>
+      <div className="p-4 py-36">
+        <div className="flex flex-col lg:flex-row gap-x-20 justify-between items-center max-w-7xl m-auto mx-3 xl:mx-auto">
+          <div className="w-1/2">
+          <Image 
+            src="/images/free-audit.svg"
+            width={600}
+            height={450}
+          />
           </div>
-          <div className="">
-            <Modal
-              style="p-4 px-10 font-semibold text-white rounded-md hover:bg-white hover:text-alkali-500 transition duration-500 ease-in-out border-white border"
-              text="Schedule a Call"
-            />
+          <div className="w-1/2">
+            <h3 className="text-4xl md:text-5xl font-bold max-w-2xl leading-normal mb-14 lg:mb-0">
+              Get a Complimentary Marketing Audit
+            </h3>
+            <p className="max-w-xl pt-10">
+              Every successful engagement begins with an audit. Allow us to provide you a comprehensive audit 
+              completely free of charge. Our digital marketing experts will examine your online presence and 
+              provide you with insights. Main areas covered include:
+            </p>
+            <ul className="list-disc ml-5 mt-5 space-y-3">
+              <li>Full website weview (content, CRO, performance)</li>
+              <li>SEO: Comprehensive on-page audit</li>
+              <li>Digital marketing/reputation management</li>
+            </ul>
+            <button className="mt-10 p-4 px-10 font-semibold text-white rounded-md hover:bg-alkali-700 hover:text-white transition duration-500 ease-in-out bg-alkali-500 border">
+              Request Free Audit
+            </button>
           </div>
         </div>
       </div>
-      <div className="py-24">
-        <h3 className="text-5xl pt-2 pb-20 font-bold text-center">
+      <div className="py-36 pb-0 bg-alkaligrey-300">
+        <h3 className="text-5xl pt-2 pb-24 font-bold text-center">
           Our Clients
         </h3>
         <HomeClientsSlider />
       </div>
+      <div className="bg-white pt-72 -mt-56 pb-36">
+        <h3 className="text-5xl pt-2 pb-20 font-bold text-center">
+          Some of Our Partners
+        </h3>
+        <div className="grid grid-cols-4 max-w-6xl m-auto gap-y-10">
+          <img className="m-auto" src="/images/google-partner-logo.svg" />
+          <img
+            className="m-auto align-middle"
+            src="/images/facebook-partner-logo.svg"
+          />
+          <img className="m-auto" src="/images/zapier-partner-logo.svg" />
+          <img className="m-auto" src="/images/digitalocean-partner-logo.svg" />
+          <img className="m-auto" src="/images/vercel-partner-logo.svg" />
+          <img className="m-auto" src="/images/hubspot-partner.svg" />
+          <img className="m-auto" src="/images/shopify-partner.svg" />
+        </div>
+      </div>
     </div>
+
   );
 }
