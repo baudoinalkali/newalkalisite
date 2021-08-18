@@ -6,22 +6,21 @@ import StandardImage from "../../../components/StandardImage";
 import StandardTextBlock from "../../../components/StandardTextBlock";
 import SEO from "../../../content/servicePages/seo";
 import TwoColumnLayout from "../../../components/TwoColumnLayout";
-import TestimonialSlide from "../../../components/TestimonialSlide";
-import TestimonialSlider from "../../../components/TestimonialSlider";
 import Testimonials from "../../../content/testimonials";
-import seoProcess from "../../../content/servicePages/ourProcess";
-import OurProcessComp from "../../../components/Services/OurProcess";
 import Image from "next/image";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
 import SEOServices from "../../../content/servicePages/serviceBlocks";
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
 import ResultsBlocks from "../../../components/Services/ResultsBlocks";
 import SEOResults from "../../../content/servicePages/resultsBlock";
-import FAQDropdown from "../../../components/Services/FAQDropdown";
 import SEOFAQ from "../../../content/servicePages/faq";
 import AuditFormPopup from "../../../components/AuditFormPopup";
 import { text } from "@fortawesome/fontawesome-svg-core";
 import ServiceImage from "../../../components/Services/ServiceImage";
+import dynamic from 'next/dynamic';
+const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
+const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
+const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function SearchEngineOptimization() {
   const seoImage1 = SEO.text1.map((text1) => (
