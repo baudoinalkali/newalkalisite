@@ -57,7 +57,7 @@ const clientMainPage = [
   },
   {
     name: "CarTalk Repair",
-    backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
+    backgroundImage: "/images/clients/cartalk/testimonial-bg.jpg",
     industry: "Automotive",
     slug: "cartalk-repair",
     backgroundColor: "#bf1e2e",

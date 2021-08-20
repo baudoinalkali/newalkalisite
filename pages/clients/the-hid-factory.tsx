@@ -57,6 +57,9 @@ function Carro() {
             sub={thf.industry}
             title={thf.name}
             backgroundImg={thf.backgroundImg}
+            heroImage={thf.image}
+            heroImageWidth={thf.width}
+            heroImageHeight={thf.height}
             backgroundOverlay={thf.backgroundOverlay}
             service={thf.service}
             serviceSlug={thf.serviceSlug}
@@ -118,7 +121,8 @@ function Carro() {
       {THFContent.thf.screens.map((thf) => (
         <ResponsiveScreens
           style="py-24 overflow-hidden"
-          link="https://chattr.ai"
+          link="https://thehidfactory.com"
+          buttonName="Visit Name"
           desktopLeft={thf.desktopLeft}
           desktopRight={thf.desktopRight}
           tablet={thf.tablet}

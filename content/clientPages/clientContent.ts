@@ -81,7 +81,7 @@ const ClientContent = {
                 {
                     sub: "The Goal",
                     title: "A New Beginning",
-                    text: "With a new brand identity, the team at Chattr were looking to recreate their website and blog from the group up. Early on in the process they communicated their primary goals to be: bring the brand elements to life, communicate the happiness companies get from using their product, and be insanely fast. Working closely with their team, we were able to check all these boxes and delivery something truly unique.",
+                    text: "Chattr’s old website’s speed and performance was becoming an issue. Additionally, the way their website had been developed utilized a lot of imagery instead of traditional HTML. As a result, much of their website content wasn’t indexable and not fully responsive. Chattr liked parts of the existing design, but sought to improve the site overall by creating a more consistent look, implementing unique animations, improving user experience, and improving site speed.",
                     image: "/images/clients/chattr/section1.png"
                 },
             ],
@@ -90,7 +90,7 @@ const ClientContent = {
                 {
                     sub: "The Goal",
                     title: "Engaging and Fast",
-                    text: "To emphasize the new branding elements we leveraged advanced animation. At the center of Chattr are the applicants and employers that use it. To showcase this we utilized images of people with subtle branding elements throughout. To meet the performance benchmarks we wanted we opted to leverage Next.js for the primary site and a custom WordPress setup we were able to drastically improve their website's performance across the board. As a result, the website loads an average of 97% faster.",
+                    text: "Utilizing Next.js, a framework they leverage in their technology stack, we converted all the unnecessary images into pure HTML and CSS. This eliminated the need to load massive images and improved overall responsiveness. We explored unique animations through the development process, ultimately deciding upon animating their branding elements throughout. We improved the user experience by reducing unnecessary information toggles and rearranged relevant content. Finally, we optimized every aspect of the site, reducing the overall site load time by 97%.",
                     image: "/images/clients/chattr/section2.png"
                 },
             ],
@@ -134,18 +134,18 @@ const ClientContent = {
         section1:
             [
                 {
-                    sub: "The Goal",
-                    title: "S",
-                    text: "Blockchain Education Network engaged us to recreate their existing site entirely, allowing them to align with their audience better. At the core of BEN is their community, and keeping that community informed and updated is critical. In addition, they are an international organization, and with that comes many people needing to be involved in content. To ensure they have a streamlined process for adding and changing content, they wanted to connect the site to their existing data systems.",
+                    sub: "The Challenge",
+                    title: "Transform and Connect",
+                    text: "Blockchain Education Network needed to recreate their entire website to better appeal to their target audience. At the core of BEN is their community, and keeping that community informed and updated is critical. In addition, they are an international organization, and with that comes many people needing the ability to collaborate on the website. This required them to have easy processes in place to update site content, such as team members, sponsors, and clubs.",
                     image: "/images/clients/ben/section1.png"
                 },
             ],
         section2:
             [
                 {
-                    sub: "The Result",
+                    sub: "The Solution",
                     title: "Total Connectivity",
-                    text: "BEN leverages Monday.com for much of its organizational functions. Therefore, it was clear that enabling them to update their website content through a Monday board would be highly productive. Utilizing Monday's API, we set up much of the site to leverage Monday as a content management system. As a result, BEN can easily update and add content while also having a front-end that resonates more with their demographic. Leveraging Next.js for the website's front-end, we delivered a lightning-fast web experience for BEN's members.",
+                    text: "BEN leverages Monday.com for much of its organizational functions. It was clear that enabling them to update their website content through a Monday board would be the best solution. Utilizing Monday's API, we set up much of the site to leverage Monday as a content management system. As a result, BEN can easily update and add content while also having a front-end that resonates more with their demographic. Leveraging Next.js for the website's front-end, we delivered a lightning-fast and completely revitalized web experience for BEN's members.",
                     image: "/images/clients/ben/section2.png"
                 },
             ],
@@ -191,18 +191,18 @@ const ClientContent = {
         section1:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Challenge",
+                    title: "Completing a Rebrand",
+                    text: "Bobtail went through a significant rebrand, and they needed a website that was more in line with their new branding. They required seven design screens developed into a fully functioning website that was lightning-fast and easy to maintain after the development. A focal point of the website development was showcasing people whenever possible. Bobtail is very much a people-focused business, and they wanted that front and center.",
                     image: "/images/clients/bobtail/section1.png"
                 },
             ],
         section2:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Solution",
+                    title: "People Focused Design",
+                    text: "We took the seven design screens created in Figma and created a fully functional and responsive website. We set up the entire website to be easily maintainable for a non-technical individual and left no stone unturned to have the site running as fast as possible. Through a few iterations during development, we found additional areas to highlight the users of Bobtail, better communicating the company’s mission to help drivers.",
                     image: "/images/clients/bobtail/section2.png"
                 },
             ],
@@ -230,6 +230,9 @@ const ClientContent = {
                     service: ["Custom Web Development"],
                     serviceSlug: ["/services/web-development/"],
                     backgroundImg: "/images/clients/bobtail/hero-background.jpg",
+                    image: "/",
+                    width: "100",
+                    height: "100",
                     backgroundOverlay: "true",
                 },
             ],
@@ -237,26 +240,26 @@ const ClientContent = {
             [
                 {
                     name: "The HID Factory",
-                    slug: "https://blockchainedu.org",
-                    bio: "Bobtail empowers carriers with powerful financial tools that help them grow their business and serve them with honesty, transparency, and fairness.",
+                    slug: "https://thehidfactory.com",
+                    bio: "The HID Factory is an automotive lighting customization installer and distributor. They enable the transformation of a vehicle's look by customizing the interior and exterior lighting to give customers a truly unique-looking vehicle.",
                     brandColor: "#ff936b",
                 },
             ],
         section1:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Challenge",
+                    title: "No Automated Solution",
+                    text: "The HID Factory needed an e-commerce solution to house thousands of SKUs and have a highly customizable vehicle filter that wouldn’t take forever to produce results. They spent a lot of time educating customers to make the correct selection, bogging down their customer service resources. In addition, this filter needed to match thousands of possible vehicle configurations with every compatible product they sold and would sell in the future.",
                     image: "/images/clients/the-hid-factory/section1.png"
                 },
             ],
         section2:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Solution",
+                    title: "Fast and Easy to Use",
+                    text: "We had to leverage a third-party vehicle lighting fitment database to create a database of all the lighting sizes for all popular vehicle models. We then mapped those to all of the client’s products through a tagging system. To enable this filter to stay up-to-date when new products are added, we designed it so that any new products would populate automatically. To reduce the query time, we leveraged a special data model to optimize the filtering process. Most importantly, this significantly reduced the call volume THF received, freeing up their internal resources.",
                     image: "/images/clients/the-hid-factory/section2.png"
                 },
             ],
@@ -302,18 +305,18 @@ const ClientContent = {
         section1:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Challenge",
+                    title: "Modernization and Customer Attraction",
+                    text: "Magnetite wanted to refresh its website, which was previously developed in 2010. It was beginning to look out of date and not attracting its target demographic. Magnetite wanted a new website that would position itself as a more modern and professional company. They also sought to have a window measurement tool that would alleviate some of the customer service obligations.",
                     image: "/images/clients/magnetite/section1.png"
                 },
             ],
         section2:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Solution",
+                    title: "Modern and Customer Focused",
+                    text: "To achieve a more modern look, we leaned into their existing brand colors and moved away from the traditional black and white of the old website. To showcase the professional and people-focused side of the company, we leveraged video testimonials throughout the entire site. To free up the customer service staff, we developed an advanced form that allowed customers to input all their exact measurements, reducing a lot of back and forth that previously was unavoidable.",
                     image: "/images/clients/magnetite/section2.png"
                 },
             ],
@@ -340,6 +343,9 @@ const ClientContent = {
                     service: ["WordPress Web Development"],
                     serviceSlug: ["/services/wordpress-websites-development/"],
                     backgroundImg: "/images/clients/go-cottage/hero-background.jpg",
+                    image: "/",
+                    width: "100",
+                    height: "100",
                     backgroundOverlay: "true",
                 },
             ],
@@ -355,18 +361,18 @@ const ClientContent = {
         section1:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Challenge",
+                    title: "Recreate and Maintain Rankings",
+                    text: "Go-Cottage’s old website was in dire need of a refresh, bringing it into the modern age. It wasn’t fully responsive but contained years of valuable blog content that needed to be preserved without impacting their SEO. In addition, they wanted to make the website more modern and accurately show the availability of their rental properties as that’s the site's primary call to action.",
                     image: "/images/clients/go-cottage/section1.png"
                 },
             ],
         section2:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Solution",
+                    title: "Completely Reimagined",
+                    text: "We rebranded their website according to their new branding guidelines and preserved and improved the SEO structure of their blog posts. As a result of this restructuring, Go-Cottage saw an increase in virtually all analytical benchmarks. For the scheduling, they were leveraging Airbnb. Previously they would need to look at Airbnb and then manually create an event in Google Calendar to showcase a property had already been booked. We developed an integration that hooked directly into Airbnb, allowing them to use Airbnb as a singular source of truth for their bookings, minimizing possible customer confusion.",
                     image: "/images/clients/go-cottage/section2.png"
                 },
             ],
@@ -392,8 +398,11 @@ const ClientContent = {
                     name: "CarTalk Repair",
                     service: ["WordPress Web Development"],
                     serviceSlug: ["/services/wordpress-websites-development/"],
-                    backgroundImg: "/images/clients/cartalk-repair/hero-background.jpg",
+                    backgroundImg: "/images/clients/cartalk/hero-background.jpg",
                     backgroundOverlay: "true",
+                    image: "/",
+                    width: "100",
+                    height: "100"
                 },
             ],
         about:
@@ -401,25 +410,25 @@ const ClientContent = {
                 {
                     name: "CarTalk Repair",
                     slug: "https://cartalkrepair.com",
-                    bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
+                    bio: "CarTalk is a father and son repair facility. With over 15 years in the automotive repair industry, they service a wide range of domestic and import automobiles. They pride themselves on their transparent pricing and customer-centric values.",
                     brandColor: "#bf1e2e",
                 },
             ],
         section1:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Challenge",
+                    title: "No Digital Presence of Branding",
+                    text: "CarTalk Repair had an idea, but needed branding and an online presence to be successful in their new venture. They needed something that would showcase their services, experience, and dedication to transparency and customer service. Additionally, they also wanted a way for customers to schedule appointments that would hook directly into their existing scheduling software.",
                     image: "/images/clients/cartalk-repair/section1.png"
                 },
             ],
         section2:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Solution",
+                    title: "A Complete Digital Presence",
+                    text: "We developed branding for CarTalk that fit with their target demographic after conducting extensive market research. We designed and developed a website that showcased their service offerings and core values. To provide full connectivity to their existing business processes, we connected booking to their current bookings platform via a custom API.",
                     image: "/images/clients/cartalk-repair/section2.png"
                 },
             ],
@@ -447,6 +456,9 @@ const ClientContent = {
                     serviceSlug: ["/services/wordpress-websites-development/"],
                     backgroundImg: "/images/clients/bluecollar/hero-background.jpg",
                     backgroundOverlay: "true",
+                    image: "/",
+                    width: "100",
+                    height: "100"
                 },
             ],
         about:
@@ -657,8 +669,8 @@ const ClientContent = {
                 {
                     industry: "Home Services",
                     name: "Homewatch Amelia",
-                    service: ["WordPress Web Development"],
-                    serviceSlug: ["/services/web-development/wordpress-website-development"],
+                    service: ["WordPress Web Development", "Branding"],
+                    serviceSlug: ["/wordpress-website-development", "/test"],
                     backgroundImg: "/images/clients/bobtail/hero-background.jpg",
                     backgroundOverlay: "true",
                     image: "/",
@@ -678,18 +690,18 @@ const ClientContent = {
         section1:
             [
                 {
-                    sub: "The Goal",
+                    sub: "The Challenge",
                     title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    text: "Homewatch Amelia had no existing brand, website, or online presence. They needed to establish themselves in a brand new market to attract clients and build a positive reputation. They needed a website that communicated trust, professionalism and highlighted the founder's experience in a similar industry. When it came to the website, they valued greatly the ability to maintain it easily after the initial development.",
                     image: "/images/clients/lessons-that-rock/section1.png"
                 },
             ],
         section2:
             [
                 {
-                    sub: "The Goal",
+                    sub: "The Solution",
                     title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    text: "We created a complete branding kit, social accounts and designed and developed their website from start to finish. We created a custom WordPress website that was set up to be easily maintained by non-technical individuals. In addition, we provided documentation and recorded videos of standard updates so they could easily follow along.",
                     image: "/images/clients/lessons-that-rock/section2.png"
                 },
             ],

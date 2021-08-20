@@ -59,6 +59,9 @@ function BlueCollar() {
                     backgroundOverlay={bluecollar.backgroundOverlay}
                     service={bluecollar.service}
                     serviceSlug={bluecollar.serviceSlug}
+                    heroImage={bluecollar.image}
+                    heroImageWidth={bluecollar.width}
+                    heroImageHeight={bluecollar.height}
                     style="py-40"
                     key={`ameliaAmeliaHeroContentFor${bluecollar.name}`}
                 />

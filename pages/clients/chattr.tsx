@@ -120,6 +120,7 @@ function Carro() {
         <ResponsiveScreens
           style="py-24 overflow-hidden"
           link="https://chattr.ai"
+          buttonName="Visit Site"
           desktopLeft={chattr.desktopLeft}
           desktopRight={chattr.desktopRight}
           tablet={chattr.tablet}

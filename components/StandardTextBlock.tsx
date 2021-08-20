@@ -2,8 +2,8 @@ const StandardTextBlock = (props) => {
     return (
         <div className="pb-10 lg:pb-0 text-center lg:text-left">
             <div className="portfolio-title text-alkaligrey-400 uppercase text-md font-bold">{props.sub}</div>
-            <h2 className="text-4xl md:text-5xl font-bold m-auto leading-tight pt-7">{props.title}</h2>
-            <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">{props.text}</p>
+            <h2 className="text-4xl md:text-5xl font-bold m-auto leading-tight pt-3">{props.title}</h2>
+            <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-10">{props.text}</p>
         </div>
     )
 }

@@ -59,6 +59,9 @@ function CarTalkRepair() {
                     backgroundOverlay={cartalkRepair.backgroundOverlay}
                     service={cartalkRepair.service}
                     serviceSlug={cartalkRepair.serviceSlug}
+                    heroImage={cartalkRepair.image}
+                    heroImageWidth={cartalkRepair.width}
+                    heroImageHeight={cartalkRepair.height}
                     style="py-40"
                     key={`ameliaAmeliaHeroContentFor${cartalkRepair.name}`}
                 />
@@ -84,16 +87,16 @@ function CarTalkRepair() {
             <div className="pb-24 -mt-56">
                 <TestimonialSlide
                     style="max-w-7xl m-auto shadow-2xl rounded-md"
-                    background="/images/clients/the-hid-factory/thf-slide-bg.png"
-                    brandColor="#0d0d0d"
-                    company="Chattr"
-                    logo="/images/clients/the-hid-factory/logo.png"
-                    logoWidth="275"
-                    logoHeight="50"
+                    background="/images/clients/cartalk/slide-bg.jpg"
+                    brandColor="#fff"
+                    company="CarTalk Repair"
+                    logo="/images/clients/cartalk/logo.svg"
+                    logoWidth="225"
+                    logoHeight="102"
                     altText=""
                     slug="chattr"
-                    name="Travis Deleon, Operations Manager"
-                    quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+                    name="Cody Lintz, Owner"
+                    quote="I think I chose the best company to do this. The adviser was up front on cost and explained everything to me. He made the experience perfect. He will do all my websites as my company grows."
                 />
             </div>
         </div>
