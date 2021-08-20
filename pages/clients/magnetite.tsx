@@ -132,7 +132,8 @@ function Carro() {
       {MagnetiteContent.magnetite.screens.map((magnetite) => (
         <ResponsiveScreens
           style="py-24 overflow-hidden"
-          link="https://chattr.ai"
+          link="https://magnetite.com"
+          buttonName="Visit Site"
           desktopLeft={magnetite.desktopLeft}
           desktopRight={magnetite.desktopRight}
           tablet={magnetite.tablet}

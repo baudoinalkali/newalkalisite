@@ -106,9 +106,6 @@ function Footer() {
                         Privacy Policy
                     </div>
                     <div>
-                        ESG Policy
-                    </div>
-                    <div>
                         Terms of Use
                     </div>
                 </div>

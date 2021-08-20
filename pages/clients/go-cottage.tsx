@@ -67,6 +67,9 @@ function Carro() {
             backgroundOverlay={goCottage.backgroundOverlay}
             service={goCottage.service}
             serviceSlug={goCottage.serviceSlug}
+            heroImage={goCottage.image}
+            heroImageWidth={goCottage.width}
+            heroImageHeight={goCottage.height}
             style="py-40"
             key={`ameliaAmeliaHeroContentFor${goCottage.name}`}
           />
@@ -100,7 +103,7 @@ function Carro() {
             altText=""
             slug="chattr"
             name="Sharon Middendorf, Owner"
-            quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+            quote="5 stars all the way! Thank you for building our amazing new website. Top notch, professional, on time, responsive. Can't say enough good things about Alkali."
           />
         </div>
       </div>
@@ -129,7 +132,8 @@ function Carro() {
       {GoCottageContent.goCottage.screens.map((goCottage) => (
         <ResponsiveScreens
           style="py-24 overflow-hidden"
-          link="https://chattr.ai"
+          link="https://go-cottage.com"
+          buttonName="Visit Site"
           desktopLeft={goCottage.desktopLeft}
           desktopRight={goCottage.desktopRight}
           tablet={goCottage.tablet}

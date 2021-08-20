@@ -54,9 +54,9 @@ const HomeTestimonialSlider = () => {
           <div key={idx} className="px-4 pb-20 duration-500">
             <div
               className="group shadow-2xl rounded-md client-testimonial-container--home"
-              style={{ backgroundColor: `${props.brandColor}` }}
+              style={{ backgroundColor: `${props.brandColor}`, borderTopLeftRadius: ".575rem", borderTopRightRadius: ".575rem" }}
             >
-              <div className="p-10 py-7 bg-white duration-500">
+              <div className="p-10 py-7 bg-white duration-500 rounded-t-md">
                 <svg
                   width="45"
                   height="36"
