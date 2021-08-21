@@ -3,14 +3,14 @@ import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons"; // impo
 import HomeHero from "../components/HomeHero";
 import SplitTextImageAlt from "../components/SplitTextImageAlt";
 import SplitTextImage from "../components/SplitTextImage";
-import ResponsiveScreens from "../components/ResponsiveScreens";
 import Modal from "../components/Modal";
 import Footer from "../components/Footer";
 import DesktopNavigation from "../components/Navigation/DesktopNavigation";
-import HomeTestimonialSlider from "../components/HomeTestimonialSlider";
-import HomeClientsSlider from "../components/HomeClientsSlider";
 import Image from 'next/image'
 import AuditSection from "../components/Services/AuditSection";
+import dynamic from 'next/dynamic';
+const HomeTestimonialSlider = dynamic(() => import("../components/HomeTestimonialSlider"));
+const HomeClientsSlider = dynamic(() => import("../components/HomeClientsSlider"));
 
 export default function Home() {
   return (

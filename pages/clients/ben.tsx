@@ -1,7 +1,5 @@
 import Modal from "../../components/Modal";
-import ResponsiveScreens from "../../components/ResponsiveScreens";
 import ClientCardContainer from "../../components/Clients/ClientCardContainer";
-import TestimonialSlide from "../../components/TestimonialSlide";
 import Testimonials from "../../content/testimonials";
 import TwoColumnLayout from "../../components/TwoColumnLayout";
 import StandardImage from "../../components/StandardImage";
@@ -12,6 +10,9 @@ import BenContent from "../../content/clientPages/clientContent";
 import CarroScreenImages from "../../content/clientPages/screenImages";
 import ClientHeader from "../../components/Clients/ClientHeader";
 import ClientAbout from "../../components/Clients/ClientAbout";
+import dynamic from 'next/dynamic';
+const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
+const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
 function Ben() {
   const carroGoalImage = BenContent.ben.section1.map((ben) => (
