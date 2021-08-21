@@ -29,12 +29,41 @@ li:hover > button svg {
   min-width: 8rem;
 }
 
+.hs-button {
+  padding: 1rem 2.5rem !important;
+  font-weight: 600 !important;
+  border-radius: 0.375rem !important;
+  background: #00baff !important;
+}
+
+@media only screen and (max-width: 1300px) {
+  .hubspot-meeting-container {
+    max-width: 90vw !important;
+  }
+}
+
+.hubspot-meeting-container {
+  max-width: 60vw;
+}
+
 #hubspot-messages-iframe-container {
   display: none !important;
 }
 
 .calendly-inline-widget {
   height: 700px !important;
+}
+
+@media only screen and (max-width: 780px) {
+  .calendly-inline-widget {
+    padding-top: 2rem;
+    height: 640px !important;
+  }
+}
+
+.client-slider-container .slick-slide{
+  width: 24rem !important;
+  overflow: hidden !important;
 }
 
 ._2rxQ07L_sk._1M_9Lld7A7 {
@@ -645,10 +674,6 @@ button {
   .portfolio-image--right {
     transform: translate3d(0, 0, 0) rotate(45deg);
   }
-}
-
-.portfolio-image-container {
-  transform: rotateX(55deg);
 }
 
 .portfolio-desktop {

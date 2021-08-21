@@ -52,11 +52,11 @@ const ResponsiveScreens = (props) => {
             <div className="screenshot-container w-2/3 mx-3">
               <a href={props.tabletLink}>
                 <div
-                  className="screenshot-t w-96 shadow-2xl duration-500 transform -rotate-45 -translate-x-21 hover:-translate-y-1 hover:scale-110"
+                  className="screenshot-t w-96 rounded-md shadow-2xl duration-500 transform -rotate-45 -translate-x-21 hover:-translate-y-1 hover:scale-110"
                   style={{ fontSize: "0" }}
                 >
                   <Image
-                    className=""
+                    className="rounded-md"
                     src={props.tablet}
                     alt=""
                     width={384}
@@ -69,10 +69,10 @@ const ResponsiveScreens = (props) => {
               <a href={props.phoneLink}>
                 <div
                   className="rounded-md screenshot-p w-52 shadow-2xl duration-500 transform -rotate-45 -translate-x-21 hover:-translate-y-1 hover:scale-110"
-                  style={{ fontSize: "0" }}
+                  style={{ fontSize: "0", display:"hidden"}}
                 >
                   <Image
-                    className="rounded-md"
+                    className="rounded-md hidden"
                     src={props.phone}
                     alt=""
                     width={208}
