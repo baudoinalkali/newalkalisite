@@ -5,46 +5,13 @@ import HomepageSlide from "../content/testimonials";
 const HomeTestimonialSlider = () => {
   const settings = {
     infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    className: "testimonial-slider-container",
+    slidesToShow: 1,
+    slidesToScroll: 1,
     autoplay: true,
     speed: 60000,
     autoplaySpeed: 0,
     cssEase: "linear",
-    responsive: [
-      {
-        breakpoint: 2400,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 1920, // Full HD
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 960,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 720,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          speed: 20000,
-        },
-      },
-    ],
   };
 
   return (
@@ -53,7 +20,7 @@ const HomeTestimonialSlider = () => {
         {HomepageSlide.homepage.map((props, idx) => (
           <div key={idx} className="px-4 pb-20 duration-500">
             <div
-              className="group shadow-2xl rounded-md client-testimonial-container--home"
+              className="group shadow-2xl rounded-md"
               style={{ backgroundColor: `${props.brandColor}`, borderTopLeftRadius: ".575rem", borderTopRightRadius: ".575rem" }}
             >
               <div className="p-10 py-7 bg-white duration-500 rounded-t-md">

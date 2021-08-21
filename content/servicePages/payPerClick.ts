@@ -58,39 +58,57 @@ const PPC = {
     ],
     features: [
         {
-            serviceTitle: "Search",
+            serviceTitle: "Search Ads",
             serviceText: "Pay to be placed at the top of search results for specific keywords if specified conditions are met. Search ads can provide immediate results that SEO campaigns cannot.",
-            image: "/images/digital-marketing/ppc/search.png",
+            image: "/images/digital-marketing/ppc/search-ads.svg",
+            altText: ""
+        },
+        {
+            serviceTitle: "Display Ads",
+            serviceText: "Test",
+            image: "/images/digital-marketing/ppc/display-ads.svg",
+            altText: ""
+        },
+        {
+            serviceTitle: "Social Ads",
+            serviceText: "Utilizing social in conjunction with traditional paid advertising is a recipe for success. You want to get in front of your target audience as frequently as possible, increasing the likelihood of a conversion. Using all available platforms makes this easier.",
+            image: "/images/digital-marketing/ppc/social-ads.svg",
             altText: ""
         },
         {
             serviceTitle: "Local Service Ads",
             serviceText: "Are you a local service company tired of people clicking on your ads but never getting a qualified lead? We help you leverage Google Local Service ads where you only pay for leads that reach out to you directly.",
-            image: "/images/digital-marketing/ppc/local-service-ads.png",
+            image: "/images/digital-marketing/ppc/local-service-ads.svg",
             altText: ""
         },
         {
-            serviceTitle: "Shopping",
+            serviceTitle: "Shopping Ads",
             serviceText: "We help place your products at the top of shopping results, increasing the visibility of your product. We create powerful, high-converting campaigns in conjunction with other data sources, such as your e-commerce store.",
-            image: "/images/digital-marketing/ppc/shopping.png",
+            image: "/images/digital-marketing/ppc/shopping-ads.svg",
             altText: ""
         },
         {
-            serviceTitle: "Conversion Flywheel",
+            serviceTitle: "In-stream Ads",
+            serviceText: "Test",
+            image: "/images/digital-marketing/ppc/local-service-ads.svg",
+            altText: ""
+        },
+        {
+            serviceTitle: "Retargeting",
             serviceText: "We leverage your existing sales process to tailor your campaigns around it. So whether you’re targeting repeat customers or people who have expressed interest in a specific product, we can target and nurture your ideal customer.",
-            image: "/images/digital-marketing/ppc/conversion-flywheel.png",
+            image: "/images/digital-marketing/ppc/retargeting.svg",
             altText: ""
         },
         {
-            serviceTitle: "Social Advertising",
-            serviceText: "Utilizing social in conjunction with traditional paid advertising is a recipe for success. You want to get in front of your target audience as frequently as possible, increasing the likelihood of a conversion. Using all available platforms makes this easier.",
-            image: "/images/digital-marketing/ppc/social-advertising.png",
+            serviceTitle: "GSP",
+            serviceText: "test",
+            image: "/images/digital-marketing/ppc/gsp.svg",
             altText: ""
         },
         {
             serviceTitle: "Tailored Reporting",
             serviceText: "Everyone likes to know where their dollars are being spent; we provide detailed reporting and create KPIs to showcase the effectiveness of our campaigns. These are provided to you frequently to keep you up to date.",
-            image: "/images/digital-marketing/ppc/tailored-reporting.png",
+            image: "/images/digital-marketing/ppc/tailored-reporting.svg",
             altText: ""
         },
     ],

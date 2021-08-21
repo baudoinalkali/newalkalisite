@@ -36,6 +36,7 @@ li:hover > button svg {
   background: #00baff !important;
 }
 
+
 @media only screen and (max-width: 1300px) {
   .hubspot-meeting-container {
     max-width: 90vw !important;
@@ -43,7 +44,8 @@ li:hover > button svg {
 }
 
 .hubspot-meeting-container {
-  max-width: 60vw;
+  max-width: 70vw;
+  max-height: 70vh;
 }
 
 #hubspot-messages-iframe-container {
@@ -66,6 +68,18 @@ li:hover > button svg {
   overflow: hidden !important;
 }
 
+.testimonial-slider-container .slick-slide {
+  width: 40rem !important;
+  overflow: hidden !important;
+}
+
+@media only screen and (max-width: 780px) {
+  .testimonial-slider-container .slick-slide {
+    width: 25rem !important;
+    overflow: hidden !important;
+  }
+}
+
 ._2rxQ07L_sk._1M_9Lld7A7 {
   margin-top: 10rem !important;
 }
@@ -76,17 +90,6 @@ li:hover > button svg {
 
 .iSDZ5t7E7z._22yXaHFtuz._15N04lKjtm {
   margin-top: -5rem !important;
-}
-
-.meeting-popup-container--inner {
-  height: 800px;
-}
-
-.meeting-popup-container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 3rem !important;
-  height: 800px;
 }
 
 .hs-form-popup-container {

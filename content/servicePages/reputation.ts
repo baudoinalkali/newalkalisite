@@ -50,37 +50,37 @@ const ReputationManagement = {
         {
             serviceTitle: "Reputation Repair",
             serviceText: "Many reviews are the product of an unaddressed customer complaint — consulting with the customer who left the review to convert a negative interaction into a positive one can result in the customer removing their review, improving your score on the review-hosting platform in the process.",
-            image: "/images/digital-marketing/ppc/search.png",
+            image: "/images/digital-marketing/reputation/reputation-repair.svg",
             altText: ""
         },
         {
             serviceTitle: "Review Monitoring",
             serviceText: "Staying on top of negative reviews is crucial to maintaining your brand’s public image — negative reviews that go unnoticed can impact your reputation for weeks, months, or even years without you knowing it. We will plug into front-end systems to ensure that no review goes unnoticed, ensuring no negative review goes unaddressed.",
-            image: "/images/digital-marketing/ppc/local-service-ads.png",
+            image: "/images/digital-marketing/reputation/review-monitoring.svg",
             altText: ""
         },
         {
             serviceTitle: "Review Response",
             serviceText: "We help your business tell your side of the story when it comes to customer reviews by responding to complaints in a professional manner — that way, even if a customer is unwilling to remove their review, new customers can see the action you took to mitigate or rectify the complaint.",
-            image: "/images/digital-marketing/ppc/shopping.png",
+            image: "/images/digital-marketing/reputation/review-response.svg",
             altText: ""
         },
         {
             serviceTitle: "Online Listings Management",
             serviceText: "We keep your information up to date and ensure your business is fairly represented online by managing all of your online listings — including Google, Yelp, and popular social media platforms like Facebook and Instagram.",
-            image: "/images/digital-marketing/ppc/conversion-flywheel.png",
+            image: "/images/digital-marketing/reputation/online-listings-management.svg",
             altText: ""
         },
         {
             serviceTitle: "Review Solutions",
             serviceText: "Converting positive interactions into reviews is the best way to ensure that your online image accurately reflects your relationship with your customers. We help you implement review systems to create an integrated process that garners positive reviews for your business.",
-            image: "/images/digital-marketing/ppc/social-advertising.png",
+            image: "/images/digital-marketing/reputation/review-solutions.svg",
             altText: ""
         },
         {
             serviceTitle: "Content Removal",
             serviceText: "Many businesses receive negative reviews from individuals claiming to be customers who have never purchased goods or services from the company they review. We help improve your score with review-hosting platforms by working to remove fraudulent, reputation-damaging content wherever it appears online.",
-            image: "/images/digital-marketing/ppc/tailored-reporting.png",
+            image: "/images/digital-marketing/reputation/content-removal.svg",
             altText: ""
         },
     ]

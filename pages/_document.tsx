@@ -9,11 +9,11 @@ class MyDocument extends Document {
           <script
             src="/hubspot/cookiebanner.js"
             type="text/javascript"
-            id="cookieBanner-14539076"
+            id="cookieBanner-20442125"
             data-cookieconsent="ignore"
             data-hs-ignore="true"
             data-loader="hs-scriptloader"
-            data-hsjs-portal="14539076"
+            data-hsjs-portal="20442125"
             data-hsjs-env="prod"
             data-hsjs-hublet="na1"
             async
@@ -31,12 +31,12 @@ class MyDocument extends Document {
           <script
             src="/hubspot/collectedforms.js"
             type="text/javascript"
-            id="CollectedForms-14539076"
+            id="CollectedForms-20442125"
             crossOrigin="anonymous"
-            data-leadin-portal-id="14539076"
+            data-leadin-portal-id="20442125"
             data-leadin-env="prod"
             data-loader="hs-scriptloader"
-            data-hsjs-portal="14539076"
+            data-hsjs-portal="20442125"
             data-hsjs-env="prod"
             data-hsjs-hublet="na1"
             async
@@ -48,7 +48,7 @@ class MyDocument extends Document {
             type="text/javascript"
             id="hubspot-messages-loader"
             data-loader="hs-scriptloader"
-            data-hsjs-portal="14539076"
+            data-hsjs-portal="20442125"
             data-hsjs-env="prod"
             data-hsjs-hublet="na1"
             async

@@ -50,37 +50,37 @@ const SocialMarketing = {
         {
             serviceTitle: "Paid Social Campaigns",
             serviceText: "Target your ideal customer on the platforms they use daily. Social campaigns are a great way to get immediate results, unlike organic marketing methods, whether to drive awareness or sales.",
-            image: "/images/alkalismall.png",
+            image: "/images/digital-marketing/social/paid-social-campaigns.svg",
             altText: ""
         },
         {
             serviceTitle: "Content Creation & Posting",
             serviceText: "It can be hard to figure out what you should post but don’t worry; we’re here to help. We create and post insightful, engaging, and targeted social content to drive leads to your business.",
-            image: "/images/alkalismall.png",
+            image: "/images/digital-marketing/social/content-creation-posting.svg",
             altText: ""
         },
         {
             serviceTitle: "Monitoring and Moderation",
             serviceText: "Social accounts and posts are an extension of your brand. We help protect your brand by monitoring your social accounts, ensuring that no malicious content is associated with your business.",
-            image: "/images/alkalismall.png",
+            image: "/images/digital-marketing/social/monitoring-moderation.svg",
             altText: ""
         },
         {
             serviceTitle: "Cross-Platform Strategy",
             serviceText: "Leveraging multiple social platforms enables you to increase visibility and traffic to your site. It can be challenging to figure out which platforms to leverage, but we’re here to advise you.",
-            image: "/images/alkalismall.png",
+            image: "/images/digital-marketing/social/cross-platform-strategy.svg",
             altText: ""
         },
         {
             serviceTitle: "Account Creation and Optimization",
             serviceText: "We set your social accounts up for success by fully optimizing them from the start. But, of course, optimization is much more than having a profile photo and bio, which is where we come in.",
-            image: "/images/alkalismall.png",
+            image: "/images/digital-marketing/social/account-creation-optimization.svg",
             altText: ""
         },
         {
             serviceTitle: "Reputation Management",
             serviceText: "Social accounts open your business up to potential issues, but the pros greatly outweigh the cons. We are here to limit any potential downsides, whether it be reviews or negative posts associated with your business.",
-            image: "/images/alkalismall.png",
+            image: "/images/digital-marketing/social/reputation-management.svg",
             altText: ""
         },
     ],

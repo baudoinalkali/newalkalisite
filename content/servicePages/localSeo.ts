@@ -59,55 +59,55 @@ const LocalSEO = {
         {
             serviceTitle:"Google My Business Optimization",
             serviceText:"Most businesses have a Google My Business page, but they typically aren’t fully optimized. We optimize every aspect of your listing and ensure it’s integrated with other areas of your business, setting you up for success.",   
-            image:"/images/digital-marketing/local-seo/google-my-business-optimization.png",
+            image:"/images/digital-marketing/local-seo/gmb-optimization.svg",
             altText:""
         },
         {
             serviceTitle:"Keyword Research & Strategy",
             serviceText:"Knowing the right keywords to use makes all the difference in the world. We analyze your existing keywords, conduct deep competitive analysis, and present you with options and recommendations.",
-            image:"/images/digital-marketing/local-seo/keyword-research-strategy.png",
+            image:"/images/digital-marketing/local-seo/keyword-optimization.svg",
             altText:""   
         },
         {
             serviceTitle:"On-Site Optimization",
             serviceText:"Once you have the proper keywords and strategy in mind, it’s time to ensure that your site is fully optimized. We have developed a plan; now, it’s time to optimize your on-site content to meet the goals of your business.",
-            image:"/images/digital-marketing/local-seo/on-site-optimization.png",
+            image:"/images/digital-marketing/local-seo/on-site-optimization.svg",
             altText:""   
         },
         {
             serviceTitle:"Link Building",
             serviceText:"Connecting with local platforms to receive high-quality and relevant links is critical. Maintaining these connections and keeping tabs on other linkages, ensuring that your website is being viewed favorably by search engines.",
-            image:"/images/digital-marketing/local-seo/link-building.png",
+            image:"/images/digital-marketing/local-seo/link-building.svg",
             altText:""  
         },
         {
             serviceTitle:"Google Local Serivce Ads Management",
             serviceText:"Google Local Service Ads is a platform that allows local service providers unprecedented tools to connect with local customers. Unlike traditional paid advertising, you only pay for verified leads. We help you manage the tedious process.",
-            image:"/images/digital-marketing/local-seo/google-local-service-ads-management.png",
+            image:"/images/digital-marketing/local-seo/lsa-management.svg",
             altText:""   
         },
         {
             serviceTitle:"Content Writing",
             serviceText:"Not everyone loves writing content, but search engines need it. We create and optimize locally focused content for your website and other platforms, ensuring your business is accurately communicated to customers.",
-            image:"/images/digital-marketing/local-seo/content-writing.png",
+            image:"/images/digital-marketing/local-seo/content-writing.svg",
             altText:""   
         },
         {
             serviceTitle:"Local Citation Management",
             serviceText:"Ensuring local citations contain accurate business information is critical for your local SEO. We routinely audit and, when necessary, update and create citations to ensure your business has maximum findability.",
-            image:"/images/digital-marketing/local-seo/local-citation-management.png",
+            image:"/images/digital-marketing/local-seo/citation-management.svg",
             altText:""   
         },
         {
             serviceTitle:"Franchise SEO",
             serviceText:"When you have multiple locations, it can be hard to juggle all the local SEO tasks required to thrive in each local area. We take that burden off your plate so you can focus on other administrative tasks.",
-            image:"/images/digital-marketing/local-seo/franchise-seo.png",
+            image:"/images/digital-marketing/local-seo/franchise-seo.svg",
             altText:""   
         },
         {
             serviceTitle:"Service Platform Management",
             serviceText:"Does your business leverage a management platform for specific locations? If so, we can assist in managing your locations, freeing you to focus on other areas of your business.",
-            image:"/images/digital-marketing/local-seo/service-platform-management.png",
+            image:"/images/digital-marketing/local-seo/platform-management.svg",
             altText:""  
         }
     ],
