@@ -18,7 +18,6 @@ class MyDocument extends Document {
             data-hsjs-hublet="na1"
             async
             defer
-            src="//js-na1.hs-scripts.com/20442125.js"
           />
 
           <script
