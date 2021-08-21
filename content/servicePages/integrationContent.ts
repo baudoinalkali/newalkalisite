@@ -29,11 +29,11 @@ const IntegrationContent = {
         { "name": "YouTube", "fileName": "youtube", altText: "" },
         { "name": "Twitter", "fileName": "twitter", altText: "" },
         { "name": "LinkedIn", "fileName": "linkedin", altText: "" },
+        { "name": "TikTok", "fileName": "tiktok", altText: "" },
         { "name": "Snapchat", "fileName": "snapchat", altText: "" },
         { "name": "Pinterest", "fileName": "pinterest", altText: "" },
         { "name": "Messenger", "fileName": "messenger", altText: "" },
         { "name": "Reddit", "fileName": "reddit", altText: "" },
-        { "name": "WhatsApp", "fileName": "whatsapp", altText: "" }
     ],
     reputation: [
         { "name": "Google", "fileName": "google-my-business", altText: "" },

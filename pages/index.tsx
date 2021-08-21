@@ -10,6 +10,7 @@ import DesktopNavigation from "../components/Navigation/DesktopNavigation";
 import HomeTestimonialSlider from "../components/HomeTestimonialSlider";
 import HomeClientsSlider from "../components/HomeClientsSlider";
 import Image from 'next/image'
+import AuditSection from "../components/Services/AuditSection";
 
 export default function Home() {
   return (
@@ -181,35 +182,7 @@ export default function Home() {
         image="/images/web-development/custom-built.svg"
         text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
       />
-      <div className="p-4 py-36">
-        <div className="flex flex-col lg:flex-row gap-x-20 justify-between items-center max-w-7xl m-auto mx-3 xl:mx-auto">
-          <div className="w-1/2">
-          <Image 
-            src="/images/free-audit.svg"
-            width={600}
-            height={450}
-          />
-          </div>
-          <div className="w-1/2">
-            <h3 className="text-4xl md:text-5xl font-bold max-w-2xl leading-normal mb-14 lg:mb-0">
-              Get a Complimentary Marketing Audit
-            </h3>
-            <p className="max-w-xl pt-10">
-              Every successful engagement begins with an audit. Allow us to provide you a comprehensive audit 
-              completely free of charge. Our digital marketing experts will examine your online presence and 
-              provide you with insights. Main areas covered include:
-            </p>
-            <ul className="list-disc ml-5 mt-5 space-y-3">
-              <li>Full website weview (content, CRO, performance)</li>
-              <li>SEO: Comprehensive on-page audit</li>
-              <li>Digital marketing/reputation management</li>
-            </ul>
-            <button className="mt-10 p-4 px-10 font-semibold text-white rounded-md hover:bg-alkali-700 hover:text-white transition duration-500 ease-in-out bg-alkali-500 border">
-              Request Free Audit
-            </button>
-          </div>
-        </div>
-      </div>
+      <AuditSection />
       <div className="py-36 pb-0 bg-alkaligrey-300">
         <h3 className="text-5xl pt-2 pb-24 font-bold text-center">
           Our Clients
