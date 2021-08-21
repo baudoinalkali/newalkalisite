@@ -20,12 +20,10 @@ function Contact() {
       </div>
       <div className="flex flex-col lg:flex-row gap-x-0 gap-y-24 lg:gap-y-0 md:gap-x-10 mx-7 xl:mx-auto justify-between items-center max-w-7xl -mt-32">
         <div className="rounded-md shadow-2xl p-14 bg-white">
-          <div className="">
-            <img
-              className="-mt-24 w-32 h-32 text-center rounded-full p-5 bg-white shadow-2xl mx-auto"
-              src="../images/alkalismall.png"
-            />
-          </div>
+          <img
+            className="-mt-24 shadow-2xl rounded-full p-5 mx-auto bg-white z-30"
+            src="/images/chat.svg"
+          />
           <h2 className="text-center py-3 pt-11 text-xl font-medium">Chat</h2>
           <p className="text-center max-w-xs text-lg pb-7">
             We'd love to talk about how we can work together.
@@ -37,12 +35,10 @@ function Contact() {
           </div>
         </div>
         <div className="rounded-md shadow-2xl p-14 bg-white">
-          <div className="">
-            <img
-              className="-mt-24 w-32 h-32 text-center rounded-full p-5 bg-white shadow-2xl mx-auto"
-              src="../images/alkalismall.png"
-            />
-          </div>
+          <img
+            className="-mt-24 shadow-2xl rounded-full p-5 mx-auto bg-white z-30"
+            src="/images/email.svg"
+          />
           <h2 className="text-center py-3 pt-11 text-xl font-medium">Chat</h2>
           <p className="text-center max-w-xs text-lg pb-7">
             We'd love to talk about how we can work together.
@@ -54,12 +50,10 @@ function Contact() {
           </div>
         </div>
         <div className="rounded-md shadow-2xl p-14 bg-white">
-          <div className="">
-            <img
-              className="-mt-24 w-32 h-32 text-center rounded-full p-5 bg-white shadow-2xl mx-auto"
-              src="../images/alkalismall.png"
-            />
-          </div>
+          <img
+            className="-mt-24 shadow-2xl rounded-full p-5 mx-auto bg-white z-30"
+            src="/images/phone.svg"
+          />
           <h2 className="text-center py-3 pt-11 text-xl font-medium">Chat</h2>
           <p className="text-center max-w-xs text-lg pb-7">
             We'd love to talk about how we can work together.

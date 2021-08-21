@@ -10,7 +10,7 @@ class MyDocument extends Document {
             id="hs-script-loader"
             async
             defer
-            src="//js-na1.hs-scripts.com/14539076.js"
+            src="//js-na1.hs-scripts.com/20442125.js"
           />
 
           {/* Prevent fouc (flash of unstyled component) and transition firing on load for firefox */}

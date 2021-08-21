@@ -21,10 +21,16 @@ import WordpressFAQ from "../../../content/servicePages/faq";
 import EcommerceServices from "../../../content/servicePages/serviceBlocks";
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
 import ecommerceProcess from "../../../content/servicePages/ourProcess";
+import ServiceImage from "../../../components/Services/ServiceImage";
 
 function EcommerceWebsiteDevelopment() {
   const image1 = Ecommerce.text1.map((text1) => (
-    <StandardImage image={text1.image} imageAngle="none" />
+    <ServiceImage 
+    image={text1.image} 
+    imageAngle="none" 
+    height={text1.height}
+    width={text1.width}
+    />
   ));
 
   const text1 = Ecommerce.text1.map((text1) => (
@@ -32,7 +38,11 @@ function EcommerceWebsiteDevelopment() {
   ));
 
   const image2 = Ecommerce.text2.map((text2) => (
-    <StandardImage image={text2.image} imageAngle="none" />
+    <ServiceImage 
+    image={text2.image} 
+    height={text2.height}
+    width={text2.width}
+    imageAngle="none" />
   ));
 
   const text2 = Ecommerce.text2.map((text2) => (
@@ -40,7 +50,11 @@ function EcommerceWebsiteDevelopment() {
   ));
 
   const image3 = Ecommerce.text3.map((text3) => (
-    <StandardImage image={text3.image} imageAngle="none" />
+    <ServiceImage 
+    image={text3.image} 
+    height={text3.height}
+    width={text3.width}
+    imageAngle="none" />
   ));
 
   const text3 = Ecommerce.text3.map((text3) => (
@@ -48,7 +62,11 @@ function EcommerceWebsiteDevelopment() {
   ));
 
   const image4 = Ecommerce.text4.map((text4) => (
-    <StandardImage image={text4.image} imageAngle="none" />
+    <ServiceImage 
+    image={text4.image} 
+    height={text4.height}
+    width={text4.width}
+    imageAngle="none" />
   ));
 
   const text4 = Ecommerce.text4.map((text4) => (
@@ -56,7 +74,11 @@ function EcommerceWebsiteDevelopment() {
   ));
 
   const image5 = Ecommerce.text5.map((text5) => (
-    <StandardImage image={text5.image} imageAngle="none" />
+    <ServiceImage 
+    image={text5.image} 
+    height={text5.height}
+    width={text5.width}
+    imageAngle="none" />
   ));
 
   const text5 = Ecommerce.text5.map((text5) => (

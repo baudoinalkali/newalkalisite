@@ -3,40 +3,50 @@ const Ecommerce = {
         {
             title: "Built to Convert",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis diam, scelerisque at porta a, vulputate a purus. Fusce ipsum diam, pellentesque a scelerisque sollicitudin, cursus nec tellus. In sit amet laoreet quam. Proin euismod metus ut consectetur ultrices. Suspendisse ac est eget augue venenatis congue ac a odio. Sed feugiat elementum malesuada. Phasellus augue dolor, accumsan quis ante in, eleifend placerat metus.",
-            image: "/images/responsive.webp",
-            altText: ""
+            image: "/images/web-development/",
+            altText: "",
+            height: "400",
+            width: "600"
         },
     ],
     text2: [
         {
             title: "Shopify Development",
             text: "Shopify is an excellent choice if you have no existing online presence and want to get up and running in a reasonable time. They offer a superb user experience for both the customer and the store owner. Their extensive app marketplace allows you to meet any possible demand you might have. In addition to this marketplace, Shopify also has numerous integrations with popular complimentary services such as Instagram, Facebook, and Amazon. The platform is fully customizable, offering the flexibility of a custom solution while utilizing Shopify’s infrastructure and security.",
-            image: "/images/responsive.webp",
-            altText: ""
+            image: "/images/web-development/e-commerce/shopify.svg",
+            altText: "",
+            height: "340",
+            width: "500"
         },
     ],
     text3: [
         {
             title: "WooCommerce Development",
             text: "If you have an existing WordPress website and want to add shopping cart functionality, WooCommerce is an excellent option. Developed by Automattic, the creators of WordPress, this solution allows you to integrate with WordPress regardless of your specific theme seamlessly. Like WordPress, WooCommerce embraces the third-party ecosystem and endless integrations available to you. In addition, because WooCommerce works hand in hand with WordPress, you can create some truly unique buyer experiences that fit within your existing online presence.",
-            image: "/images/responsive.webp",
-            altText: ""
+            image: "/images/web-development/e-commerce/woocommerce.svg",
+            altText: "",
+            height: "340",
+            width: "500"
         },
     ],
     text4: [
         {
             title: "Bigcommerce Development",
             text: "Whether you want to leverage the self-hosted version of Bigcommerce or use their software for a custom e-commerce store, this solution offers an immense amount of customization while also having the support and documentation of an industry-leading e-commerce platform. So whether you’re B2B or B2C, selling apparel or software, Bigcommerce can help you meet your e-commerce goals.",
-            image: "/images/responsive.webp",
-            altText: ""
+            image: "/images/web-development/e-commerce/bigcommerce.svg",
+            altText: "",
+            height: "340",
+            width: "500"
         },
     ],
     text5: [
         {
             title: "Magento Development",
             text: "Magneto is a robust platform that can be customized to any use case. Whether you’re leveraging their enterprise version or their open-source version, it can be tailored to the specific needs of your business. This solution has an endless amount of built-in features that often need to be created from scratch or require heavy customization of an existing system on other platforms. The structure of Magento makes it a contender for high product stores that need to scale.",
-            image: "/images/responsive.webp",
-            altText: ""
+            image: "/images/web-development/e-commerce/magento.svg",
+            altText: "",
+            height: "340",
+            width: "500"
         },
     ],
     features: [

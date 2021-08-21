@@ -23,7 +23,7 @@ const HomeClientsSlider = (props) => {
       <Slider {...settings}>
         {ClientMainPage.map((clientMainPage, idx) => (
           <div key={idx} className="px-4 pb-20 duration-500">
-            <div className="w-96 px-4">
+            <div className="w-96 px-4 ">
               <ClientCard
                 name={clientMainPage.name}
                 backgroundColor={clientMainPage.backgroundColor}

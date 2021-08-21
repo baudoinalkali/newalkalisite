@@ -50,37 +50,37 @@ const ContentMarketing = {
         {
             serviceTitle: "Website Content",
             serviceText: "Website content can often be challenging for people to write, but it’s critical as it’s often the first touchpoint a potential customer will have with your business. From service offerings to about pages and everything in between, we have you covered.",
-            image: "/images/digital-marketing/content-marketing/website-content.png",
+            image: "/images/digital-marketing/content-marketing/website-content.svg",
             altText: ""
         },
         {
             serviceTitle: "Email Marketing",
             serviceText: "When someone signs up for your newsletter or purchases a product and is added to an email campaign, it’s another chance to communicate your business. It’s a way to create a deeper bond with a customer, and that’s precisely what we help you do.",
-            image: "/images/digital-marketing/content-marketing/email-marketing.png",
+            image: "/images/digital-marketing/content-marketing/email-marketing.svg",
             altText: ""
         },
         {
             serviceTitle: "E-commerce Product Descriptions",
             serviceText: "Product descriptions are not only vital for search engines, but they help customers understand exactly why a product is worth purchasing. It's also another way to engage with customers and get your brand across.",
-            image: "/images/digital-marketing/content-marketing/e-commerce-product-descriptions.png",
+            image: "/images/digital-marketing/content-marketing/product-descriptions.svg",
             altText: ""
         },
         {
             serviceTitle: "Blog Content",
             serviceText: "Well-written and engaging blog content is essential if your marketing strategy relies on inbound marketing. We help create such content to increase leads to your business. Our content is not only engaging, but it’s also optimized for search engines.",
-            image: "/images/digital-marketing/content-marketing/blog-content.png",
+            image: "/images/digital-marketing/content-marketing/blog-content.svg",
             altText: ""
         },
         {
             serviceTitle: "Landing Pages",
             serviceText: "Why someone should buy your product, download your e-book, or contact you is all driven by content. If your landing page hopes to drive leads or close sales, it needs content tailored to your specific audience.",
-            image: "/images/digital-marketing/content-marketing/landing-pages.png",
+            image: "/images/digital-marketing/content-marketing/landing-pages.svg",
             altText: ""
         },
         {
             serviceTitle: "Content Repurposing",
             serviceText: "Don’t reinvent the wheel when you don’t have to. Instead of creating a new social post or email blast with new content, why not repurpose it? This saves you time and money and further educates customers on a topic important enough to write about in the first place.",
-            image: "/images/digital-marketing/content-marketing/content-repurposing.png",
+            image: "/images/digital-marketing/content-marketing/content-repurposing.svg",
             altText: ""
         }
     ],
