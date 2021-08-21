@@ -69,7 +69,15 @@ li:hover > button svg {
 }
 
 .testimonial-slider-container .slick-slide {
-  width: 550px !important;
+  width: 40rem !important;
+  overflow: hidden !important;
+}
+
+@media only screen and (max-width: 780px) {
+  .testimonial-slider-container .slick-slide {
+    width: 25rem !important;
+    overflow: hidden !important;
+  }
 }
 
 ._2rxQ07L_sk._1M_9Lld7A7 {

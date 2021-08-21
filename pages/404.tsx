@@ -18,14 +18,26 @@ import Image from 'next/image'
 export default function Custom404() {
     return (
         <div>
-            <CombinedNavigation />
-            <section className="px-7 max-w-7xl m-auto py-64">
-                <div className="flex flex-col lg:flex-row items-center">
-                    <div className="w-1/2">
-                        <h2 className="text-6xl md:text-7xl font-bold m-auto leading-tight pt-3">404</h2>
-                        <p>We're sorry</p>
+            <CombinedNavigation headerBackground="bg-white"/>
+            <div className="px-7">
+                <section className="max-w-7xl m-auto py-36 flex flex-col-reverse lg:flex-row items-center">
+                    <div className="w-full lg:w-1/2 text-center lg:text-left ">
+                        <h1 className="text-5xl md:text-6xl font-bold m-auto leading-tight">
+                            404
+                        </h1>
+                        <h2 className="text-xl md:text-2xl font-bold m-auto leading-tight py-6">
+                            Looks like there was a problem...
+                        </h2>
+                        <p className="text-lg pb-6 mx-auto lg:mx-0 max-w-md">
+                            Sorry, but it doesn't seem like the page you are looking for exists. Please use the button below or the navigation above to find the page you're looking for.
+                        </p>
+                        <a href="/">
+                            <button className="bg-alkali-500 hover:bg-alkali-700 duration-500 text-white p-3 px-10 font-semibold shadow-2xl rounded-md">
+                                Go Home
+                            </button>
+                        </a>
                     </div>
-                    <div className="w-1/2">
+                    <div className="w-full lg:w-1/2 flex justify-center">
                         <Image
                             src="/images/404.png"
                             width="600"
@@ -33,8 +45,8 @@ export default function Custom404() {
                             quality={100}
                         />
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     );
 }

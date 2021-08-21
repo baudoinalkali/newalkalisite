@@ -9,7 +9,7 @@ class MyDocument extends Document {
           <script
             src="/hubspot/cookiebanner.js"
             type="text/javascript"
-            id="cookieBanner-14539076"
+            id="cookieBanner-20442125"
             data-cookieconsent="ignore"
             data-hs-ignore="true"
             data-loader="hs-scriptloader"
