@@ -1,7 +1,5 @@
 import Modal from "../../components/Modal";
-import ResponsiveScreens from "../../components/ResponsiveScreens";
 import ClientCardContainer from "../../components/Clients/ClientCardContainer";
-import TestimonialSlide from "../../components/TestimonialSlide";
 import AmeliaSlide from "../../content/testimonials";
 import TwoColumnLayout from "../../components/TwoColumnLayout";
 import StandardImage from "../../components/StandardImage";
@@ -13,6 +11,9 @@ import AmeliaScreenImages from "../../content/clientPages/screenImages";
 import AmeliaHeroContent from "../../content/clientPages/clientHeroContent";
 import ClientHeader from "../../components/Clients/ClientHeader";
 import ClientAbout from "../../components/Clients/ClientAbout";
+import dynamic from 'next/dynamic';
+const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
+const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
 function Amelia() {
   const ameliaGoalImage = AmeliaContent.amelia.section1.map((section1) => (
