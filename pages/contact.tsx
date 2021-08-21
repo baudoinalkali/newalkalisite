@@ -1,5 +1,3 @@
-import Header from "../components/Header";
-import Modal from "../components/Modal";
 import CombinedNavigation from "../components/Navigation/CombinedNavigation";
 
 function Contact() {
