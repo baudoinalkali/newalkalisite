@@ -670,8 +670,8 @@ const ClientContent = {
                     industry: "Home Services",
                     name: "Homewatch Amelia",
                     service: ["WordPress Web Development", "Branding"],
-                    serviceSlug: ["/wordpress-website-development", "/test"],
-                    backgroundImg: "/images/clients/bobtail/hero-background.jpg",
+                    serviceSlug: ["test2", "test3"],
+                    backgroundImg: "/images/clients/amelia/hero-background.jpg",
                     backgroundOverlay: "true",
                     image: "/",
                     width: "100",
@@ -684,7 +684,7 @@ const ClientContent = {
                     name: "Lessons That Rock",
                     slug: "https://thebluecollarsuccessgroup.com",
                     bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
-                    brandColor: "#20bef0",
+                    brandColor: "#4f80c2",
                 },
             ],
         section1:
@@ -708,13 +708,13 @@ const ClientContent = {
         screens:
             [
                 {
-                    desktopLeft: "/images/clients/lessons-that-rock/desktop-left.png",
+                    desktopLeft: "/images/clients/amelia/desktop-left.png",
                     desktopLeftLink: "https://go-cottage/about",
-                    desktopRight: "/images/clients/lessons-that-rock/desktop-right.png",
+                    desktopRight: "/images/clients/amelia/desktop-right.png",
                     desktopRightLink: "https://go-cottage/directions",
-                    tablet: "/images/clients/lessons-that-rock/tablet.png",
+                    tablet: "/images/clients/amelia/tablet.png",
                     tabletLink: "https://go-cottage",
-                    phone: "/images/clients/lessons-that-rock/mobile.png",
+                    phone: "/images/clients/amelia/phone.png",
                     phoneLink: "https://go-cottage/two-bedroom-cottage",
                 },
             ],

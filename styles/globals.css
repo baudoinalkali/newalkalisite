@@ -29,6 +29,17 @@ li:hover > button svg {
   min-width: 8rem;
 }
 
+.responsive-screen-button:hover {
+  opacity: .75;
+}
+
+.hs-button {
+  padding: 1rem 2.5rem !important;
+  font-weight: 600 !important;
+  border-radius: 0.375rem !important;
+  background: #00baff !important;
+}
+
 .hs-form-popup-container--inner::-webkit-scrollbar {
   display: none !important;
 }
@@ -39,22 +50,19 @@ li:hover > button svg {
   scrollbar-width: none;  /* Firefox */
 }
 
-.hs-button {
-  padding: 1rem 2.5rem !important;
-  font-weight: 600 !important;
-  border-radius: 0.375rem !important;
-  background: #00baff !important;
+.hubspot-meeting-container--outer::-webkit-scrollbar {
+  display: none !important;
 }
 
-
-@media only screen and (max-width: 1300px) {
-  .hubspot-meeting-container {
-    max-width: 90vw !important;
-  }
+/* Hide scrollbar for IE, Edge and Firefox */
+.hubspot-meeting-container--outer::-webkit-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
+
 
 .hubspot-meeting-container {
-  max-width: 70vw;
+  max-width: 80rem;
 }
 
 #hubspot-messages-iframe-container {
@@ -760,7 +768,7 @@ button {
   width: 2000px;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-49%);
 }
 
 #arrow-container2 {

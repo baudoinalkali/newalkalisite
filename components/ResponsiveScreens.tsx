@@ -6,8 +6,8 @@ const ResponsiveScreens = (props) => {
       <h3 className="text-center text-4xl md:text-5xl font-bold max-w-4xl m-auto mb-10 leading-normal">
         First Impressions Matter Experience Their Website For Yourself
       </h3>
-      <a href={props.link} className="">
-        <button className="p-3 px-12 font-semibold text-white shadow-2xl rounded-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-600 transform hover:-translate-y-1 hover:scale-110">
+      <a href={props.link}>
+        <button className="responsive-screen-button p-3 px-12 font-semibold text-white shadow-2xl rounded-md transition duration-500 hover:bg-opacity-20" style={{backgroundColor: `${props.brandColor}`}}>
           {props.buttonName}
         </button>
       </a>
