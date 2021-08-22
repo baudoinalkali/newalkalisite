@@ -30,8 +30,8 @@ const SEO = {
             text: "If you have an existing website, you should leverage your online presence by optimizing your SEO. A website is a digital representation of your business, and getting your business in front of the eyes of potential customers is critical for long-term success. Whether you’re looking to target new customers or increase brand recognition, taking control of your online presence is the best way to accomplish that.",
             image: "/images/digital-marketing/seo/leverage-fully.svg",
             altText: " ",
-            width: "600",
-            height: "450"
+            width: "550",
+            height: "410"
         },
     ],
     text4: [
@@ -50,8 +50,8 @@ const SEO = {
             text: "Like most things in business, SEO requires trust. Many people seek to take advantage of people who are not well versed in SEO; that is not us. We strive to not only perform services but also educate our clients. This is a very obscure and often intentionally over complicated service area. We seek to change that. As Albert Einstein once said, “If you can't explain it simply, you don't understand it well enough.” We use those words as a guiding principle in every engagement. If you have questions along the way, we are more than happy to explain.",
             image: "/images/ethical-commitment.svg",
             altText: "",
-            width: "600",
-            height: "450"
+            width: "550",
+            height: "410"
         },
     ],
     features: [

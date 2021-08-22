@@ -19,10 +19,10 @@ const LocalSEO = {
         {
             title: "Why is Local SEO important?",
             text: "Unlike most ways to increase your findability, Local SEO has many avenues that don't require you to spend money. Focusing on Local SEO is an economical way to increase the eyes on your business. In addition, many services such as Google My Business are deeply ingrained in the lives of the millions that use it daily. Being able to leverage free tools such as this is critical for your digital success. Even if you already have existing marketing efforts, optimizing your local SEO shouldn't be overlooked.",
-            image: "/images/digital-marketing/local-seo/important.svg",
+            image: "/images/digital-marketing/local-seo/local-seo-important.svg",
             altText: "",
-            height: "450",
-            width: "600"
+            height: "410",
+            width: "550"
         },
     ],
     text3: [
@@ -31,8 +31,8 @@ const LocalSEO = {
             text: "When you’re managing a business, you can frequently find yourself juggling multiple hats. When you engage us to handle your local SEO needs, we take that responsibility off your shoulders. We seamlessly manage your digital presence so you can focus on other areas of your business, all the while knowing professionals are handling it. To keep you in the loop, we provide detailed reporting regularly so you can ensure that the expectations laid out at the beginning of the engagement are met.",
             image: "/images/digital-marketing/local-seo/seamless-management.svg",
             altText: "",
-            height: "450",
-            width: "600"
+            height: "410",
+            width: "550"
         },
     ],
     text4: [
@@ -41,8 +41,8 @@ const LocalSEO = {
             text: "Like most things in business,local SEO requires trust. Many people seek to take advantage of people who are not well versed in local SEO; that is not us. We strive to not only perform services but also educate our clients. This is a very obscure and often intentionally over complicated service area. We seek to change that. As Albert Einstein once said, “If you can't explain it simply, you don't understand it well enough.” We use those words as a guiding principle in every engagement. If you have questions along the way, we are more than happy to explain.",
             image: "/images/ethical-commitment.svg",
             altText: "",
-            height: "450",
-            width: "600"
+            height: "410",
+            width: "550"
         },
     ],
     text5: [
@@ -51,8 +51,8 @@ const LocalSEO = {
             text: "When was the last time you looked at a Google My Business page for a restaurant or business you were considering being a customer of? The chances are it was as recently as yesterday. The information available to people on their phones is immeasurable, which is why ensuring managing what is likely the first touchpoint with you as a business is critical. Whether we’re talking about your Google My Business page, your website, or other business listings. Having someone in your corner ensuring that everything is optimized and functioning sets your business up for success.",
             image: "/images/digital-marketing/local-seo/digital-touchpoint.svg",
             altText: "",
-            height: "450",
-            width: "600"
+            height: "410",
+            width: "550"
         },
     ],
     features: [

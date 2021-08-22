@@ -12,8 +12,8 @@ const ContentMarketing = {
             text: "You know what your business does, but it can sometimes be hard to communicate that in words that a client can easily understand. We take the time to understand your business, its services, and its mission deeply to communicate that to your target audience effectively. Then, we work with you to leverage the most effective platforms to drive more leads to your business and better engage with your customers. Whether it’s in the form of a blog, social posts, or email marketing, we handle the content so you can focus on other areas in your business.",
             image: "/images/digital-marketing/content-marketing/actively-communicate.svg",
             altText: "",
-            width: "600",
-            height: "450"
+            width: "550",
+            height: "410"
         },
     ],
     text2: [
@@ -42,8 +42,8 @@ const ContentMarketing = {
             text: "It can be hard to gauge how well you’re leveraging content to engage with your audience. So we ensure that the perfect balance of content creation and content repurposing is met. It can be easy to think you need more content, but there is no point if you’re not leveraging your existing content adequately. We strive to provide the best possible service and ensure that the most economical and efficient content strategies are being implemented.",
             image: "/images/digital-marketing/content-marketing/leveraging-content.svg",
             altText: "",
-            width: "650",
-            height: "440"
+            width: "600",
+            height: "450"
         },
     ],
     features: [

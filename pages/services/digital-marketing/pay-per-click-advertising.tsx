@@ -121,12 +121,6 @@ function PayPerClick() {
             />
           ))}
         </div>
-        <div className="text-center pt-24">
-          <Modal
-            style="p-3 px-6 font-semibold text-alkaligrey-400 hover:text-white shadow-2xl rounded-md transition duration-500 ease-in-out border border-alkaligrey-400 hover:bg-alkaligrey-400"
-            text="Schedule a call"
-          />
-        </div>
       </div>
       <TwoColumnLayout
         style="bg-alkaligrey-300 pb-100 mb-3"
@@ -162,11 +156,6 @@ function PayPerClick() {
         style="pt-36"
         child1={seoImage4}
         child2={seoText4}
-      />
-      <TwoColumnLayout
-        style="pt-36 bg-alkaligrey-300"
-        child2={seoImage5}
-        child1={seoText5}
       />
       <div className="">
         <div className="py-36 max-w-7xl m-auto px-7">

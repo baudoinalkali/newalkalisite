@@ -12,8 +12,8 @@ const SocialMarketing = {
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis diam, scelerisque at porta a, vulputate a purus. Fusce ipsum diam, pellentesque a scelerisque sollicitudin, cursus nec tellus. In sit amet laoreet quam. Proin euismod metus ut consectetur ultrices. Suspendisse ac est eget augue venenatis congue ac a odio. Sed feugiat elementum malesuada. Phasellus augue dolor, accumsan quis ante in, eleifend placerat metus.",
             image: "/images/digital-marketing/social/build-your-online-brand.svg",
             altText: "",
-            width: "650",
-            height: "450"
+            width: "550",
+            height: "410"
         },
     ],
     text2: [
@@ -22,8 +22,8 @@ const SocialMarketing = {
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis diam, scelerisque at porta a, vulputate a purus. Fusce ipsum diam, pellentesque a scelerisque sollicitudin, cursus nec tellus. In sit amet laoreet quam. Proin euismod metus ut consectetur ultrices. Suspendisse ac est eget augue venenatis congue ac a odio. Sed feugiat elementum malesuada. Phasellus augue dolor, accumsan quis ante in, eleifend placerat metus.",
             image: "/images/digital-marketing/social/good-to-be-social.svg",
             altText: "",
-            width: "600",
-            height: "450"
+            width: "550",
+            height: "410"
         },
     ],
     text3: [
@@ -32,8 +32,8 @@ const SocialMarketing = {
             text: "Social accounts open your business up to potential issues, but the pros greatly outweigh the cons. We are here to limit any potential downsides, whether it be reviews or negative posts associated with your business.",
             image: "/images/digital-marketing/social/actionable-insights-reports.svg",
             altText: "",
-            width: "600",
-            height: "450"
+            width: "550",
+            height: "410"
         },
     ],
     text4: [

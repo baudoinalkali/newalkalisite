@@ -29,6 +29,16 @@ li:hover > button svg {
   min-width: 8rem;
 }
 
+.hs-form-popup-container--inner::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hs-form-popup-container--inner::-webkit-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 .hs-button {
   padding: 1rem 2.5rem !important;
   font-weight: 600 !important;
@@ -45,7 +55,6 @@ li:hover > button svg {
 
 .hubspot-meeting-container {
   max-width: 70vw;
-  max-height: 70vh;
 }
 
 #hubspot-messages-iframe-container {
@@ -64,7 +73,7 @@ li:hover > button svg {
 }
 
 .client-slider-container .slick-slide{
-  width: 24rem !important;
+  width: 25.5rem !important;
   overflow: hidden !important;
 }
 
