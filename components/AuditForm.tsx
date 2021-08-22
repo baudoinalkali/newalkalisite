@@ -6,7 +6,6 @@ import { Portal } from "@headlessui/react";
 import HubspotForm from "react-hubspot-form";
 
 
-
 export default function AuditForm(props) {
     const [showModal, setShowModal] = React.useState(false);
     return (
@@ -22,43 +21,46 @@ export default function AuditForm(props) {
             {showModal ? (
                 <>
                     <Portal>
-                        <div className="hubspot-meeting-container-outer justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-                            <div className="hubspot-meeting-container w-full relative my-6 mx-auto">
-                                {/*content*/}
-                                <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full outline-none focus:outline-none" style={{ background: "#f5f8fa" }}>
-                                    {/*header*/}
-                                    <button
-                                        className="pt-5 pr-7 ml-auto border-0 float-right text-3xl leading-none font-semibold outline-none focus:outline-none relative z-50"
-                                        onClick={() => setShowModal(false)}
-                                    >
-                                        <span className="block outline-none focus:outline-none z-50">
-                                        <svg className="w-10 h-10 text-black hover:text-alkali-500 duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                                        </span>
-                                    </button>
+                        <div className="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none flex items-center justify-center">
+                            <div className="hs-form-popup-container relative my-6 mx-auto px-5">
+                                <div className="hs-form-popup-container--inner border-0 md:px-10 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                                     <div
                                         className="flex items-start justify-between p-5 pb-0 md:mb-0 md:pb-5 rounded-t z-50"
-                                        style={{ marginBottom: "-66px" }}
+                                        style={{ marginBottom: -60 }}
                                     >
+                                        <button
+                                            className="p-1 ml-auto border-0 float-right text-3xl leading-none font-semibold outline-none focus:outline-none relative z-50"
+                                            onClick={() => setShowModal(false)}
+                                        >
+                                            <span className="block outline-none focus:outline-none z-50">
+                                                <FontAwesomeIcon
+                                                    className="text-4xl text-black hover:text-alkali-500 transition duration-300"
+                                                    icon={faTimes}
+                                                ></FontAwesomeIcon>
+                                            </span>
+                                        </button>
                                     </div>
 
-                                    {/*body*/}
-                                    <div className="relative flex-auto">
-                                        <div className="max-w-7xl m-auto py-14 mx-5 lg:mx-10">
-                                            <HubspotForm
-                                                portalId={props.portalId}
-                                                formId={props.formId}
-                                                loading={
-                                                    <div
-                                                        className="flex justify-center items-center w-full"
-                                                        style={{ height: 600 }}
-                                                    >
-                                                        <FontAwesomeIcon
-                                                            className="text-4xl text-alkali-500 transition duration-300"
-                                                            icon={faSpinner}
-                                                        />
-                                                    </div>
-                                                }
-                                            />
+                                    <div className="relative p-0 md:p-6 flex-auto">
+                                        <div className="max-w-7xl m-auto py-10 px-5 md:px-0">
+                                            <div style={{ minHeight: 600 }}>
+                                                {/* Hubspot Form */}
+                                                <HubspotForm
+                                                    portalId= "20442125"
+                                                        formId= "0b0a2ef2-726c-4d98-a8ae-23108c2c922a"
+                                                        loading={
+                                                        <div
+                                                            className="flex justify-center items-center w-full"
+                                                            style={{ height: 600 }}
+                                                        >
+                                                            <FontAwesomeIcon
+                                                                className="text-4xl text-alkali-500 transition duration-300"
+                                                                icon={faSpinner}
+                                                            />
+                                                        </div>
+                                                    }
+                                                />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

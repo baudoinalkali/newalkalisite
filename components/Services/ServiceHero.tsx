@@ -3,13 +3,12 @@ import BGParticles from '../BGParticles'
 
 const ServiceHero = props => {
     return (
-        <div className="bg-alkali-500 px-7">
-            <div className="App" style={{ position: 'relative', overflow: "hidden" }}>
+        <div className="bg-alkali-500">
+            <div className="App px-7" style={{ position: 'relative', overflow: "hidden" }}>
                 <div style={{ position: 'absolute' }}>
-                    <div className="w-screen h-screen">
+                    <div className="w-screen h-screen invisible lg:visible">
                         <BGParticles />
                     </div>
-
                 </div>
                 <div className="max-w-7xl flex justify-between items-center m-auto py-24 relative">
                     <div className="w-full lg:w-8/12">

@@ -12,8 +12,8 @@ const ReputationManagement = {
             text: "In the Information Age, the difference between attracting new customers and driving them away can be a simple Google search — many businesses are unaware of the fact that their business appears on popular review sites like Yelp, let alone how to manage their reputation online. Working with a team of experts to help manage your reputation can help protect your brand’s integrity and public image — giving you the peace of mind to focus on what matters: growing your business.",
             image: "/images/digital-marketing/reputation/protect-what-matters.svg",
             altText: "",
-            width: "675",
-            height: "455"
+            width: "625",
+            height: "420"
         },
     ],
     text2: [
@@ -22,8 +22,8 @@ const ReputationManagement = {
             text: "Many businesses field hundreds of positive customer interactions without garnering a single review — yet a single negative interaction can result in a review that severely impacts your overall score on popular sites like Google and Yelp. Whether it’s an outright fraudulent review or unresolved customer complaint, working with a reputation management company can help address negative reviews. In addition to mitigation, we create processes to convert positive customer interactions into positive reviews — ensuring that your business is represented fairly online.",
             image: "/images/digital-marketing/reputation/represented-fairly-online.svg",
             altText: "",
-            width: "600",
-            height: "400"
+            width: "550",
+            height: "410"
         },
     ],
     text3: [
@@ -32,8 +32,8 @@ const ReputationManagement = {
             text: "Most customers are more likely to leave a negative review than a positive one — this can easily result in a mismatch between your average customer interaction and how your reputation appears online. We can help solve this problem by integrating systems to seamlessly convert customer experiences into reviews by fitting reputation management into your existing businesses processes.",
             image: "/images/digital-marketing/reputation/integrate-seamlessly.svg",
             altText: "",
-            width: "600",
-            height: "400"
+            width: "550",
+            height: "410"
         },
     ],
     text4: [

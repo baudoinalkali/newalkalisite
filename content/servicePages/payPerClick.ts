@@ -22,8 +22,8 @@ const PPC = {
             text: "We don’t just strategize and carry out your standard PPC campaign; we work with you to create a dynamic and targeted PPC campaign that gets you the results you want. Using the power of data and analytics, we fine-tune dozens of indicators to target specific audiences, resulting in higher conversion rates and reducing unnecessary ad spend.",
             image: "/images/digital-marketing/ppc/more-conversions.svg",
             altText: "",
-            width: "600",
-            height: "450"
+            width: "550",
+            height: "410"
         },
     ],
     text3: [
@@ -32,8 +32,8 @@ const PPC = {
             text: "While Google AdWords is a staple in PPC campaigns, leveraging other platforms in conjunction sets you up for success. Most customers interact with several platforms daily, so it only makes sense to maximize your exposure by being present on as many platforms as possible. This increase in exposure allows you to create a common digital thread across multiple platforms, leveraging data to provide unique advertising based on specific behaviors.",
             image: "/images/digital-marketing/ppc/maximize-platforms.svg",
             altText: " ",
-            width: "600",
-            height: "450"
+            width: "550",
+            height: "410"
         },
     ],
     text4: [
@@ -42,8 +42,8 @@ const PPC = {
             text: "PPC can be a complex topic and can require lengthy conversations before establishing a working relationship. We think this dialogue is essential and wouldn’t have it any other way. At Alkali, we seek to not only perform services but ensure our clients are educated on their options. Throughout your journey, you may have questions, and we are here to help. As Albert Einstein once said, “If you can't explain it simply, you don't understand it well enough.” We use those words as a guiding principle in every engagement. We seek to provide advice that would best benefit your business, not ourselves. We don’t hide behind acronyms and fancy phrasing; we serve and educate you through the entire journey.",
             image: "/images/ethical-commitment.svg",
             altText: "",
-            width: "600",
-            height: "450"
+            width: "550",
+            height: "410"
         },
     ],
     text5: [

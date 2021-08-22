@@ -12,6 +12,45 @@ import dynamic from 'next/dynamic';
 const HomeTestimonialSlider = dynamic(() => import("../components/HomeTestimonialSlider"));
 const HomeClientsSlider = dynamic(() => import("../components/HomeClientsSlider"));
 
+const ServicesHome = [
+  {
+    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    serviceName: "Search Engine Optimization",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/search-engine-optimization"
+  },
+  {
+    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    serviceName: "Web <br/> Development",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/search-engine-optimization"
+  },
+  {
+    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    serviceName: "Web Development",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/search-engine-optimization"
+  },
+  {
+    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    serviceName: "Web Development",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/search-engine-optimization"
+  },
+  {
+    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    serviceName: "Web Development",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/search-engine-optimization"
+  },
+  {
+    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    serviceName: "Web Development",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/search-engine-optimization"
+  },
+]
+
 export default function Home() {
   return (
     <div className="overflow-hidden">
@@ -32,13 +71,31 @@ export default function Home() {
         </h3>
       </div>
       <HomeTestimonialSlider />
-      <div className="py-24 pt-64 -mt-40 bg-white">
+      <div className="py-24 pt-64 -mt-40 bg-white px-7">
         <h3
           id="services"
-          className="pb-10 text-5xl font-bold text-center"
+          className="pb-24 text-5xl font-bold text-center"
         >
           Our Services
         </h3>
+        <div className="grid grid-cols-1 lg:grid-cols-3 max-w-7xl m-auto justify-between gap-y-14 gap-x-14">
+          {ServicesHome.map((wordpress) => (
+            <div className="w-full shadow-2xl rounded-md p-10">
+              <img src={wordpress.icon} />
+              <h3 className="text-3xl font-bold py-7" dangerouslySetInnerHTML={{ __html: wordpress.serviceName }}>
+              </h3>
+              <p>
+                {wordpress.serviceDescription}
+              </p>
+              <div className="group">
+                <div className="flex mt-5 border-2 p-3 rounded-full h-14 w-14 group-hover:w-40 flex items-center justify-center">
+                  <p className="hidden group-hover:flex pr-3">Learn More</p>
+                  <FontAwesomeIcon icon={faLongArrowAltRight} />
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
         <div className="services-home py-36 flex max-w-7xl space-x-10 justify-center m-auto">
           <a
             className="w-1/3 group shadow-2xl rounded-md p-10 hover:bg-alkali-500 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
