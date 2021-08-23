@@ -5,7 +5,7 @@ import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons"; // impo
 
 function Footer() {
     return (
-        <div className="">
+        <div className="footer">
             <div className="max-w-7xl m-auto">
                 <div className="footer-icon-container">
                     <Image

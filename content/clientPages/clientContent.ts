@@ -19,7 +19,7 @@ const ClientContent = {
                     name: "Carro",
                     slug: "https://getcarro.com",
                     bio: "Carro is the world’s largest collaborative commerce network, with more than 25,000 brands and 6.5 million influencers. The platform seamlessly enables brands to work with influencers and each other so they can sell more, together.",
-                    brandColor: "#ff936b"
+                    brandColor: "#93469a"
                 },
             ],
         section1:
@@ -73,7 +73,8 @@ const ClientContent = {
                 {
                     name: "Chattr",
                     slug: "https://chattr.ai",
-                    bio: "Chattr’s AI-powered digital assistant manages the retail hiring experience from engagement to offer. Their easy to use platform enables business owners to streamline their hiring process, dramatically reducing the costs involved in the traditional hiring process."
+                    bio: "Chattr’s AI-powered digital assistant manages the retail hiring experience from engagement to offer. Their easy to use platform enables business owners to streamline their hiring process, dramatically reducing the costs involved in the traditional hiring process.",
+                    brandColor: "#36ad8b"
                 },
             ],
         section1:
@@ -185,7 +186,7 @@ const ClientContent = {
                     name: "Bobtail",
                     slug: "https://bobtail.com",
                     bio: "Bobtail empowers carriers with powerful financial tools that help them grow their business and serve them with honesty, transparency, and fairness.",
-                    brandColor: "#ff936b",
+                    brandColor: "#f6a326",
                 },
             ],
         section1:
@@ -242,7 +243,121 @@ const ClientContent = {
                     name: "The HID Factory",
                     slug: "https://thehidfactory.com",
                     bio: "The HID Factory is an automotive lighting customization installer and distributor. They enable the transformation of a vehicle's look by customizing the interior and exterior lighting to give customers a truly unique-looking vehicle.",
-                    brandColor: "#ff936b",
+                    brandColor: "#26a8f6",
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Challenge",
+                    title: "No Automated Solution",
+                    text: "The HID Factory needed an e-commerce solution to house thousands of SKUs and have a highly customizable vehicle filter that wouldn’t take forever to produce results. They spent a lot of time educating customers to make the correct selection, bogging down their customer service resources. In addition, this filter needed to match thousands of possible vehicle configurations with every compatible product they sold and would sell in the future.",
+                    image: "/images/clients/the-hid-factory/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Solution",
+                    title: "Fast and Easy to Use",
+                    text: "We had to leverage a third-party vehicle lighting fitment database to create a database of all the lighting sizes for all popular vehicle models. We then mapped those to all of the client’s products through a tagging system. To enable this filter to stay up-to-date when new products are added, we designed it so that any new products would populate automatically. To reduce the query time, we leveraged a special data model to optimize the filtering process. Most importantly, this significantly reduced the call volume THF received, freeing up their internal resources.",
+                    image: "/images/clients/the-hid-factory/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/the-hid-factory/desktop-left.png",
+                    desktopLeftLink: "https://chattr.ai",
+                    desktopRight: "/images/clients/the-hid-factory/desktop-right.png",
+                    desktopRightLink: "https://chattr.ai/about",
+                    tablet: "/images/clients/the-hid-factory/tablet.png",
+                    tabletLink: "https://chattr.ai/pricing",
+                    phone: "/images/clients/the-hid-factory/mobile.png",
+                    phoneLink: "https://chattri.ai/product",
+                },
+            ],
+    },
+
+    awp: {
+        hero:
+            [
+                {
+                    industry: "Industrial",
+                    name: "Aerial Work Platforms",
+                    service: ["WordPress Development"],
+                    serviceSlug: ["/services/web-development/"],
+                    backgroundImg: "/images/clients/awp/hero-background.jpg",
+                    image: "/",
+                    width: "100",
+                    height: "100",
+                    backgroundOverlay: "true",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "Aerial Work Platforms",
+                    slug: "https://awpdelivers.com",
+                    bio: "The HID Factory is an automotive lighting customization installer and distributor. They enable the transformation of a vehicle's look by customizing the interior and exterior lighting to give customers a truly unique-looking vehicle.",
+                    brandColor: "#476cb1",
+                },
+            ],
+        section1:
+            [
+                {
+                    sub: "The Challenge",
+                    title: "No Automated Solution",
+                    text: "The HID Factory needed an e-commerce solution to house thousands of SKUs and have a highly customizable vehicle filter that wouldn’t take forever to produce results. They spent a lot of time educating customers to make the correct selection, bogging down their customer service resources. In addition, this filter needed to match thousands of possible vehicle configurations with every compatible product they sold and would sell in the future.",
+                    image: "/images/clients/the-hid-factory/section1.png"
+                },
+            ],
+        section2:
+            [
+                {
+                    sub: "The Solution",
+                    title: "Fast and Easy to Use",
+                    text: "We had to leverage a third-party vehicle lighting fitment database to create a database of all the lighting sizes for all popular vehicle models. We then mapped those to all of the client’s products through a tagging system. To enable this filter to stay up-to-date when new products are added, we designed it so that any new products would populate automatically. To reduce the query time, we leveraged a special data model to optimize the filtering process. Most importantly, this significantly reduced the call volume THF received, freeing up their internal resources.",
+                    image: "/images/clients/the-hid-factory/section2.png"
+                },
+            ],
+        screens:
+            [
+                {
+                    desktopLeft: "/images/clients/the-hid-factory/desktop-left.png",
+                    desktopLeftLink: "https://chattr.ai",
+                    desktopRight: "/images/clients/the-hid-factory/desktop-right.png",
+                    desktopRightLink: "https://chattr.ai/about",
+                    tablet: "/images/clients/the-hid-factory/tablet.png",
+                    tabletLink: "https://chattr.ai/pricing",
+                    phone: "/images/clients/the-hid-factory/mobile.png",
+                    phoneLink: "https://chattri.ai/product",
+                },
+            ],
+    },
+
+    reflectionsTherapy: {
+        hero:
+            [
+                {
+                    industry: "Health Care",
+                    name: "Reflections Therapy",
+                    service: ["WordPress Development"],
+                    serviceSlug: ["/services/web-development/"],
+                    backgroundImg: "/images/clients/awp/hero-background.jpg",
+                    image: "/",
+                    width: "100",
+                    height: "100",
+                    backgroundOverlay: "true",
+                },
+            ],
+        about:
+            [
+                {
+                    name: "Reflections Therapy",
+                    slug: "https://reflectionstherapylv.com",
+                    bio: "The HID Factory is an automotive lighting customization installer and distributor. They enable the transformation of a vehicle's look by customizing the interior and exterior lighting to give customers a truly unique-looking vehicle.",
+                    brandColor: "#476cb1",
                 },
             ],
         section1:
@@ -299,7 +414,7 @@ const ClientContent = {
                     name: "Magnetite",
                     slug: "https://magnetite.com",
                     bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
-                    brandColor: "#ff936b",
+                    brandColor: "#46b7e6",
                 },
             ],
         section1:
@@ -323,9 +438,9 @@ const ClientContent = {
         screens:
             [
                 {
-                    desktopLeft: "/images/clients/magnetite/desktop-left.png",
+                    desktopLeft: "/images/clients/magnetite/desktop-right.png",
                     desktopLeftLink: "https://chattr.ai",
-                    desktopRight: "/images/clients/magnetite/desktop-right.png",
+                    desktopRight: "/images/clients/magnetite/desktop-left.png",
                     desktopRightLink: "https://chattr.ai/about",
                     tablet: "/images/clients/magnetite/tablet.png",
                     tabletLink: "https://chattr.ai/pricing",
@@ -355,7 +470,7 @@ const ClientContent = {
                     name: "Go-Cottage",
                     slug: "https://go-cottage.com",
                     bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
-                    brandColor: "#ff936b",
+                    brandColor: "#B3D079",
                 },
             ],
         section1:
@@ -730,6 +845,10 @@ const ClientContent = {
     ]
 }
 
+const ReflectionsContent = ClientContent.reflectionsTherapy
+
+const AWPContent = ClientContent.awp
+
 const CarroContent = ClientContent.carro
 
 const AmeliaContent = ClientContent.amelia
@@ -755,6 +874,7 @@ const ZexsterContent = ClientContent.zexster
 const LessonsContent = ClientContent.lessonsThatRock
 
 const SafeDryContent = ClientContent.safeDry
-export { CarroContent, ChattrContent, BenContent, AmeliaContent, BobtailContent, THFContent, MagnetiteContent, GoCottageContent, CarTalkContent, BlueCollarContent, ZexsterContent, LessonsContent, SafeDryContent }
+
+export { CarroContent, AWPContent, ReflectionsContent, ChattrContent, BenContent, AmeliaContent, BobtailContent, THFContent, MagnetiteContent, GoCottageContent, CarTalkContent, BlueCollarContent, ZexsterContent, LessonsContent, SafeDryContent }
 
 export default ClientContent

@@ -12,6 +12,8 @@ import ChattrHeroContent from "../../content/clientPages/clientHeroContent";
 import ClientHeader from "../../components/Clients/ClientHeader";
 import ClientAbout from "../../components/Clients/ClientAbout";
 import dynamic from 'next/dynamic';
+import ClientScheduleCTA from "../../components/Clients/ClientScheduleCTA";
+import clientMainPage from "../../content/clientPages/clientMainPage";
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -85,13 +87,13 @@ function Carro() {
 
       <TwoColumnLayout
         flexType="reverse"
-        style="bg-alkaligrey-300 py-24 pb-80 mb-6"
+        style="bg-alkaligrey-300 py-24 lg:py-36 pb-72 lg:pb-80 mb-6"
         child1={carroGoalImage}
         child2={carroGoalText}
       ></TwoColumnLayout>
 
       <div className="px-7">
-        <div className="pb-24 -mt-56">
+        <div className="pb-4 lg:pb-10 -mt-56">
           <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
             background="/images/clients/magnetite/testimonial-bg-large.png"
@@ -109,31 +111,23 @@ function Carro() {
       </div>
 
       <TwoColumnLayout
-        style="bg-white py-24 mb-6"
+        style="py-24 pb-20 lg:pb-24 mb-0 lg:mb-6"
         child1={carroResultText}
         child2={carroResultImage}
       />
-      <div className="p-4 py-24 bg-clients-chattr">
-        <div className="flex flex-col lg:flex-row justify-between items-center max-w-7xl m-auto mx-3 xl:mx-auto">
-          <div>
-            <h3 className="text-4xl font-bold max-w-7xl m-auto text-white leading-tight text-center mb-14 lg:mb-0">
-              We're here to realize your vision.
-            </h3>
-          </div>
-          <div className="">
-            <Modal
-              style="p-3 px-6 font-semibold text-white rounded-md transition hover:text-clients-chattr duration-500 ease-in-out border border-white hover:bg-white"
-              text="Schedule a call"
-            />
-          </div>
-        </div>
-      </div>
+
+      {MagnetiteContent.magnetite.about.map((about) => (
+        <ClientScheduleCTA
+          brandColor={about.brandColor}
+        />
+      ))}
 
       {MagnetiteContent.magnetite.screens.map((magnetite) => (
         <ResponsiveScreens
-          style="py-24 overflow-hidden"
+          style="py-24 lg:py-36 overflow-hidden"
           link="https://magnetite.com"
           buttonName="Visit Site"
+          brandColor="#46b7e6"
           desktopLeft={magnetite.desktopLeft}
           desktopRight={magnetite.desktopRight}
           tablet={magnetite.tablet}
@@ -144,6 +138,32 @@ function Carro() {
           phoneLink={magnetite.phoneLink}
         />
       ))}
+      <section className="bg-alkaligrey-300 pt-20 lg:pt-36">
+        <h3 className="text-center text-4xl md:text-5xl font-bold max-w-4xl m-auto mb-14 lg:mb-20 leading-normal">
+          Other Projects
+        </h3>
+        <div className="max-w-7xl m-auto -mb-20">
+          <ClientCardContainer>
+            {clientMainPage.slice(0,3).map((clientMainPage, idx) => (
+              <ClientCard
+                key={idx}
+                name={clientMainPage.name}
+                backgroundColor={clientMainPage.backgroundColor}
+                backgroundImage={clientMainPage.backgroundImage}
+                slug={clientMainPage.slug}
+                industry={clientMainPage.industry}
+              />
+            ))}
+          </ClientCardContainer>
+        </div>
+        <div className="flex items-center justify-center group space-x-3">
+          <a href="/clients" className="uppercase font-medium text-alkaligrey-900">View All Projects</a>
+          <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:transform duration-500 group-hover:translate-x-3 h-6 w-6 text-alkaligrey-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </div>
+        <div className="pb-24 lg:pb-36"></div>
+      </section>
     </div>
   );
 }
