@@ -5,7 +5,7 @@ import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons"; // impo
 
 function Footer() {
     return (
-        <div className="">
+        <div className="footer">
             <div className="max-w-7xl m-auto">
                 <div className="footer-icon-container">
                     <Image
@@ -109,14 +109,27 @@ function Footer() {
                         Terms of Use
                     </div>
                 </div>
-                <div className="w-1/2 flex justify-end space-x-5">
-                    <img className="w-8" src="/images/facebook-icon.svg" />
-                    <img className="w-8" src="/images/instagram-icon.svg" />
-
-                    <img className="w-8" src="/images/linkedin-icon.svg" />
-
-                    <img className="w-8" src="/images/twitter-icon.svg" />
-
+                <div className="w-1/2 flex justify-end gap-x-5">
+                    <Image
+                        src="/images/facebook-icon.svg"
+                        width="32"
+                        height="32"
+                    />
+                    <Image
+                        src="/images/instagram-icon.svg"
+                        width="32"
+                        height="32"
+                    />
+                    <Image
+                        src="/images/linkedin-icon.svg"
+                        width="32"
+                        height="32"
+                    />
+                    <Image
+                        src="/images/twitter-icon.svg"
+                        width="32"
+                        height="32"
+                    />
                 </div>
             </div>
             <div className="bg-alkaligrey-300 py-6 text-center text-alkaligrey-400">

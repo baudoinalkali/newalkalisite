@@ -4,7 +4,7 @@ const clientMainPage = [
     backgroundImage: "/images/clients/carro/testimonial-bg.png",
     industry: "Technology",
     slug: "carro",
-    backgroundColor: "#f9a8d4",
+    backgroundColor: "#93469a",
   },
   {
     name: "Chattr",
@@ -64,10 +64,17 @@ const clientMainPage = [
   },
   {
     name: "The Blue Collar Success Group",
-    backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
+    backgroundImage: "/images/clients/bluecollar/testimonial-bg.jpg",
     industry: "Home Service",
     slug: "bluecollar",
-    backgroundColor: "#0a98cc",
+    backgroundColor: "#1caaeb",
+  },
+  {
+    name: "AWP Delivers",
+    backgroundImage: "/images/clients/awp/testimonial-bg.jpg",
+    industry: "Automotive",
+    slug: "awp",
+    backgroundColor: "#476cb1",
   },
   {
     name: "Zexster",
@@ -116,13 +123,6 @@ const clientMainPage = [
     backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
     industry: "Automotive",
     slug: "moellers-bakery",
-    backgroundColor: "#26a8f6",
-  },
-  {
-    name: "AWP Delivers",
-    backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
-    industry: "Automotive",
-    slug: "awp",
     backgroundColor: "#26a8f6",
   },
   {

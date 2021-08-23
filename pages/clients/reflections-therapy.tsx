@@ -1,14 +1,14 @@
 import Modal from "../../components/Modal";
 import ClientCardContainer from "../../components/Clients/ClientCardContainer";
-import BobtailSlide from "../../content/testimonials";
+import AmeliaSlide from "../../content/testimonials";
 import TwoColumnLayout from "../../components/TwoColumnLayout";
 import StandardImage from "../../components/StandardImage";
 import StandardTextBlock from "../../components/StandardTextBlock";
 import ClientMainPage from "../../content/clientPages/clientMainPage";
 import ClientCard from "../../components/Clients/ClientCard";
-import BobtailContent from "../../content/clientPages/clientContent";
+import ReflectionsContent from "../../content/clientPages/clientContent";
 import AmeliaScreenImages from "../../content/clientPages/screenImages";
-import BobtailHeroContent from "../../content/clientPages/clientHeroContent";
+import AmeliaHeroContent from "../../content/clientPages/clientHeroContent";
 import ClientHeader from "../../components/Clients/ClientHeader";
 import ClientAbout from "../../components/Clients/ClientAbout";
 import dynamic from 'next/dynamic';
@@ -18,66 +18,66 @@ const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
 function Amelia() {
-  const ameliaGoalImage = BobtailContent.bobtail.section1.map((amelia) => (
+  const ameliaGoalImage = ReflectionsContent.reflectionsTherapy.section1.map((section1) => (
     <StandardImage
       imageAngle="left"
-      image={amelia.image}
-      key={`ameliaGoalImageClientBlocksFor${amelia.image}`}
+      image={section1.image}
+      key={`ameliaGoalImageClientBlocksFor${section1.image}`}
     />
   ));
 
-  const ameliaGoalText = BobtailContent.bobtail.section1.map((amelia) => (
+  const ameliaGoalText = ReflectionsContent.reflectionsTherapy.section1.map((section1) => (
     <StandardTextBlock
-      sub={amelia.sub}
-      title={amelia.title}
-      text={amelia.text}
-      key={`ameliaGoalTextClientBlocksFor${amelia.title}`}
+      sub={section1.sub}
+      title={section1.title}
+      text={section1.text}
+      key={`ameliaGoalTextClientBlocksFor${section1.title}`}
     />
   ));
 
-  const ameliaResultImage = BobtailContent.bobtail.section2.map((amelia) => (
+  const ameliaResultImage = ReflectionsContent.reflectionsTherapy.section2.map((section2) => (
     <StandardImage
       imageAngle="right"
-      image={amelia.image}
-      key={`ameliaResultImageClientBlocksFor${amelia.image}`}
+      image={section2.image}
+      key={`ameliaResultImageClientBlocksFor${section2.image}`}
     />
   ));
 
-  const ameliaResultText = BobtailContent.bobtail.section2.map((amelia) => (
+  const ameliaResultText = ReflectionsContent.reflectionsTherapy.section2.map((section2) => (
     <StandardTextBlock
-      sub={amelia.sub}
-      title={amelia.title}
-      text={amelia.text}
-      key={`ameliaResultTextClientBlocksFor${amelia.title}`}
+      sub={section2.sub}
+      title={section2.title}
+      text={section2.text}
+      key={`ameliaResultTextClientBlocksFor${section2.title}`}
     />
   ));
 
   return (
-    <div className="m-auto">
+    <div className="m-auto overflow-hidden">
       <div className="">
-        {BobtailContent.bobtail.hero.map((bobtail) => (
+        {ReflectionsContent.reflectionsTherapy.hero.map((hero) => (
           <ClientHeader
-            sub={bobtail.industry}
-            title={bobtail.name}
-            backgroundImg={bobtail.backgroundImg}
-            backgroundOverlay={bobtail.backgroundOverlay}
-            service={bobtail.service}
-            serviceSlug={bobtail.serviceSlug}
-            heroImage={bobtail.image}
-            heroImageWidth={bobtail.width}
-            heroImageHeight={bobtail.height}
+            sub={hero.industry}
+            title={hero.name}
+            backgroundImg={hero.backgroundImg}
+            backgroundOverlay={hero.backgroundOverlay}
+            service={hero.service}
+            serviceSlug={hero.serviceSlug}
+            heroImage={hero.image}
+            heroImageWidth={hero.width}
+            heroImageHeight={hero.height}
             style="py-40"
-            key={`ameliaAmeliaHeroContentFor${bobtail.name}`}
+            key={`ameliaAmeliaHeroContentFor${hero.name}`}
           />
         ))}
       </div>
 
-      {BobtailContent.bobtail.about.map((bobtail) => (
+      {ReflectionsContent.reflectionsTherapy.about.map((reflectionsTherapy) => (
         <ClientAbout
-          name={bobtail.name}
-          about={bobtail.bio}
-          slug={bobtail.slug}
-          key={`ameliaAmeliaHeroContentFor${bobtail.name}`}
+          name={reflectionsTherapy.name}
+          about={reflectionsTherapy.bio}
+          slug={reflectionsTherapy.slug}
+          key={`ameliaAmeliaHeroContentFor${reflectionsTherapy.name}`}
         />
       ))}
 
@@ -88,22 +88,21 @@ function Amelia() {
         child2={ameliaGoalText}
       ></TwoColumnLayout>
 
-      <div className="mx-14">
+      <div className="px-7">
         <div className="pb-4 lg:pb-10 -mt-56">
-          {BobtailSlide.bobtail.map((bobtail) => (
+          {AmeliaSlide.amelia.map((amelia) => (
             <TestimonialSlide
               style="max-w-7xl m-auto shadow-2xl rounded-md"
-              background={bobtail.background}
-              backgroundOverlay={bobtail.backgroundOverlay}
-              brandColor={bobtail.brandColor}
-              company={bobtail.company}
-              key={`designTestimonialFor${bobtail.company}`}
-              logo={bobtail.logo}
-              logoWidth={bobtail.logoWidth}
-              logoHeight={bobtail.logoHeight}
-              altText={bobtail.altText}
-              name={bobtail.name}
-              quote={bobtail.quote}
+              background="/images/clients/awp/slide-testimonial-bg.jpg"
+              brandColor="#d4d9e2"
+              company="Aerial Work Platforms"
+              logo="/images/clients/awp/logo.png"
+              logoWidth="220"
+              logoHeight="104"
+              altText=""
+              slug="chattr"
+              name="Robert Rivera, Founder"
+              quote="Alkali not only delivered on the technical skills, but they literally acted like one of our team members diving head first, always available, immediate responses, over-communication and adherence to timelines."
             />
           ))}
         </div>
@@ -114,27 +113,25 @@ function Amelia() {
         child1={ameliaResultText}
         child2={ameliaResultImage}
       />
-
-      {BobtailContent.bobtail.about.map((about) => (
+      {ReflectionsContent.amelia.about.map((about) => (
         <ClientScheduleCTA
           brandColor={about.brandColor}
         />
       ))}
-
-      {BobtailContent.bobtail.screens.map((amelia) => (
+      {ReflectionsContent.amelia.screens.map((screens) => (
         <ResponsiveScreens
           style="py-24 lg:py-36 overflow-hidden"
           link="https://getcarro.com"
+          brandColor="#4f80c2"
           buttonName="Visit Site"
-          brandColor="#f6a326"
-          desktopLeft={amelia.desktopLeft}
-          desktopRight={amelia.desktopRight}
-          tablet={amelia.tablet}
-          phone={amelia.phone}
-          desktopLeftLink={amelia.desktopLeftLink}
-          desktopRightLink={amelia.desktopRightLink}
-          tabletLink={amelia.tabletLink}
-          phoneLink={amelia.phoneLink}
+          desktopLeft={screens.desktopLeft}
+          desktopRight={screens.desktopRight}
+          tablet={screens.tablet}
+          phone={screens.phone}
+          desktopLeftLink={screens.desktopLeftLink}
+          desktopRightLink={screens.desktopRightLink}
+          tabletLink={screens.tabletLink}
+          phoneLink={screens.phoneLink}
         />
       ))}
       <section className="bg-alkaligrey-300 pt-20 lg:pt-36">
@@ -143,7 +140,7 @@ function Amelia() {
         </h3>
         <div className="max-w-7xl m-auto -mb-20">
           <ClientCardContainer>
-            {clientMainPage.slice(0,3).map((clientMainPage, idx) => (
+            {clientMainPage.slice(0, 3).map((clientMainPage, idx) => (
               <ClientCard
                 key={idx}
                 name={clientMainPage.name}

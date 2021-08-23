@@ -12,6 +12,8 @@ import AmeliaHeroContent from "../../content/clientPages/clientHeroContent";
 import ClientHeader from "../../components/Clients/ClientHeader";
 import ClientAbout from "../../components/Clients/ClientAbout";
 import dynamic from 'next/dynamic';
+import ClientScheduleCTA from "../../components/Clients/ClientScheduleCTA";
+import clientMainPage from "../../content/clientPages/clientMainPage";
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -51,9 +53,9 @@ function Amelia() {
   ));
 
   return (
-    <div className="m-auto">
-      <div className="carro-bg">
-      {AmeliaContent.amelia.hero.map((hero) => (
+    <div className="m-auto overflow-hidden">
+      <div className="">
+        {AmeliaContent.amelia.hero.map((hero) => (
           <ClientHeader
             sub={hero.industry}
             title={hero.name}
@@ -81,13 +83,13 @@ function Amelia() {
 
       <TwoColumnLayout
         flexType="reverse"
-        style="bg-alkaligrey-300 py-24 pb-80 mb-6"
+        style="bg-alkaligrey-300 py-24 lg:py-36 pb-72 lg:pb-80 mb-6"
         child1={ameliaGoalImage}
         child2={ameliaGoalText}
       ></TwoColumnLayout>
 
-      <div className="mx-14">
-        <div className="pb-24 -mt-56">
+      <div className="px-7">
+        <div className="pb-4 lg:pb-10 -mt-56">
           {AmeliaSlide.amelia.map((amelia) => (
             <TestimonialSlide
               style="max-w-7xl m-auto shadow-2xl rounded-md"
@@ -108,41 +110,57 @@ function Amelia() {
       </div>
 
       <TwoColumnLayout
-        style="bg-white py-24 mb-6"
+        style="py-24 pb-20 lg:pb-24 mb-0 lg:mb-6"
         child1={ameliaResultText}
         child2={ameliaResultImage}
       />
-
-      <div className="p-4 py-24 bg-alkali-500">
-        <div className="flex flex-col lg:flex-row justify-between items-center max-w-7xl m-auto mx-3 xl:mx-auto">
-          <div>
-            <h3 className="text-4xl font-bold max-w-7xl m-auto text-white leading-tight text-center mb-14 lg:mb-0">
-              We're here to realize your vision.
-            </h3>
-          </div>
-          <div className="">
-            <Modal
-              style="p-3 px-6 font-semibold text-alkaligrey-800 shadow-2xl rounded-md transition duration-500 ease-in-out bg-white hover:bg-alkaligrey-700"
-              text="Schedule a call"
-            />
-          </div>
-        </div>
-      </div>
-
-      {AmeliaScreenImages.amelia.map((amelia) => (
-        <ResponsiveScreens
-          style="py-24 overflow-hidden"
-          link="https://getcarro.com"
-          desktopLeft={amelia.desktopLeft}
-          desktopRight={amelia.desktopRight}
-          tablet={amelia.tablet}
-          phone={amelia.phone}
-          desktopLeftLink={amelia.desktopLeftLink}
-          desktopRightLink={amelia.desktopRightLink}
-          tabletLink={amelia.tabletLink}
-          phoneLink={amelia.phoneLink}
+      {AmeliaContent.amelia.about.map((about) => (
+        <ClientScheduleCTA
+          brandColor={about.brandColor}
         />
       ))}
+      {AmeliaContent.amelia.screens.map((screens) => (
+        <ResponsiveScreens
+          style="py-24 lg:py-36 overflow-hidden"
+          link="https://getcarro.com"
+          brandColor="#4f80c2"
+          buttonName="Visit Site"
+          desktopLeft={screens.desktopLeft}
+          desktopRight={screens.desktopRight}
+          tablet={screens.tablet}
+          phone={screens.phone}
+          desktopLeftLink={screens.desktopLeftLink}
+          desktopRightLink={screens.desktopRightLink}
+          tabletLink={screens.tabletLink}
+          phoneLink={screens.phoneLink}
+        />
+      ))}
+      <section className="bg-alkaligrey-300 pt-20 lg:pt-36">
+        <h3 className="text-center text-4xl md:text-5xl font-bold max-w-4xl m-auto mb-14 lg:mb-20 leading-normal">
+          Other Projects
+        </h3>
+        <div className="max-w-7xl m-auto -mb-20">
+          <ClientCardContainer>
+            {clientMainPage.slice(0, 3).map((clientMainPage, idx) => (
+              <ClientCard
+                key={idx}
+                name={clientMainPage.name}
+                backgroundColor={clientMainPage.backgroundColor}
+                backgroundImage={clientMainPage.backgroundImage}
+                slug={clientMainPage.slug}
+                industry={clientMainPage.industry}
+              />
+            ))}
+          </ClientCardContainer>
+        </div>
+        <div className="flex items-center justify-center group space-x-3">
+          <a href="/clients" className="uppercase font-medium text-alkaligrey-900">View All Projects</a>
+          <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:transform duration-500 group-hover:translate-x-3 h-6 w-6 text-alkaligrey-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </div>
+        <div className="pb-24 lg:pb-36"></div>
+      </section>
     </div>
   );
 }
