@@ -4,7 +4,7 @@ const clientMainPage = [
     backgroundImage: "/images/clients/carro/testimonial-bg.png",
     industry: "Technology",
     slug: "carro",
-    backgroundColor: "#f9a8d4",
+    backgroundColor: "#973A9D",
   },
   {
     name: "Chattr",
@@ -64,10 +64,10 @@ const clientMainPage = [
   },
   {
     name: "The Blue Collar Success Group",
-    backgroundImage: "/images/clients/the-hid-factory/testimonial-bg.png",
+    backgroundImage: "/images/clients/bluecollar/testimonial-bg.jpg",
     industry: "Home Service",
     slug: "bluecollar",
-    backgroundColor: "#0a98cc",
+    backgroundColor: "#1caaeb",
   },
   {
     name: "Zexster",

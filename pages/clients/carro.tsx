@@ -68,13 +68,13 @@ function Carro() {
 
       <TwoColumnLayout
         flexType="reverse"
-        style="bg-alkaligrey-300 py-24 pb-80 mb-6"
+        style="bg-alkaligrey-300 py-24 lg:py-36 pb-72 lg:pb-80 mb-6"
         child1={carroGoalImage}
         child2={carroGoalText}
       ></TwoColumnLayout>
 
       <div className="mx-7">
-        <div className="pb-24 -mt-56">
+        <div className="pb-0 lg:pb-10 -mt-56">
           {Testimonials.carro.map((carro) => (
             <TestimonialSlide
               style="max-w-7xl m-auto shadow-2xl rounded-md"
@@ -94,7 +94,7 @@ function Carro() {
       </div>
 
       <TwoColumnLayout
-        style="bg-white py-24 mb-6"
+        style="py-24 pb-20 lg:pb-24 mb-0 lg:mb-6"
         child1={carroResultText}
         child2={carroResultImage}
       />
@@ -117,8 +117,10 @@ function Carro() {
 
       {CarroContent.carro.screens.map((carro) => (
         <ResponsiveScreens
-          style="py-24 overflow-hidden"
+          style="py-24 lg:py-36 overflow-hidden"
           link="https://getcarro.com"
+          buttonName="Visit Site"
+          brandColor="#00baff"
           desktopLeft={carro.desktopLeft}
           desktopRight={carro.desktopRight}
           tablet={carro.tablet}

@@ -497,7 +497,7 @@ const ClientContent = {
                     desktopRightLink: "https://go-cottage/directions",
                     tablet: "/images/clients/bluecollar/tablet.png",
                     tabletLink: "https://go-cottage",
-                    phone: "/images/clients/bluecollar/mobile.png",
+                    phone: "/images/clients/bluecollar/phone.png",
                     phoneLink: "https://go-cottage/two-bedroom-cottage",
                 },
             ],

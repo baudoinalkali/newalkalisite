@@ -88,15 +88,15 @@ function BlueCollar() {
             <div className="pb-24 -mt-56">
                 <TestimonialSlide
                     style="max-w-7xl m-auto shadow-2xl rounded-md"
-                    background="/images/clients/the-hid-factory/thf-slide-bg.png"
+                    background="/images/clients/bluecollar/slide-testimonial-bg.jpg"
                     brandColor="#0d0d0d"
-                    company="Chattr"
-                    logo="/images/clients/the-hid-factory/logo.png"
-                    logoWidth="275"
-                    logoHeight="50"
+                    company="Bluecollar"
+                    logo="/images/clients/bluecollar/logo.png"
+                    logoWidth="325"
+                    logoHeight="45"
                     altText=""
-                    slug="chattr"
-                    name="Travis Deleon, Operations Manager"
+                    slug="bluecollar"
+                    name="Ashley McCarthy, Program Development Director"
                     quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
                 />
             </div>
@@ -122,7 +122,9 @@ function BlueCollar() {
         {BlueCollarContent.bluecollar.screens.map(bluecollar =>
             <ResponsiveScreens
                 style="py-24 overflow-hidden"
-                link="https://chattr.ai"
+                link="https://bluecollaraccess.com"
+                buttonName="Visit Site"
+                brandColor="#1caaeb"
                 desktopLeft={bluecollar.desktopLeft}
                 desktopRight={bluecollar.desktopRight}
                 tablet={bluecollar.tablet}
