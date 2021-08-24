@@ -786,6 +786,16 @@ const ClientContent = {
                     name: "Homewatch Amelia",
                     service: ["WordPress Web Development", "Branding"],
                     serviceSlug: ["test2", "test3"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     backgroundImg: "/images/clients/amelia/hero-background.jpg",
                     backgroundOverlay: "true",
                     image: "/",
