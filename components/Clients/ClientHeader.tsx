@@ -43,7 +43,7 @@ const ClientHeader = (props) => {
             <div className="">
               <div className="flex flex-wrap">
                 {props.services.map((serviceInfo) => (
-                  <a href={serviceInfo.serviceSlug} className="">
+                  <a href={serviceInfo.serviceSlug} className="mb-5">
                     <span
                       className="border border-white p-2 mr-7 rounded-md text-xs text-center text-white uppercase font-medium hover:bg-white hover:text-alkaligrey-800"
                       key={serviceInfo.service}

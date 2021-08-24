@@ -287,6 +287,12 @@ const ClientContent = {
                     name: "Aerial Work Platforms",
                     service: ["WordPress Development"],
                     serviceSlug: ["/services/web-development/"],
+                    services: [
+                        {
+                            service: "WordPress Development",
+                            serviceSlug: "/services/web-development/",
+                        },
+                    ],
                     backgroundImg: "/images/clients/awp/hero-background.jpg",
                     image: "/",
                     width: "100",
