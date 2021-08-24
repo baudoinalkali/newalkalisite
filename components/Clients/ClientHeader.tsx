@@ -42,14 +42,14 @@ const ClientHeader = (props) => {
             </h1>
             <div className="">
               <div className="">
-                {props.service.map((service) => {
-                  console.log('service!', props.serviceSlug);
-                  return (<a href={props.serviceSlug}>
+                {props.services.map((serviceInfo) => {
+                  console.log('service!', serviceInfo.serviceSlug);
+                  return (<a href={serviceInfo.serviceSlug}>
                     <span
                       className="border border-white p-2 mr-7 rounded-md text-xs text-center text-white uppercase font-medium hover:bg-white hover:text-alkaligrey-800"
-                      key={service}
+                      key={serviceInfo.service}
                     >
-                      {service}
+                      {serviceInfo.service}
                     </span>
                   </a>)
                 })}
