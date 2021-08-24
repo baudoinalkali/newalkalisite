@@ -57,8 +57,6 @@ function Carro() {
           <ClientHeader
             sub={hero.industry}
             title={hero.name}
-            service={hero.service}
-            serviceSlug={hero.serviceSlug}
             services={hero.services}
             heroImage={hero.image}
             heroImageWidth={hero.width}

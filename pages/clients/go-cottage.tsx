@@ -67,14 +67,12 @@ function Carro() {
             title={hero.name}
             backgroundImg={hero.backgroundImg}
             backgroundOverlay={hero.backgroundOverlay}
-            service={hero.service}
-            serviceSlug={hero.serviceSlug}
             services={hero.services}
             heroImage={hero.image}
             heroImageWidth={hero.width}
             heroImageHeight={hero.height}
             style="py-40"
-            key={`ameliaAmeliaHeroContentFor${goCottage.name}`}
+            key={`ameliaAmeliaHeroContentFor${hero.name}`}
           />
         ))}
       </div>

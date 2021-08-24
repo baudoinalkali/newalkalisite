@@ -64,8 +64,6 @@ function Carro() {
             heroImageWidth={hero.width}
             heroImageHeight={hero.height}
             backgroundOverlay={hero.backgroundOverlay}
-            service={hero.service}
-            serviceSlug={hero.serviceSlug}
             services={hero.services}
             style="py-40"
             key={`ameliaAmeliaHeroContentFor${hero.name}`}

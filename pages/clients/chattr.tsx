@@ -60,8 +60,6 @@ function Carro() {
             sub={hero.industry}
             title={hero.name}
             backgroundColor="#36ad8b"
-            service={hero.service}
-            serviceSlug={hero.serviceSlug}
             services={hero.services}            
             heroImage={hero.image}
             heroImageWidth={hero.width}

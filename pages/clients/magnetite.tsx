@@ -67,8 +67,6 @@ function Carro() {
             title={hero.name}
             backgroundImg={hero.backgroundImg}
             backgroundOverlay={hero.backgroundOverlay}
-            service={hero.service}
-            serviceSlug={hero.serviceSlug}
             services={hero.services}
             heroImage={hero.image}
             heroImageWidth={hero.width}
