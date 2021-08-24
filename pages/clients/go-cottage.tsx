@@ -61,17 +61,18 @@ function Carro() {
   return (
     <div className="m-auto overflow-hidden">
       <div className="">
-        {GoCottageContent.goCottage.hero.map((goCottage) => (
+        {GoCottageContent.goCottage.hero.map((hero) => (
           <ClientHeader
-            sub={goCottage.industry}
-            title={goCottage.name}
-            backgroundImg={goCottage.backgroundImg}
-            backgroundOverlay={goCottage.backgroundOverlay}
-            service={goCottage.service}
-            serviceSlug={goCottage.serviceSlug}
-            heroImage={goCottage.image}
-            heroImageWidth={goCottage.width}
-            heroImageHeight={goCottage.height}
+            sub={hero.industry}
+            title={hero.name}
+            backgroundImg={hero.backgroundImg}
+            backgroundOverlay={hero.backgroundOverlay}
+            service={hero.service}
+            serviceSlug={hero.serviceSlug}
+            services={hero.services}
+            heroImage={hero.image}
+            heroImageWidth={hero.width}
+            heroImageHeight={hero.height}
             style="py-40"
             key={`ameliaAmeliaHeroContentFor${goCottage.name}`}
           />

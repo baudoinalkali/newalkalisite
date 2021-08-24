@@ -55,19 +55,20 @@ function Carro() {
   return (
     <div className="m-auto overflow-hidden">
       <div className="">
-        {THFContent.thf.hero.map((thf) => (
+        {THFContent.thf.hero.map((hero) => (
           <ClientHeader
-            sub={thf.industry}
-            title={thf.name}
-            backgroundImg={thf.backgroundImg}
-            heroImage={thf.image}
-            heroImageWidth={thf.width}
-            heroImageHeight={thf.height}
-            backgroundOverlay={thf.backgroundOverlay}
-            service={thf.service}
-            serviceSlug={thf.serviceSlug}
+            sub={hero.industry}
+            title={hero.name}
+            backgroundImg={hero.backgroundImg}
+            heroImage={hero.image}
+            heroImageWidth={hero.width}
+            heroImageHeight={hero.height}
+            backgroundOverlay={hero.backgroundOverlay}
+            service={hero.service}
+            serviceSlug={hero.serviceSlug}
+            services={hero.services}
             style="py-40"
-            key={`ameliaAmeliaHeroContentFor${thf.name}`}
+            key={`ameliaAmeliaHeroContentFor${hero.name}`}
           />
         ))}
       </div>

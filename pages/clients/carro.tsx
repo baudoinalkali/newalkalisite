@@ -53,15 +53,16 @@ function Carro() {
   return (
     <div className="m-auto overflow-hidden">
       <div className="carro-bg">
-        {CarroContent.carro.hero.map((carro) => (
+        {CarroContent.carro.hero.map((hero) => (
           <ClientHeader
-            sub={carro.industry}
-            title={carro.name}
-            service={carro.service}
-            serviceSlug={carro.serviceSlug}
-            heroImage={carro.image}
-            heroImageWidth={carro.width}
-            heroImageHeight={carro.height}
+            sub={hero.industry}
+            title={hero.name}
+            service={hero.service}
+            serviceSlug={hero.serviceSlug}
+            services={hero.services}
+            heroImage={hero.image}
+            heroImageWidth={hero.width}
+            heroImageHeight={hero.height}
             style="py-24"
           />
         ))}

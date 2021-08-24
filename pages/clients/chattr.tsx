@@ -55,16 +55,17 @@ function Carro() {
   return (
     <div className="m-auto overflow-hidden">
       <div className="">
-        {ChattrContent.chattr.hero.map((chattr) => (
+        {ChattrContent.chattr.hero.map((hero) => (
           <ClientHeader
-            sub={chattr.industry}
-            title={chattr.name}
+            sub={hero.industry}
+            title={hero.name}
             backgroundColor="#36ad8b"
-            service={chattr.service}
-            heroImage={chattr.image}
-            heroImageWidth={chattr.width}
-            heroImageHeight={chattr.height}
-            serviceSlug={chattr.serviceSlug}
+            service={hero.service}
+            serviceSlug={hero.serviceSlug}
+            services={hero.services}            
+            heroImage={hero.image}
+            heroImageWidth={hero.width}
+            heroImageHeight={hero.height}
             style="py-20 lg:py-56"
           />
         ))}

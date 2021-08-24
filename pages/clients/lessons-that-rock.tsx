@@ -52,16 +52,17 @@ function Carro() {
 
     return <div className="m-auto overflow-hidden">
         <div className="">
-            {LessonsContent.lessonsThatRock.hero.map(lessonsThatRock =>
+            {LessonsContent.lessonsThatRock.hero.map(hero =>
                 <ClientHeader
-                    sub={lessonsThatRock.industry}
-                    title={lessonsThatRock.name}
-                    backgroundImg={lessonsThatRock.backgroundImg}
-                    backgroundOverlay={lessonsThatRock.backgroundOverlay}
-                    service={lessonsThatRock.service}
-                    serviceSlug={lessonsThatRock.serviceSlug}
+                    sub={hero.industry}
+                    title={hero.name}
+                    backgroundImg={hero.backgroundImg}
+                    backgroundOverlay={hero.backgroundOverlay}
+                    service={hero.service}
+                    serviceSlug={hero.serviceSlug}
+                    services={hero.services}
                     style="py-40"
-                    key={`ameliaAmeliaHeroContentFor${lessonsThatRock.name}`}
+                    key={`ameliaAmeliaHeroContentFor${hero.name}`}
                 />
             )}
         </div>
