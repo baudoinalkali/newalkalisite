@@ -6,8 +6,16 @@ const ClientContent = {
                 {
                     industry: "Technology",
                     name: "Carro",
-                    service: ["WordPress Web Development"],
-                    serviceSlug: ["/services/web-development/wordpress-website-development"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     image: "/images/clients/carro/carro-header-image.png",
                     width: "600",
                     height: "414"
@@ -61,8 +69,16 @@ const ClientContent = {
                 {
                     industry: "Technology",
                     name: "Chattr",
-                    service: ["Custom Web Development", "Web Design"],
-                    serviceSlug: ["/services/web-development/"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     image: "/images/clients/chattr/chattr-hero-image.svg",
                     width: "600",
                     height: "197"
@@ -116,8 +132,16 @@ const ClientContent = {
                 {
                     industry: "Non-profit",
                     name: "Blockchain Education Network",
-                    service: ["Custom Web Development"],
-                    serviceSlug: ["/services/web-development/"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     image: "/images/clients/ben/ben-hero-image.png",
                     width: "490",
                     height: "500"
@@ -171,8 +195,16 @@ const ClientContent = {
                 {
                     industry: "Financial Services",
                     name: "Bobtail",
-                    service: ["WordPress Web Development"],
-                    serviceSlug: ["/services/web-development/wordpress-website-development"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     backgroundImg: "/images/clients/bobtail/hero-background.jpg",
                     backgroundOverlay: "true",
                     image: "/",
@@ -228,8 +260,16 @@ const ClientContent = {
                 {
                     industry: "Automotive",
                     name: "The HID Factory",
-                    service: ["Custom Web Development"],
-                    serviceSlug: ["/services/web-development/"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     backgroundImg: "/images/clients/bobtail/hero-background.jpg",
                     image: "/",
                     width: "100",
@@ -285,8 +325,16 @@ const ClientContent = {
                 {
                     industry: "Industrial",
                     name: "Aerial Work Platforms",
-                    service: ["WordPress Development"],
-                    serviceSlug: ["/services/web-development/"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     backgroundImg: "/images/clients/awp/hero-background.jpg",
                     image: "/",
                     width: "100",
@@ -342,8 +390,16 @@ const ClientContent = {
                 {
                     industry: "Health Care",
                     name: "Reflections Therapy",
-                    service: ["WordPress Development"],
-                    serviceSlug: ["/services/web-development/"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     backgroundImg: "/images/clients/awp/hero-background.jpg",
                     image: "/",
                     width: "100",
@@ -399,8 +455,16 @@ const ClientContent = {
                 {
                     industry: "Home Service",
                     name: "Magnetite",
-                    service: ["WordPress Web Development", "Branding"],
-                    serviceSlug: ["/services/web-development/", ""],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     backgroundImg: "/images/clients/magnetite/hero-background.jpg",
                     backgroundOverlay: "true",
                     image: "/",
@@ -455,8 +519,16 @@ const ClientContent = {
                 {
                     industry: "Real Estate",
                     name: "Go-Cottage",
-                    service: ["WordPress Web Development"],
-                    serviceSlug: ["/services/wordpress-websites-development/"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     backgroundImg: "/images/clients/go-cottage/hero-background.jpg",
                     image: "/",
                     width: "100",
@@ -511,8 +583,16 @@ const ClientContent = {
                 {
                     industry: "Automotive",
                     name: "CarTalk Repair",
-                    service: ["WordPress Web Development"],
-                    serviceSlug: ["/services/wordpress-websites-development/"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     backgroundImg: "/images/clients/cartalk/hero-background.jpg",
                     backgroundOverlay: "true",
                     image: "/",
@@ -567,8 +647,16 @@ const ClientContent = {
                 {
                     industry: "Home Service",
                     name: "The Blue Collar Success Group",
-                    service: ["WordPress Web Development"],
-                    serviceSlug: ["/services/wordpress-websites-development/"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     backgroundImg: "/images/clients/bluecollar/hero-background.jpg",
                     backgroundOverlay: "true",
                     image: "/",
@@ -623,8 +711,16 @@ const ClientContent = {
                 {
                     industry: "Technology",
                     name: "Zexster",
-                    service: ["WordPress Web Development"],
-                    serviceSlug: ["/services/wordpress-websites-development/"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     backgroundImg: "/images/clients/zexster/hero-background.jpg",
                     backgroundOverlay: "true",
                 },
@@ -676,8 +772,16 @@ const ClientContent = {
                 {
                     industry: "Music",
                     name: "Lessons That Rock",
-                    service: ["WordPress Web Development"],
-                    serviceSlug: ["/services/wordpress-websites-development/"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     backgroundImg: "/images/clients/lessons-that-rock/hero-background.jpg",
                     backgroundOverlay: "true",
                 },
@@ -730,8 +834,16 @@ const ClientContent = {
                 {
                     industry: "Home Service",
                     name: "Safe-Dry",
-                    service: ["SEO", "Local SEO", "Reputation Management"],
-                    serviceSlug: ["/services/wordpress-websites-development/"],
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     backgroundImg: "/images/clients/lessons-that-rock/hero-background.jpg",
                     backgroundOverlay: "true",
                 },
@@ -784,6 +896,16 @@ const ClientContent = {
                 {
                     industry: "Home Services",
                     name: "Homewatch Amelia",
+                    services: [
+                        {
+                            service: "WordPress Web Development",
+                            serviceSlug: "test2"
+                        },
+                        {
+                            service: "Branding",
+                            serviceSlug: "test3"
+                        },
+                    ],
                     service: ["WordPress Web Development", "Branding"],
                     serviceSlug: ["test2", "test3"],
                     backgroundImg: "/images/clients/amelia/hero-background.jpg",

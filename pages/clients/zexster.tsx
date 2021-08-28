@@ -52,16 +52,15 @@ function Carro() {
 
     return <div className="m-auto overflow-hidden">
         <div className="">
-            {ZexsterContent.zexster.hero.map(zexster =>
+            {ZexsterContent.zexster.hero.map(hero =>
                 <ClientHeader
-                    sub={zexster.industry}
-                    title={zexster.name}
-                    backgroundImg={zexster.backgroundImg}
-                    backgroundOverlay={zexster.backgroundOverlay}
-                    service={zexster.service}
-                    serviceSlug={zexster.serviceSlug}
+                    sub={hero.industry}
+                    title={hero.name}
+                    backgroundImg={hero.backgroundImg}
+                    backgroundOverlay={hero.backgroundOverlay}
+                    services={hero.services}
                     style="py-40"
-                    key={`ameliaAmeliaHeroContentFor${zexster.name}`}
+                    key={`ameliaAmeliaHeroContentFor${hero.name}`}
                 />
             )}
         </div>

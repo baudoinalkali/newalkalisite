@@ -54,16 +54,15 @@ function Ben() {
   return (
     <div className="m-auto overflow-hidden">
       <div className="">
-        {BenContent.ben.hero.map((ben) => (
+        {BenContent.ben.hero.map((hero) => (
           <ClientHeader
-            sub={ben.industry}
-            title={ben.name}
+            sub={hero.industry}
+            title={hero.name}
             backgroundColor="#ff936b"
-            service={ben.service}
-            heroImage={ben.image}
-            heroImageWidth={ben.width}
-            heroImageHeight={ben.height}
-            serviceSlug={ben.serviceSlug}
+            services={hero.services}
+            heroImage={hero.image}
+            heroImageWidth={hero.width}
+            heroImageHeight={hero.height}
             style="py-20 lg:py-20"
           />
         ))}

@@ -33,6 +33,17 @@ li:hover > button svg {
   opacity: .75;
 }
 
+.top-menu-arrow {
+  content: " ";
+  position: absolute;
+  right: 30px;
+  top: -15px;
+  border-top: none;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid black;
+}
+
 .hs-button {
   padding: 1rem 2.5rem !important;
   font-weight: 600 !important;

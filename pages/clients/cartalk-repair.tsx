@@ -54,19 +54,18 @@ function CarTalkRepair() {
 
     return <div className="m-auto overflow-hidden">
         <div className="">
-            {CarTalkContent.cartalkRepair.hero.map(cartalkRepair =>
+            {CarTalkContent.cartalkRepair.hero.map(hero =>
                 <ClientHeader
-                    sub={cartalkRepair.industry}
-                    title={cartalkRepair.name}
-                    backgroundImg={cartalkRepair.backgroundImg}
-                    backgroundOverlay={cartalkRepair.backgroundOverlay}
-                    service={cartalkRepair.service}
-                    serviceSlug={cartalkRepair.serviceSlug}
-                    heroImage={cartalkRepair.image}
-                    heroImageWidth={cartalkRepair.width}
-                    heroImageHeight={cartalkRepair.height}
+                    sub={hero.industry}
+                    title={hero.name}
+                    backgroundImg={hero.backgroundImg}
+                    backgroundOverlay={hero.backgroundOverlay}
+                    services={hero.services}
+                    heroImage={hero.image}
+                    heroImageWidth={hero.width}
+                    heroImageHeight={hero.height}
                     style="py-40"
-                    key={`ameliaAmeliaHeroContentFor${cartalkRepair.name}`}
+                    key={`ameliaAmeliaHeroContentFor${hero.name}`}
                 />
             )}
         </div>

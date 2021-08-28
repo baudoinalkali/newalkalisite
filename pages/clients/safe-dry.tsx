@@ -52,16 +52,15 @@ function SafeDry() {
 
     return <div className="m-auto overflow-hidden">
         <div className="">
-            {SafeDryContent.safeDry.hero.map(safeDry =>
+            {SafeDryContent.safeDry.hero.map(hero =>
                 <ClientHeader
-                    sub={safeDry.industry}
-                    title={safeDry.name}
-                    backgroundImg={safeDry.backgroundImg}
-                    backgroundOverlay={safeDry.backgroundOverlay}
-                    service={safeDry.service}
-                    serviceSlug={safeDry.serviceSlug}
+                    sub={hero.industry}
+                    title={hero.name}
+                    backgroundImg={hero.backgroundImg}
+                    backgroundOverlay={hero.backgroundOverlay}
+                    services={hero.services}
                     style="py-40"
-                    key={`ameliaAmeliaHeroContentFor${safeDry.name}`}
+                    key={`ameliaAmeliaHeroContentFor${hero.name}`}
                 />
             )}
         </div>

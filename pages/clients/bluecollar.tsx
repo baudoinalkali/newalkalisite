@@ -54,19 +54,18 @@ function BlueCollar() {
 
     return <div className="m-auto overflow-hidden">
         <div className="">
-            {BlueCollarContent.bluecollar.hero.map(bluecollar =>
+            {BlueCollarContent.bluecollar.hero.map(hero =>
                 <ClientHeader
-                    sub={bluecollar.industry}
-                    title={bluecollar.name}
-                    backgroundImg={bluecollar.backgroundImg}
-                    backgroundOverlay={bluecollar.backgroundOverlay}
-                    service={bluecollar.service}
-                    serviceSlug={bluecollar.serviceSlug}
-                    heroImage={bluecollar.image}
-                    heroImageWidth={bluecollar.width}
-                    heroImageHeight={bluecollar.height}
+                    sub={hero.industry}
+                    title={hero.name}
+                    backgroundImg={hero.backgroundImg}
+                    backgroundOverlay={hero.backgroundOverlay}
+                    services={hero.services}
+                    heroImage={hero.image}
+                    heroImageWidth={hero.width}
+                    heroImageHeight={hero.height}
                     style="py-40"
-                    key={`ameliaAmeliaHeroContentFor${bluecollar.name}`}
+                    key={`ameliaAmeliaHeroContentFor${hero.name}`}
                 />
             )}
         </div>

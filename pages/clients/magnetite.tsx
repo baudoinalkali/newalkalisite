@@ -61,19 +61,18 @@ function Carro() {
   return (
     <div className="m-auto overflow-hidden">
       <div className="">
-        {MagnetiteContent.magnetite.hero.map((magnetite) => (
+        {MagnetiteContent.magnetite.hero.map((hero) => (
           <ClientHeader
-            sub={magnetite.industry}
-            title={magnetite.name}
-            backgroundImg={magnetite.backgroundImg}
-            backgroundOverlay={magnetite.backgroundOverlay}
-            service={magnetite.service}
-            heroImage={magnetite.image}
-            heroImageWidth={magnetite.width}
-            heroImageHeight={magnetite.height}
-            serviceSlug={magnetite.serviceSlug}
+            sub={hero.industry}
+            title={hero.name}
+            backgroundImg={hero.backgroundImg}
+            backgroundOverlay={hero.backgroundOverlay}
+            services={hero.services}
+            heroImage={hero.image}
+            heroImageWidth={hero.width}
+            heroImageHeight={hero.height}
             style="py-40"
-            key={`ameliaAmeliaHeroContentFor${magnetite.name}`}
+            key={`ameliaAmeliaHeroContentFor${hero.name}`}
           />
         ))}
       </div>
