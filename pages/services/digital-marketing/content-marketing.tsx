@@ -16,6 +16,7 @@ import ContentMarketingFAQ from "../../../content/servicePages/faq";
 import AuditFormPopup from "../../../components/AuditFormPopup";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
+import AuditSection from "../../../components/Services/AuditSection";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
@@ -108,48 +109,26 @@ function ContentMarketing() {
           ))}
         </div>
       </div>
-      <div className="bg-alkaligrey-300 py-24 px-7">
-        <div className="flex space-x-0 lg:space-x-14 flex-col lg:flex-row m-auto justify-between items-center max-w-7xl">
-          <div className="w-full lg:w-1/2">
-            <Image
-              src="/images/free-audit.svg"
-              width={600}
-              height={450}
-              quality={100}
-            />
-          </div>
-          <div className="w-full lg:w-1/2">
-            <h2 className="text-2xl md:text-3xl font-bold leading-tight">
-              Get a Complementary Content Audit
-            </h2>
-            <form className="flex rounded-md my-7 shadow-2xl">
-              <input
-                className="rounded-l-lg border-t pl-4 w-screen border-b border-l text-gray-800 border-gray-200 bg-white"
-                placeholder="yourwebsite.com"
-              />
-              <button className="p-3 px-6 font-semibold text-white rounded-r-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-700">
-                Submit
-              </button>
-            </form>
-            <p>
-              Our content marketing specialists are standing by to audit your
-              web, blog, or social content and provide a detailed action report.
-            </p>
-          </div>
-        </div>
-      </div>
-
+      <AuditSection
+        backgroundColor="bg-alkaligrey-300"
+        serviceName="SEO"
+        area1="Full website weview (content, CRO, performance)"
+        area2="SEO: Comprehensive on-page audit"
+        area3="Digital marketing/reputation management"
+        portalId="20442125"
+        formId="a7151b69-9aec-4d86-b2bf-577b81ddc8ca"
+      />
       <TwoColumnLayout
         style="mb-3"
         child2={contentImage3}
         child1={contentText3}
       />
-      <div className="px-7 pt-36">
-        <h3 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-14">
+      <div className="px-7 pt-10">
+        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
           Hear It Straight From Our Clients
         </h3>
       </div>
-      <div className="relative z-20 -mb-48 ">
+      <div className="relative z-20 -mb-48">
         <TestimonialSlider>
           {Testimonials.wordpress.map((testimonial) => (
             <TestimonialSlide
@@ -168,14 +147,8 @@ function ContentMarketing() {
           ))}
         </TestimonialSlider>
       </div>
-      <ServiceLeadSection
-        style="bg-alkali-500 py-24 pt-96"
-        title="We're Here to Realize Your Vision"
-        text="Do you have an idea and vision for your website but not sure where to start? Our team of professionals are standing by to answer any questions you may have. Whether you need a free audit of your current website or want to discuss specifics of a new WordPress website build, we look forward to serving you!"
-        buttonText="Schedule a Discovery Call"
-      />
       <TwoColumnLayout
-        style="py-24"
+        style="pt-80 bg-alkaligrey-300"
         child2={contentImage4}
         child1={contentText4}
       />

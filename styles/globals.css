@@ -33,6 +33,17 @@ li:hover > button svg {
   opacity: .75;
 }
 
+.hs-button.primary.large {
+  display: none !important;
+}
+
+.testimonial-slider-container .slick-slide {
+  margin: 4rem 2rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border-radius: .375rem;
+}
+
+
 .top-menu-arrow {
   content: " ";
   position: absolute;

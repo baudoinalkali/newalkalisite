@@ -124,8 +124,8 @@ function Carro() {
           phoneLink={chattr.phoneLink}
         />
       ))}
-      <section className="bg-alkaligrey-300 pt-20 lg:pt-36">
-        <h3 className="text-center text-4xl md:text-5xl font-bold max-w-4xl m-auto mb-14 lg:mb-20 leading-normal">
+      <section className="bg-alkaligrey-300 pt-96 -mt-96">
+        <h3 className="text-center pt-10 lg:pt-4 text-4xl md:text-5xl font-bold max-w-4xl m-auto mb-14 lg:mb-20 leading-normal">
           Other Projects
         </h3>
         <div className="max-w-7xl m-auto -mb-20">

@@ -78,159 +78,23 @@ export default function Home() {
         >
           Our Services
         </h3>
-        <div className="grid grid-cols-1 lg:grid-cols-3 max-w-7xl m-auto justify-between gap-y-14 gap-x-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto justify-between gap-y-14 gap-x-14">
           {ServicesHome.map((wordpress) => (
-            <div className="w-full shadow-2xl rounded-md p-10">
+            <a href={wordpress.slug} className="group w-full shadow-2xl rounded-md p-10 transform hover:-translate-y-2 duration-500">
               <img src={wordpress.icon} />
-              <h3 className="text-3xl font-bold py-7" dangerouslySetInnerHTML={{ __html: wordpress.serviceName }}>
+              <h3 className="text-2xl font-bold py-7" dangerouslySetInnerHTML={{ __html: wordpress.serviceName }}>
               </h3>
-              <p>
+              <p className="text-alkaligrey-400">
                 {wordpress.serviceDescription}
               </p>
-              <div className="group">
-                <div className="flex mt-5 border-2 p-3 rounded-full h-14 w-14 group-hover:w-40 flex items-center justify-center">
-                  <p className="hidden group-hover:flex pr-3">Learn More</p>
-                  <FontAwesomeIcon icon={faLongArrowAltRight} />
+                <div className="mt-5 flex items-center justify-center lg:justify-start group space-x-3">
+                  <div className="font-medium text-md text-alkaligrey-400">Learn More</div>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:transform duration-500 group-hover:translate-x-3 h-4 w-4 group-hover:text-alkali-500 text-alkaligrey-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
                 </div>
-              </div>
-            </div>
+            </a>
           ))}
-        </div>
-        <div className="services-home py-36 flex max-w-7xl space-x-10 justify-center m-auto">
-          <a
-            className="w-1/3 group shadow-2xl rounded-md p-10 hover:bg-alkali-500 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-            href=""
-          >
-            <img
-              className="service-icon w-72 -mt-32 pb-4"
-              src="/images/home-website.png"
-            />
-            <h3 className="group-hover:text-white text-3xl font-bold pb-5 text-alkali-500">
-              Web Design
-            </h3>
-            <p className="group-hover:text-white max-w-sm">
-              Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem
-              ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum
-              Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem
-              ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum
-            </p>
-            <div className="flex mt-5 border-2 p-3 rounded-full h-14 w-14 group-hover:w-40 flex items-center justify-center mx-auto">
-              <p className="hidden group-hover:flex pr-3">Learn More</p>
-              <FontAwesomeIcon icon={faLongArrowAltRight} />
-            </div>
-          </a>
-          <a
-            className="w-1/3 group shadow-2xl rounded-md p-10 hover:bg-alkali-500 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-            href=""
-          >
-            <img
-              className="service-icon w-72 -mt-32 pb-4"
-              src="/images/home-seo.png"
-            />
-            <h3 className="group-hover:text-white text-3xl font-bold pb-5 text-alkali-500">
-              SEO
-            </h3>
-            <p className="group-hover:text-white max-w-sm">
-              Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem
-              ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum
-              Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem
-              ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum
-            </p>
-            <div className="flex mt-5 border-2 p-3 rounded-full h-14 w-14 group-hover:w-40 flex items-center justify-center mx-auto">
-              <p className="hidden group-hover:flex pr-3">Learn More</p>
-              <FontAwesomeIcon icon={faLongArrowAltRight} />
-            </div>
-          </a>
-          <a
-            className="w-1/3 group shadow-2xl rounded-md p-10 hover:bg-alkali-500 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-            href=""
-          >
-            <img
-              className="service-icon w-72 -mt-32 pb-4"
-              src="/images/home-hosting.png"
-            />
-            <h3 className="group-hover:text-white text-3xl font-bold pb-5 text-alkali-500">
-              Hosting
-            </h3>
-            <p className="group-hover:text-white max-w-sm">
-              Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem
-              ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum
-              Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem
-              ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum
-            </p>
-            <div className="flex mt-5 border-2 p-3 rounded-full h-14 w-14 group-hover:w-40 flex items-center justify-center mx-auto">
-              <p className="hidden group-hover:flex pr-3">Learn More</p>
-              <FontAwesomeIcon icon={faLongArrowAltRight} />
-            </div>
-          </a>
-        </div>
-        <div className="services-home py-36 pt-10 flex max-w-7xl space-x-10 justify-center m-auto">
-          <a
-            className="w-1/3 group shadow-2xl rounded-md p-10 hover:bg-alkali-500 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-            href=""
-          >
-            <img
-              className="service-icon w-72 -mt-32 pb-4"
-              src="/images/home-website.png"
-            />
-            <h3 className="group-hover:text-white text-3xl font-bold pb-5 text-alkali-500">
-              Web Design
-            </h3>
-            <p className="group-hover:text-white max-w-sm">
-              Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem
-              ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum
-              Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem
-              ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum
-            </p>
-            <div className="flex mt-5 border-2 p-3 rounded-full h-14 w-14 group-hover:w-40 flex items-center justify-center mx-auto">
-              <p className="hidden group-hover:flex pr-3">Learn More</p>
-              <FontAwesomeIcon icon={faLongArrowAltRight} />
-            </div>
-          </a>
-          <a
-            className="w-1/3 group shadow-2xl rounded-md p-10 hover:bg-alkali-500 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-            href=""
-          >
-            <img
-              className="service-icon w-72 -mt-32 pb-4"
-              src="/images/home-seo.png"
-            />
-            <h3 className="group-hover:text-white text-3xl font-bold pb-5 text-alkali-500">
-              SEO
-            </h3>
-            <p className="group-hover:text-white max-w-sm">
-              Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem
-              ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum
-              Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem
-              ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum
-            </p>
-            <div className="flex mt-5 border-2 p-3 rounded-full h-14 w-14 group-hover:w-40 flex items-center justify-center mx-auto">
-              <p className="hidden group-hover:flex pr-3">Learn More</p>
-              <FontAwesomeIcon icon={faLongArrowAltRight} />
-            </div>
-          </a>
-          <a
-            className="w-1/3 group shadow-2xl rounded-md p-10 hover:bg-alkali-500 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-            href=""
-          >
-            <img
-              className="service-icon w-72 -mt-32 pb-4"
-              src="/images/home-hosting.png"
-            />
-            <h3 className="group-hover:text-white text-3xl font-bold pb-5 text-alkali-500">
-              Hosting
-            </h3>
-            <p className="group-hover:text-white max-w-sm">
-              Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem
-              ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum
-              Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem
-              ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum
-            </p>
-            <div className="flex mt-5 border-2 p-3 rounded-full h-14 w-14 group-hover:w-40 flex items-center justify-center mx-auto">
-              <p className="hidden group-hover:flex pr-3">Learn More</p>
-              <FontAwesomeIcon icon={faLongArrowAltRight} />
-            </div>
-          </a>
         </div>
       </div>
       <SplitTextImage
@@ -239,10 +103,13 @@ export default function Home() {
         image="/images/web-development/custom-built.svg"
         text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
       />
-      <AuditSection 
-      serviceName="Marketing"
-      portalId="20442125"
-      formId="0b0a2ef2-726c-4d98-a8ae-23108c2c922a"
+      <AuditSection
+        serviceName="Marketing"
+        area1="Full website weview (content, CRO, performance)"
+        area2="SEO: Comprehensive on-page audit"
+        area3="Digital marketing/reputation management"
+        portalId="20442125"
+        formId="0b0a2ef2-726c-4d98-a8ae-23108c2c922a"
       />
       <div className="py-36 pb-0 bg-alkaligrey-300">
         <h3 className="text-5xl pt-2 pb-24 font-bold text-center">

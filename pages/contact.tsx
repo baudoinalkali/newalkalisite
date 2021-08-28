@@ -1,6 +1,35 @@
 import CombinedNavigation from "../components/Navigation/CombinedNavigation";
+import React from "react";
+import { faSpinner } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
+import HubspotForm from "react-hubspot-form";
 
 function Contact() {
+
+  const contactInfo = [
+    {
+      method: "Chat",
+      description: "We'd love to talk about how we can work together",
+      slug: "/contact/#hs-chat-open",
+      icon: "/images/chat.svg",
+      buttonName: "Start Chat"
+    },
+    {
+      method: "Email",
+      description: "We'd love to talk about how we can work together",
+      slug: "mailto:solutions@alkalidesigns.com",
+      icon: "/images/email.svg",
+      buttonName: "Send Email"
+    },
+    {
+      method: "Phone",
+      description: "We'd love to talk about how we can work together",
+      slug: "tel:2819445711",
+      icon: "/images/phone.svg",
+      buttonName: "Start Call"
+    }
+  ]
+
   return (
     <div>
       <div className="bg-alkaligrey-200">
@@ -16,54 +45,50 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-x-0 gap-y-24 lg:gap-y-0 md:gap-x-10 mx-7 xl:mx-auto justify-between items-center max-w-7xl -mt-32">
-        <div className="rounded-md shadow-2xl p-14 bg-white">
-          <img
-            className="-mt-24 shadow-2xl rounded-full p-5 mx-auto bg-white z-30"
-            src="/images/chat.svg"
-          />
-          <h2 className="text-center py-3 pt-11 text-xl font-medium">Chat</h2>
-          <p className="text-center max-w-xs text-lg pb-7">
-            We'd love to talk about how we can work together.
-          </p>
-          <div className="flex justify-center">
-            <button className="p-2 px-8 font-medium shadow-2xl rounded-md bg-alkali-500 text-white">
-              Start Chat
-            </button>
+      <section className="px-7">
+        <div className="flex flex-col lg:flex-row gap-x-0 md:gap-x-10 gap-y-24 lg:gap-y-0  xl:mx-auto justify-between items-center max-w-7xl -mt-32">
+          {contactInfo.map((item) => (
+            <div className="rounded-md shadow-2xl p-14 bg-white">
+              <img
+                className="-mt-24 shadow-2xl rounded-full p-5 mx-auto bg-white z-30"
+                src={item.icon}
+              />
+              <h2 className="text-center py-3 pt-11 text-xl font-medium">{item.method}</h2>
+              <p className="text-center max-w-xs text-lg pb-7">
+                {item.description}
+              </p>
+              <div className="flex justify-center">
+                <a href={item.slug}>
+                  <button className="p-2 px-8 font-medium shadow-2xl rounded-md bg-alkali-500 hover:bg-alkali-700 text-white">
+                    {item.buttonName}
+                  </button>
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+      <section className="px-7">
+        <div className="max-w-7xl m-auto pt-36 pb-14">
+          <div id="contact-form" className="">
+            <HubspotForm
+              portalId="20442125"
+              formId="2f4a9401-2350-4ee1-9f35-57193a77aa76"
+              loading={
+                <div
+                  className="flex justify-center items-center w-full"
+                  style={{ height: 600 }}
+                >
+                  <FontAwesomeIcon
+                    className="text-4xl text-alkali-500 transition duration-300"
+                    icon={faSpinner}
+                  />
+                </div>
+              }
+            />
           </div>
         </div>
-        <div className="rounded-md shadow-2xl p-14 bg-white">
-          <img
-            className="-mt-24 shadow-2xl rounded-full p-5 mx-auto bg-white z-30"
-            src="/images/email.svg"
-          />
-          <h2 className="text-center py-3 pt-11 text-xl font-medium">Chat</h2>
-          <p className="text-center max-w-xs text-lg pb-7">
-            We'd love to talk about how we can work together.
-          </p>
-          <div className="flex justify-center">
-            <button className="p-2 px-8 font-medium shadow-2xl rounded-md bg-alkali-500 text-white">
-              Send Email
-            </button>
-          </div>
-        </div>
-        <div className="rounded-md shadow-2xl p-14 bg-white">
-          <img
-            className="-mt-24 shadow-2xl rounded-full p-5 mx-auto bg-white z-30"
-            src="/images/phone.svg"
-          />
-          <h2 className="text-center py-3 pt-11 text-xl font-medium">Chat</h2>
-          <p className="text-center max-w-xs text-lg pb-7">
-            We'd love to talk about how we can work together.
-          </p>
-          <div className="flex justify-center">
-            <button className="p-2 px-12 font-medium shadow-2xl rounded-md bg-alkali-500 text-white hover:bg-alkali-700">
-              Call Us
-            </button>
-          </div>
-        </div>
-      </div>
-      <section></section>
+      </section>
     </div>
   );
 }

@@ -13,7 +13,7 @@ const ResponsiveScreens = (props) => {
       </a>
       <div id="arrow-container-container">
         <div id="arrow-container">
-          <div className="p-4 flex justify-between items-center max-w-7xl m-auto">
+          <div className="-mt-10 lg:mt-0 p-4 flex justify-between items-center max-w-7xl m-auto">
             <div className="screenshot-container mx-3">
               <a href={props.desktopLeftLink}>
                 <div

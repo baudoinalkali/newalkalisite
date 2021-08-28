@@ -9,20 +9,20 @@ import { Fragment } from "react";
 const DesktopNavigation = (props) => {
   const headerLogoColor = () => {
     return `${props.headerColor === "white"
-        ? "/images/alkali-logo-white.svg"
-        : "/images/alkali-logo-blue.svg"
+      ? "/images/alkali-logo-white.svg"
+      : "/images/alkali-logo-blue.svg"
       }`;
   };
   const headerCTAColor = () => {
     return `${props.headerColor === "white"
-        ? "text-alkaligrey-800 bg-white hover:bg-alkaligrey-700"
-        : "text-white bg-alkali-500 hover:bg-alkali-700"
+      ? "text-alkaligrey-800 bg-white hover:bg-alkaligrey-700"
+      : "text-white bg-alkali-500 hover:bg-alkali-700"
       } p-3 px-6 font-semibold shadow-2xl rounded-md`;
   };
   const headerTopLevelColor = () => {
     return `${props.headerColor === "white"
-        ? "text-white hover:text-alkaligrey-700"
-        : "text-alkali-black hover:text-alkali-500"
+      ? "text-white hover:border-b hover:border-white"
+      : "text-alkali-black hover:border-b hover:border-black"
       } text-md font-bold uppercase`;
   };
 
@@ -54,17 +54,23 @@ const DesktopNavigation = (props) => {
                 </li>
                 <a href="/clients">
                   <li
-                    className={`duration-500 uppercase ${headerTopLevelColor()}`}
+                    className={`duration-500 uppercase hover:opacity-50 ${headerTopLevelColor()}`}
                   >
                     Clients
                   </li>
                 </a>
                 <li>
-                  <AboutDropdown headerColor={props.headerColor} />
+                  <a href="/about">
+                    <li
+                      className={`duration-500 uppercase hover:opacity-50 ${headerTopLevelColor()}`}
+                    >
+                      About
+                    </li>
+                  </a>
                 </li>
                 <a href="/contact">
                   <li
-                    className={`duration-500 uppercase ${headerTopLevelColor()}`}
+                    className={`duration-500 uppercase hover:opacity-50 ${headerTopLevelColor()}`}
                   >
                     Contact
                   </li>

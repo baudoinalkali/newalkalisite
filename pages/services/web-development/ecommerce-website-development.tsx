@@ -18,6 +18,7 @@ import ServiceBlocks from "../../../components/Services/ServiceBlocks";
 import ecommerceProcess from "../../../content/servicePages/ourProcess";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
+import AuditSection from "../../../components/Services/AuditSection";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const ResponsiveScreens = dynamic(() => import("../../../components/ResponsiveScreens"));
@@ -176,11 +177,14 @@ function EcommerceWebsiteDevelopment() {
           ))}
         </div>
       </div>
-      <ServiceLeadSection
-        style="bg-alkali-500 py-24"
-        title="We're Here to Realize Your Vision"
-        text="Do you have an idea and vision for your website but not sure where to start? Our team of professionals are standing by to answer any questions you may have. Whether you need a free audit of your current website or want to discuss specifics of a new WordPress website build, we look forward to serving you!"
-        buttonText="Schedule a Discovery Call"
+      <AuditSection
+        backgroundColor="bg-alkaligrey-300"
+        serviceName="Local SEO"
+        area1="Full website weview (content, CRO, performance)"
+        area2="SEO: Comprehensive on-page audit"
+        area3="Digital marketing/reputation management"
+        portalId="20442125"
+        formId="ca7ed626-450f-4b52-8fa7-2c7d2d464006"
       />
       <div className="pt-24 px-14 2xl:px-0">
         <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">

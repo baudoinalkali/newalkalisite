@@ -330,10 +330,6 @@ const ClientContent = {
                             service: "WordPress Web Development",
                             serviceSlug: "test2"
                         },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
                     ],
                     backgroundImg: "/images/clients/awp/hero-background.jpg",
                     image: "/",
@@ -347,7 +343,7 @@ const ClientContent = {
                 {
                     name: "Aerial Work Platforms",
                     slug: "https://awpdelivers.com",
-                    bio: "The HID Factory is an automotive lighting customization installer and distributor. They enable the transformation of a vehicle's look by customizing the interior and exterior lighting to give customers a truly unique-looking vehicle.",
+                    bio: "Aerial Work Platforms is a locally-owned Wisconsin based business founded in 1979 that specializes in renting, servicing and selling aerial equipment (scissors, booms, telehandlers, rough terrain and industrial forklifts) to contractors, industrial and institutional accounts in Wisconsin.",
                     brandColor: "#476cb1",
                 },
             ],
