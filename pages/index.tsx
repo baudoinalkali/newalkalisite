@@ -9,8 +9,53 @@ import DesktopNavigation from "../components/Navigation/DesktopNavigation";
 import Image from 'next/image'
 import AuditSection from "../components/Services/AuditSection";
 import dynamic from 'next/dynamic';
+import TwoColumnLayout from "../components/TwoColumnLayout";
+import ServiceImage from "../components/Services/ServiceImage";
+import StandardTextBlock from "../components/StandardTextBlock";
 const HomeTestimonialSlider = dynamic(() => import("../components/HomeTestimonialSlider"));
 const HomeClientsSlider = dynamic(() => import("../components/HomeClientsSlider"));
+
+const contentSection1Image = [
+  <ServiceImage
+    image="/images/web-development/wordpress/custom-built.svg"
+    imageAngle="none"
+    width="600"
+    height="450"
+  />
+]
+
+const contentSection1Text = [
+  <StandardTextBlock
+    title="Our Commitment"
+    text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
+    Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem 
+    ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
+    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem 
+    ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
+    Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
+  />
+]
+
+const contentSection2Image = [
+  <ServiceImage
+    image="/images/web-development/wordpress/custom-built.svg"
+    imageAngle="none"
+    width="600"
+    height="450"
+  />
+]
+
+const contentSection2Text = [
+  <StandardTextBlock
+    title="Our Commitment"
+    text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
+    Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem 
+    ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
+    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem 
+    ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
+    Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
+  />
+]
 
 const ServicesHome = [
   {
@@ -49,6 +94,24 @@ const ServicesHome = [
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     slug: "/services/digital-marketing/search-engine-optimization"
   },
+  {
+    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    serviceName: "Web Development",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/search-engine-optimization"
+  },
+  {
+    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    serviceName: "Web Development",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/search-engine-optimization"
+  },
+  {
+    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    serviceName: "Web Development",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/search-engine-optimization"
+  }
 ]
 
 export default function Home() {
@@ -56,11 +119,9 @@ export default function Home() {
     <div className="overflow-hidden">
       <HomeHero />
       <div className="">
-        <SplitTextImageAlt
-          style="py-24 z-0"
-          title="Our Commitment"
-          image="/images/web-development/custom-built.svg"
-          text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
+        <TwoColumnLayout
+          child1={contentSection1Image}
+          child2={contentSection1Text}
         />
       </div>
       <div style={{ width: "500px" }} className="meetings-iframe-container" data-src="https://app.hubspot.com/meetings/nbaudoin?embed=true"></div>
@@ -87,18 +148,23 @@ export default function Home() {
               <p className="text-alkaligrey-400">
                 {wordpress.serviceDescription}
               </p>
-                <div className="mt-5 flex items-center justify-center lg:justify-start group space-x-3">
-                  <div className="font-medium text-md text-alkaligrey-400">Learn More</div>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:transform duration-500 group-hover:translate-x-3 h-4 w-4 group-hover:text-alkali-500 text-alkaligrey-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </div>
+              <div className="mt-5 flex items-center justify-center lg:justify-start group space-x-3">
+                <div className="font-medium text-md text-alkaligrey-400">Learn More</div>
+                <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:transform duration-500 group-hover:translate-x-3 h-4 w-4 group-hover:text-alkali-500 text-alkaligrey-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
             </a>
           ))}
         </div>
       </div>
-      <SplitTextImage
+      <TwoColumnLayout
         style="bg-alkaligrey-300 py-24"
+        child1={contentSection2Image}
+        child2={contentSection2Text}
+      />
+      <SplitTextImage
+        style="py-24"
         title="What We Stand For"
         image="/images/web-development/custom-built.svg"
         text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
