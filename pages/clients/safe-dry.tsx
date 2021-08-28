@@ -50,86 +50,86 @@ function SafeDry() {
         />
     )
 
-    return <div className="m-auto overflow-hidden">
-        <div className="">
-            {SafeDryContent.safeDry.hero.map(hero =>
-                <ClientHeader
-                    sub={hero.industry}
-                    title={hero.name}
-                    backgroundImg={hero.backgroundImg}
-                    backgroundOverlay={hero.backgroundOverlay}
-                    services={hero.services}
-                    style="py-40"
-                    key={`ameliaAmeliaHeroContentFor${hero.name}`}
-                />
-            )}
-        </div>
-        {SafeDryContent.safeDry.about.map(safeDry =>
-            <ClientAbout
-                name={safeDry.name}
-                about={safeDry.bio}
-                slug={safeDry.slug}
-            />
-        )}
+    // return <div className="m-auto overflow-hidden">
+    //     <div className="">
+    //         {SafeDryContent.safeDry.hero.map(hero =>
+    //             <ClientHeader
+    //                 sub={hero.industry}
+    //                 title={hero.name}
+    //                 backgroundImg={hero.backgroundImg}
+    //                 backgroundOverlay={hero.backgroundOverlay}
+    //                 services={hero.services}
+    //                 style="py-40"
+    //                 key={`ameliaAmeliaHeroContentFor${hero.name}`}
+    //             />
+    //         )}
+    //     </div>
+    //     {SafeDryContent.safeDry.about.map(safeDry =>
+    //         <ClientAbout
+    //             name={safeDry.name}
+    //             about={safeDry.bio}
+    //             slug={safeDry.slug}
+    //         />
+    //     )}
 
-        <TwoColumnLayout
-            flexType="reverse"
-            style="bg-alkaligrey-300 py-24 pb-80 mb-6"
-            child1={carroGoalImage}
-            child2={carroGoalText}
-        >
-        </TwoColumnLayout>
+    //     <TwoColumnLayout
+    //         flexType="reverse"
+    //         style="bg-alkaligrey-300 py-24 pb-80 mb-6"
+    //         child1={carroGoalImage}
+    //         child2={carroGoalText}
+    //     >
+    //     </TwoColumnLayout>
 
-        <div className="px-7">
-            <div className="pb-24 -mt-56">
-                <TestimonialSlide
-                    style="max-w-7xl m-auto shadow-2xl rounded-md"
-                    background="/images/clients/the-hid-factory/safeDry-slide-bg.png"
-                    brandColor="#0d0d0d"
-                    company="Chattr"
-                    logo="/images/clients/the-hid-factory/logo.png"
-                    logoWidth="275"
-                    logoHeight="50"
-                    altText=""
-                    slug="chattr"
-                    name="Travis Deleon, Operations Manager"
-                    quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
-                />
-            </div>
-        </div>
+    //     <div className="px-7">
+    //         <div className="pb-24 -mt-56">
+    //             <TestimonialSlide
+    //                 style="max-w-7xl m-auto shadow-2xl rounded-md"
+    //                 background="/images/clients/the-hid-factory/safeDry-slide-bg.png"
+    //                 brandColor="#0d0d0d"
+    //                 company="Chattr"
+    //                 logo="/images/clients/the-hid-factory/logo.png"
+    //                 logoWidth="275"
+    //                 logoHeight="50"
+    //                 altText=""
+    //                 slug="chattr"
+    //                 name="Travis Deleon, Operations Manager"
+    //                 quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+    //             />
+    //         </div>
+    //     </div>
 
-        <TwoColumnLayout
-            style="bg-white py-24 mb-6"
-            child1={carroResultText}
-            child2={carroResultImage}
-        />
-        <div className="p-4 py-24 bg-clients-chattr">
-            <div className="flex flex-col lg:flex-row justify-between items-center max-w-7xl m-auto mx-3 xl:mx-auto">
-                <div><h3 className="text-4xl font-bold max-w-7xl m-auto text-white leading-tight text-center mb-14 lg:mb-0">We're here to realize your vision.</h3></div>
-                <div className="">
-                    <Modal
-                        style="p-3 px-6 font-semibold text-white rounded-md transition hover:text-clients-chattr duration-500 ease-in-out border border-white hover:bg-white"
-                        text="Schedule a call"
-                    />
-                </div>
-            </div>
-        </div>
+    //     <TwoColumnLayout
+    //         style="bg-white py-24 mb-6"
+    //         child1={carroResultText}
+    //         child2={carroResultImage}
+    //     />
+    //     <div className="p-4 py-24 bg-clients-chattr">
+    //         <div className="flex flex-col lg:flex-row justify-between items-center max-w-7xl m-auto mx-3 xl:mx-auto">
+    //             <div><h3 className="text-4xl font-bold max-w-7xl m-auto text-white leading-tight text-center mb-14 lg:mb-0">We're here to realize your vision.</h3></div>
+    //             <div className="">
+    //                 <Modal
+    //                     style="p-3 px-6 font-semibold text-white rounded-md transition hover:text-clients-chattr duration-500 ease-in-out border border-white hover:bg-white"
+    //                     text="Schedule a call"
+    //                 />
+    //             </div>
+    //         </div>
+    //     </div>
 
-        {SafeDryContent.safeDry.screens.map(safeDry =>
-            <ResponsiveScreens
-                style="py-24 overflow-hidden"
-                link="https://chattr.ai"
-                desktopLeft={safeDry.desktopLeft}
-                desktopRight={safeDry.desktopRight}
-                tablet={safeDry.tablet}
-                phone={safeDry.phone}
-                desktopLeftLink={safeDry.desktopLeftLink}
-                desktopRightLink={safeDry.desktopRightLink}
-                tabletLink={safeDry.tabletLink}
-                phoneLink={safeDry.phoneLink}
-            />
-        )}
-    </div>
+    //     {SafeDryContent.safeDry.screens.map(safeDry =>
+    //         <ResponsiveScreens
+    //             style="py-24 overflow-hidden"
+    //             link="https://chattr.ai"
+    //             desktopLeft={safeDry.desktopLeft}
+    //             desktopRight={safeDry.desktopRight}
+    //             tablet={safeDry.tablet}
+    //             phone={safeDry.phone}
+    //             desktopLeftLink={safeDry.desktopLeftLink}
+    //             desktopRightLink={safeDry.desktopRightLink}
+    //             tabletLink={safeDry.tabletLink}
+    //             phoneLink={safeDry.phoneLink}
+    //         />
+    //     )}
+    // </div>
 }
 
 export default SafeDry

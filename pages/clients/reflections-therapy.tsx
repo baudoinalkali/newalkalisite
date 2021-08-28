@@ -53,7 +53,8 @@ function Amelia() {
   ));
 
   return (
-    <div className="m-auto overflow-hidden">
+    <div>
+          {/* <div className="m-auto overflow-hidden">
       <div className="">
         {ReflectionsContent.reflectionsTherapy.hero.map((hero) => (
           <ClientHeader
@@ -159,6 +160,7 @@ function Amelia() {
         </div>
         <div className="pb-24 lg:pb-36"></div>
       </section>
+    </div> */}
     </div>
   );
 }
