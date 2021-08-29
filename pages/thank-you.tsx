@@ -1,9 +1,25 @@
+import Head from "next/head";
 import CombinedNavigation from "../components/Navigation/CombinedNavigation";
 
 export default function ThankYou() {
     return (
         <div>
             <div className="">
+                <Head>
+                    <title>Thank You | Alkali</title>
+                    <meta name="robots" content="noindex, follow," />
+                    <link rel="canonical" href="/" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:title" content="Thank You | Alkali" />
+                    <meta property="og:url" content="/" />
+                    <meta property="og:site_name" content="Alkali" />
+                    <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
+                    <meta property="og:image" content="/images/facebook-image.jpg" />
+                    <meta property="og:image:width" content="1200" />
+                    <meta property="og:image:height" content="630" />
+                    <meta name="twitter:card" content="summary_large_image" />
+                </Head>
                 <CombinedNavigation headerBackground="bg-white" />
                 <div className="py-36 flex text-center justify-center z-20">
                     <div className="relative z-20">

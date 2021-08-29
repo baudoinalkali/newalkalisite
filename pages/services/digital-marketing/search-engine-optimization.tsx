@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
 import ServiceHero from "../../../components/Services/ServiceHero";
-import ServiceHeroContent from "../../../content/servicePages/serviceHeroContent";
 import StandardImage from "../../../components/StandardImage";
 import StandardTextBlock from "../../../components/StandardTextBlock";
 import SEO from "../../../content/servicePages/seo";
@@ -9,13 +8,8 @@ import TwoColumnLayout from "../../../components/TwoColumnLayout";
 import Testimonials from "../../../content/testimonials";
 import Image from "next/image";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
-import SEOServices from "../../../content/servicePages/serviceBlocks";
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
-import ResultsBlocks from "../../../components/Services/ResultsBlocks";
-import SEOResults from "../../../content/servicePages/resultsBlock";
-import SEOFAQ from "../../../content/servicePages/faq";
 import AuditFormPopup from "../../../components/AuditFormPopup";
-import { text } from "@fortawesome/fontawesome-svg-core";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";

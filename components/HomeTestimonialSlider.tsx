@@ -37,7 +37,10 @@ const HomeTestimonialSlider = () => {
               <div className="h-20 flex justify-center">
                 <div className="flex justify-center gap-x-10 items-center px-10">
                   <div className="group-hover:hidden">
-                    <img width="90" src={props.logo} />
+                    <img width="90"
+                      src={props.logo}
+                      alt={props.altText}
+                    />
                   </div>
                   <div className="text-white group-hover:hidden">{props.name}</div>
                   <a href={`/clients/${props.slug}`}>

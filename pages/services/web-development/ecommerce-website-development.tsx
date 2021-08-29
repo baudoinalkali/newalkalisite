@@ -1,10 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
-import ServiceLeadSection from "../../../components/ServiceLeadSection";
 import Testimonials from "../../../content/testimonials";
 import Ecommerce from "../../../content/servicePages/ecommerce";
 import TwoColumnLayout from "../../../components/TwoColumnLayout";
-import StandardImage from "../../../components/StandardImage";
 import StandardTextBlock from "../../../components/StandardTextBlock";
 import ServiceHeroContent from "../../../content/servicePages/serviceHeroContent";
 import ServiceHero from "../../../components/Services/ServiceHero";
@@ -12,10 +10,7 @@ import CarroScreenImages from "../../../content/clientPages/screenImages";
 import Image from "next/image";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
 import FAQDropdown from "../../../components/Services/FAQDropdown";
-import WordpressFAQ from "../../../content/servicePages/faq";
-import EcommerceServices from "../../../content/servicePages/serviceBlocks";
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
-import ecommerceProcess from "../../../content/servicePages/ourProcess";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";

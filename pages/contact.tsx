@@ -4,6 +4,7 @@ import { faSpinner } from "@fortawesome/free-solid-svg-icons"; // import the ico
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import HubspotForm from "react-hubspot-form";
 import Head from "next/head";
+import Image from "next/image";
 
 function Contact() {
 
@@ -13,7 +14,7 @@ function Contact() {
       description: "We'd love to talk about how we can work together",
       slug: "/contact/#hs-chat-open",
       icon: "/images/chat.svg",
-      alt: "",
+      alt: "Start a chat with Alkali",
       buttonName: "Start Chat"
     },
     {
@@ -21,7 +22,7 @@ function Contact() {
       description: "We'd love to talk about how we can work together",
       slug: "mailto:solutions@alkalidesigns.com",
       icon: "/images/email.svg",
-      alt: "",
+      alt: "Send an email to Alkali",
       buttonName: "Send Email"
     },
     {
@@ -29,7 +30,7 @@ function Contact() {
       description: "We'd love to talk about how we can work together",
       slug: "tel:2819445711",
       icon: "/images/phone.svg",
-      alt: "",
+      altText: "Start a call with Alkali",
       buttonName: "Start Call"
     }
   ]
@@ -73,6 +74,7 @@ function Contact() {
               <img
                 className="-mt-24 shadow-2xl rounded-full p-5 mx-auto bg-white z-30"
                 src={item.icon}
+                alt={item.altText}
               />
               <h2 className="text-center py-3 pt-11 text-xl font-medium">{item.method}</h2>
               <p className="text-center max-w-xs text-lg pb-7">

@@ -1,4 +1,3 @@
-import Modal from "../../components/Modal";
 import ClientCardContainer from "../../components/Clients/ClientCardContainer";
 import Testimonials from "../../content/testimonials";
 import TwoColumnLayout from "../../components/TwoColumnLayout";
