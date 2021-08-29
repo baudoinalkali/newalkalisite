@@ -21,6 +21,7 @@ const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScree
 function Carro() {
   const carroGoalImage = THFContent.thf.section1.map((thf) => (
     <StandardImage
+      altText={thf.altText}
       imageAngle="left"
       image={thf.image}
       key={`carroGoalImageClientBlocksFor${thf.image}`}
@@ -38,6 +39,7 @@ function Carro() {
 
   const carroResultImage = THFContent.thf.section2.map((thf) => (
     <StandardImage
+      altText={thf.altText}
       imageAngle="right"
       image={thf.image}
       key={`carroResultImageClientBlocksFor${thf.image}`}

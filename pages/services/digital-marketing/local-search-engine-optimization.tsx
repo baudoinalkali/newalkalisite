@@ -27,6 +27,7 @@ function LocalSearchEngineOptimization() {
   const seoImage1 = LocalSEO.text1.map((text1) => (
     <ServiceImage
       image={text1.image}
+      altText={text1.altText}
       height={text1.height}
       width={text1.width}
     />
@@ -42,6 +43,7 @@ function LocalSearchEngineOptimization() {
   const seoImage2 = LocalSEO.text2.map((text2) => (
     <ServiceImage
       image={text2.image}
+      altText={text2.altText}
       imageAngle="none"
       height={text2.height}
       width={text2.width}
@@ -55,6 +57,7 @@ function LocalSearchEngineOptimization() {
   const seoImage3 = LocalSEO.text3.map((text3) => (
     <ServiceImage
       image={text3.image}
+      altText={text3.altText}
       imageAngle="none"
       height={text3.height}
       width={text3.width}
@@ -68,6 +71,7 @@ function LocalSearchEngineOptimization() {
   const seoImage4 = LocalSEO.text4.map((text4) => (
     <ServiceImage
       image={text4.image}
+      altText={text4.altText}
       imageAngle="none"
       height={text4.height}
       width={text4.width}
@@ -81,6 +85,7 @@ function LocalSearchEngineOptimization() {
   const seoImage5 = LocalSEO.text5.map((text5) => (
     <ServiceImage
       image={text5.image}
+      altText={text5.altText}
       imageAngle="none"
       height={text5.height}
       width={text5.width}

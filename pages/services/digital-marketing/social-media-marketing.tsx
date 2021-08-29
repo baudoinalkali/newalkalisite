@@ -27,6 +27,7 @@ function SocialMediaMarketing() {
   const socialImage1 = SocialMarketing.text1.map((text1) => (
     <ServiceImage
       image={text1.image}
+      altText={text1.altText}
       imageAngle="none"
       width={text1.width}
       height={text1.height}
@@ -40,6 +41,7 @@ function SocialMediaMarketing() {
   const socialImage2 = SocialMarketing.text2.map((text2) => (
     <ServiceImage
       image={text2.image}
+      altText={text2.altText}
       imageAngle="none"
       width={text2.width}
       height={text2.height}
@@ -53,6 +55,7 @@ function SocialMediaMarketing() {
   const socialImage3 = SocialMarketing.text3.map((text3) => (
     <ServiceImage
       image={text3.image}
+      altText={text3.altText}
       imageAngle="none"
       width={text3.width}
       height={text3.height}
@@ -66,6 +69,7 @@ function SocialMediaMarketing() {
   const socialImage4 = SocialMarketing.text4.map((text4) => (
     <ServiceImage
       image={text4.image}
+      altText={text4.altText}
       imageAngle="none"
       width={text4.width}
       height={text4.height}

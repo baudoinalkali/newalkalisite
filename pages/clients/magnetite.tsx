@@ -22,6 +22,7 @@ function Carro() {
   const carroGoalImage = MagnetiteContent.magnetite.section1.map(
     (magnetite) => (
       <StandardImage
+        altText={magnetite.altText}
         imageAngle="left"
         image={magnetite.image}
         key={`carroGoalImageClientBlocksFor${magnetite.image}`}
@@ -41,6 +42,7 @@ function Carro() {
   const carroResultImage = MagnetiteContent.magnetite.section2.map(
     (magnetite) => (
       <StandardImage
+        altText={magnetite.altText}
         imageAngle="right"
         image={magnetite.image}
         key={`carroResultImageClientBlocksFor${magnetite.image}`}

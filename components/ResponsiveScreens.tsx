@@ -6,7 +6,7 @@ const ResponsiveScreens = (props) => {
       <h3 className="text-center text-4xl md:text-5xl font-bold max-w-4xl m-auto mb-10 leading-normal">
         First Impressions Matter Experience Their Website For Yourself
       </h3>
-      <a href={props.link}>
+      <a href={props.link} target="_blank">
         <button className="responsive-screen-button p-3 px-12 font-semibold text-white shadow-2xl rounded-md transition duration-500 hover:bg-opacity-20" style={{backgroundColor: `${props.brandColor}`}}>
           {props.buttonName}
         </button>
@@ -23,7 +23,7 @@ const ResponsiveScreens = (props) => {
                   <Image
                     className="rounded-md"
                     src={props.desktopLeft}
-                    alt=""
+                    alt={`Additional desktop preview of ${props.name} website`}
                     width={600}
                     height={450}
                     quality={100}
@@ -40,7 +40,7 @@ const ResponsiveScreens = (props) => {
                   <Image
                     className="rounded-md"
                     src={props.desktopRight}
-                    alt=""
+                    alt={`Desktop preview of ${props.name} website`}
                     width={600}
                     height={450}
                   />
@@ -58,7 +58,7 @@ const ResponsiveScreens = (props) => {
                   <Image
                     className="rounded-md"
                     src={props.tablet}
-                    alt=""
+                    alt={`Tablet preview of ${props.name} website`}
                     width={384}
                     height={580}
                   />
@@ -74,7 +74,7 @@ const ResponsiveScreens = (props) => {
                   <Image
                     className="rounded-md hidden"
                     src={props.phone}
-                    alt=""
+                    alt={`Phone preview of ${props.name} website`}
                     width={208}
                     height={585.28}
                   />

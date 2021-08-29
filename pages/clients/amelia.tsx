@@ -22,6 +22,7 @@ function Amelia() {
   const ameliaGoalImage = AmeliaContent.amelia.section1.map((section1) => (
     <StandardImage
       imageAngle="left"
+      altText={section1.altText}
       image={section1.image}
       key={`ameliaGoalImageClientBlocksFor${section1.image}`}
     />
@@ -39,6 +40,7 @@ function Amelia() {
   const ameliaResultImage = AmeliaContent.amelia.section2.map((section2) => (
     <StandardImage
       imageAngle="right"
+      altText={section2.altText}
       image={section2.image}
       key={`ameliaResultImageClientBlocksFor${section2.image}`}
     />
