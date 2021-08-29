@@ -99,7 +99,7 @@ function Amelia() {
               logoWidth="220"
               logoHeight="104"
               altText=""
-              slug="chattr"
+              slug="https://awpdelivers.com"
               name="Robert Rivera, Founder"
               quote="I cannot say enough positive things about Alkali. It was a great experience and I would highly recommend anyone interested on a new website or a refresher call them up."
             />

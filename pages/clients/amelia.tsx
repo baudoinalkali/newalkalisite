@@ -71,12 +71,12 @@ function Amelia() {
         ))}
       </div>
 
-      {AmeliaHeroContent.amelia.map((amelia) => (
+      {AmeliaContent.amelia.about.map((amelia) => (
         <ClientAbout
           name={amelia.name}
-          about={amelia.about}
-          slug={amelia.title}
-          key={`ameliaAmeliaHeroContentFor${amelia.title}`}
+          about={amelia.bio}
+          slug={amelia.slug}
+          key={`ameliaAmeliaHeroContentFor${amelia.name}`}
         />
       ))}
 
@@ -96,6 +96,7 @@ function Amelia() {
               background={amelia.background}
               backgroundOverlay={amelia.backgroundOverlay}
               company={amelia.company}
+              slug={amelia.slug}
               key={`designTestimonialFor${amelia.company}`}
               logo={amelia.logo}
               logoWidth={amelia.logoWidth}

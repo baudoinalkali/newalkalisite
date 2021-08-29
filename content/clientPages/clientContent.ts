@@ -200,7 +200,7 @@ const ClientContent = {
             [
                 {
                     name: "Bobtail",
-                    slug: "https://bobtail.com",
+                    slug: "https://www.bobtail.com",
                     bio: "Bobtail empowers carriers with powerful financial tools that help them grow their business and serve them with honesty, transparency, and fairness.",
                     brandColor: "#f6a326",
                 },
@@ -221,6 +221,23 @@ const ClientContent = {
                     title: "People Focused Design",
                     text: "We took the seven design screens created in Figma and created a fully functional and responsive website. We set up the entire website to be easily maintainable for a non-technical individual and left no stone unturned to have the site running as fast as possible. Through a few iterations during development, we found additional areas to highlight the users of Bobtail, better communicating the company’s mission to help drivers.",
                     image: "/images/clients/bobtail/section2.png"
+                },
+            ],
+        testimonial:
+            [
+                {
+                    background: "/images/clients/bobtail/slide-bg.jpg",
+                    backgroundOverlay: "bg-pink-300",
+                    brandColor: "#07433f",
+                    company: "Bobtail",
+                    logo: "/images/clients/bobtail/logo.svg",
+                    slug: "https://www.bobtail.com",
+                    logoWidth: "200",
+                    logoHeight: "40",
+                    altText: "",
+                    name: "Gurvir Singh, Managing Director",
+                    quote:
+                        "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
                 },
             ],
         screens:
@@ -874,8 +891,8 @@ const ClientContent = {
         about:
             [
                 {
-                    name: "Lessons That Rock",
-                    slug: "https://thebluecollarsuccessgroup.com",
+                    name: "Homewatch Amelia",
+                    slug: "https://homewatchamelia.com",
                     bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
                     brandColor: "#4f80c2",
                 },

@@ -327,16 +327,16 @@ function WordPressWebsiteDevelopment() {
         <ResponsiveScreens
           style="py-36 pb-12 overflow-hidden z-30 relative"
           link="/clients"
-          buttonName={responsiveScreens.buttonName}
-          desktopLeft={responsiveScreens.desktopLeft}
-          desktopRight={responsiveScreens.desktopRight}
-          tablet={responsiveScreens.tablet}
-          phone={responsiveScreens.phone}
-          desktopLeftLink={responsiveScreens.desktopLeftLink}
-          desktopRightLink={responsiveScreens.desktopRightLink}
-          tabletLink={responsiveScreens.tabletLink}
-          phoneLink={responsiveScreens.phoneLink}
-          key={responsiveScreens.desktopLeft}
+          buttonName="View Projects"
+          desktopLeft="/"
+          desktopRight="/"
+          tablet="/"
+          phone="/"
+          desktopLeftLink="/"
+          desktopRightLink="/"
+          tabletLink="/"
+          phoneLink="/"
+          key="/"
         />
       ))}
       <TwoColumnLayout

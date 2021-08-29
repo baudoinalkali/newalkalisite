@@ -89,12 +89,13 @@ function Amelia() {
 
       <div className="mx-14">
         <div className="pb-4 lg:pb-10 -mt-56">
-          {BobtailSlide.bobtail.map((bobtail) => (
+          {BobtailContent.bobtail.testimonial.map((bobtail) => (
             <TestimonialSlide
               style="max-w-7xl m-auto shadow-2xl rounded-md"
               background={bobtail.background}
               backgroundOverlay={bobtail.backgroundOverlay}
               brandColor={bobtail.brandColor}
+              slug={bobtail.slug}
               company={bobtail.company}
               key={`designTestimonialFor${bobtail.company}`}
               logo={bobtail.logo}
