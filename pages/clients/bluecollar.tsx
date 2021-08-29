@@ -14,6 +14,7 @@ import ClientAbout from '../../components/Clients/ClientAbout'
 import dynamic from 'next/dynamic';
 import ClientScheduleCTA from '../../components/Clients/ClientScheduleCTA'
 import clientMainPage from '../../content/clientPages/clientMainPage'
+import Head from 'next/head'
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -53,6 +54,23 @@ function BlueCollar() {
     )
 
     return <div className="m-auto overflow-hidden">
+        <Head>
+            <title>Bluecollar Success Group Project | Alkali</title>
+            <meta name="description" content="Learn more about how we enabled Bluecollar to provide a next-level membership experience for their business." />
+            <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+            <link rel="canonical" href="/" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content="Bluecollar Success Group Project | Alkali" />
+            <meta property="og:description" content="Learn more about how we enabled Bluecollar to provide a next-level membership experience for their business." />
+            <meta property="og:url" content="/" />
+            <meta property="og:site_name" content="Alkali" />
+            <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
+            <meta property="og:image" content="/images/facebook-image.jpg" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+            <meta name="twitter:card" content="summary_large_image" />
+        </Head>
         <div className="">
             {BlueCollarContent.bluecollar.hero.map(hero =>
                 <ClientHeader

@@ -60,7 +60,7 @@ export default function About() {
   return (
     <div className="overflow-hidden">
       <Head>
-        <title>About Alkali</title>
+        <title>About Alkali | Learn How and Why We Serve </title>
         <meta name="description" content="Learn more about what Alkali stands for, our mission, and the commitment to our clients that drives us." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <link rel="canonical" href="/" />
