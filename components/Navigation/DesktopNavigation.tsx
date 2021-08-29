@@ -43,6 +43,7 @@ const DesktopNavigation = (props) => {
                 src={`${headerLogoColor()}`}
                 width="160"
                 height="34"
+                alt="Alkali Digital Marketing"
                 quality={100}
                 priority={true}
               />

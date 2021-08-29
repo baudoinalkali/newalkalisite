@@ -1,2 +1,4 @@
 User-agent: *
-Sitemap: https://leerob.io/sitemap.xml
+Allow: /
+Disallow: /privacy-policy/
+Disallow: /thank-you/
