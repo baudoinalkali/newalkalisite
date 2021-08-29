@@ -20,6 +20,7 @@ import CombinedNavigation from "../../../components/Navigation/CombinedNavigatio
 import FAQDropdown from "../../../components/Services/FAQDropdown";
 import WordpressFAQ from "../../../content/servicePages/faq";
 import ServiceImage from "../../../components/Services/ServiceImage";
+import Head from "next/head";
 
 function WordPressWebsiteDevelopment() {
   const customBuiltImage = Custom.customBuilt.map((customBuilt) => (
@@ -63,12 +64,12 @@ function WordPressWebsiteDevelopment() {
   );
 
   const seoImage = Custom.seo.map((seo) => (
-    <ServiceImage 
-    image={seo.image} 
-    imageAngle="none" 
-    key={seo.image} 
-    width={seo.width}
-    height={seo.height}
+    <ServiceImage
+      image={seo.image}
+      imageAngle="none"
+      key={seo.image}
+      width={seo.width}
+      height={seo.height}
     />
   ));
 
@@ -132,6 +133,23 @@ function WordPressWebsiteDevelopment() {
 
   return (
     <div className="m-auto overflow-hidden">
+      <Head>
+        <title>Custom Website Development | Nothing Beats Bespoke</title>
+        <meta name="description" content="We build custom websites that are specifically tailored to your business, processes, and needs, not something that is one-size fits all." />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Custom Website Development | Nothing Beats Bespoke" />
+        <meta property="og:description" content="We build custom websites that are specifically tailored to your business, processes, and needs, not something that is one-size fits all." />
+        <meta property="og:url" content="/" />
+        <meta property="og:site_name" content="Alkali" />
+        <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
+        <meta property="og:image" content="/images/facebook-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <div>
         <CombinedNavigation
           headerBackground="bg-alkali-500"

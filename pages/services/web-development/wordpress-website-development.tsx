@@ -15,11 +15,12 @@ import CombinedNavigation from "../../../components/Navigation/CombinedNavigatio
 import WordpressFAQ from "../../../content/servicePages/faq";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
+import Head from "next/head";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const ResponsiveScreens = dynamic(() => import("../../../components/ResponsiveScreens"));
 const Integration = dynamic(() => import("../../../components/Integration"));
-const FAQDropdown = dynamic(()=>import("../../../components/Services/FAQDropdown"));
+const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function WordPressWebsiteDevelopment() {
   const customBuiltImage = Wordpress.customBuilt.map((customBuilt) => (
@@ -136,6 +137,23 @@ function WordPressWebsiteDevelopment() {
 
   return (
     <div className="m-auto overflow-hidden">
+      <Head>
+        <title>WordPress Website Development | WordPress Experts</title>
+        <meta name="description" content="Build a user-friendly, SEO-optimized WordPress website that maximizes your online presence with Alkali's bespoke WordPress solutions." />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="WordPress Website Development | WordPress Experts" />
+        <meta property="og:description" content="Build a user-friendly, SEO-optimized WordPress website that maximizes your online presence with Alkali's bespoke WordPress solutions." />
+        <meta property="og:url" content="/" />
+        <meta property="og:site_name" content="Alkali" />
+        <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
+        <meta property="og:image" content="/images/facebook-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <div>
         <CombinedNavigation
           headerBackground="bg-alkali-500"
@@ -158,12 +176,12 @@ function WordPressWebsiteDevelopment() {
                 WordPress Website Development
               </h2>
               <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">
-              You’ve probably heard of WordPress, but here is the short version: WordPress started as a way for people to create
-              blogs easily, but it has evolved so much over the years. It is now the most widely used Content Management System 
-              (CMS) in the world. Now, it's leveraged by people from all walks of life and all levels of business. From Fortune 
-              500 companies to someone starting their first blog, WordPress suits a variety of use cases. If you’re looking for 
-              guidance on if WordPress is suitable for you, we can help! We have been designing, developing, and customizing WordPress 
-              for years.
+                You’ve probably heard of WordPress, but here is the short version: WordPress started as a way for people to create
+                blogs easily, but it has evolved so much over the years. It is now the most widely used Content Management System
+                (CMS) in the world. Now, it's leveraged by people from all walks of life and all levels of business. From Fortune
+                500 companies to someone starting their first blog, WordPress suits a variety of use cases. If you’re looking for
+                guidance on if WordPress is suitable for you, we can help! We have been designing, developing, and customizing WordPress
+                for years.
               </p>
             </div>
             <div className="z-0 pointer-events-none w-96 md:w-auto">
