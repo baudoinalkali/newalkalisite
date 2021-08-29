@@ -156,6 +156,7 @@ function SocialMediaMarketing() {
               company={testimonial.company}
               key={`designTestimonialFor${testimonial.company}`}
               logo={testimonial.logo}
+              slug={testimonial.slug}
               logoWidth={testimonial.logoWidth}
               logoHeight={testimonial.logoHeight}
               altText={testimonial.altText}
