@@ -20,6 +20,7 @@ const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScree
 function Ben() {
   const carroGoalImage = BenContent.ben.section1.map((ben) => (
     <StandardImage
+      altText={ben.altText}
       imageAngle="left"
       image={ben.image}
       key={`carroGoalImageClientBlocksFor${ben.image}`}
@@ -37,6 +38,7 @@ function Ben() {
 
   const carroResultImage = BenContent.ben.section2.map((ben) => (
     <StandardImage
+      altText={ben.altText}
       imageAngle="right"
       image={ben.image}
       key={`carroResultImageClientBlocksFor${ben.image}`}

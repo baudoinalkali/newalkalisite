@@ -21,6 +21,7 @@ const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScree
 function CarTalkRepair() {
     const carroGoalImage = CarTalkContent.cartalkRepair.section1.map(cartalkRepair =>
         <StandardImage
+            altText={cartalkRepair.altText}
             imageAngle="left"
             image={cartalkRepair.image}
             key={`carroGoalImageClientBlocksFor${cartalkRepair.image}`}
@@ -38,6 +39,7 @@ function CarTalkRepair() {
 
     const carroResultImage = CarTalkContent.cartalkRepair.section2.map(cartalkRepair =>
         <StandardImage
+            altText={cartalkRepair.altText}
             imageAngle="right"
             image={cartalkRepair.image}
             key={`carroResultImageClientBlocksFor${cartalkRepair.image}`}

@@ -21,6 +21,7 @@ const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScree
 function Amelia() {
   const ameliaGoalImage = BobtailContent.bobtail.section1.map((amelia) => (
     <StandardImage
+      altText={amelia.altText}
       imageAngle="left"
       image={amelia.image}
       key={`ameliaGoalImageClientBlocksFor${amelia.image}`}
@@ -38,6 +39,7 @@ function Amelia() {
 
   const ameliaResultImage = BobtailContent.bobtail.section2.map((amelia) => (
     <StandardImage
+      altText={amelia.altText}
       imageAngle="right"
       image={amelia.image}
       key={`ameliaResultImageClientBlocksFor${amelia.image}`}

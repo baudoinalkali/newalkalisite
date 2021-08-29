@@ -21,6 +21,7 @@ const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScree
 function Carro() {
   const carroGoalImage = ChattrContent.chattr.section1.map((chattr) => (
     <StandardImage
+      altText={chattr.altText}
       imageAngle="left"
       image={chattr.image}
       key={`carroGoalImageClientBlocksFor${chattr.image}`}
@@ -38,6 +39,7 @@ function Carro() {
 
   const carroResultImage = ChattrContent.chattr.section2.map((chattr) => (
     <StandardImage
+      altText={chattr.altText}
       imageAngle="right"
       image={chattr.image}
       key={`carroResultImageClientBlocksFor${chattr.image}`}

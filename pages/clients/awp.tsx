@@ -21,6 +21,7 @@ const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScree
 function Amelia() {
   const ameliaGoalImage = AWPContent.awp.section1.map((section1) => (
     <StandardImage
+      altText={section1.altText}
       imageAngle="left"
       image={section1.image}
       key={`ameliaGoalImageClientBlocksFor${section1.image}`}
@@ -38,6 +39,7 @@ function Amelia() {
 
   const ameliaResultImage = AWPContent.awp.section2.map((section2) => (
     <StandardImage
+      altText={section2.altText}
       imageAngle="right"
       image={section2.image}
       key={`ameliaResultImageClientBlocksFor${section2.image}`}

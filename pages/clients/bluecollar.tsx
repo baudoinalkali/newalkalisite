@@ -21,6 +21,7 @@ const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScree
 function BlueCollar() {
     const carroGoalImage = BlueCollarContent.bluecollar.section1.map(bluecollar =>
         <StandardImage
+            altText={bluecollar.altText}
             imageAngle="left"
             image={bluecollar.image}
             key={`carroGoalImageClientBlocksFor${bluecollar.image}`}
@@ -38,6 +39,7 @@ function BlueCollar() {
 
     const carroResultImage = BlueCollarContent.bluecollar.section2.map(bluecollar =>
         <StandardImage
+            altText={bluecollar.altText}
             imageAngle="right"
             image={bluecollar.image}
             key={`carroResultImageClientBlocksFor${bluecollar.image}`}

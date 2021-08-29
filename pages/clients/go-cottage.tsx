@@ -22,6 +22,7 @@ function Carro() {
   const carroGoalImage = GoCottageContent.goCottage.section1.map(
     (goCottage) => (
       <StandardImage
+        altText={goCottage.altText}
         imageAngle="left"
         image={goCottage.image}
         key={`carroGoalImageClientBlocksFor${goCottage.image}`}
@@ -41,6 +42,7 @@ function Carro() {
   const carroResultImage = GoCottageContent.goCottage.section2.map(
     (goCottage) => (
       <StandardImage
+        altText={goCottage.altText}
         imageAngle="right"
         image={goCottage.image}
         key={`carroResultImageClientBlocksFor${goCottage.image}`}

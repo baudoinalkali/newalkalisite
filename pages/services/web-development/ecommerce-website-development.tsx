@@ -29,6 +29,7 @@ function EcommerceWebsiteDevelopment() {
   const image1 = Ecommerce.text1.map((text1) => (
     <ServiceImage
       image={text1.image}
+      altText={text1.altText}
       imageAngle="none"
       height={text1.height}
       width={text1.width}
@@ -42,6 +43,7 @@ function EcommerceWebsiteDevelopment() {
   const image2 = Ecommerce.text2.map((text2) => (
     <ServiceImage
       image={text2.image}
+      altText={text2.altText}
       height={text2.height}
       width={text2.width}
       imageAngle="none" />
@@ -54,6 +56,7 @@ function EcommerceWebsiteDevelopment() {
   const image3 = Ecommerce.text3.map((text3) => (
     <ServiceImage
       image={text3.image}
+      altText={text3.altText}
       height={text3.height}
       width={text3.width}
       imageAngle="none" />
@@ -66,6 +69,7 @@ function EcommerceWebsiteDevelopment() {
   const image4 = Ecommerce.text4.map((text4) => (
     <ServiceImage
       image={text4.image}
+      altText={text4.altText}
       height={text4.height}
       width={text4.width}
       imageAngle="none" />
@@ -78,6 +82,7 @@ function EcommerceWebsiteDevelopment() {
   const image5 = Ecommerce.text5.map((text5) => (
     <ServiceImage
       image={text5.image}
+      altText={text5.altText}
       height={text5.height}
       width={text5.width}
       imageAngle="none" />

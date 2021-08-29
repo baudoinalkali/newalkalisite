@@ -26,6 +26,7 @@ function WordPressWebsiteDevelopment() {
   const customBuiltImage = Custom.customBuilt.map((customBuilt) => (
     <ServiceImage
       image={customBuilt.image}
+      altText={customBuilt.altText}
       imageAngle="none"
       key={customBuilt.image}
       width={customBuilt.width}
@@ -45,6 +46,7 @@ function WordPressWebsiteDevelopment() {
     (responsiveDesign) => (
       <ServiceImage
         image={responsiveDesign.image}
+        altText={responsiveDesign.altText}
         imageAngle="none"
         key={responsiveDesign.image}
         width={responsiveDesign.width}
@@ -66,6 +68,7 @@ function WordPressWebsiteDevelopment() {
   const seoImage = Custom.seo.map((seo) => (
     <ServiceImage
       image={seo.image}
+      altText={seo.altText}
       imageAngle="none"
       key={seo.image}
       width={seo.width}
@@ -80,6 +83,7 @@ function WordPressWebsiteDevelopment() {
   const userExperienceImage = Custom.userExperience.map((userExperience) => (
     <ServiceImage
       image={userExperience.image}
+      altText={userExperience.altText}
       imageAngle="none"
       key={userExperience.image}
       width={userExperience.width}
@@ -98,6 +102,7 @@ function WordPressWebsiteDevelopment() {
   const performanceImage = Custom.performance.map((performance) => (
     <ServiceImage
       image={performance.image}
+      altText={performance.altText}
       imageAngle="none"
       key={performance.image}
       width={performance.width}
@@ -116,6 +121,7 @@ function WordPressWebsiteDevelopment() {
   const conversionImage = Custom.conversion.map((conversion) => (
     <ServiceImage
       image={conversion.image}
+      altText={conversion.altText}
       imageAngle="none"
       key={conversion.image}
       width={conversion.width}

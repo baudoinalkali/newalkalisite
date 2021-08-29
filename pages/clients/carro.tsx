@@ -17,11 +17,12 @@ const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
 function Carro() {
-  const carroGoalImage = CarroContent.carro.section1.map((Carro) => (
+  const carroGoalImage = CarroContent.carro.section1.map((carro) => (
     <StandardImage
+      altText={carro.altText}
       imageAngle="left"
-      image={Carro.image}
-      key={`carroGoalImageClientBlocksFor${Carro.image}`}
+      image={carro.image}
+      key={`carroGoalImageClientBlocksFor${carro.image}`}
     />
   ));
 
@@ -36,6 +37,7 @@ function Carro() {
 
   const carroResultImage = CarroContent.carro.section2.map((carro) => (
     <StandardImage
+      altText={carro.altText}
       imageAngle="right"
       image={carro.image}
       key={`carroResultImageClientBlocksFor${carro.image}`}

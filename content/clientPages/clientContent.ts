@@ -32,7 +32,8 @@ const ClientContent = {
                     sub: "The Goal",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
-                    image: "/images/clients/carro/carro-before.png"
+                    image: "/images/clients/carro/carro-desktop.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -41,12 +42,14 @@ const ClientContent = {
                     sub: "The Goal",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
-                    image: "/images/clients/carro/carro-desktop.png"
+                    image: "/images/clients/carro/carro-desktop-home.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "Carro",
                     desktopLeft: "/images/clients/carro/carro-desktop-brand.png",
                     desktopLeftLink: "https://getcarro.com/brand-partnerships",
                     desktopRight: "/images/clients/carro/carro-desktop-score.png",
@@ -72,6 +75,7 @@ const ClientContent = {
                         }
                     ],
                     image: "/images/clients/chattr/chattr-hero-image.svg",
+                    altText: "",
                     width: "600",
                     height: "197"
                 },
@@ -91,7 +95,8 @@ const ClientContent = {
                     sub: "The Goal",
                     title: "A New Beginning",
                     text: "Chattr’s old website’s speed and performance was becoming an issue. Additionally, the way their website had been developed utilized a lot of imagery instead of traditional HTML. As a result, much of their website content wasn’t indexable and not fully responsive. Chattr liked parts of the existing design, but sought to improve the site overall by creating a more consistent look, implementing unique animations, improving user experience, and improving site speed.",
-                    image: "/images/clients/chattr/section1.png"
+                    image: "/images/clients/chattr/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -100,12 +105,14 @@ const ClientContent = {
                     sub: "The Goal",
                     title: "Engaging and Fast",
                     text: "Utilizing Next.js, a framework they leverage in their technology stack, we converted all the unnecessary images into pure HTML and CSS. This eliminated the need to load massive images and improved overall responsiveness. We explored unique animations through the development process, ultimately deciding upon animating their branding elements throughout. We improved the user experience by reducing unnecessary information toggles and rearranged relevant content. Finally, we optimized every aspect of the site, reducing the overall site load time by 97%.",
-                    image: "/images/clients/chattr/section2.png"
+                    image: "/images/clients/chattr/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "Chattr",
                     desktopLeft: "/images/clients/chattr/desktop-left.png",
                     desktopLeftLink: "https://chattr.ai",
                     desktopRight: "/images/clients/chattr/desktop-right.png",
@@ -150,7 +157,8 @@ const ClientContent = {
                     sub: "The Challenge",
                     title: "Transform and Connect",
                     text: "Blockchain Education Network needed to recreate their entire website to better appeal to their target audience. At the core of BEN is their community, and keeping that community informed and updated is critical. In addition, they are an international organization, and with that comes many people needing the ability to collaborate on the website. This required them to have easy processes in place to update site content, such as team members, sponsors, and clubs.",
-                    image: "/images/clients/ben/section1.png"
+                    image: "/images/clients/ben/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -159,12 +167,14 @@ const ClientContent = {
                     sub: "The Solution",
                     title: "Total Connectivity",
                     text: "BEN leverages Monday.com for much of its organizational functions. It was clear that enabling them to update their website content through a Monday board would be the best solution. Utilizing Monday's API, we set up much of the site to leverage Monday as a content management system. As a result, BEN can easily update and add content while also having a front-end that resonates more with their demographic. Leveraging Next.js for the website's front-end, we delivered a lightning-fast and completely revitalized web experience for BEN's members.",
-                    image: "/images/clients/ben/section2.png"
+                    image: "/images/clients/ben/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "Blockchain Education Network",
                     desktopLeft: "/images/clients/ben/desktop-left.png",
                     desktopLeftLink: "https://chattr.ai",
                     desktopRight: "/images/clients/ben/desktop-right.png",
@@ -211,7 +221,8 @@ const ClientContent = {
                     sub: "The Challenge",
                     title: "Completing a Rebrand",
                     text: "Bobtail went through a significant rebrand, and they needed a website that was more in line with their new branding. They required seven design screens developed into a fully functioning website that was lightning-fast and easy to maintain after the development. A focal point of the website development was showcasing people whenever possible. Bobtail is very much a people-focused business, and they wanted that front and center.",
-                    image: "/images/clients/bobtail/section1.png"
+                    image: "/images/clients/bobtail/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -220,7 +231,8 @@ const ClientContent = {
                     sub: "The Solution",
                     title: "People Focused Design",
                     text: "We took the seven design screens created in Figma and created a fully functional and responsive website. We set up the entire website to be easily maintainable for a non-technical individual and left no stone unturned to have the site running as fast as possible. Through a few iterations during development, we found additional areas to highlight the users of Bobtail, better communicating the company’s mission to help drivers.",
-                    image: "/images/clients/bobtail/section2.png"
+                    image: "/images/clients/bobtail/section2.png",
+                    altText: ""
                 },
             ],
         testimonial:
@@ -243,6 +255,7 @@ const ClientContent = {
         screens:
             [
                 {
+                    name: "Bobtail",
                     desktopLeft: "/images/clients/bobtail/desktop-left.png",
                     desktopLeftLink: "https://chattr.ai",
                     desktopRight: "/images/clients/bobtail/desktop-right.png",
@@ -289,7 +302,8 @@ const ClientContent = {
                     sub: "The Challenge",
                     title: "No Automated Solution",
                     text: "The HID Factory needed an e-commerce solution to house thousands of SKUs and have a highly customizable vehicle filter that wouldn’t take forever to produce results. They spent a lot of time educating customers to make the correct selection, bogging down their customer service resources. In addition, this filter needed to match thousands of possible vehicle configurations with every compatible product they sold and would sell in the future.",
-                    image: "/images/clients/the-hid-factory/section1.png"
+                    image: "/images/clients/the-hid-factory/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -298,12 +312,14 @@ const ClientContent = {
                     sub: "The Solution",
                     title: "Fast and Easy to Use",
                     text: "We had to leverage a third-party vehicle lighting fitment database to create a database of all the lighting sizes for all popular vehicle models. We then mapped those to all of the client’s products through a tagging system. To enable this filter to stay up-to-date when new products are added, we designed it so that any new products would populate automatically. To reduce the query time, we leveraged a special data model to optimize the filtering process. Most importantly, this significantly reduced the call volume THF received, freeing up their internal resources.",
-                    image: "/images/clients/the-hid-factory/section2.png"
+                    image: "/images/clients/the-hid-factory/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "The HID Factory",
                     desktopLeft: "/images/clients/the-hid-factory/desktop-left.png",
                     desktopLeftLink: "https://chattr.ai",
                     desktopRight: "/images/clients/the-hid-factory/desktop-right.png",
@@ -350,7 +366,8 @@ const ClientContent = {
                     sub: "The Challenge",
                     title: "No Automated Solution",
                     text: "The HID Factory needed an e-commerce solution to house thousands of SKUs and have a highly customizable vehicle filter that wouldn’t take forever to produce results. They spent a lot of time educating customers to make the correct selection, bogging down their customer service resources. In addition, this filter needed to match thousands of possible vehicle configurations with every compatible product they sold and would sell in the future.",
-                    image: "/images/clients/the-hid-factory/section1.png"
+                    image: "/images/clients/the-hid-factory/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -359,12 +376,14 @@ const ClientContent = {
                     sub: "The Solution",
                     title: "Fast and Easy to Use",
                     text: "We had to leverage a third-party vehicle lighting fitment database to create a database of all the lighting sizes for all popular vehicle models. We then mapped those to all of the client’s products through a tagging system. To enable this filter to stay up-to-date when new products are added, we designed it so that any new products would populate automatically. To reduce the query time, we leveraged a special data model to optimize the filtering process. Most importantly, this significantly reduced the call volume THF received, freeing up their internal resources.",
-                    image: "/images/clients/the-hid-factory/section2.png"
+                    image: "/images/clients/the-hid-factory/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "Aerial Work Platforms",
                     desktopLeft: "/images/clients/the-hid-factory/desktop-left.png",
                     desktopLeftLink: "https://chattr.ai",
                     desktopRight: "/images/clients/the-hid-factory/desktop-right.png",
@@ -415,7 +434,8 @@ const ClientContent = {
                     sub: "The Challenge",
                     title: "No Automated Solution",
                     text: "The HID Factory needed an e-commerce solution to house thousands of SKUs and have a highly customizable vehicle filter that wouldn’t take forever to produce results. They spent a lot of time educating customers to make the correct selection, bogging down their customer service resources. In addition, this filter needed to match thousands of possible vehicle configurations with every compatible product they sold and would sell in the future.",
-                    image: "/images/clients/the-hid-factory/section1.png"
+                    image: "/images/clients/the-hid-factory/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -424,12 +444,14 @@ const ClientContent = {
                     sub: "The Solution",
                     title: "Fast and Easy to Use",
                     text: "We had to leverage a third-party vehicle lighting fitment database to create a database of all the lighting sizes for all popular vehicle models. We then mapped those to all of the client’s products through a tagging system. To enable this filter to stay up-to-date when new products are added, we designed it so that any new products would populate automatically. To reduce the query time, we leveraged a special data model to optimize the filtering process. Most importantly, this significantly reduced the call volume THF received, freeing up their internal resources.",
-                    image: "/images/clients/the-hid-factory/section2.png"
+                    image: "/images/clients/the-hid-factory/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "Reflections Therapy",
                     desktopLeft: "/images/clients/the-hid-factory/desktop-left.png",
                     desktopLeftLink: "https://chattr.ai",
                     desktopRight: "/images/clients/the-hid-factory/desktop-right.png",
@@ -476,7 +498,8 @@ const ClientContent = {
                     sub: "The Challenge",
                     title: "Modernization and Customer Attraction",
                     text: "Magnetite wanted to refresh its website, which was previously developed in 2010. It was beginning to look out of date and not attracting its target demographic. Magnetite wanted a new website that would position itself as a more modern and professional company. They also sought to have a window measurement tool that would alleviate some of the customer service obligations.",
-                    image: "/images/clients/magnetite/section1.png"
+                    image: "/images/clients/magnetite/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -485,12 +508,14 @@ const ClientContent = {
                     sub: "The Solution",
                     title: "Modern and Customer Focused",
                     text: "To achieve a more modern look, we leaned into their existing brand colors and moved away from the traditional black and white of the old website. To showcase the professional and people-focused side of the company, we leveraged video testimonials throughout the entire site. To free up the customer service staff, we developed an advanced form that allowed customers to input all their exact measurements, reducing a lot of back and forth that previously was unavoidable.",
-                    image: "/images/clients/magnetite/section2.png"
+                    image: "/images/clients/magnetite/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "Magnetite",
                     desktopLeft: "/images/clients/magnetite/desktop-right.png",
                     desktopLeftLink: "https://chattr.ai",
                     desktopRight: "/images/clients/magnetite/desktop-left.png",
@@ -536,7 +561,8 @@ const ClientContent = {
                     sub: "The Challenge",
                     title: "Recreate and Maintain Rankings",
                     text: "Go-Cottage’s old website was in dire need of a refresh, bringing it into the modern age. It wasn’t fully responsive but contained years of valuable blog content that needed to be preserved without impacting their SEO. In addition, they wanted to make the website more modern and accurately show the availability of their rental properties as that’s the site's primary call to action.",
-                    image: "/images/clients/go-cottage/section1.png"
+                    image: "/images/clients/go-cottage/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -545,12 +571,14 @@ const ClientContent = {
                     sub: "The Solution",
                     title: "Completely Reimagined",
                     text: "We rebranded their website according to their new branding guidelines and preserved and improved the SEO structure of their blog posts. As a result of this restructuring, Go-Cottage saw an increase in virtually all analytical benchmarks. For the scheduling, they were leveraging Airbnb. Previously they would need to look at Airbnb and then manually create an event in Google Calendar to showcase a property had already been booked. We developed an integration that hooked directly into Airbnb, allowing them to use Airbnb as a singular source of truth for their bookings, minimizing possible customer confusion.",
-                    image: "/images/clients/go-cottage/section2.png"
+                    image: "/images/clients/go-cottage/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "Go-Cottage",
                     desktopLeft: "/images/clients/go-cottage/desktop-left.png",
                     desktopLeftLink: "https://go-cottage/about",
                     desktopRight: "/images/clients/go-cottage/desktop-right.png",
@@ -596,7 +624,8 @@ const ClientContent = {
                     sub: "The Challenge",
                     title: "No Digital Presence of Branding",
                     text: "CarTalk Repair had an idea, but needed branding and an online presence to be successful in their new venture. They needed something that would showcase their services, experience, and dedication to transparency and customer service. Additionally, they also wanted a way for customers to schedule appointments that would hook directly into their existing scheduling software.",
-                    image: "/images/clients/cartalk-repair/section1.png"
+                    image: "/images/clients/cartalk-repair/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -605,12 +634,14 @@ const ClientContent = {
                     sub: "The Solution",
                     title: "A Complete Digital Presence",
                     text: "We developed branding for CarTalk that fit with their target demographic after conducting extensive market research. We designed and developed a website that showcased their service offerings and core values. To provide full connectivity to their existing business processes, we connected booking to their current bookings platform via a custom API.",
-                    image: "/images/clients/cartalk-repair/section2.png"
+                    image: "/images/clients/cartalk-repair/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "CarTalk Repair",
                     desktopLeft: "/images/clients/cartalk-repair/desktop-left.png",
                     desktopLeftLink: "https://go-cottage/about",
                     desktopRight: "/images/clients/cartalk-repair/desktop-right.png",
@@ -656,7 +687,8 @@ const ClientContent = {
                     sub: "The Goal",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
-                    image: "/images/clients/bluecollar/section1.png"
+                    image: "/images/clients/bluecollar/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -665,12 +697,14 @@ const ClientContent = {
                     sub: "The Goal",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
-                    image: "/images/clients/bluecollar/section2.png"
+                    image: "/images/clients/bluecollar/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "Blue Collar Success Group",
                     desktopLeft: "/images/clients/bluecollar/desktop-left.png",
                     desktopLeftLink: "https://go-cottage/about",
                     desktopRight: "/images/clients/bluecollar/desktop-right.png",
@@ -717,7 +751,8 @@ const ClientContent = {
                     sub: "The Goal",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
-                    image: "/images/clients/zexster/section1.png"
+                    image: "/images/clients/zexster/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -726,12 +761,14 @@ const ClientContent = {
                     sub: "The Goal",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
-                    image: "/images/clients/zexster/section2.png"
+                    image: "/images/clients/zexster/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "Zexster",
                     desktopLeft: "/images/clients/zexster/desktop-left.png",
                     desktopLeftLink: "https://go-cottage/about",
                     desktopRight: "/images/clients/zexster/desktop-right.png",
@@ -778,7 +815,8 @@ const ClientContent = {
                     sub: "The Goal",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
-                    image: "/images/clients/lessons-that-rock/section1.png"
+                    image: "/images/clients/lessons-that-rock/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -787,12 +825,14 @@ const ClientContent = {
                     sub: "The Goal",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
-                    image: "/images/clients/lessons-that-rock/section2.png"
+                    image: "/images/clients/lessons-that-rock/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "Lessons That Rock",
                     desktopLeft: "/images/clients/lessons-that-rock/desktop-left.png",
                     desktopLeftLink: "https://go-cottage/about",
                     desktopRight: "/images/clients/lessons-that-rock/desktop-right.png",
@@ -840,7 +880,8 @@ const ClientContent = {
                     sub: "The Goal",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
-                    image: "/images/clients/lessons-that-rock/section1.png"
+                    image: "/images/clients/lessons-that-rock/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -849,12 +890,14 @@ const ClientContent = {
                     sub: "The Goal",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
-                    image: "/images/clients/lessons-that-rock/section2.png"
+                    image: "/images/clients/lessons-that-rock/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "Safe-Dry",
                     desktopLeft: "/images/clients/lessons-that-rock/desktop-left.png",
                     desktopLeftLink: "https://go-cottage/about",
                     desktopRight: "/images/clients/lessons-that-rock/desktop-right.png",
@@ -903,7 +946,8 @@ const ClientContent = {
                     sub: "The Challenge",
                     title: "Test Title",
                     text: "Homewatch Amelia had no existing brand, website, or online presence. They needed to establish themselves in a brand new market to attract clients and build a positive reputation. They needed a website that communicated trust, professionalism and highlighted the founder's experience in a similar industry. When it came to the website, they valued greatly the ability to maintain it easily after the initial development.",
-                    image: "/images/clients/lessons-that-rock/section1.png"
+                    image: "/images/clients/lessons-that-rock/section1.png",
+                    altText: ""
                 },
             ],
         section2:
@@ -912,12 +956,14 @@ const ClientContent = {
                     sub: "The Solution",
                     title: "Test Title",
                     text: "We created a complete branding kit, social accounts and designed and developed their website from start to finish. We created a custom WordPress website that was set up to be easily maintained by non-technical individuals. In addition, we provided documentation and recorded videos of standard updates so they could easily follow along.",
-                    image: "/images/clients/lessons-that-rock/section2.png"
+                    image: "/images/clients/lessons-that-rock/section2.png",
+                    altText: ""
                 },
             ],
         screens:
             [
                 {
+                    name: "Homewatch Amelia",
                     desktopLeft: "/images/clients/amelia/desktop-left.png",
                     desktopLeftLink: "https://go-cottage/about",
                     desktopRight: "/images/clients/amelia/desktop-right.png",

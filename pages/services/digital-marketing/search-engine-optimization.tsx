@@ -26,7 +26,11 @@ const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdo
 
 function SearchEngineOptimization() {
   const seoImage1 = SEO.text1.map((text1) => (
-    <StandardImage image={text1.image} imageAngle="none" />
+    <StandardImage
+      image={text1.image}
+      altText={text1.altText}
+      imageAngle="none"
+    />
   ));
 
   const seoText1 = SEO.text1.map((text1) => (
@@ -36,6 +40,7 @@ function SearchEngineOptimization() {
   const seoImage2 = SEO.text2.map((text2) => (
     <ServiceImage
       image={text2.image}
+      altText={text2.altText}
       imageAngle="none"
       width={text2.width}
       height={text2.height}
@@ -49,6 +54,7 @@ function SearchEngineOptimization() {
   const seoImage3 = SEO.text3.map((text3) => (
     <ServiceImage
       image={text3.image}
+      altText={text3.altText}
       imageAngle="none"
       width={text3.width}
       height={text3.height}
@@ -62,6 +68,7 @@ function SearchEngineOptimization() {
   const seoImage4 = SEO.text4.map((text4) => (
     <ServiceImage
       image={text4.image}
+      altText={text4.altText}
       imageAngle="none"
       width={text4.width}
       height={text4.height}
@@ -75,6 +82,7 @@ function SearchEngineOptimization() {
   const seoImage5 = SEO.text5.map((text5) => (
     <ServiceImage
       image={text5.image}
+      altText={text5.altText}
       imageAngle="none"
       width={text5.width}
       height={text5.height}
