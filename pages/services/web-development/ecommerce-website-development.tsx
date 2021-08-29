@@ -19,6 +19,7 @@ import ecommerceProcess from "../../../content/servicePages/ourProcess";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
+import Head from "next/head";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const ResponsiveScreens = dynamic(() => import("../../../components/ResponsiveScreens"));
@@ -26,11 +27,11 @@ const Integration = dynamic(() => import("../../../components/Integration"));
 
 function EcommerceWebsiteDevelopment() {
   const image1 = Ecommerce.text1.map((text1) => (
-    <ServiceImage 
-    image={text1.image} 
-    imageAngle="none" 
-    height={text1.height}
-    width={text1.width}
+    <ServiceImage
+      image={text1.image}
+      imageAngle="none"
+      height={text1.height}
+      width={text1.width}
     />
   ));
 
@@ -39,11 +40,11 @@ function EcommerceWebsiteDevelopment() {
   ));
 
   const image2 = Ecommerce.text2.map((text2) => (
-    <ServiceImage 
-    image={text2.image} 
-    height={text2.height}
-    width={text2.width}
-    imageAngle="none" />
+    <ServiceImage
+      image={text2.image}
+      height={text2.height}
+      width={text2.width}
+      imageAngle="none" />
   ));
 
   const text2 = Ecommerce.text2.map((text2) => (
@@ -51,11 +52,11 @@ function EcommerceWebsiteDevelopment() {
   ));
 
   const image3 = Ecommerce.text3.map((text3) => (
-    <ServiceImage 
-    image={text3.image} 
-    height={text3.height}
-    width={text3.width}
-    imageAngle="none" />
+    <ServiceImage
+      image={text3.image}
+      height={text3.height}
+      width={text3.width}
+      imageAngle="none" />
   ));
 
   const text3 = Ecommerce.text3.map((text3) => (
@@ -63,11 +64,11 @@ function EcommerceWebsiteDevelopment() {
   ));
 
   const image4 = Ecommerce.text4.map((text4) => (
-    <ServiceImage 
-    image={text4.image} 
-    height={text4.height}
-    width={text4.width}
-    imageAngle="none" />
+    <ServiceImage
+      image={text4.image}
+      height={text4.height}
+      width={text4.width}
+      imageAngle="none" />
   ));
 
   const text4 = Ecommerce.text4.map((text4) => (
@@ -75,20 +76,37 @@ function EcommerceWebsiteDevelopment() {
   ));
 
   const image5 = Ecommerce.text5.map((text5) => (
-    <ServiceImage 
-    image={text5.image} 
-    height={text5.height}
-    width={text5.width}
-    imageAngle="none" />
+    <ServiceImage
+      image={text5.image}
+      height={text5.height}
+      width={text5.width}
+      imageAngle="none" />
   ));
 
   const text5 = Ecommerce.text5.map((text5) => (
     <StandardTextBlock title={text5.title} text={text5.text} />
   ));
 
-  
+
   return (
     <div className="m-auto overflow-hidden">
+      <Head>
+        <title>E-commerce Website Development | Confidently Sell Online</title>
+        <meta name="description" content="At Alkali we build e-commerce websites that drive conversions and fit within your existing business processes." />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="E-commerce Website Development | Confidently Sell Online" />
+        <meta property="og:description" content="At Alkali we build e-commerce websites that drive conversions and fit within your existing business processes." />
+        <meta property="og:url" content="/" />
+        <meta property="og:site_name" content="Alkali" />
+        <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
+        <meta property="og:image" content="/images/facebook-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <div>
         <CombinedNavigation
           headerBackground="bg-alkali-500"
@@ -110,12 +128,12 @@ function EcommerceWebsiteDevelopment() {
                 E-commerce Website Development
               </h3>
               <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">
-              Whether you’re an existing brick-and-mortar store looking to add another sales channel or about to 
-              launch your B2C product, we can help guide you along your e-commerce journey. There are many options 
-              when it comes to e-commerce platforms, which is why we’re always learning. With our knowledge and expertise, 
-              we aim to thoroughly understand your business so that we can work closely with you to see your goals realized. 
-              So if you’re looking to have a store developed from scratch, increase your conversion rate or sales, you’ve come 
-              to the right place.
+                Whether you’re an existing brick-and-mortar store looking to add another sales channel or about to
+                launch your B2C product, we can help guide you along your e-commerce journey. There are many options
+                when it comes to e-commerce platforms, which is why we’re always learning. With our knowledge and expertise,
+                we aim to thoroughly understand your business so that we can work closely with you to see your goals realized.
+                So if you’re looking to have a store developed from scratch, increase your conversion rate or sales, you’ve come
+                to the right place.
               </p>
             </div>
             <div className="z-0 pointer-events-none">
@@ -191,9 +209,9 @@ function EcommerceWebsiteDevelopment() {
           Tailored for Your Business
         </h6>
         <p className="text-center max-w-2xl m-auto text-lg font-normal pt-4">
-        There are a lot of e-commerce solutions out there, which can make the selection process 
-        complicated. To combat this, we spend the time to truly understand your business to provide a 
-        recommendation based on our years of experience.
+          There are a lot of e-commerce solutions out there, which can make the selection process
+          complicated. To combat this, we spend the time to truly understand your business to provide a
+          recommendation based on our years of experience.
         </p>
       </div>
       <TwoColumnLayout flexType="reverse" child1={image2} child2={text2} />
@@ -260,9 +278,9 @@ function EcommerceWebsiteDevelopment() {
           Keep Your Store Connected
         </h6>
         <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
-        Platforms such as Shopify, WooCommerce, BigCommerce, and Magento offer countless 
-        third-party integrations. These integrations provide endless opportunities to streamline 
-        your workflow, ultimately allowing you to spend more time growing your business.
+          Platforms such as Shopify, WooCommerce, BigCommerce, and Magento offer countless
+          third-party integrations. These integrations provide endless opportunities to streamline
+          your workflow, ultimately allowing you to spend more time growing your business.
         </p>
       </div>
       <Integration style="pb-24 bg-white py-14 2xl:px-0" />

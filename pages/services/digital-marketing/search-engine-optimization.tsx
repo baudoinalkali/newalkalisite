@@ -19,6 +19,7 @@ import { text } from "@fortawesome/fontawesome-svg-core";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
+import Head from "next/head";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
@@ -86,6 +87,23 @@ function SearchEngineOptimization() {
 
   return (
     <div className="overflow-hidden">
+      <Head>
+        <title>Search Engine Optimization | Get Results in Just 2 Months</title>
+        <meta name="description" content="At Alkali, we provide our clients comprehensive search engine marketing results. We stop at nothing to get our clients results." />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Search Engine Optimization | Get Results in Just 2 Months" />
+        <meta property="og:description" content="At Alkali, we provide our clients comprehensive search engine marketing results. We stop at nothing to get our clients results." />
+        <meta property="og:url" content="/" />
+        <meta property="og:site_name" content="Alkali" />
+        <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
+        <meta property="og:image" content="/images/facebook-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <CombinedNavigation
         headerBackground="bg-alkali-500"
         headerColor="white"

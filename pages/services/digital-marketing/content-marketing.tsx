@@ -17,17 +17,18 @@ import AuditFormPopup from "../../../components/AuditFormPopup";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
+import Head from "next/head";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function ContentMarketing() {
   const contentImage1 = Content.text1.map((text1) => (
-    <ServiceImage 
-    image={text1.image} 
-    imageAngle="none " 
-    width={text1.width}
-    height={text1.height}
+    <ServiceImage
+      image={text1.image}
+      imageAngle="none "
+      width={text1.width}
+      height={text1.height}
     />
   ));
 
@@ -36,11 +37,11 @@ function ContentMarketing() {
   ));
 
   const contentImage2 = Content.text2.map((text2) => (
-    <ServiceImage 
-    image={text2.image} 
-    imageAngle="none" 
-    width={text2.width}
-    height={text2.height}
+    <ServiceImage
+      image={text2.image}
+      imageAngle="none"
+      width={text2.width}
+      height={text2.height}
     />
   ));
 
@@ -49,11 +50,11 @@ function ContentMarketing() {
   ));
 
   const contentImage3 = Content.text3.map((text3) => (
-    <ServiceImage 
-    image={text3.image} 
-    imageAngle="none" 
-    width={text3.width}
-    height={text3.height}
+    <ServiceImage
+      image={text3.image}
+      imageAngle="none"
+      width={text3.width}
+      height={text3.height}
     />
   ));
 
@@ -62,11 +63,11 @@ function ContentMarketing() {
   ));
 
   const contentImage4 = Content.text4.map((text4) => (
-    <ServiceImage 
-    image={text4.image} 
-    imageAngle="none" 
-    width={text4.width}
-    height={text4.height}
+    <ServiceImage
+      image={text4.image}
+      imageAngle="none"
+      width={text4.width}
+      height={text4.height}
     />
   ));
 
@@ -76,6 +77,23 @@ function ContentMarketing() {
 
   return (
     <div className="overflow-hidden">
+      <Head>
+        <title>Content Marketing Services | Make Every Word Count</title>
+        <meta name="description" content="Alkali provides professional SEO copywriting services. We invite you to learn more about how we can improve establish content that both customers and search engines love." />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Content Marketing Services | Make Every Word Count" />
+        <meta property="og:description" content="Alkali provides professional SEO copywriting services. We invite you to learn more about how we can improve establish content that both customers and search engines love." />
+        <meta property="og:url" content="/" />
+        <meta property="og:site_name" content="Alkali" />
+        <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
+        <meta property="og:image" content="/images/facebook-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <CombinedNavigation
         headerBackground="bg-alkali-500"
         headerColor="white"

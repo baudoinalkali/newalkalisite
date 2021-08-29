@@ -10,6 +10,7 @@ const ClientTestimonialSlide = dynamic(() => import("../components/HomeClientsSl
 import ServiceImage from "../components/Services/ServiceImage";
 import StandardTextBlock from "../components/StandardTextBlock";
 import TwoColumnLayout from "../components/TwoColumnLayout";
+import Head from "next/head";
 
 export default function About() {
 
@@ -36,8 +37,8 @@ export default function About() {
 
   const aboutImage2 = (
     <ServiceImage
-    image="/images/web-development/wordpress/custom-built.svg"
-    height="450"
+      image="/images/web-development/wordpress/custom-built.svg"
+      height="450"
       width="600"
     />
   )
@@ -58,6 +59,23 @@ export default function About() {
 
   return (
     <div className="overflow-hidden">
+      <Head>
+        <title>About Alkali</title>
+        <meta name="description" content="Learn more about what Alkali stands for, our mission, and the commitment to our clients that drives us." />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="About Alkali" />
+        <meta property="og:description" content="Learn more about what Alkali stands for, our mission, and the commitment to our clients that drives us." />
+        <meta property="og:url" content="/" />
+        <meta property="og:site_name" content="Alkali" />
+        <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
+        <meta property="og:image" content="/images/facebook-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <div className="bg-alkaligrey-300">
         <CombinedNavigation headerBackground="bg-alkaligrey-300" />
         <div className="py-20 flex text-center justify-center z-20 px-7">

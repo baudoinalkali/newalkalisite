@@ -17,17 +17,18 @@ import AuditFormPopup from "../../../components/AuditFormPopup";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
+import Head from "next/head";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function Reputation() {
   const socialImage1 = ReputationManagement.text1.map((text1) => (
-    <ServiceImage 
-    image={text1.image} 
-    imageAngle="none" 
-    width={text1.width}
-    height={text1.height}
+    <ServiceImage
+      image={text1.image}
+      imageAngle="none"
+      width={text1.width}
+      height={text1.height}
     />
   ));
 
@@ -36,11 +37,11 @@ function Reputation() {
   ));
 
   const socialImage2 = ReputationManagement.text2.map((text2) => (
-    <ServiceImage 
-    image={text2.image} 
-    imageAngle="none" 
-    width={text2.width}
-    height={text2.height}
+    <ServiceImage
+      image={text2.image}
+      imageAngle="none"
+      width={text2.width}
+      height={text2.height}
     />
   ));
 
@@ -49,11 +50,11 @@ function Reputation() {
   ));
 
   const socialImage3 = ReputationManagement.text3.map((text3) => (
-    <ServiceImage 
-    image={text3.image} 
-    imageAngle="none" 
-    width={text3.width}
-    height={text3.height}
+    <ServiceImage
+      image={text3.image}
+      imageAngle="none"
+      width={text3.width}
+      height={text3.height}
     />
   ));
 
@@ -62,11 +63,11 @@ function Reputation() {
   ));
 
   const socialImage4 = ReputationManagement.text4.map((text4) => (
-    <ServiceImage 
-    image={text4.image} 
-    imageAngle="none" 
-    width={text4.width}
-    height={text4.height}
+    <ServiceImage
+      image={text4.image}
+      imageAngle="none"
+      width={text4.width}
+      height={text4.height}
     />
   ));
 
@@ -76,6 +77,23 @@ function Reputation() {
 
   return (
     <div className="overflow-hidden">
+      <Head>
+        <title>Reputation Management | We Protect You Online</title>
+        <meta name="description" content="Alkali provides online reputation mangement services designed to fix, repair, and manage your online presence." />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Reputation Management | We Protect You Online" />
+        <meta property="og:description" content="Alkali provides online reputation mangement services designed to fix, repair, and manage your online presence." />
+        <meta property="og:url" content="/" />
+        <meta property="og:site_name" content="Alkali" />
+        <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
+        <meta property="og:image" content="/images/facebook-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <CombinedNavigation
         headerBackground="bg-alkali-500"
         headerColor="white"
