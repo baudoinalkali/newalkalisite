@@ -56,7 +56,7 @@ function Amelia() {
   ));
 
   return (
-    <div className="m-auto">
+    <div className="m-auto overflow-hidden">
       <Head>
         <title>Bobtail Project | Alkali</title>
         <meta name="description" content="Learn more about how we redesigned Bobtail's website to better align with their new branding." />
