@@ -9,12 +9,8 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                            serviceSlug: "/services/web-development/wordpress-website-development"
+                        }
                     ],
                     image: "/images/clients/carro/carro-header-image.png",
                     width: "600",
@@ -71,13 +67,9 @@ const ClientContent = {
                     name: "Chattr",
                     services: [
                         {
-                            service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                            service: "Custom Web Development",
+                            serviceSlug: "/services/web-development/custom-website-development"
+                        }
                     ],
                     image: "/images/clients/chattr/chattr-hero-image.svg",
                     width: "600",
@@ -134,13 +126,9 @@ const ClientContent = {
                     name: "Blockchain Education Network",
                     services: [
                         {
-                            service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                            service: "Custom Web Development",
+                            serviceSlug: "/services/web-development/custom-website-development"
+                        }
                     ],
                     image: "/images/clients/ben/ben-hero-image.png",
                     width: "490",
@@ -198,12 +186,8 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                            serviceSlug: "/services/web-development/wordpress-website-development"
+                        }
                     ],
                     backgroundImg: "/images/clients/bobtail/hero-background.jpg",
                     backgroundOverlay: "true",
@@ -262,13 +246,9 @@ const ClientContent = {
                     name: "The HID Factory",
                     services: [
                         {
-                            service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                            service: "E-commerce Web Development",
+                            serviceSlug: "/services/web-development/ecommerce-website-development"
+                        }
                     ],
                     backgroundImg: "/images/clients/bobtail/hero-background.jpg",
                     image: "/",
@@ -328,8 +308,8 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
+                            serviceSlug: "/services/web-development/wordpress-website-development"
+                        }
                     ],
                     backgroundImg: "/images/clients/awp/hero-background.jpg",
                     image: "/",
@@ -454,12 +434,8 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                            serviceSlug: "/services/web-development/wordpress-website-development"
+                        }
                     ],
                     backgroundImg: "/images/clients/magnetite/hero-background.jpg",
                     backgroundOverlay: "true",
@@ -518,12 +494,8 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                            serviceSlug: "/services/web-development/wordpress-website-development"
+                        }
                     ],
                     backgroundImg: "/images/clients/go-cottage/hero-background.jpg",
                     image: "/",
@@ -582,12 +554,8 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                            serviceSlug: "/services/web-development/wordpress-website-development"
+                        }
                     ],
                     backgroundImg: "/images/clients/cartalk/hero-background.jpg",
                     backgroundOverlay: "true",
@@ -646,12 +614,8 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                            serviceSlug: "/services/web-development/wordpress-website-development"
+                        }
                     ],
                     backgroundImg: "/images/clients/bluecollar/hero-background.jpg",
                     backgroundOverlay: "true",
@@ -895,12 +859,8 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                            serviceSlug: "/services/web-development/wordpress-website-development"
+                        }
                     ],
                     service: ["WordPress Web Development", "Branding"],
                     serviceSlug: ["test2", "test3"],

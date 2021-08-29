@@ -67,7 +67,7 @@ export default function About() {
             </h1>
             <p className="text-white py-10 text-alkaligrey-800 max-w-2xl m-auto text-xl lg:text-2xl">
               Learn more about Alkali and the values that drive us to deliver
-              for our clients, employees, and partners.
+              for our clients, partners, and team.
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function About() {
       <div className="bg-alkaligrey-300 py-36">
         <div className="px-7 pb-36 2xl:px-0">
           <h6 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-20">
-            Our SEO Services
+            Core Values
           </h6>
           <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
             {AboutContent.values.map((values) => (
