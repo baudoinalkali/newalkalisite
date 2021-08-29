@@ -242,6 +242,7 @@ function EcommerceWebsiteDevelopment() {
               company={testimonial.company}
               key={`designTestimonialFor${testimonial.company}`}
               logo={testimonial.logo}
+              slug={testimonial.slug}
               logoHeight={testimonial.logoHeight}
               logoWidth={testimonial.logoWidth}
               altText={testimonial.altText}

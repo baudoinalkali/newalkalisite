@@ -13,6 +13,7 @@ function Contact() {
       description: "We'd love to talk about how we can work together",
       slug: "/contact/#hs-chat-open",
       icon: "/images/chat.svg",
+      alt: "",
       buttonName: "Start Chat"
     },
     {
@@ -20,6 +21,7 @@ function Contact() {
       description: "We'd love to talk about how we can work together",
       slug: "mailto:solutions@alkalidesigns.com",
       icon: "/images/email.svg",
+      alt: "",
       buttonName: "Send Email"
     },
     {
@@ -27,6 +29,7 @@ function Contact() {
       description: "We'd love to talk about how we can work together",
       slug: "tel:2819445711",
       icon: "/images/phone.svg",
+      alt: "",
       buttonName: "Start Call"
     }
   ]
