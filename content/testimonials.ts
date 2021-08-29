@@ -8,6 +8,7 @@ const Testimonials = {
       logoWidth: "300",
       logoHeight: "140",
       altText: " ",
+      slug: "https://cartalkrepair.com",
       name: "Sharon Middendorf",
       quote:
         "Starting off as a new business we realized the importance of having a sound online presence early on. We are extremely grateful we found Alkali we did. They have provided us the tools we need to adequately serve our customers.",
@@ -20,6 +21,7 @@ const Testimonials = {
       logo: "/images/carro-logo.png",
       logoWidth: "200",
       logoHeight: "100",
+      slug: "https://getcarro.com",
       altText: " ",
       name: "Eric Sanchez, Operations Manager",
       quote:
