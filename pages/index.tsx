@@ -12,6 +12,7 @@ import dynamic from 'next/dynamic';
 import TwoColumnLayout from "../components/TwoColumnLayout";
 import ServiceImage from "../components/Services/ServiceImage";
 import StandardTextBlock from "../components/StandardTextBlock";
+import Head from "next/head";
 const HomeTestimonialSlider = dynamic(() => import("../components/HomeTestimonialSlider"));
 const HomeClientsSlider = dynamic(() => import("../components/HomeClientsSlider"));
 
@@ -117,6 +118,23 @@ const ServicesHome = [
 export default function Home() {
   return (
     <div className="overflow-hidden">
+      <Head>
+        <title>Alkali | Digital Marketing</title>
+        <meta name="description" content="Alkali is a people focused digital marketing agency. We provide SEO, Web Development, PPC, social, and other services to help our clients win online." />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Alkali | Digital Marketing" />
+        <meta property="og:description" content="Alkali is a people focused digital marketing agency. We provide SEO, Web Development, PPC, social, and other services to help our clients win online." />
+        <meta property="og:url" content="/" />
+        <meta property="og:site_name" content="DAP" />
+        <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
+        <meta property="og:image" content="/images/facebook-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <HomeHero />
       <div className="">
         <TwoColumnLayout
