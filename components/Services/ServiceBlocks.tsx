@@ -10,7 +10,7 @@ const ServiceBlocks = (props) => {
                 alt={props.altText}
             />
             <h4 className="py-3 font-bold">{props.serviceTitle}</h4>
-            <p>{props.serviceText}</p>
+            <p className="text-alkaligrey-400">{props.serviceText}</p>
         </div>
     )
 }

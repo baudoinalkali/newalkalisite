@@ -13,6 +13,7 @@ import PPCFAQ from "../../../content/servicePages/faq";
 import AuditFormPopup from "../../../components/AuditFormPopup";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
+import AuditSection from "../../../components/Services/AuditSection";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
@@ -122,17 +123,26 @@ function PayPerClick() {
           ))}
         </div>
       </div>
+      <AuditSection
+        backgroundColor="bg-alkaligrey-300"
+        serviceName="SEO"
+        area1="Full website weview (content, CRO, performance)"
+        area2="SEO: Comprehensive on-page audit"
+        area3="Digital marketing/reputation management"
+        portalId="20442125"
+        formId="a7151b69-9aec-4d86-b2bf-577b81ddc8ca"
+      />
       <TwoColumnLayout
-        style="bg-alkaligrey-300 pb-100 mb-3"
+        style="mb-3"
         child2={seoImage3}
         child1={seoText3}
       />
-      <div className="-mt-72 px-14 2xl:px-0">
-        <h3 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-14">
+      <div className="px-7 pt-10">
+        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
           Hear It Straight From Our Clients
         </h3>
       </div>
-      <div className="relative z-20">
+      <div className="relative z-20 -mb-48">
         <TestimonialSlider>
           {Testimonials.wordpress.map((testimonial) => (
             <TestimonialSlide
@@ -153,7 +163,7 @@ function PayPerClick() {
       </div>
       <TwoColumnLayout
         flexType="reverse"
-        style="pt-36"
+        style="pt-80 bg-alkaligrey-300"
         child1={seoImage4}
         child2={seoText4}
       />

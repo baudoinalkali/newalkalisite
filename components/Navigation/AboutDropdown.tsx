@@ -46,14 +46,14 @@ export default function AboutDropdown(props) {
   const dropdownTextColor = () => {
     return `${
       props.headerColor === "white"
-        ? "text-white hover:text-alkaligrey-700"
-        : "hover:text-alkali-500"
+        ? "text-white hover:opacity-50"
+        : "hover:opacity-40"
     } text-md font-bold uppercase`;
   };
 
   const dropdownTextColorOpen = () => {
     return `${
-      props.headerColor === "white" ? "text-alkaligrey-700" : "text-alkali-500"
+      props.headerColor === "white" ? "text-white opacity-50" : "text-black opacity-40"
     }`;
   };
 
@@ -70,8 +70,8 @@ export default function AboutDropdown(props) {
               <ChevronDownIcon
                 className={`${
                   open
-                    ? `transform -rotate-90 text-white ${dropdownTextColorOpen()}`
-                    : "text-opacity-70"
+                    ? `transform -rotate-90 text-black ${dropdownTextColorOpen()}`
+                    : "text-opacity-50"
                 }
                   ml-2 h-5 w-5 text-orange-300 group-hover:text-opacity-80 transition ease-in-out duration-150`}
                 aria-hidden="true"

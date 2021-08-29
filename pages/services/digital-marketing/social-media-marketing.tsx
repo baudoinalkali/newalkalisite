@@ -17,6 +17,7 @@ import AuditFormPopup from "../../../components/AuditFormPopup";
 import { text } from "@fortawesome/fontawesome-svg-core";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
+import AuditSection from "../../../components/Services/AuditSection";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
@@ -109,36 +110,15 @@ function SocialMediaMarketing() {
           ))}
         </div>
       </div>
-      <div className="bg-alkaligrey-300 py-24 px-7">
-        <div className="flex space-x-0 lg:space-x-14 flex-col lg:flex-row m-auto justify-between items-center max-w-7xl">
-          <div className="w-full lg:w-1/2 flex justify-center">
-            <Image
-              src="/images/digital-marketing/social/free-audit.svg"
-              width={450}
-              height={450}
-              quality={100}
-            />
-          </div>
-          <div className="w-full lg:w-1/2">
-            <h2 className="text-2xl md:text-3xl font-bold leading-tight">
-              Get a Complementary Social Media Audit
-            </h2>
-            <form className="flex rounded-md my-7 shadow-2xl">
-              <input
-                className="rounded-l-lg border-t pl-4 w-screen border-b border-l text-gray-800 border-gray-200 bg-white"
-                placeholder="yourwebsite.com"
-              />
-              <button className="p-3 px-6 font-semibold text-white rounded-r-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-700">
-                Submit
-              </button>
-            </form>
-            <p>
-              Our Social Media Marketing specialists are standing by to audit
-              your social presence and provide a detailed action report.
-            </p>
-          </div>
-        </div>
-      </div>
+      <AuditSection
+        backgroundColor="bg-alkaligrey-300"
+        serviceName="SEO"
+        area1="Full website weview (content, CRO, performance)"
+        area2="SEO: Comprehensive on-page audit"
+        area3="Digital marketing/reputation management"
+        portalId="20442125"
+        formId="a7151b69-9aec-4d86-b2bf-577b81ddc8ca"
+      />
       <TwoColumnLayout
         style="bg-white pb-100 mb-3"
         child2={socialImage3}

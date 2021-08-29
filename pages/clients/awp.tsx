@@ -101,7 +101,7 @@ function Amelia() {
               altText=""
               slug="chattr"
               name="Robert Rivera, Founder"
-              quote="Alkali not only delivered on the technical skills, but they literally acted like one of our team members diving head first, always available, immediate responses, over-communication and adherence to timelines."
+              quote="I cannot say enough positive things about Alkali. It was a great experience and I would highly recommend anyone interested on a new website or a refresher call them up."
             />
           ))}
         </div>
