@@ -129,7 +129,7 @@ const MobileDropdown = (props) => {
                               </>
                             )}
                           </Disclosure>
-                          <Disclosure>
+                          {/* <Disclosure>
                             {({ open }) => (
                               <>
                                 <Disclosure.Button className="my-4 flex items-center font-mont text-chablack-300 hover:text-chablack-500 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
@@ -153,7 +153,7 @@ const MobileDropdown = (props) => {
                                 </Disclosure.Panel>
                               </>
                             )}
-                          </Disclosure>
+                          </Disclosure> */}
                         </div>
                       </li>
                     </li>
@@ -166,6 +166,14 @@ const MobileDropdown = (props) => {
                       </a>
                     </li>
                     <li>
+                      <a
+                        className="hover:text-benorange-500 text-black transition duration-500"
+                        href="/about"
+                      >
+                        About
+                      </a>
+                    </li>
+                    {/* <li>
                       <Disclosure>
                         {({ open }) => (
                           <>
@@ -192,7 +200,7 @@ const MobileDropdown = (props) => {
                           </>
                         )}
                       </Disclosure>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         className="hover:text-benorange-500 text-black transition duration-500"

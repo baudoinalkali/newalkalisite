@@ -124,6 +124,11 @@ export default function Home() {
           child2={contentSection1Text}
         />
       </div>
+      <div className="container">
+        <div className="container__arrow container__arrow--tl">
+
+        </div>
+      </div>
       <div style={{ width: "500px" }} className="meetings-iframe-container" data-src="https://app.hubspot.com/meetings/nbaudoin?embed=true"></div>
       <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
       <div className="pt-36 bg-alkaligrey-300">
@@ -162,12 +167,6 @@ export default function Home() {
         style="bg-alkaligrey-300 py-24"
         child1={contentSection2Image}
         child2={contentSection2Text}
-      />
-      <SplitTextImage
-        style="py-24"
-        title="What We Stand For"
-        image="/images/web-development/custom-built.svg"
-        text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
       />
       <AuditSection
         serviceName="Marketing"

@@ -23,7 +23,7 @@ const DesktopNavigation = (props) => {
     return `${props.headerColor === "white"
       ? "text-white hover:border-b hover:border-white"
       : "text-alkali-black hover:border-b hover:border-black"
-      } text-md font-bold uppercase`;
+      } text-md font-bold`;
   };
 
   return (
@@ -54,7 +54,7 @@ const DesktopNavigation = (props) => {
                 </li>
                 <a href="/clients">
                   <li
-                    className={`duration-500 uppercase hover:opacity-50 ${headerTopLevelColor()}`}
+                    className={`duration-500 hover:opacity-50 ${headerTopLevelColor()}`}
                   >
                     Clients
                   </li>
@@ -62,7 +62,7 @@ const DesktopNavigation = (props) => {
                 <li>
                   <a href="/about">
                     <li
-                      className={`duration-500 uppercase hover:opacity-50 ${headerTopLevelColor()}`}
+                      className={`duration-500 hover:opacity-50 ${headerTopLevelColor()}`}
                     >
                       About
                     </li>
@@ -70,7 +70,7 @@ const DesktopNavigation = (props) => {
                 </li>
                 <a href="/contact">
                   <li
-                    className={`duration-500 uppercase hover:opacity-50 ${headerTopLevelColor()}`}
+                    className={`duration-500 hover:opacity-50 ${headerTopLevelColor()}`}
                   >
                     Contact
                   </li>

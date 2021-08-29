@@ -58,9 +58,9 @@ const webDesignLinks = [
 export default function SolutionsDropdown(props) {
   const dropdownTextColor = () => {
     return `${props.headerColor === "white"
-        ? "text-white hover:opacity-50"
-        : "hover:opacity-40"
-      } text-md font-bold uppercase`;
+      ? "text-white hover:opacity-50"
+      : "hover:opacity-40"
+      } text-md font-bold`;
   };
 
   const dropdownTextColorOpen = () => {
@@ -75,20 +75,21 @@ export default function SolutionsDropdown(props) {
           <>
             <Popover.Button
               className={`${open ? dropdownTextColorOpen() : dropdownTextColor()
-                } duration-500 uppercase group bg-orange-700 rounded-md inline-flex items-center text-base font-bold text-md hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
+                } duration-500 group bg-orange-700 rounded-md inline-flex items-center text-base font-bold text-md hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
             >
               <span>Solutions</span>
               <ChevronDownIcon
                 className={`${open
-                    ? `transform -rotate-90 text-black ${dropdownTextColorOpen()}`
-                    : "text-opacity-50"
+                  ? `transform -rotate-90 text-black ${dropdownTextColorOpen()}`
+                  : "text-opacity-50"
                   }
                   ml-2 h-5 w-5 text-orange-300 group-hover:text-opacity-80 transition ease-in-out duration-150`}
                 aria-hidden="true"
               />
             </Popover.Button>
-            <Popover.Panel className="absolute z-50 w-screen max-w-sm mt-3 transform -translate-x-1/4 mt-10 ml-14 sm:px-0 lg:max-w-4xl">
-              <div className="overflow-hidden rounded-lg p-7 pb-5 bg-white shadow-2xl ring-1 ring-black ring-opacity-5 grid grid-cols-2 -ml-12 space-x-24">
+            <Popover.Panel className="absolute z-50 mt-3 transform -translate-x-1/4 mt-4 ml-9" style={{ width: "50rem" }}>
+              <div className="arrow-up"></div>
+              <div className="flex justify-center overflow-hidden rounded-lg p-7 pb-5 bg-white shadow-2xl space-x-14">
                 <div className="relative p-7">
                   <div className="font-bold text-lg pb-4">
                     Digital Marketing
