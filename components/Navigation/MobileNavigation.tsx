@@ -29,7 +29,7 @@ const MobileNav = (props) => {
                 src={`${headerLogoColor()}`}
                 width={160}
                 height={34}
-                alt=""
+                alt="Alkali Digital Marketing"
               />
             </a>
           </div>

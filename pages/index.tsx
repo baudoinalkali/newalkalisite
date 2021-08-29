@@ -1,12 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
 import HomeHero from "../components/HomeHero";
-import SplitTextImageAlt from "../components/SplitTextImageAlt";
-import SplitTextImage from "../components/SplitTextImage";
-import Modal from "../components/Modal";
-import Footer from "../components/Footer";
-import DesktopNavigation from "../components/Navigation/DesktopNavigation";
-import Image from 'next/image'
 import AuditSection from "../components/Services/AuditSection";
 import dynamic from 'next/dynamic';
 import TwoColumnLayout from "../components/TwoColumnLayout";
@@ -61,54 +53,63 @@ const contentSection2Text = [
 const ServicesHome = [
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    altText: "Test",
     serviceName: "Search Engine Optimization",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     slug: "/services/digital-marketing/search-engine-optimization"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    altText: "Test",
     serviceName: "Web <br/> Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     slug: "/services/digital-marketing/search-engine-optimization"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    altText: "Test",
     serviceName: "Web Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     slug: "/services/digital-marketing/search-engine-optimization"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    altText: "Test",
     serviceName: "Web Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     slug: "/services/digital-marketing/search-engine-optimization"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    altText: "Test",
     serviceName: "Web Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     slug: "/services/digital-marketing/search-engine-optimization"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    altText: "Test",
     serviceName: "Web Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     slug: "/services/digital-marketing/search-engine-optimization"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    altText: "Test",
     serviceName: "Web Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     slug: "/services/digital-marketing/search-engine-optimization"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    altText: "Test",
     serviceName: "Web Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     slug: "/services/digital-marketing/search-engine-optimization"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    altText: "Test",
     serviceName: "Web Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     slug: "/services/digital-marketing/search-engine-optimization"
@@ -165,7 +166,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto justify-between gap-y-14 gap-x-14">
           {ServicesHome.map((wordpress) => (
             <a href={wordpress.slug} className="group w-full shadow-2xl rounded-md p-10 transform hover:-translate-y-2 duration-500">
-              <img src={wordpress.icon} />
+              <img src={wordpress.icon} alt={wordpress.altText} />
               <h3 className="text-2xl font-bold py-7" dangerouslySetInnerHTML={{ __html: wordpress.serviceName }}>
               </h3>
               <p className="text-alkaligrey-400">
@@ -210,11 +211,11 @@ export default function Home() {
             className="m-auto align-middle"
             src="/images/facebook-partner-logo.svg"
           />
-          <img className="m-auto" src="/images/zapier-partner-logo.svg" />
-          <img className="m-auto" src="/images/digitalocean-partner-logo.svg" />
-          <img className="m-auto" src="/images/vercel-partner-logo.svg" />
-          <img className="m-auto" src="/images/hubspot-partner.svg" />
-          <img className="m-auto" src="/images/shopify-partner.svg" />
+          <img className="m-auto" src="/images/zapier-partner-logo.svg" alt="Zapier partner"/>
+          <img className="m-auto" src="/images/digitalocean-partner-logo.svg" alt="DigitalOcean partner" />
+          <img className="m-auto" src="/images/vercel-partner-logo.svg" alt="Vercel partner"/>
+          <img className="m-auto" src="/images/hubspot-partner.svg" alt="Hubspot solutions partner"/>
+          <img className="m-auto" src="/images/shopify-partner.svg" alt="Shopify partner"/>
         </div>
       </div>
     </div>

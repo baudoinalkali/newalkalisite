@@ -37,7 +37,7 @@ const Testimonials = {
       logoWidth: "300",
       logoHeight: "140",
       slug:"chattr",
-      altText: " ",
+      altText: "Chattr.ai project",
       name: "Jim Schimpf, Founder",
       quote:
         "Alkali not only delivered on the technical skills, but they literally acted like one of our team members diving head first, always available, immediate responses, over-communication and adherence to timelines.",
@@ -50,7 +50,7 @@ const Testimonials = {
       logoWidth: "300",
       logoHeight: "140",
       slug: "bobtail",
-      altText: " ",
+      altText: "Bobtail.com project",
       name: "Gurvir Singh, Managing Director",
       quote:
         "Starting off as a new business we realized the importance of having a sound online presence early on. We are extremely grateful we found Alkali we did. They have provided us the tools we need to adequately serve our customers.",
@@ -63,7 +63,7 @@ const Testimonials = {
       logoWidth: "300",
       logoHeight: "140",
       slug: "cartalk-repair",
-      altText: " ",
+      altText: "CarTalkRepair.com project",
       name: "Cody Lintz, Owner",
       quote:
         "Starting off as a new business we realized the importance of having a sound online presence early on. We are extremely grateful we found Alkali we did. They have provided us the tools we need to adequately serve our customers.",
@@ -77,67 +77,11 @@ const Testimonials = {
       logoWidth: "200",
       logoHeight: "100",
       slug: "carro",
-      altText: " ",
+      altText: "Getcarro.com project",
       name: "Eric Sanchez, Operations Manager",
       quote:
         "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
-    },
-    {
-      background: "/images/carro-testimonial-bg.jpg",
-      backgroundOverlay: "bg-pink-300",
-      brandColor: "#F9A8D4",
-      company: "Carro",
-      logo: "/images/clients/carro/logo.svg",
-      logoWidth: "200",
-      logoHeight: "100",
-      slug: "carro",
-      altText: " ",
-      name: "Eric Sanchez, Operations Manager",
-      quote:
-        "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
-    },
-    {
-      background: "/images/carro-testimonial-bg.jpg",
-      backgroundOverlay: "bg-pink-300",
-      brandColor: "#F9A8D4",
-      company: "Carro",
-      logo: "/images/clients/carro/logo.svg",
-      logoWidth: "200",
-      logoHeight: "100",
-      slug: "carro",
-      altText: " ",
-      name: "Eric Sanchez, Operations Manager",
-      quote:
-        "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
-    },
-    {
-      background: "/images/carro-testimonial-bg.jpg",
-      backgroundOverlay: "bg-pink-300",
-      brandColor: "#F9A8D4",
-      company: "Carro",
-      logo: "/images/clients/carro/logo.svg",
-      logoWidth: "200",
-      logoHeight: "100",
-      slug: "carro",
-      altText: " ",
-      name: "Eric Sanchez, Operations Manager",
-      quote:
-        "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
-    },
-    {
-      background: "/images/carro-testimonial-bg.jpg",
-      backgroundOverlay: "bg-pink-300",
-      brandColor: "#F9A8D4",
-      company: "Carro",
-      logo: "/images/clients/carro/logo.svg",
-      logoWidth: "200",
-      logoHeight: "100",
-      slug: "carro",
-      altText: " ",
-      name: "Eric Sanchez, Operations Manager",
-      quote:
-        "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
-    },
+    }
   ],
   design: [
     {
