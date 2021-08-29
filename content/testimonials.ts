@@ -184,6 +184,7 @@ const Testimonials = {
       company: "Homewatch Amelia",
       logo: "/images/amelia-logo.png",
       logoWidth: "275",
+      slug: "https://homewatchamelia.com",
       logoHeight: "125",
       altText: "",
       name: "Ann Wood, Owner",

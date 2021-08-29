@@ -15,9 +15,9 @@ export default function About() {
 
   const aboutImage1 = (
     <ServiceImage
-      image="/images/test"
-      height="100"
-      width="100"
+      image="/images/web-development/wordpress/custom-built.svg"
+      height="450"
+      width="600"
     />
   )
 
@@ -36,9 +36,9 @@ export default function About() {
 
   const aboutImage2 = (
     <ServiceImage
-      image="/images/test"
-      height="100"
-      width="100"
+    image="/images/web-development/wordpress/custom-built.svg"
+    height="450"
+      width="600"
     />
   )
 
@@ -101,6 +101,7 @@ export default function About() {
             background="/images/about-testimonial-bg.jpg"
             company="Alkali Designs"
             logo="/images/alkali-logo-white.svg"
+            slug="/"
             logoWidth={160}
             logoHeight={35}
             altText="test"
