@@ -1,5 +1,4 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://new.alkali.cloud/</loc>
 <lastmod>2021-08-30T02:56:13+00:00</lastmod>
@@ -36,18 +35,23 @@
 <loc>https://new.alkali.cloud/services/digital-marketing/search-engine-optimization/</loc>
 <lastmod>2021-08-30T02:56:13+00:00</lastmod>
 </url>
+<url>
 <loc>https://new.alkali.cloud/services/digital-marketing/pay-per-click-advertising/</loc>
 <lastmod>2021-08-30T02:56:13+00:00</lastmod>
 </url>
+<url>
 <loc>https://new.alkali.cloud/services/digital-marketing/social-media-marketing/</loc>
 <lastmod>2021-08-30T02:56:13+00:00</lastmod>
 </url>
+<url>
 <loc>https://new.alkali.cloud/services/digital-marketing/local-search-engine-optimization/</loc>
 <lastmod>2021-08-30T02:56:13+00:00</lastmod>
 </url>
+<url>
 <loc>https://new.alkali.cloud/services/digital-marketing/content-marketing/</loc>
 <lastmod>2021-08-30T02:56:13+00:00</lastmod>
 </url>
+<url>
 <loc>https://new.alkali.cloud/services/digital-marketing/reputation-management/</loc>
 <lastmod>2021-08-30T02:56:13+00:00</lastmod>
 </url>
