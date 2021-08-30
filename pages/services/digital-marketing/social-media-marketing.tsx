@@ -79,7 +79,7 @@ function SocialMediaMarketing() {
         <title>Social Media Marketing | It's Good to Be Social</title>
         <meta name="description" content="We help share your story, organically connect with your audience, and drive leads using popular social platforms." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="https://new.alkali.cloud/services/digital-marketing/social-media-marketing/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Social Media Marketing | It's Good to Be Social" />

@@ -1,7 +1,3 @@
-import ClientCardContainer from "../components/Clients/ClientCardContainer";
-import ClientMainPage from "../content/clientPages/clientMainPage";
-import CombinedNavigation from "../components/Navigation/CombinedNavigation";
-import ClientCard from "../components/Clients/ClientCardTest2";
 import Head from "next/head";
 
 function Privacy() {
@@ -10,7 +6,7 @@ function Privacy() {
             <Head>
                 <title>Privacy Policy | Alkali</title>
                 <meta name="robots" content="noindex, follow," />
-                <link rel="canonical" href="/" />
+                <link rel="canonical" href="https://new.alkali.cloud/privacy-policy" />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Privacy Policy | Alkali" />

@@ -77,7 +77,7 @@ function ContentMarketing() {
         <title>Content Marketing Services | Make Every Word Count</title>
         <meta name="description" content="Alkali provides professional SEO copywriting services. We invite you to learn more about how we can improve establish content that both customers and search engines love." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="https://new.alkali.cloud/services/digital-marketing/content-marketing/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Content Marketing Services | Make Every Word Count" />

@@ -123,7 +123,7 @@ export default function Home() {
         <title>Alkali | Digital Marketing</title>
         <meta name="description" content="Alkali is a people focused digital marketing agency. We provide SEO, Web Development, PPC, social, and other services to help our clients win online." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="https://new.alkali.cloud/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Alkali | Digital Marketing" />

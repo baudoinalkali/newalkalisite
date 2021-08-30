@@ -94,7 +94,7 @@ function EcommerceWebsiteDevelopment() {
         <title>E-commerce Website Development | Confidently Sell Online</title>
         <meta name="description" content="At Alkali we build e-commerce websites that drive conversions and fit within your existing business processes." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="https://new.alkali.cloud/services/web-development/ecommerce-website-development/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="E-commerce Website Development | Confidently Sell Online" />
