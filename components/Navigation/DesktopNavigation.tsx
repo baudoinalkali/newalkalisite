@@ -53,7 +53,7 @@ const DesktopNavigation = (props) => {
                 <li>
                   <SolutionsDropdown headerColor={props.headerColor} />
                 </li>
-                <a href="/clients">
+                <a href="/clients/">
                   <li
                     className={`duration-500 hover:opacity-50 ${headerTopLevelColor()}`}
                   >
@@ -69,7 +69,7 @@ const DesktopNavigation = (props) => {
                     </li>
                   </a>
                 </li>
-                <a href="/contact">
+                <a href="/contact/">
                   <li
                     className={`duration-500 hover:opacity-50 ${headerTopLevelColor()}`}
                   >

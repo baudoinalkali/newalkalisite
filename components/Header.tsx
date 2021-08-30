@@ -30,7 +30,7 @@ const Header = props => {
                                     <a>
                                         <div className="font-bold uppercase text-lg">
                                             Digital Marketing
-                                            </div>
+                                        </div>
                                     </a>
                                     {SiteMap.digitalMarketing.links.map(digitalMarketing =>
                                         <SiteMapContainer
@@ -66,9 +66,9 @@ const Header = props => {
                             </div>
                         </div>
                     </div>
-                    <a href="/clients"><a className={headerNonDropDown()}>Clients</a></a>
+                    <a href="/clients/"><a className={headerNonDropDown()}>Clients</a></a>
                     <a href="#" className={headerNonDropDown()}>About</a>
-                    <a href="/contact" className={headerNonDropDown()}>Contact</a>
+                    <a href="/contact/" className={headerNonDropDown()}>Contact</a>
                 </div>
                 <div>
                     <Modal
