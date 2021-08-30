@@ -12,7 +12,7 @@ function Contact() {
     {
       method: "Chat",
       description: "We'd love to talk about how we can work together",
-      slug: "/contact#hs-chat-open",
+      slug: "/contact/#hs-chat-open",
       icon: "/images/chat.svg",
       alt: "Start a chat with Alkali",
       buttonName: "Start Chat"

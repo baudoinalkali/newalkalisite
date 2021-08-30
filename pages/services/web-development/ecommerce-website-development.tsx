@@ -94,7 +94,7 @@ function EcommerceWebsiteDevelopment() {
         <title>E-commerce Website Development | Confidently Sell Online</title>
         <meta name="description" content="At Alkali we build e-commerce websites that drive conversions and fit within your existing business processes." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="https://new.alkali.cloud/services/web-development/ecommerce-website-development/" />
+        <link rel="canonical"/>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="E-commerce Website Development | Confidently Sell Online" />
@@ -214,21 +214,29 @@ function EcommerceWebsiteDevelopment() {
           recommendation based on our years of experience.
         </p>
       </div>
-      <TwoColumnLayout flexType="reverse" child1={image2} child2={text2} />
-
-      <TwoColumnLayout style="pt-0 mb-2" child1={text3} child2={image3} />
+      <TwoColumnLayout
+        style="py-24"
+        flexType="reverse"
+        child1={image2}
+        child2={text2}
+      />
+      <TwoColumnLayout
+        style="bg-alkaligrey-300"
+        child1={text3}
+        child2={image3}
+      />
       <TwoColumnLayout
         flexType="reverse"
-        style="pt-0"
+        style=""
         child2={text4}
         child1={image4}
       />
       <div className="px-14 pt-24 2xl:px-0">
-        <h3 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-14">
+        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
           Hear It Straight From Our Clients
         </h3>
       </div>
-      <div className="relative mb-3 z-20">
+      <div className="relative z-20">
         <TestimonialSlider>
           {Testimonials.wordpress.map((testimonial) => (
             <TestimonialSlide
@@ -254,28 +262,8 @@ function EcommerceWebsiteDevelopment() {
         child1={image5}
         child2={text5}
       />
-      {CarroScreenImages.carro.map((carro) => (
-        <ResponsiveScreens
-          style="py-36 pb-12 overflow-hidden z-30 relative"
-          link="https://getcarro.com"
-          desktopLeft={carro.desktopLeft}
-          desktopRight={carro.desktopRight}
-          tablet={carro.tablet}
-          phone={carro.phone}
-          desktopLeftLink={carro.desktopLeftLink}
-          desktopRightLink={carro.desktopRightLink}
-          tabletLink={carro.tabletLink}
-          phoneLink={carro.phoneLink}
-        />
-      ))}
-      <TwoColumnLayout
-        style="bg-alkaligrey-300 z-10 relative -mt-48 pt-72"
-        child1={text5}
-        child2={image5}
-      />
-
       <div className="py-24 px-14 2xl:px-0 bg-white">
-        <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
+        <h6 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-tight">
           Keep Your Store Connected
         </h6>
         <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
