@@ -1,6 +1,7 @@
-User-agent: *
+User-Agent: *
 Allow: /
 Disallow: /privacy-policy/
 Disallow: /thank-you/
 Disallow: /about/careers/
 Disallow: /about/partners/
+Sitemap: https://alkali.cloud/sitemap.xml
