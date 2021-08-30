@@ -11,7 +11,7 @@ function Clients() {
         <title>Clients | Alkali</title>
         <meta name="description" content="A collection of projects we have had the pleasure to work on. Learn more about our previous digital marketing projects." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="https://new.alkali.cloud/clients/" />
+        <link rel="canonical"/>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Clients | Alkali" />

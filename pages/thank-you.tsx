@@ -8,7 +8,7 @@ export default function ThankYou() {
                 <Head>
                     <title>Thank You | Alkali</title>
                     <meta name="robots" content="noindex, follow," />
-                    <link rel="canonical" href="https://new.alkali.cloud/thank-you/" />
+                    <link rel="canonical"/>
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:type" content="website" />
                     <meta property="og:title" content="Thank You | Alkali" />

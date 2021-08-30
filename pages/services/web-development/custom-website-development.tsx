@@ -140,7 +140,7 @@ function WordPressWebsiteDevelopment() {
         <title>Custom Website Development | Nothing Beats Bespoke</title>
         <meta name="description" content="We build custom websites that are specifically tailored to your business, processes, and needs, not something that is one-size fits all." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="https://new.alkali.cloud/services/web-development/custom-website-development/" />
+        <link rel="canonical"/>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Custom Website Development | Nothing Beats Bespoke" />

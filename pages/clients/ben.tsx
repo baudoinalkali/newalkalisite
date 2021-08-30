@@ -57,7 +57,7 @@ function Ben() {
         <title>Blockchain Education Network Project | Alkali</title>
         <meta name="description" content="Learn more about how we transformed Blockchain Education Network's website to better align with their organization's goals." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="https://new.alkali.cloud/clients/ben/" />
+        <link rel="canonical"/>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Blockchain Education Network Project | Alkali" />

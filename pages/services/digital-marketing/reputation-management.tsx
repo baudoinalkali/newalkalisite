@@ -80,7 +80,7 @@ function Reputation() {
         <title>Reputation Management | We Protect You Online</title>
         <meta name="description" content="Alkali provides online reputation mangement services designed to fix, repair, and manage your online presence." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="https://new.alkali.cloud/services/digital-marketing/reputation-management/" />
+        <link rel="canonical"/>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Reputation Management | We Protect You Online" />

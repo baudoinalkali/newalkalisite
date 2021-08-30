@@ -142,7 +142,7 @@ function WordPressWebsiteDevelopment() {
         <title>WordPress Website Development | WordPress Experts</title>
         <meta name="description" content="Build a user-friendly, SEO-optimized WordPress website that maximizes your online presence with Alkali's bespoke WordPress solutions." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="https://new.alkali.cloud/services/web-development/wordpress-website-development/" />
+        <link rel="canonical"/>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="WordPress Website Development | WordPress Experts" />

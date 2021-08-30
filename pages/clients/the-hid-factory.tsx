@@ -56,7 +56,7 @@ function Carro() {
         <title>The HID Factory Project | Alkali</title>
         <meta name="description" content="Learn more about how we crafted a digital solution that drove sales and increased internal productivity." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="https://new.alkali.cloud/clients/the-hid-factory/" />
+        <link rel="canonical"/>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="The HID Factory Project | Alkali" />

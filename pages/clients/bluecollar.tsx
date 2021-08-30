@@ -55,7 +55,7 @@ function BlueCollar() {
             <title>Bluecollar Success Group Project | Alkali</title>
             <meta name="description" content="Learn more about how we enabled Bluecollar to provide a next-level membership experience for their business." />
             <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-            <link rel="canonical" href="https://new.alkali.cloud/clients/bluecollar/" />
+            <link rel="canonical"/>
             <meta property="og:locale" content="en_US" />
             <meta property="og:type" content="website" />
             <meta property="og:title" content="Bluecollar Success Group Project | Alkali" />

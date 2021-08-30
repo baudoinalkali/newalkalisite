@@ -63,7 +63,7 @@ export default function About() {
         <title>About Alkali | Learn How and Why We Serve </title>
         <meta name="description" content="Learn more about what Alkali stands for, our mission, and the commitment to our clients that drives us." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="https://new.alkali.cloud/about/" />
+        <link rel="canonical"/>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="About Alkali" />
