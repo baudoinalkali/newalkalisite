@@ -58,7 +58,7 @@ function Carro() {
         <title>Carro Project | Alkali</title>
         <meta name="description" content="Learn more about how we assisted brining Carro's designs to life." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="https://new.alkali.cloud/clients/carro" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Carro Project | Alkali" />

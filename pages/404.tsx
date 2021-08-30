@@ -22,7 +22,6 @@ export default function Custom404() {
             <Head>
                 <title>Page Not Found | Alkali</title>
                 <meta name="robots" content="noindex, follow" />
-                <link rel="canonical" href="/" />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Page Not Found | Alkali" />

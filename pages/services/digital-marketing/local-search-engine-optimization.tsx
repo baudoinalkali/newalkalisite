@@ -93,7 +93,7 @@ function LocalSearchEngineOptimization() {
         <title>Local SEO Services | Stand Out In Your Backyard</title>
         <meta name="description" content="At Alkali we improve your local search visbility with our effective local seo services. Whether you're a small business or are a franchise, we can help." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="https://new.alkali.cloud/services/local-search-engine-optimization/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Local SEO Services | Stand Out In Your Backyard" />
