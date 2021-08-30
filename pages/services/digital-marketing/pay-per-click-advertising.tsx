@@ -91,7 +91,7 @@ function PayPerClick() {
         <title>Pay Per Click | Drive Results Instantly</title>
         <meta name="description" content="With optimized and data-driven PPC campaigns we help drive traffic and conversions immediately." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="https://new.alkali.cloud/services/digital-marketing/pay-per-click-advertising/" />
+        <link rel="canonical"/>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Pay Per Click | Drive Results Instantly" />

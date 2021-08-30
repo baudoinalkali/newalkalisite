@@ -4,4 +4,5 @@ Disallow: /privacy-policy/
 Disallow: /thank-you/
 Disallow: /about/careers/
 Disallow: /about/partners/
+Disallow: /demo/
 Sitemap: https://new.alkali.cloud/sitemap.xml

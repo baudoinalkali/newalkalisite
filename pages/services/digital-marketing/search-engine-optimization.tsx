@@ -93,7 +93,7 @@ function SearchEngineOptimization() {
         <title>Search Engine Optimization | Get Results in Just 2 Months</title>
         <meta name="description" content="At Alkali, we provide our clients comprehensive search engine marketing results. We stop at nothing to get our clients results." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="https://new.alkali.cloud/services/digital-marketing/search-engine-optimization/" />
+        <link rel="canonical"/>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Search Engine Optimization | Get Results in Just 2 Months" />

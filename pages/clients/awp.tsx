@@ -57,7 +57,7 @@ function Amelia() {
         <title>Aerial Work Platforms Project | Alkali</title>
         <meta name="description" content="Learn more about how we completely redesigned Aerial Work Platform's digital presence to fit their business's needs better." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="https://new.alkali.cloud/clients/awp/" />
+        <link rel="canonical"/>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Aerial Work Platforms Project | Alkali" />
