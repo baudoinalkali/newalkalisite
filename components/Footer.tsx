@@ -108,19 +108,19 @@ function Footer() {
                             height="32"
                         />
                     </div>
-                    <div className="gap-x-10 flex justify-center lg:justify-end">
-                        <div>
+                    <div className="gap-x-10 flex justify-center lg:justify-end text-alkaligrey-400">
+                        <a href="/about">
                             About
-                        </div>
-                        <div>
+                        </a>
+                        <a>
                             Site Map
-                        </div>
-                        <div>
+                        </a>
+                        <a href="/privacy-policy">
                             Privacy Policy
-                        </div>
-                        <div>
+                        </a>
+                        <a>
                             Terms of Use
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

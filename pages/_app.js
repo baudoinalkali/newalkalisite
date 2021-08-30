@@ -12,20 +12,13 @@ function MyApp({ Component, pageProps }) {
   useInitHShChatbot({ delayLoad: 5000 });
 
   return (
-    <Fragment>
-      <div>
-        <Head>
-          <html lang="en-US" />
-          <head itemscope itemtype="https://schema.org/WebSite" />
-          <meta charset="UTF-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name='robots' content='max-image-preview:large' />
-        </Head>
-        <Component {...pageProps} />
-        <Footer />
-        <CookieBanner />
-      </div>
-    </Fragment>
+      <Fragment>
+        <div>
+          <Component {...pageProps} />
+          <Footer />
+          <CookieBanner />
+        </div>
+      </Fragment>
   );
 }
 
