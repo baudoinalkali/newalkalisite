@@ -57,7 +57,7 @@ function Amelia() {
         <title>Homewatch Amelia Project | Alkali</title>
         <meta name="description" content="Learn more about how we helped Homewatch Amelia create their digital presence and branding from scratch." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Homewatch Amelia Project | Alkali" />
@@ -98,13 +98,13 @@ function Amelia() {
 
       <TwoColumnLayout
         flexType="reverse"
-        style="bg-alkaligrey-300 py-24 lg:py-36 pb-72 lg:pb-80 mb-6"
+        style="bg-alkaligrey-300 py-24 lg:py-36 pb-80 lg:pb-80 mb-6"
         child1={ameliaGoalImage}
         child2={ameliaGoalText}
       ></TwoColumnLayout>
 
       <div className="px-7">
-        <div className="pb-4 lg:pb-10 -mt-56">
+        <div className="pb-4 lg:pb-10 client-testimonial-container">
           {AmeliaSlide.amelia.map((amelia) => (
             <TestimonialSlide
               style="max-w-7xl m-auto shadow-2xl rounded-md"
@@ -151,7 +151,7 @@ function Amelia() {
           phoneLink={screens.phoneLink}
         />
       ))}
-      <section className="bg-alkaligrey-300 pt-20 lg:pt-36">
+      <section className="bg-alkaligrey-300 pt-96 -mt-96">
         <h3 className="text-center text-4xl md:text-5xl font-bold max-w-4xl m-auto mb-14 lg:mb-20 leading-normal">
           Other Projects
         </h3>
@@ -170,7 +170,7 @@ function Amelia() {
           </ClientCardContainer>
         </div>
         <div className="flex items-center justify-center group space-x-3">
-          <a href="/clients" className="uppercase font-medium text-alkaligrey-900">View All Projects</a>
+          <a href="/clients" className="font-medium text-lg text-alkaligrey-900">View All Projects</a>
           <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:transform duration-500 group-hover:translate-x-3 h-6 w-6 text-alkaligrey-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
           </svg>

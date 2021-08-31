@@ -71,14 +71,56 @@ const Testimonials = {
     {
       background: "/images/carro-testimonial-bg.jpg",
       backgroundOverlay: "bg-pink-300",
-      brandColor: "#F9A8D4",
-      company: "Carro",
-      logo: "/images/clients/carro/logo.svg",
-      logoWidth: "200",
-      logoHeight: "100",
-      slug: "carro",
+      brandColor: "#FF936B",
+      company: "Blockchain Education Network",
+      logo: "/images/clients/ben/logo-alt.svg",
+      logoWidth: "150",
+      logoHeight: "45",
+      slug: "ben",
       altText: "Getcarro.com project",
-      name: "Eric Sanchez, Operations Manager",
+      name: "António Gomes, Director of Operations",
+      quote:
+        "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
+    },
+    {
+      background: "/images/carro-testimonial-bg.jpg",
+      backgroundOverlay: "bg-pink-300",
+      brandColor: "#bad380",
+      company: "Go-Cottage",
+      logo: "/images/clients/go-cottage/logo-alt.svg",
+      logoWidth: "150",
+      logoHeight: "50",
+      slug: "go-cottage",
+      altText: "Getcarro.com project",
+      name: "Sharon Middendorf, Owner",
+      quote:
+        "5 stars all the way! Thank you for building our amazing new website. Top notch, professional, on time, responsive. Can't say enough good things about Alkali.",
+    },
+  ],
+  custom: [
+    {
+      background:"/images/clients/chattr/chattr-slide-bg.jpg",
+      brandColor:"#36ad8b",
+      company:"Chattr",
+      logo:"/images/clients/chattr/logo.svg",
+      logoWidth:"200",
+      logoHeight:"80",
+      altText:"",
+      slug:"chattr",
+      name:"Jim Schimpf, Founder",
+      quote:"Alkali not only delivered on the technical skills, but they literally acted like one of our team members diving head first, always available, immediate responses, over-communication and adherence to timelines.",
+    },
+    {
+      background: "/images/carro-testimonial-bg.jpg",
+      backgroundOverlay: "bg-pink-300",
+      brandColor: "#FF936B",
+      company: "Blockchain Education Network",
+      logo: "/images/clients/ben/logo-alt.svg",
+      logoWidth: "150",
+      logoHeight: "45",
+      slug: "ben",
+      altText: "Getcarro.com project",
+      name: "António Gomes, Director of Operations",
       quote:
         "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
     }
@@ -170,6 +212,8 @@ const Testimonials = {
   ],
 };
 
+const CustomSlide = Testimonials.custom
+
 const CarroSlide = Testimonials.carro;
 
 const AmeliaSlide = Testimonials.amelia;
@@ -180,6 +224,6 @@ const HomepageSlide = Testimonials.homepage;
 
 const THFSlide = Testimonials.thf;
 
-export { CarroSlide, AmeliaSlide, BobtailSlide, HomepageSlide, THFSlide };
+export { CarroSlide, AmeliaSlide, BobtailSlide, HomepageSlide, THFSlide, CustomSlide };
 
 export default Testimonials;

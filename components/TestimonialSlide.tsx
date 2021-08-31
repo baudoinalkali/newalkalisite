@@ -40,15 +40,15 @@ const TestimonialSlide = (props) => {
                             <p className="text-gray-900">
                                 {props.quote}
                             </p>
-                            <p className="mt-5 font-medium">
+                            <p className="mt-5 mb-7 font-medium">
                                 {`- ${props.name}`}
                             </p>
-                            <p className={`mt-6 flex items-center ${slugVisibilityType()}`}>
-                                <a href={`/clients/${props.slug}`} style={{ color: `${props.brandColor}` }} className="font-medium duration-500 hover:text-gray-900 hover:mr-3">
-                                    {`Learn more about ${props.company}'s project`}
-                                </a>
-                                <FontAwesomeIcon className="ml-3 w-5" icon={faLongArrowAltRight} style={{ color: `${props.brandColor}` }}></FontAwesomeIcon>
-                            </p>
+                            <div className="flex items-center justify-start group space-x-3">
+                                <a href="/clients" className={`text-md text-alkaligrey-900`} style={{color: `${props.brandColor}`}}>Learn More</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:transform duration-500 group-hover:translate-x-3 h-5 w-5" style={{color: `${props.brandColor}`}} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ const ClientAbout = props => {
                     <div className="w-full text-center lg:text-left xs:w-1/2 pb-14 lg:pb-0">
                         <h3 className="text-4xl alkaligrey-800 font-bold m-auto leading-tight pb-4 lg:pb-7 max-w-md lg:m-0">{`About ${props.name}`}</h3>
                         <div className="flex items-center justify-center lg:justify-start group space-x-3">
-                            <a href={props.slug} target="_blank" rel="noopener noreferrer" className="uppercase font-bold text-lg" style={{ color: `${props.brandColor}` }}>Visit Website</a>
+                            <a href={props.slug} target="_blank" rel="noopener noreferrer" className="font-medium text-lg" style={{ color: `${props.brandColor}` }}>Visit Website</a>
                             <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:transform duration-500 group-hover:translate-x-3 h-6 w-6" style={{ color: `${props.brandColor}` }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                             </svg>

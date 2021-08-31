@@ -3,7 +3,7 @@ import { faCaretUp } from "@fortawesome/free-solid-svg-icons"; // import the ico
 import ServiceLeadSection from "../../../components/ServiceLeadSection";
 import TestimonialSlider from "../../../components/TestimonialSlider";
 import TestimonialSlide from "../../../components/TestimonialSlide";
-import Testimonials from "../../../content/testimonials";
+import Testimonials, { CustomSlide } from "../../../content/testimonials";
 import Custom from "../../../content/servicePages/custom";
 import Integration from "../../../components/Integration";
 import TwoColumnLayout from "../../../components/TwoColumnLayout";
@@ -158,12 +158,12 @@ function WordPressWebsiteDevelopment() {
           headerBackground="bg-alkali-500"
           headerColor="white"
         />
-        {ServiceHeroContent.wordpress.map((wordpress) => (
+        {Custom.headline.map((custom) => (
           <ServiceHero
-            sub={wordpress.sub}
-            title={wordpress.title}
-            backgroundImg={wordpress.backgroundImg}
-            key={wordpress.title}
+            sub={custom.subTitle}
+            title={custom.title}
+            titleLength={custom.titleLength}
+            key={custom.title}
           />
         ))}
       </div>
@@ -241,15 +241,6 @@ function WordPressWebsiteDevelopment() {
         text="Do you have an idea and vision for your website but not sure where to start? Our team of professionals are standing by to answer any questions you may have. Whether you need a free audit of your current website or want to discuss specifics of a new WordPress website build, we look forward to serving you!"
         buttonText="Schedule a Discovery Call"
       />
-      <div className="pt-24 px-10 2xl:px-0">
-        <h2 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
-          Not All Websites Are Created Equal
-        </h2>
-        <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
-          An unfortunate reality of WordPress websites, particularly template
-          based build are the overeliance on plugins, lack of customization
-        </p>
-      </div>
       <TwoColumnLayout
         flexType="reverse"
         child1={responsiveDesignImage}
@@ -257,22 +248,23 @@ function WordPressWebsiteDevelopment() {
       />
 
       <TwoColumnLayout
-        style="bg-alkaligrey-300 pb-100 mb-2"
+        style="bg-alkaligrey-300 pb-100 lg:pb-98 mb-2"
         child1={seoText}
         child2={seoImage}
       />
 
-      <div className="-mt-72 px-10 2xl:px-0">
-        <h2 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-14">
+      <div className="-mt-96 lg:-mt-80 pt-2 px-10 2xl:px-0">
+        <h2 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
           Hear It Straight From Our Clients
         </h2>
       </div>
       <div className="relative z-20">
         <TestimonialSlider>
-          {Testimonials.wordpress.map((testimonial) => (
+          {CustomSlide.map((testimonial) => (
             <TestimonialSlide
               background={testimonial.background}
               backgroundOverlay={testimonial.backgroundOverlay}
+              brandColor={testimonial.brandColor}
               company={testimonial.company}
               key={`designTestimonialFor${testimonial.company}`}
               logo={testimonial.logo}
@@ -288,24 +280,20 @@ function WordPressWebsiteDevelopment() {
         </TestimonialSlider>
       </div>
       <TwoColumnLayout
+        style="pt-24 lg:pt-36"
         child1={userExperienceText}
         child2={userExperienceImage}
       />
-
-      <TwoColumnLayout
-        style="bg-alkaligrey-300"
-        flexType="reverse"
-        child1={performanceImage}
-        child2={performanceText}
-      />
       {CarroScreenImages.carro.map((carro) => (
         <ResponsiveScreens
-          style="py-36 pb-12 overflow-hidden z-30 relative"
-          link="https://getcarro.com"
-          desktopLeft={carro.desktopLeft}
-          desktopRight={carro.desktopRight}
-          tablet={carro.tablet}
-          phone={carro.phone}
+          style="pt-0 lg:pt-14 py-36 pb-12 overflow-hidden z-30 relative"
+          link="/clients/"
+          brandColor="#00baff"
+          buttonName="View Projects"
+          desktopLeft="/images/clients/ben/desktop-left.png"
+          desktopRight="/images/clients/chattr/section1.png"
+          tablet="/images/clients/ben/tablet.png"
+          phone="/images/clients/chattr/mobile.png"
           desktopLeftLink={carro.desktopLeftLink}
           desktopRightLink={carro.desktopRightLink}
           tabletLink={carro.tabletLink}
@@ -313,14 +301,8 @@ function WordPressWebsiteDevelopment() {
           key={carro.desktopLeft}
         />
       ))}
-      <TwoColumnLayout
-        style="bg-alkaligrey-300 z-10 relative -mt-48 pt-72"
-        child1={conversionText}
-        child2={conversionImage}
-      />
-
-      <div className="py-24 px-14 2xl:px-0 bg-white">
-        <h2 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
+      <div className="pt-80 lg:pt-96 -mt-64 py-24 px-14 2xl:px-0 bg-alkaligrey-300">
+        <h2 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-tight">
           Integration Is the Name of the Game
         </h2>
         <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
@@ -329,11 +311,11 @@ function WordPressWebsiteDevelopment() {
           business processes. Integrations shouldn't be an afterthought, but a
           central part of your next website build.
         </p>
+        <Integration style="pt-24 2xl:px-0" />
       </div>
-      <Integration style="pb-24 bg-white py-14 2xl:px-0" />
       <div className="py-24 max-w-7xl m-auto">
         <h2 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
-          Frequently Asked Questions About Our WordPress Development
+          Frequently Asked Questions About Our Custom Development
         </h2>
         <div className="w-full px-4 pt-16">
           <div className="p-2 mx-auto bg-white rounded-2xl">

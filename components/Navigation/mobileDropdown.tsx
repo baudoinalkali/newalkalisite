@@ -63,32 +63,32 @@ const MobileDropdown = (props) => {
                                 <Disclosure.Panel className="pl-3 text-gray-500">
                                   <ul className="mb-4 ml-3 space-y-4 text-black font-proximasemi text-md text-chablack-300 hover:text-chablack-500">
                                     <li>
-                                      <a href="/services/digital-marketing/search-engine-optimization">
+                                      <a href="/services/digital-marketing/search-engine-optimization/">
                                         SEO
                                       </a>
                                     </li>
                                     <li>
-                                      <a href="/services/digital-marketing/local-search-engine-optimization">
+                                      <a href="/services/digital-marketing/local-search-engine-optimization/">
                                         Local SEO
                                       </a>
                                     </li>
                                     <li>
-                                      <a href="/services/digital-marketing/pay-per-click-advertising">
+                                      <a href="/services/digital-marketing/pay-per-click-advertising/">
                                         PPC & Retargeting
                                       </a>
                                     </li>
                                     <li>
-                                      <a href="/services/digital-marketing/content-marketing">
+                                      <a href="/services/digital-marketing/content-marketing/">
                                         Content Marketing
                                       </a>
                                     </li>
                                     <li>
-                                      <a href="/services/digital-marketing/social-media-marketing">
+                                      <a href="/services/digital-marketing/social-media-marketing/">
                                         Social Media Marketing
                                       </a>
                                     </li>
                                     <li>
-                                      <a href="/services/digital-marketing/reputation-management">
+                                      <a href="/services/digital-marketing/reputation-management/">
                                         Reputation Management
                                       </a>
                                     </li>
@@ -110,17 +110,17 @@ const MobileDropdown = (props) => {
                                 <Disclosure.Panel className="pl-3 pt-4 text-gray-500">
                                   <ul className="ml-3 space-y-4 text-black font-proximasemi text-md text-chablack-300 hover:text-chablack-500">
                                     <li>
-                                      <a href="/services/web-development/wordpress-website-development">
+                                      <a href="/services/web-development/wordpress-website-development/">
                                         WordPress Websites
                                       </a>
                                     </li>
                                     <li>
-                                      <a href="/services/web-development/ecommerce-website-development">
+                                      <a href="/services/web-development/ecommerce-website-development/">
                                         E-commerce Websites
                                       </a>
                                     </li>
                                     <li>
-                                      <a href="/services/web-development/custom-website-development">
+                                      <a href="/services/web-development/custom-website-development/">
                                         Custom Websites
                                       </a>
                                     </li>
