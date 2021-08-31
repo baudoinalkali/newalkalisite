@@ -61,7 +61,7 @@ const DesktopNavigation = (props) => {
                   </li>
                 </a>
                 <li>
-                  <a href="/about">
+                  <a href="/about/">
                     <li
                       className={`duration-500 hover:opacity-50 ${headerTopLevelColor()}`}
                     >
