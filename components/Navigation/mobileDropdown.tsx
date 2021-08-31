@@ -160,7 +160,7 @@ const MobileDropdown = (props) => {
                     <li>
                       <a
                         className="hover:text-benorange-500 text-black transition duration-500"
-                        href="/clients"
+                        href="/clients/"
                       >
                         Clients
                       </a>
@@ -168,7 +168,7 @@ const MobileDropdown = (props) => {
                     <li>
                       <a
                         className="hover:text-benorange-500 text-black transition duration-500"
-                        href="/about"
+                        href="/about/"
                       >
                         About
                       </a>

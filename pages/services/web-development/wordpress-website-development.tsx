@@ -346,7 +346,7 @@ function WordPressWebsiteDevelopment() {
       {Wordpress.responsiveScreens.map((responsiveScreens) => (
         <ResponsiveScreens
           style="py-36 pb-12 overflow-hidden z-30 relative"
-          link="/clients"
+          link="/clients/"
           buttonName="View Projects"
           desktopLeft="/"
           desktopRight="/"
