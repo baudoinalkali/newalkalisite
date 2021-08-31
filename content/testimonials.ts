@@ -8,7 +8,7 @@ const Testimonials = {
       logoWidth: "300",
       logoHeight: "140",
       altText: " ",
-      slug: "https://cartalkrepair.com",
+      slug: "cartalk-repair/",
       name: "Sharon Middendorf",
       quote:
         "Starting off as a new business we realized the importance of having a sound online presence early on. We are extremely grateful we found Alkali we did. They have provided us the tools we need to adequately serve our customers.",
@@ -21,7 +21,7 @@ const Testimonials = {
       logo: "/images/carro-logo.png",
       logoWidth: "200",
       logoHeight: "100",
-      slug: "https://getcarro.com",
+      slug: "carro/",
       altText: " ",
       name: "Eric Sanchez, Operations Manager",
       quote:
@@ -36,7 +36,7 @@ const Testimonials = {
       logo: "/images/clients/chattr/logo.svg",
       logoWidth: "300",
       logoHeight: "140",
-      slug:"chattr",
+      slug:"chattr/",
       altText: "Chattr.ai project",
       name: "Jim Schimpf, Founder",
       quote:
@@ -49,7 +49,7 @@ const Testimonials = {
       logo: "/images/clients/bobtail/logo.svg",
       logoWidth: "300",
       logoHeight: "140",
-      slug: "bobtail",
+      slug: "bobtail/",
       altText: "Bobtail.com project",
       name: "Gurvir Singh, Managing Director",
       quote:
@@ -62,7 +62,7 @@ const Testimonials = {
       logo: "/images/cartalk-logo.png",
       logoWidth: "300",
       logoHeight: "140",
-      slug: "cartalk-repair",
+      slug: "cartalk-repair/",
       altText: "CarTalkRepair.com project",
       name: "Cody Lintz, Owner",
       quote:
@@ -76,7 +76,7 @@ const Testimonials = {
       logo: "/images/clients/ben/logo-alt.svg",
       logoWidth: "150",
       logoHeight: "45",
-      slug: "ben",
+      slug: "ben/",
       altText: "Getcarro.com project",
       name: "António Gomes, Director of Operations",
       quote:
@@ -90,7 +90,7 @@ const Testimonials = {
       logo: "/images/clients/go-cottage/logo-alt.svg",
       logoWidth: "150",
       logoHeight: "50",
-      slug: "go-cottage",
+      slug: "go-cottage/",
       altText: "Getcarro.com project",
       name: "Sharon Middendorf, Owner",
       quote:
@@ -106,7 +106,7 @@ const Testimonials = {
       logoWidth:"200",
       logoHeight:"80",
       altText:"",
-      slug:"chattr",
+      slug:"chattr/",
       name:"Jim Schimpf, Founder",
       quote:"Alkali not only delivered on the technical skills, but they literally acted like one of our team members diving head first, always available, immediate responses, over-communication and adherence to timelines.",
     },
@@ -118,7 +118,7 @@ const Testimonials = {
       logo: "/images/clients/ben/logo-alt.svg",
       logoWidth: "150",
       logoHeight: "45",
-      slug: "ben",
+      slug: "ben/",
       altText: "Getcarro.com project",
       name: "António Gomes, Director of Operations",
       quote:
@@ -172,7 +172,7 @@ const Testimonials = {
       company: "Homewatch Amelia",
       logo: "/images/amelia-logo.png",
       logoWidth: "275",
-      slug: "https://homewatchamelia.com",
+      slug: "amelia/",
       logoHeight: "125",
       altText: "",
       name: "Ann Wood, Owner",
@@ -189,6 +189,7 @@ const Testimonials = {
       logo: "/images/clients/bobtail/logo.svg",
       logoWidth: "250",
       logoHeight: "50",
+      slug: "bobtail/",
       altText: "",
       name: "Gurvir Singh, Managing Director",
       quote:

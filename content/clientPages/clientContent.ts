@@ -9,7 +9,7 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "/services/web-development/wordpress-website-development"
+                            serviceSlug: "/services/web-development/wordpress-website-development/"
                         }
                     ],
                     image: "/images/clients/carro/carro-header-image.png",
@@ -71,7 +71,7 @@ const ClientContent = {
                     services: [
                         {
                             service: "Custom Web Development",
-                            serviceSlug: "/services/web-development/custom-website-development"
+                            serviceSlug: "/services/web-development/custom-website-development/"
                         }
                     ],
                     image: "/images/clients/chattr/chattr-hero-image.svg",
@@ -134,7 +134,7 @@ const ClientContent = {
                     services: [
                         {
                             service: "Custom Web Development",
-                            serviceSlug: "/services/web-development/custom-website-development"
+                            serviceSlug: "/services/web-development/custom-website-development/"
                         }
                     ],
                     image: "/images/clients/ben/ben-hero-image.png",
@@ -196,7 +196,7 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "/services/web-development/wordpress-website-development"
+                            serviceSlug: "/services/web-development/wordpress-website-development/"
                         }
                     ],
                     backgroundImg: "/images/clients/bobtail/hero-background.jpg",
@@ -277,7 +277,7 @@ const ClientContent = {
                     services: [
                         {
                             service: "E-commerce Web Development",
-                            serviceSlug: "/services/web-development/ecommerce-website-development"
+                            serviceSlug: "/services/web-development/ecommerce-website-development/"
                         }
                     ],
                     backgroundImg: "/images/clients/bobtail/hero-background.jpg",
@@ -341,7 +341,7 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "/services/web-development/wordpress-website-development"
+                            serviceSlug: "/services/web-development/wordpress-website-development/"
                         }
                     ],
                     backgroundImg: "/images/clients/awp/hero-background.jpg",
@@ -404,13 +404,9 @@ const ClientContent = {
                     name: "Reflections Therapy",
                     services: [
                         {
-                            service: "WordPress Web Development",
+                            service: "WordPress Web Development/",
                             serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                        }
                     ],
                     backgroundImg: "/images/clients/awp/hero-background.jpg",
                     image: "/",
@@ -473,7 +469,7 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "/services/web-development/wordpress-website-development"
+                            serviceSlug: "/services/web-development/wordpress-website-development/"
                         }
                     ],
                     backgroundImg: "/images/clients/magnetite/hero-background.jpg",
@@ -536,7 +532,7 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "/services/web-development/wordpress-website-development"
+                            serviceSlug: "/services/web-development/wordpress-website-development/"
                         }
                     ],
                     backgroundImg: "/images/clients/go-cottage/hero-background.jpg",
@@ -599,7 +595,7 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "/services/web-development/wordpress-website-development"
+                            serviceSlug: "/services/web-development/wordpress-website-development/"
                         }
                     ],
                     backgroundImg: "/images/clients/cartalk/hero-background.jpg",
@@ -662,7 +658,7 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "/services/web-development/wordpress-website-development"
+                            serviceSlug: "/services/web-development/wordpress-website-development/"
                         }
                     ],
                     backgroundImg: "/images/clients/bluecollar/hero-background.jpg",
@@ -725,11 +721,7 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
+                            serviceSlug: "/services/web-development/wordpress-website-development/"
                         },
                     ],
                     backgroundImg: "/images/clients/zexster/hero-background.jpg",
@@ -789,12 +781,8 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                            serviceSlug: "/services/web-development/wordpress-website-development/"
+                        }
                     ],
                     backgroundImg: "/images/clients/lessons-that-rock/hero-background.jpg",
                     backgroundOverlay: "true",
@@ -854,12 +842,8 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "test2"
-                        },
-                        {
-                            service: "Branding",
-                            serviceSlug: "test3"
-                        },
+                            serviceSlug: "/services/web-development/wordpress-website-development/"
+                        }
                     ],
                     backgroundImg: "/images/clients/lessons-that-rock/hero-background.jpg",
                     backgroundOverlay: "true",
@@ -919,7 +903,7 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
-                            serviceSlug: "/services/web-development/wordpress-website-development"
+                            serviceSlug: "/services/web-development/wordpress-website-development/"
                         }
                     ],
                     service: ["WordPress Web Development", "Branding"],
