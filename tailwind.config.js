@@ -41,6 +41,10 @@ module.exports = {
       },
       padding : {
         '100': '30rem',
+        '98': '27rem'
+      },
+      lineHeight: {
+        'standard': "4.2",
       }
     }
   },

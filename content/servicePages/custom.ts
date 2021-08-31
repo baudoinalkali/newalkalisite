@@ -2,7 +2,7 @@ const Custom = {
     headline: [
         {
             subTitle: "Custom Website Development",
-            title: "Test",
+            title: "Endless Customizations to Reach Your Goals",
             titleLength: "",
         }
     ],

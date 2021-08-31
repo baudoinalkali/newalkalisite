@@ -16,8 +16,8 @@ const AuditSection = (props) => {
                     />
                 </div>
                 <div className="w-full lg:w-1/2 px-7">
-                    <h3 className="text-4xl md:text-5xl font-bold max-w-sm md:max-w-lg leading-normal mb:10 lg:mb-0 mx-auto lg:mx-0 text-center lg:text-left">
-                        Get a Complimentary {props.serviceName} Audit
+                    <h3 className="text-4xl md:text-5xl font-bold max-w-sm md:max-w-md leading-normal mb:10 lg:mb-0 mx-auto lg:mx-0 text-center lg:text-left">
+                        Complimentary {props.serviceName} Audit
                     </h3>
                     <div className="max-w-xl mx-auto lg:mx-0 text-lg py-14 text-center lg:text-left text-alkaligrey-400">
                     Every successful engagement begins with an audit. Allow us to provide you a comprehensive 

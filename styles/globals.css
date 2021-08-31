@@ -29,6 +29,10 @@ li:hover > button svg {
   min-width: 8rem;
 }
 
+h1,h2,h3 {
+  line-height: 1.2 !important;
+}
+
 .responsive-screen-button:hover {
   opacity: .75;
 }
@@ -41,6 +45,26 @@ li:hover > button svg {
   margin: 4rem 1.5rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   border-radius: .375rem;
+}
+
+.client-testimonial-container {
+  margin-top: -12.5rem;
+}
+
+@media only screen and (max-width: 980px) {
+  .client-testimonial-container {
+    margin-top: -15.5rem;
+  }
+}
+
+.service-testimonial-container {
+  margin-top: -19rem;
+}
+
+@media only screen and (max-width: 980px) {
+  .service-testimonial-container {
+    margin-top: -22.9rem;
+  }
 }
 
 .arrow-up {

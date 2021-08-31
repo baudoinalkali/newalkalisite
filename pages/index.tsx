@@ -54,65 +54,65 @@ const ServicesHome = [
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
-    serviceName: "Search Engine Optimization",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/search-engine-optimization"
+    serviceName: "SEO",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/search-engine-optimization/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
-    serviceName: "Web <br/> Development",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/search-engine-optimization"
+    serviceName: "WordPress Development",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/web-development/wordpress-website-development/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
-    serviceName: "Web Development",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/search-engine-optimization"
+    serviceName: "PPC & Retargeting",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/pay-per-click-advertising/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
-    serviceName: "Web Development",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/search-engine-optimization"
+    serviceName: "E-commerce Development",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/web-development/ecommerce-website-development/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
-    serviceName: "Web Development",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/search-engine-optimization"
+    serviceName: "Local SEO",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/local-search-engine-optimization/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
-    serviceName: "Web Development",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/search-engine-optimization"
+    serviceName: "Reputation Management",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/reputation-management/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
-    serviceName: "Web Development",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/search-engine-optimization"
+    serviceName: "Content Marketing",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/content-marketing/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
-    serviceName: "Web Development",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/search-engine-optimization"
+    serviceName: "Custom Development",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/web-development/custom-website-development/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
-    serviceName: "Web Development",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/search-engine-optimization"
+    serviceName: "Social Media Marketing",
+    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    slug: "/services/digital-marketing/social-media-marketing/"
   }
 ]
 
@@ -166,14 +166,14 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto justify-between gap-y-14 gap-x-14">
           {ServicesHome.map((wordpress) => (
             <a href={wordpress.slug} className="group w-full shadow-2xl rounded-md p-10 transform hover:-translate-y-2 duration-500">
-              <img src={wordpress.icon} alt={wordpress.altText} />
+              <img className="w-14 h-14" src={wordpress.icon} alt={wordpress.altText} />
               <h3 className="text-2xl font-bold py-7" dangerouslySetInnerHTML={{ __html: wordpress.serviceName }}>
               </h3>
               <p className="text-alkaligrey-400">
                 {wordpress.serviceDescription}
               </p>
               <div className="mt-5 flex items-center justify-center lg:justify-start group space-x-3">
-                <div className="font-medium text-md text-alkaligrey-400">Learn More</div>
+                <div className="font-medium text-md text-alkaligrey-400 group-hover:text-alkali-500">Learn More</div>
                 <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:transform duration-500 group-hover:translate-x-3 h-4 w-4 group-hover:text-alkali-500 text-alkaligrey-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>

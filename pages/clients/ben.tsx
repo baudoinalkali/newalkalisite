@@ -95,13 +95,13 @@ function Ben() {
 
       <TwoColumnLayout
         flexType="reverse"
-        style="bg-alkaligrey-300 py-24 lg:py-36 pb-72 lg:pb-80 mb-6"
+        style="bg-alkaligrey-300 py-24 lg:py-36 pb-80 lg:pb-80 mb-6"
         child1={carroGoalImage}
         child2={carroGoalText}
       ></TwoColumnLayout>
 
       <div className="px-7">
-        <div className="pb-4 lg:pb-10 -mt-56">
+      <div className="pb-4 lg:pb-10 client-testimonial-container">
           <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
             background="/images/clients/ben/ben-slide-bg.jpg"
@@ -131,8 +131,8 @@ function Ben() {
 
       {CarroScreenImages.carro.map((carro) => (
         <ResponsiveScreens
-          style="py-24 lg:py-36 overflow-hidden"
-          link="https://ben.ai"
+        style="py-24 lg:py-36 overflow-hidden"
+        link="https://ben.ai"
           buttonName="Visit Site"
           brandColor="#ff936b"
           desktopLeft="/images/clients/ben/desktop-left.png"
@@ -145,7 +145,7 @@ function Ben() {
           phoneLink="https://ben.ai/product"
         />
       ))}
-      <section className="bg-alkaligrey-300 pt-20 lg:pt-36">
+      <section className="bg-alkaligrey-300 pt-96 -mt-96">
         <h3 className="text-center text-4xl md:text-5xl font-bold max-w-4xl m-auto mb-14 lg:mb-20 leading-normal">
           Other Projects
         </h3>
@@ -164,7 +164,7 @@ function Ben() {
           </ClientCardContainer>
         </div>
         <div className="flex items-center justify-center group space-x-3">
-          <a href="/clients" className="uppercase font-medium text-alkaligrey-900">View All Projects</a>
+          <a href="/clients" className="font-medium text-lg text-alkaligrey-900">View All Projects</a>
           <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:transform duration-500 group-hover:translate-x-3 h-6 w-6 text-alkaligrey-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
           </svg>
