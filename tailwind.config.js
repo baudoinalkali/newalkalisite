@@ -38,6 +38,8 @@ module.exports = {
       },
       margin : {
         '100': '30rem',
+        '-73': '-19.1rem',
+        '-74': '-22.9rem'
       },
       padding : {
         '100': '30rem',

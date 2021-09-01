@@ -263,7 +263,7 @@ function EcommerceWebsiteDevelopment() {
         child2={text5}
       />
       <div className="py-24 px-14 2xl:px-0 bg-white">
-        <h6 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-tight">
+        <h6 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-normal">
           Keep Your Store Connected
         </h6>
         <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
@@ -274,7 +274,7 @@ function EcommerceWebsiteDevelopment() {
       </div>
       <Integration style="pb-24 bg-white py-14 2xl:px-0" />
       <div className="py-24 max-w-7xl m-auto">
-        <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
+        <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-normal">
           Frequently Asked Questions About Our WordPress Development
         </h6>
         <div className="w-full px-4 pt-16">

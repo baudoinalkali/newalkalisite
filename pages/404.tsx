@@ -54,7 +54,7 @@ export default function Custom404() {
                     </div>
                     <div className="w-full lg:w-1/2 flex justify-center">
                         <Image
-                            src="/images/404.png"
+                            src="/images/404.svg"
                             width="600"
                             height="400"
                             quality={100}

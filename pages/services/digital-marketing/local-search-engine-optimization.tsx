@@ -151,7 +151,7 @@ function LocalSearchEngineOptimization() {
       />
       <TwoColumnLayout style="mb-3" child2={seoImage3} child1={seoText3} />
       <div className="px-7 pt-10">
-        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
+        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-normal pb-14">
           Hear It Straight From Our Clients
         </h3>
       </div>
@@ -188,7 +188,7 @@ function LocalSearchEngineOptimization() {
       />
       <div className="px-7">
         <div className="py-24 max-w-7xl m-auto">
-          <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
+          <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-normal">
             Frequently Asked Questions About Our SEO Services
           </h6>
           <div className="w-full pt-16">

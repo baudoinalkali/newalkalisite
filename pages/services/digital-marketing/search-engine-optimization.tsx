@@ -214,7 +214,7 @@ function SearchEngineOptimization() {
         child1={seoText3}
       />
       <div className="px-7 pt-10">
-        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-24">
+        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-normal pb-24">
           Hear It Straight From Our Clients
         </h3>
       </div>

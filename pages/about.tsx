@@ -16,9 +16,9 @@ export default function About() {
 
   const aboutImage1 = (
     <ServiceImage
-      image="/images/web-development/wordpress/custom-built.svg"
-      height="450"
-      width="600"
+      image="/images/about-evolving.svg"
+      height="431"
+      width="575"
     />
   )
 

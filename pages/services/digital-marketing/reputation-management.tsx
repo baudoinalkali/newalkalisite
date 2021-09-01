@@ -176,7 +176,7 @@ function Reputation() {
         child2={socialText4}
       />
       <div className="py-36">
-        <h6 className="text-3xl md:text-4xl pb-24 text-center font-bold m-auto leading-tight">
+        <h6 className="text-3xl md:text-4xl pb-24 text-center font-bold m-auto leading-normal">
           Platforms We Work With
         </h6>
         <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-y-10 max-w-7xl m-auto">
@@ -203,7 +203,7 @@ function Reputation() {
       </div>
       <div className="">
         <div className="py-24 max-w-7xl m-auto">
-          <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
+          <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-normal">
             Frequently Asked Questions About Our Social Media Marketing Services
           </h6>
           <div className="w-full px-4 pt-16">
