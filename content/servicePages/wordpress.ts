@@ -100,7 +100,7 @@ const Wordpress = {
     ],
     responsiveScreens: [
         {
-            link: "/clients",
+            link: "/clients/",
             buttonName: "View Clients",
             desktopLeft: "/images",
             desktopRight: "/images",

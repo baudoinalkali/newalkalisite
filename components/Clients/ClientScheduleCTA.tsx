@@ -6,7 +6,7 @@ const ClientScheduleCTA = props => {
             <div className=" py-24 max-w-7xl m-auto">
                 <div className="flex flex-col lg:flex-row justify-between items-center max-w-7xl m-auto mx-3 xl:mx-auto">
                     <div>
-                        <h3 className="text-4xl font-bold max-w-7xl m-auto text-white leading-tight text-center mb-14 lg:mb-0">
+                        <h3 className="text-3xl lg:text-4xl font-bold max-w-7xl m-auto text-white leading-tight text-center mb-14 lg:mb-0">
                             We're Here to Realize Your Vision.
                         </h3>
                     </div>

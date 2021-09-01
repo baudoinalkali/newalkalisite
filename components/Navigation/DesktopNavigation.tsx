@@ -49,13 +49,13 @@ const DesktopNavigation = (props) => {
               />
             </a>
             <div>
-              <ul className={`flex justify-between gap-x-14 text-md font-bold`}>
+              <ul className={`flex justify-between gap-x-14 font-bold`}>
                 <li>
                   <SolutionsDropdown headerColor={props.headerColor} />
                 </li>
                 <a href="/clients/">
                   <li
-                    className={`duration-500 hover:opacity-50 ${headerTopLevelColor()}`}
+                    className={`text-lg duration-500 hover:opacity-50 ${headerTopLevelColor()}`}
                   >
                     Clients
                   </li>
@@ -63,7 +63,7 @@ const DesktopNavigation = (props) => {
                 <li>
                   <a href="/about/">
                     <li
-                      className={`duration-500 hover:opacity-50 ${headerTopLevelColor()}`}
+                      className={`text-lg duration-500 hover:opacity-50 ${headerTopLevelColor()}`}
                     >
                       About
                     </li>
@@ -71,7 +71,7 @@ const DesktopNavigation = (props) => {
                 </li>
                 <a href="/contact/">
                   <li
-                    className={`duration-500 hover:opacity-50 ${headerTopLevelColor()}`}
+                    className={`text-lg duration-500 hover:opacity-50 ${headerTopLevelColor()}`}
                   >
                     Contact
                   </li>

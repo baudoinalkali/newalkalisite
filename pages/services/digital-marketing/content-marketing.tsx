@@ -138,7 +138,7 @@ function ContentMarketing() {
         child1={contentText3}
       />
       <div className="px-7 pt-10">
-        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
+        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-normal pb-14">
           Hear It Straight From Our Clients
         </h3>
       </div>
@@ -169,7 +169,7 @@ function ContentMarketing() {
       />
       <div className="bg-white">
         <div className="py-24 max-w-7xl m-auto">
-          <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
+          <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-normal">
             Frequently Asked Questions About Our SEO Services
           </h6>
           <div className="w-full px-4 pt-16">

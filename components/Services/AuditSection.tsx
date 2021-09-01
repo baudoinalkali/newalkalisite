@@ -6,7 +6,7 @@ import AuditForm from "../AuditForm";
 
 const AuditSection = (props) => {
     return (
-        <div className={`"p-4 py-24 md:py-36" ${props.backgroundColor}`}>
+        <div className={`py-24 ${props.backgroundColor}`}>
             <div className="flex flex-col lg:flex-row gap-x-20 justify-between items-center max-w-7xl m-auto mx-3 xl:mx-auto">
                 <div className="w-full lg:w-1/2 flex justify-center">
                     <Image

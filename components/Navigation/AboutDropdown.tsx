@@ -4,7 +4,7 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 const aboutLinks = [
   {
     name: "About Us",
-    href: "/about",
+    href: "/about/",
   },
   {
     name: "Partners",

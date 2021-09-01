@@ -171,7 +171,7 @@ function SocialMediaMarketing() {
         child2={socialText4}
       />
       <div className="py-24 px-7">
-        <h6 className="text-4xl md:text-5xl pb-24 text-center font-bold m-auto leading-tight">
+        <h6 className="text-4xl md:text-5xl pb-24 text-center font-bold m-auto leading-normal">
           Platforms We Work With
         </h6>
         <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-y-10 max-w-7xl m-auto">
@@ -198,7 +198,7 @@ function SocialMediaMarketing() {
       </div>
       <div className="">
         <div className="py-24 max-w-7xl m-auto">
-          <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight px-7">
+          <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-normal px-7">
             Frequently Asked Questions About Our Social Media Marketing Services
           </h6>
           <div className="w-full px-4 pt-16">

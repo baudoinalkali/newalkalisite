@@ -77,7 +77,7 @@ export default function SolutionsDropdown(props) {
               className={`${open ? dropdownTextColorOpen() : dropdownTextColor()
                 } duration-500 group bg-orange-700 rounded-md inline-flex items-center text-base font-bold text-md hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
             >
-              <span>Solutions</span>
+              <span className="text-lg">Solutions</span>
               <ChevronDownIcon
                 className={`${open
                   ? `transform -rotate-90 text-black ${dropdownTextColorOpen()}`

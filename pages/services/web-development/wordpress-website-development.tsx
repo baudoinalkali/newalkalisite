@@ -286,38 +286,28 @@ function WordPressWebsiteDevelopment() {
         portalId="20442125"
         formId="a7151b69-9aec-4d86-b2bf-577b81ddc8ca"
       />
-      <div className="pt-24 px-10 2xl:px-0">
-        <h2 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-tight">
-          Not All Websites Are Created Equal
-        </h2>
-        <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
-          An unfortunate reality of WordPress websites, particularly template
-          based build are the overeliance on plugins, lack of customization
-        </p>
-      </div>
       <TwoColumnLayout
         flexType="reverse"
+        style="bg-alkaligrey-300"
         child1={responsiveDesignImage}
         child2={responsiveDesignText}
       />
-
       <TwoColumnLayout
-        style="bg-alkaligrey-300 pb-100 mb-2"
+        style="pb-36"
         child1={seoText}
         child2={seoImage}
       />
-
-      <div className="-mt-72 px-10 2xl:px-0">
-        <h2 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
+      <div className="px-7 2xl:px-0">
+      <h2 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
           Hear It Straight From Our Clients
         </h2>
-      </div>
       <div className="relative z-20">
         <TestimonialSlider>
           {Testimonials.wordpress.map((testimonial) => (
             <TestimonialSlide
               background={testimonial.background}
               backgroundOverlay={testimonial.backgroundOverlay}
+              brandColor={testimonial.brandColor}
               company={testimonial.company}
               key={`designTestimonialFor${testimonial.company}`}
               logo={testimonial.logo}
@@ -332,20 +322,22 @@ function WordPressWebsiteDevelopment() {
           ))}
         </TestimonialSlider>
       </div>
+      </div>
       <TwoColumnLayout
+        style="pt-96 -mt-48 bg-alkaligrey-300"
         child1={userExperienceText}
         child2={userExperienceImage}
       />
 
       <TwoColumnLayout
-        style="bg-alkaligrey-300"
+        style=""
         flexType="reverse"
         child1={performanceImage}
         child2={performanceText}
       />
       {Wordpress.responsiveScreens.map((responsiveScreens) => (
         <ResponsiveScreens
-          style="py-36 pb-12 overflow-hidden z-30 relative"
+          style="bg-alkaligrey-300 py-36 pb-12 overflow-hidden z-30 relative"
           link="/clients/"
           buttonName="View Projects"
           desktopLeft="/"
@@ -360,13 +352,13 @@ function WordPressWebsiteDevelopment() {
         />
       ))}
       <TwoColumnLayout
-        style="bg-alkaligrey-300 z-10 relative -mt-48 pt-72"
+        style="z-10 relative"
         child1={conversionText}
         child2={conversionImage}
       />
 
-      <div className="py-24 px-14 2xl:px-0 bg-white">
-        <h2 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-tight">
+      <div className="py-24 pb-0 bg-alkaligrey-300 px-14 2xl:px-0 bg-white">
+        <h2 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-normal">
           Integration Is the Name of the Game
         </h2>
         <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
@@ -375,10 +367,10 @@ function WordPressWebsiteDevelopment() {
           business processes. Integrations shouldn't be an afterthought, but a
           central part of your next website build.
         </p>
+        <Integration style="py-24 2xl:px-0" />
       </div>
-      <Integration style="pb-24 bg-white py-14 2xl:px-0" />
       <div className="py-24 max-w-7xl m-auto">
-        <h2 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
+        <h2 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-normal">
           Frequently Asked Questions About Our WordPress Development
         </h2>
         <div className="w-full px-4 pt-16">

@@ -156,7 +156,7 @@ function PayPerClick() {
         child1={seoText3}
       />
       <div className="px-7 pt-10">
-        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
+        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-normal pb-14">
           Hear It Straight From Our Clients
         </h3>
       </div>
@@ -188,7 +188,7 @@ function PayPerClick() {
       />
       <div className="">
         <div className="py-36 max-w-7xl m-auto px-7">
-          <h6 className="text-4xl md:text-5xl pb-7 max-w-3xl m-auto text-center font-bold m-auto leading-tight">
+          <h6 className="text-4xl md:text-5xl pb-7 max-w-3xl m-auto text-center font-bold m-auto leading-normal">
             Frequently Asked Questions About Our SEO Services
           </h6>
           <div className="w-full pt-16">
