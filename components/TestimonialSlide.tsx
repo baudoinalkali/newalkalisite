@@ -43,12 +43,12 @@ const TestimonialSlide = (props) => {
                             <p className="text-gray-900">
                                 {props.quote}
                             </p>
-                            <p className={`mt-5 font-medium ${slugSpacing()}`}>
+                            <p className={`mt-5 text-gray-900 font-medium ${slugSpacing()}`}>
                                 {`- ${props.name}`}
                             </p>
                             <div className={`flex items-center justify-start group space-x-3 ${slugVisibilityType()}`}>
-                                <a href={props.slug} className={`text-md text-alkaligrey-900`} style={{color: `${props.brandColor}`}}>Learn More</a>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:transform duration-500 group-hover:translate-x-3 h-5 w-5" style={{color: `${props.brandColor}`}} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <a href={`/clients/${props.slug}`} className={`text-md text-alkaligrey-900`}>Learn More</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:transform duration-500 group-hover:translate-x-3 h-5 w-5 text-alkaligrey-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                 </svg>
                             </div>
