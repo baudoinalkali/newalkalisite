@@ -135,6 +135,7 @@ function Ben() {
         link="https://ben.ai"
           buttonName="Visit Site"
           brandColor="#ff936b"
+          newTab={true}
           desktopLeft="/images/clients/ben/desktop-left.png"
           desktopRight="/images/clients/ben/desktop-right.png"
           tablet="/images/clients/ben/tablet.png"

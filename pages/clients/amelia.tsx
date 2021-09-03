@@ -140,6 +140,7 @@ function Amelia() {
           style="py-24 lg:py-36 overflow-hidden"
           link="https://getcarro.com"
           brandColor="#4f80c2"
+          newTab={true}
           buttonName="Visit Site"
           desktopLeft={screens.desktopLeft}
           desktopRight={screens.desktopRight}

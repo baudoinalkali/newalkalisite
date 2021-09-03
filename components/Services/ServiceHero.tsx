@@ -20,7 +20,7 @@ const ServiceHero = (props) => {
         <div style={{ position: "absolute" }}>{particles}</div>
         <div className="max-w-7xl flex justify-between items-center m-auto py-24 relative">
           <div className="w-full lg:w-8/12">
-            <h1 className="portfolio-title text-white uppercase text-md font-bold">
+            <h1 className="portfolio-title text-white uppercase text-md font-medium">
               {props.sub}
             </h1>
             <h2

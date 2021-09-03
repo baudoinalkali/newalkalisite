@@ -7,7 +7,6 @@ import CombinedNavigation from "../../../components/Navigation/CombinedNavigatio
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
 import SocialMarketing from "../../../content/servicePages/social";
 import SocialIntegrations from "../../../content/servicePages/integrationContent";
-import AuditFormPopup from "../../../components/AuditFormPopup";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
@@ -135,38 +134,13 @@ function SocialMediaMarketing() {
         formId="a7151b69-9aec-4d86-b2bf-577b81ddc8ca"
       />
       <TwoColumnLayout
-        style="bg-white pb-100 mb-3"
+        style="bg-white mb-3"
         child2={socialImage3}
         child1={socialText3}
       />
-      <div className="-mt-72 px-7">
-        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-24">
-          Hear It Straight From Our Clients
-        </h3>
-      </div>
-      <div className="relative z-20 mb-2">
-        <TestimonialSlider>
-          {Testimonials.wordpress.map((testimonial) => (
-            <TestimonialSlide
-              background={testimonial.background}
-              backgroundOverlay={testimonial.backgroundOverlay}
-              company={testimonial.company}
-              key={`designTestimonialFor${testimonial.company}`}
-              logo={testimonial.logo}
-              slug={testimonial.slug}
-              logoWidth={testimonial.logoWidth}
-              logoHeight={testimonial.logoHeight}
-              altText={testimonial.altText}
-              name={testimonial.name}
-              quote={testimonial.quote}
-              slugVisibility="true"
-            />
-          ))}
-        </TestimonialSlider>
-      </div>
       <TwoColumnLayout
         flexType="reverse"
-        style="bg-alkaligrey-300 pt-80 -mt-48"
+        style="bg-alkaligrey-300"
         child1={socialImage4}
         child2={socialText4}
       />
@@ -215,8 +189,6 @@ function SocialMediaMarketing() {
           </div>
         </div>
       </div>
-
-      <AuditFormPopup />
     </div>
   );
 }

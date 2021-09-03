@@ -142,6 +142,7 @@ function Carro() {
           link="https://magnetite.com"
           buttonName="Visit Site"
           brandColor="#46b7e6"
+          newTab={true}
           desktopLeft={magnetite.desktopLeft}
           desktopRight={magnetite.desktopRight}
           tablet={magnetite.tablet}

@@ -135,6 +135,7 @@ function CarTalkRepair() {
                 link="https://chattr.ai"
                 buttonName="Visit Site"
                 brandColor="#bf1e2e"
+                newTab={true}
                 desktopLeft={cartalkRepair.desktopLeft}
                 desktopRight={cartalkRepair.desktopRight}
                 tablet={cartalkRepair.tablet}

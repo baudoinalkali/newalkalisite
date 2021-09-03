@@ -132,6 +132,7 @@ function Carro() {
           link="https://getcarro.com"
           buttonName="Visit Site"
           brandColor="#93469a"
+          newTab={true}
           desktopLeft={carro.desktopLeft}
           desktopRight={carro.desktopRight}
           tablet={carro.tablet}

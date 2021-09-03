@@ -101,6 +101,7 @@ function Carro() {
             background="/images/clients/chattr/chattr-slide-bg.jpg"
             brandColor="#36ad8b"
             company="Chattr"
+            newTab={true}
             logo="/images/clients/chattr/logo.svg"
             logoWidth="200"
             logoHeight="80"

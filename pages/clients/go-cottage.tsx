@@ -140,6 +140,7 @@ function Carro() {
           link="https://go-cottage.com"
           buttonName="Visit Site"
           brandColor="#B3D079"
+          newTab={true}
           desktopLeft={goCottage.desktopLeft}
           desktopRight={goCottage.desktopRight}
           tablet={goCottage.tablet}

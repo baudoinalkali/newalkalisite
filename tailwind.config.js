@@ -39,11 +39,13 @@ module.exports = {
       margin : {
         '100': '30rem',
         '-73': '-19.1rem',
-        '-74': '-22.9rem'
+        '-74': '-22.9rem',
+        '82': '22rem'
       },
       padding : {
         '100': '30rem',
-        '98': '27rem'
+        '98': '27rem',
+        '82': '22rem'
       },
       lineHeight: {
         'standard': "4.2",

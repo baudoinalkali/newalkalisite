@@ -9,7 +9,6 @@ import Testimonials from "../../../content/testimonials";
 import Image from "next/image";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
-import AuditFormPopup from "../../../components/AuditFormPopup";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
@@ -209,12 +208,12 @@ function SearchEngineOptimization() {
         formId="a7151b69-9aec-4d86-b2bf-577b81ddc8ca"
       />
       <TwoColumnLayout
-        style="bg-white mb-3"
+        style="pb-20 lg:pb-36"
         child2={seoImage3}
         child1={seoText3}
       />
       <div className="px-7 pt-10">
-        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-normal pb-24">
+        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-normal pb-14">
           Hear It Straight From Our Clients
         </h3>
       </div>
@@ -269,8 +268,6 @@ function SearchEngineOptimization() {
           </div>
         </div>
       </div>
-
-      <AuditFormPopup />
     </div>
   );
 }

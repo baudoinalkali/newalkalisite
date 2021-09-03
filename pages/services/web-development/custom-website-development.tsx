@@ -18,6 +18,7 @@ import FAQDropdown from "../../../components/Services/FAQDropdown";
 import WordpressFAQ from "../../../content/servicePages/faq";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import Head from "next/head";
+import ClientScheduleCTA from "../../../components/Clients/ClientScheduleCTA";
 
 function WordPressWebsiteDevelopment() {
   const customBuiltImage = Custom.customBuilt.map((customBuilt) => (
@@ -235,12 +236,6 @@ function WordPressWebsiteDevelopment() {
         child1={customBuiltText}
         child2={customBuiltImage}
       />
-      <ServiceLeadSection
-        style="bg-alkali-500 py-24"
-        title="We're Here to Realize Your Vision"
-        text="Do you have an idea and vision for your website but not sure where to start? Our team of professionals are standing by to answer any questions you may have. Whether you need a free audit of your current website or want to discuss specifics of a new WordPress website build, we look forward to serving you!"
-        buttonText="Schedule a Discovery Call"
-      />
       <TwoColumnLayout
         flexType="reverse"
         child1={responsiveDesignImage}
@@ -248,45 +243,21 @@ function WordPressWebsiteDevelopment() {
       />
 
       <TwoColumnLayout
-        style="bg-alkaligrey-300 pb-100 lg:pb-98 mb-2"
+        style="bg-alkaligrey-300"
         child1={seoText}
         child2={seoImage}
       />
-
-      <div className="-mt-96 lg:-mt-80 pt-2 px-10 2xl:px-0">
-        <h2 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
-          Hear It Straight From Our Clients
-        </h2>
-      </div>
-      <div className="relative z-20">
-        <TestimonialSlider>
-          {CustomSlide.map((testimonial) => (
-            <TestimonialSlide
-              background={testimonial.background}
-              backgroundOverlay={testimonial.backgroundOverlay}
-              brandColor={testimonial.brandColor}
-              company={testimonial.company}
-              key={`designTestimonialFor${testimonial.company}`}
-              logo={testimonial.logo}
-              slug={testimonial.slug}
-              logoWidth={testimonial.logoWidth}
-              logoHeight={testimonial.logoHeight}
-              altText={testimonial.altText}
-              name={testimonial.name}
-              quote={testimonial.quote}
-              slugVisibility="true"
-            />
-          ))}
-        </TestimonialSlider>
-      </div>
       <TwoColumnLayout
-        style="pt-24 lg:pt-36"
+        style=""
         child1={userExperienceText}
         child2={userExperienceImage}
       />
+            <ClientScheduleCTA
+        brandColor="#00baff"
+      />
       {CarroScreenImages.carro.map((carro) => (
         <ResponsiveScreens
-          style="pt-0 lg:pt-14 py-36 pb-12 overflow-hidden z-30 relative"
+          style="py-24 pb-12 overflow-hidden z-30 relative"
           link="/clients/"
           brandColor="#00baff"
           buttonName="View Projects"
