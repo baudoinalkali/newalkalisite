@@ -930,7 +930,7 @@ const ClientContent = {
                     sub: "The Challenge",
                     title: "Test Title",
                     text: "Homewatch Amelia had no existing brand, website, or online presence. They needed to establish themselves in a brand new market to attract clients and build a positive reputation. They needed a website that communicated trust, professionalism and highlighted the founder's experience in a similar industry. When it came to the website, they valued greatly the ability to maintain it easily after the initial development.",
-                    image: "/images/clients/lessons-that-rock/section1.png",
+                    image: "/images/clients/amelia/desktop-left.png",
                     altText: ""
                 },
             ],
@@ -940,7 +940,7 @@ const ClientContent = {
                     sub: "The Solution",
                     title: "Test Title",
                     text: "We created a complete branding kit, social accounts and designed and developed their website from start to finish. We created a custom WordPress website that was set up to be easily maintained by non-technical individuals. In addition, we provided documentation and recorded videos of standard updates so they could easily follow along.",
-                    image: "/images/clients/lessons-that-rock/section2.png",
+                    image: "/images/clients/amelia/desktop-right.png",
                     altText: ""
                 },
             ],

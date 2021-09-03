@@ -132,6 +132,7 @@ function Carro() {
           link="https://thehidfactory.com"
           buttonName="Visit Name"
           brandColor="#26a8f6"
+          newTab={true}
           desktopLeft={thf.desktopLeft}
           desktopRight={thf.desktopRight}
           tablet={thf.tablet}

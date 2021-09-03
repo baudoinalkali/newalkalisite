@@ -4,7 +4,6 @@ import { Fragment } from "react";
 import useFixFouc from "../hooks/useFixFouc";
 import useInitHShChatbot from "../hooks/useInitHShChatbot";
 import dynamic from "next/dynamic";
-import Head from "next/head"
 const Footer = dynamic(() => import("../components/Footer"));
 
 function MyApp({ Component, pageProps }) {

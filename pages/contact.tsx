@@ -71,11 +71,8 @@ function Contact() {
         <div className="flex flex-col lg:flex-row gap-x-0 md:gap-x-10 gap-y-24 lg:gap-y-0  xl:mx-auto justify-between items-center max-w-7xl -mt-32">
           {contactInfo.map((item) => (
             <div className="rounded-md shadow-2xl p-14 bg-white">
-              <img
-                className="-mt-24 shadow-2xl rounded-full p-5 mx-auto bg-white z-30"
-                src={item.icon}
-                alt={item.altText}
-              />
+              <div className="-mt-24 rounded-full bg-white w-36 h-36 shadow-2xl mx-auto" style={{backgroundImage: `url(${item.icon})`, backgroundSize:"fit", backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
+              </div>
               <h2 className="text-center py-3 pt-11 text-xl font-medium">{item.method}</h2>
               <p className="text-center max-w-xs text-lg pb-7">
                 {item.description}

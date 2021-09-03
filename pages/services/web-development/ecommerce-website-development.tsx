@@ -231,36 +231,11 @@ function EcommerceWebsiteDevelopment() {
         child2={text4}
         child1={image4}
       />
-      <div className="px-14 pt-24 2xl:px-0">
-        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
-          Hear It Straight From Our Clients
-        </h3>
-      </div>
-      <div className="relative z-20">
-        <TestimonialSlider>
-          {Testimonials.wordpress.map((testimonial) => (
-            <TestimonialSlide
-              background={testimonial.background}
-              backgroundOverlay={testimonial.backgroundOverlay}
-              company={testimonial.company}
-              key={`designTestimonialFor${testimonial.company}`}
-              logo={testimonial.logo}
-              slug={testimonial.slug}
-              logoHeight={testimonial.logoHeight}
-              logoWidth={testimonial.logoWidth}
-              altText={testimonial.altText}
-              name={testimonial.name}
-              quote={testimonial.quote}
-              slugVisibility="true"
-            />
-          ))}
-        </TestimonialSlider>
-      </div>
       <TwoColumnLayout
-        style="pt-80 -mt-48 bg-alkaligrey-300"
+        style="bg-alkaligrey-300"
         flexType="reverse"
-        child1={image5}
-        child2={text5}
+        child2={image5}
+        child1={text5}
       />
       <div className="py-24 px-14 2xl:px-0 bg-white">
         <h6 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-normal">

@@ -5,7 +5,6 @@ import Testimonials from "../../../content/testimonials";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
 import Content from "../../../content/servicePages/contentMarketing";
-import AuditFormPopup from "../../../components/AuditFormPopup";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
@@ -109,7 +108,7 @@ function ContentMarketing() {
         child2={contentText2}
       />
       <div className="py-24 px-7">
-        <h6 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-24">
+        <h6 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-24">
           Our Content Marketing Services
         </h6>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
@@ -133,37 +132,12 @@ function ContentMarketing() {
         formId="a7151b69-9aec-4d86-b2bf-577b81ddc8ca"
       />
       <TwoColumnLayout
-        style="mb-3"
+        style=""
         child2={contentImage3}
         child1={contentText3}
       />
-      <div className="px-7 pt-10">
-        <h3 className="text-4xl md:text-5xl text-center font-bold m-auto leading-normal pb-14">
-          Hear It Straight From Our Clients
-        </h3>
-      </div>
-      <div className="relative z-20 -mb-48">
-        <TestimonialSlider>
-          {Testimonials.wordpress.map((testimonial) => (
-            <TestimonialSlide
-              background={testimonial.background}
-              backgroundOverlay={testimonial.backgroundOverlay}
-              company={testimonial.company}
-              key={`designTestimonialFor${testimonial.company}`}
-              logo={testimonial.logo}
-              slug={testimonial.slug}
-              logoWidth={testimonial.logoWidth}
-              logoHeight={testimonial.logoHeight}
-              altText={testimonial.altText}
-              name={testimonial.name}
-              quote={testimonial.quote}
-              slugVisibility="true"
-            />
-          ))}
-        </TestimonialSlider>
-      </div>
       <TwoColumnLayout
-        style="pt-80 bg-alkaligrey-300"
+        style="bg-alkaligrey-300"
         child2={contentImage4}
         child1={contentText4}
       />
@@ -188,8 +162,6 @@ function ContentMarketing() {
           </div>
         </div>
       </div>
-
-      <AuditFormPopup />
     </div>
   );
 }

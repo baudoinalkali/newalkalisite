@@ -139,6 +139,7 @@ function Amelia() {
           link="https://getcarro.com"
           brandColor="#4f80c2"
           buttonName="Visit Site"
+          newTab={true}
           desktopLeft={screens.desktopLeft}
           desktopRight={screens.desktopRight}
           tablet={screens.tablet}

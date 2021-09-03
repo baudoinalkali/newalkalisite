@@ -11,6 +11,7 @@ import CombinedNavigation from "../../../components/Navigation/CombinedNavigatio
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
 import Head from "next/head";
+import ClientScheduleCTA from "../../../components/Clients/ClientScheduleCTA";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const ResponsiveScreens = dynamic(() => import("../../../components/ResponsiveScreens"));
@@ -18,6 +19,25 @@ const Integration = dynamic(() => import("../../../components/Integration"));
 const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function WordPressWebsiteDevelopment() {
+  const wordpressImage = Wordpress.wordpressWebsiteDevelopment.map((wordpressWebsiteDevelopment) => (
+    <ServiceImage
+      image={wordpressWebsiteDevelopment.image}
+      altText={wordpressWebsiteDevelopment.altText}
+      imageAngle="none"
+      height={wordpressWebsiteDevelopment.height}
+      width={wordpressWebsiteDevelopment.width}
+      key={wordpressWebsiteDevelopment.image}
+    />
+  ));
+
+  const wordpressText = Wordpress.wordpressWebsiteDevelopment.map((wordpressWebsiteDevelopment) => (
+    <StandardTextBlock
+      title={wordpressWebsiteDevelopment.title}
+      text={wordpressWebsiteDevelopment.text}
+      key={wordpressWebsiteDevelopment.title}
+    />
+  ));
+
   const customBuiltImage = Wordpress.customBuilt.map((customBuilt) => (
     <ServiceImage
       image={customBuilt.image}
@@ -142,7 +162,7 @@ function WordPressWebsiteDevelopment() {
         <title>WordPress Website Development | WordPress Experts</title>
         <meta name="description" content="Build a user-friendly, SEO-optimized WordPress website that maximizes your online presence with Alkali's bespoke WordPress solutions." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="WordPress Website Development | WordPress Experts" />
@@ -170,64 +190,12 @@ function WordPressWebsiteDevelopment() {
         ))}
       </div>
       <div className="">
-        <div className="py-24 px-0 lg:px-14">
-          <div className="flex flex-col space-x-0 lg:space-x-14 lg:flex-row m-auto justify-between items-center max-w-7xl">
-            <div className="px-10 w-full lg:w-1/2 2xl:px-0 pb-20 lg:pb-0">
-              <h2 className="text-4xl md:text-5xl font-bold m-auto leading-tight">
-                WordPress Website Development
-              </h2>
-              <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">
-                You’ve probably heard of WordPress, but here is the short version: WordPress started as a way for people to create
-                blogs easily, but it has evolved so much over the years. It is now the most widely used Content Management System
-                (CMS) in the world. Now, it's leveraged by people from all walks of life and all levels of business. From Fortune
-                500 companies to someone starting their first blog, WordPress suits a variety of use cases. If you’re looking for
-                guidance on if WordPress is suitable for you, we can help! We have been designing, developing, and customizing WordPress
-                for years.
-              </p>
-            </div>
-            <div className="z-0 pointer-events-none w-96 md:w-auto">
-              <div className="angled-mockup rounded-md shadow-2xl">
-                <div className="browser-mockup z-0">
-                  <div style={{ fontSize: "0" }}>
-                    <Image
-                      src="/images/wordpress-stats.png"
-                      alt=""
-                      className="rounded-b-md"
-                      width={588}
-                      height={410}
-                      quality={100}
-                    />
-                  </div>
-                </div>
-                <div className="bg-white stat-container float-right -mr-6 shadow-2xl p-7 rounded-md text-center uppercase font-medium text-sm -mt-14 relative w-80 lg:w-5/6">
-                  <p className="pb-4">Wordpress Statistics</p>
-                  <div className="flex justify-between items-center max-w-7xl m-auto">
-                    <div className="w-1/2 m-auto -ml-3 border-r">
-                      <p className="font-bold text-3xl lg:text-5xl pb-4">
-                        <FontAwesomeIcon
-                          className="text-2xl relative top-0 mr-3"
-                          icon={faCaretUp}
-                        ></FontAwesomeIcon>
-                        40%
-                      </p>
-                      <p className="text-xs ml-4">Sites Use WordPress</p>
-                    </div>
-                    <div className="w-1/2 m-auto">
-                      <p className="font-bold text-3xl lg:text-5xl pb-4">
-                        <FontAwesomeIcon
-                          className="text-2xl relative top-0 mr-3"
-                          icon={faCaretUp}
-                        ></FontAwesomeIcon>
-                        150%
-                      </p>
-                      <p className="text-xs ml-4">Monthly Leads Request</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <TwoColumnLayout
+          style=""
+          child1={wordpressText}
+          child2={wordpressImage}
+
+        />
       </div>
       <TwoColumnLayout
         style="bg-alkaligrey-300"
@@ -293,38 +261,38 @@ function WordPressWebsiteDevelopment() {
         child2={responsiveDesignText}
       />
       <TwoColumnLayout
-        style="pb-36"
+        style="pb-20 lg:pb-36"
         child1={seoText}
         child2={seoImage}
       />
-      <div className="px-7 2xl:px-0">
-      <h2 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
+      <div className="pt-10">
+        <h2 className="px-7 text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
           Hear It Straight From Our Clients
         </h2>
-      <div className="relative z-20">
-        <TestimonialSlider>
-          {Testimonials.wordpress.map((testimonial) => (
-            <TestimonialSlide
-              background={testimonial.background}
-              backgroundOverlay={testimonial.backgroundOverlay}
-              brandColor={testimonial.brandColor}
-              company={testimonial.company}
-              key={`designTestimonialFor${testimonial.company}`}
-              logo={testimonial.logo}
-              slug={testimonial.slug}
-              logoWidth={testimonial.logoWidth}
-              logoHeight={testimonial.logoHeight}
-              altText={testimonial.altText}
-              name={testimonial.name}
-              quote={testimonial.quote}
-              slugVisibility="true"
-            />
-          ))}
-        </TestimonialSlider>
-      </div>
+        <div className="relative z-20">
+          <TestimonialSlider>
+            {Testimonials.wordpress.map((testimonial) => (
+              <TestimonialSlide
+                background={testimonial.background}
+                backgroundOverlay={testimonial.backgroundOverlay}
+                brandColor={testimonial.brandColor}
+                company={testimonial.company}
+                key={`designTestimonialFor${testimonial.company}`}
+                logo={testimonial.logo}
+                slug={testimonial.slug}
+                logoWidth={testimonial.logoWidth}
+                logoHeight={testimonial.logoHeight}
+                altText={testimonial.altText}
+                name={testimonial.name}
+                quote={testimonial.quote}
+                slugVisibility="true"
+              />
+            ))}
+          </TestimonialSlider>
+        </div>
       </div>
       <TwoColumnLayout
-        style="pt-96 -mt-48 bg-alkaligrey-300"
+        style="bg-alkaligrey-300 pt-72 lg:pt-82 -mt-48"
         child1={userExperienceText}
         child2={userExperienceImage}
       />
@@ -335,29 +303,31 @@ function WordPressWebsiteDevelopment() {
         child1={performanceImage}
         child2={performanceText}
       />
+      <ClientScheduleCTA
+        brandColor="#00baff"
+      />
       {Wordpress.responsiveScreens.map((responsiveScreens) => (
         <ResponsiveScreens
-          style="bg-alkaligrey-300 py-36 pb-12 overflow-hidden z-30 relative"
-          link="/clients/"
+          style="py-24 lg:py-36 overflow-hidden"
+          link={responsiveScreens.link}
           buttonName="View Projects"
-          desktopLeft="/"
-          desktopRight="/"
-          tablet="/"
-          phone="/"
-          desktopLeftLink="/"
-          desktopRightLink="/"
-          tabletLink="/"
-          phoneLink="/"
-          key="/"
+          brandColor={responsiveScreens.brandColor}
+          desktopLeft={responsiveScreens.desktopLeft}
+          desktopRight={responsiveScreens.desktopRight}
+          tablet={responsiveScreens.tablet}
+          phone={responsiveScreens.phone}
+          desktopLeftLink={responsiveScreens.desktopLeftLink}
+          desktopRightLink={responsiveScreens.desktopRightLink}
+          tabletLink={responsiveScreens.tabletLink}
+          phoneLink={responsiveScreens.phoneLink}
         />
       ))}
       <TwoColumnLayout
-        style="z-10 relative"
+        style="bg-alkaligrey-300 pt-96 -mt-96"
         child1={conversionText}
         child2={conversionImage}
       />
-
-      <div className="py-24 pb-0 bg-alkaligrey-300 px-14 2xl:px-0 bg-white">
+      <div className="py-24 pb-0 px-7 bg-white">
         <h2 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-normal">
           Integration Is the Name of the Game
         </h2>

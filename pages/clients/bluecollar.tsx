@@ -135,6 +135,7 @@ function BlueCollar() {
                 link="https://bluecollaraccess.com"
                 buttonName="Visit Site"
                 brandColor="#1caaeb"
+                newTab={true}
                 desktopLeft={bluecollar.desktopLeft}
                 desktopRight={bluecollar.desktopRight}
                 tablet={bluecollar.tablet}

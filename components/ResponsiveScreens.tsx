@@ -1,12 +1,16 @@
 import Image from "next/image";
 
 const ResponsiveScreens = (props) => {
+
+  const openNewTab = () => {
+    return `${props.newTab === true ? '_blank' : '_parent'}`
+}
   return (
     <div className={`text-center ${props.style} overflow-hidden px-7`}>
       <h3 className="text-center text-4xl md:text-5xl font-bold max-w-4xl m-auto mb-10 leading-normal">
         First Impressions Matter Experience Their Website For Yourself
       </h3>
-      <a href={props.link} target="_blank">
+      <a href={props.link} target={`${openNewTab()}`}>
         <button className="responsive-screen-button p-3 px-12 font-semibold text-white shadow-2xl rounded-md transition duration-500 hover:bg-opacity-20" style={{backgroundColor: `${props.brandColor}`}}>
           {props.buttonName}
         </button>

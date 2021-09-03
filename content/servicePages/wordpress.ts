@@ -10,10 +10,10 @@ const Wordpress = {
         {
             title: "WordPress Website Development",
             text: "You’ve probably heard of WordPress, but here is the short version: WordPress started as a way for people to create blogs easily, but it has evolved so much over the years. It is now the most widely used Content Management System (CMS) in the world. Now, it's leveraged by people from all walks of life and all levels of business. From Fortune 500 companies to someone starting their first blog, WordPress suits a variety of use cases. If you’re looking for guidance on if WordPress is suitable for you, we can help! We have been designing, developing, and customizing WordPress for years.",
-            image: "/images/web-development/wordpress/responsive.png",
+            image: "/images/web-development/wordpress/hero.png",
             altText: "",
             width: "600",
-            height: "450"     
+            height: "516"     
         },
     ],
     customBuilt: [
@@ -102,14 +102,15 @@ const Wordpress = {
         {
             link: "/clients/",
             buttonName: "View Clients",
-            desktopLeft: "/images",
-            desktopRight: "/images",
-            tablet: "/images",
-            phone: "/images",
-            desktopLeftLink: "/images",
-            desktopRightLink: "/images",
-            tabletLink: "/images",
-            phoneLink: "/images"
+            brandColor:"#00baff",
+            desktopLeft: "/images/clients/carro/carro-desktop.png",
+            desktopRight: "/images/clients/bobtail/section1.png",
+            tablet: "/images/clients/amelia/tablet-home.png",
+            phone: "/images/clients/go-cottage/mobile.png",
+            desktopLeftLink: "/clients/carro/",
+            desktopRightLink: "/clients/bobtail/",
+            tabletLink: "/clients/amelia/",
+            phoneLink: "/clients/go-cottage/"
         }
     ]
 }

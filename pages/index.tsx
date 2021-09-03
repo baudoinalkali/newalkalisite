@@ -40,7 +40,7 @@ const contentSection2Image = [
 
 const contentSection2Text = [
   <StandardTextBlock
-    title="Our Commitment"
+    title="Helping You Succeed"
     text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
     Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem 
     ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
@@ -150,16 +150,16 @@ export default function Home() {
       </div>
       <div style={{ width: "500px" }} className="meetings-iframe-container" data-src="https://app.hubspot.com/meetings/nbaudoin?embed=true"></div>
       <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
-      <div className="pt-36 bg-alkaligrey-300">
-        <h3 className="text-5xl pt-2 pb-24 font-bold text-center">
+      <div className="pt-24 bg-alkaligrey-300">
+        <h3 className="text-5xl pt-2 pb-10 font-bold text-center">
           What Our Clients Say
         </h3>
       </div>
       <HomeTestimonialSlider />
-      <div className="py-24 pt-64 -mt-40 bg-white px-7">
+      <div className="py-24 pt-60 -mt-36 bg-white px-7">
         <h3
           id="services"
-          className="pb-24 text-5xl font-bold text-center"
+          className="pb-20 text-5xl font-bold text-center"
         >
           Our Services
         </h3>

@@ -1,6 +1,6 @@
 const TwoColumnLayout = props => {
     const flexType = () => {
-        return `${props.flexType === 'reverse' ? 'flex-col-reverse' : 'flex-col'} flex lg:flex-row m-auto justify-between items-center max-w-7xl`
+        return `${props.flexType === 'reverse' ? 'flex-col-reverse' : 'flex-col'} flex lg:flex-row m-auto justify-between items-center max-w-7xl space-x-0 lg:space-x-10`
     }
 
     return (
