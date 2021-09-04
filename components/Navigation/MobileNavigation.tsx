@@ -23,7 +23,7 @@ const MobileNav = (props) => {
             transform: "translateZ(0)", // Trigger hardware acceleration
           }}
         >
-          <div className="">
+          <div className="mt-2">
             <a href="/">
               <Image
                 src={`${headerLogoColor()}`}

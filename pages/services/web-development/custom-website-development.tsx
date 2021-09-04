@@ -19,119 +19,116 @@ import WordpressFAQ from "../../../content/servicePages/faq";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import Head from "next/head";
 import ClientScheduleCTA from "../../../components/Clients/ClientScheduleCTA";
+import FAQContainer from "../../../components/Services/FAQContainer";
 
 function WordPressWebsiteDevelopment() {
-  const customBuiltImage = Custom.customBuilt.map((customBuilt) => (
+  const customBuiltImage = Custom.customBuilt.map((customData) => (
     <ServiceImage
-      image={customBuilt.image}
-      altText={customBuilt.altText}
+      image={customData.image}
+      altText={customData.altText}
       imageAngle="none"
-      key={customBuilt.image}
-      width={customBuilt.width}
-      height={customBuilt.height}
+      key={customData.image}
+      width={customData.width}
+      height={customData.height}
     />
   ));
 
-  const customBuiltText = Custom.customBuilt.map((customBuilt) => (
+  const customBuiltText = Custom.customBuilt.map((customData) => (
     <StandardTextBlock
-      title={customBuilt.title}
-      text={customBuilt.text}
-      key={customBuilt.title}
+      title={customData.title}
+      text={customData.text}
+      key={customData.title}
     />
   ));
 
   const responsiveDesignImage = Custom.responsiveDesign.map(
-    (responsiveDesign) => (
+    (customData) => (
       <ServiceImage
-        image={responsiveDesign.image}
-        altText={responsiveDesign.altText}
+        image={customData.image}
+        altText={customData.altText}
         imageAngle="none"
-        key={responsiveDesign.image}
-        width={responsiveDesign.width}
-        height={responsiveDesign.height}
+        key={customData.image}
+        width={customData.width}
+        height={customData.height}
       />
     )
   );
 
   const responsiveDesignText = Custom.responsiveDesign.map(
-    (responsiveDesign) => (
+    (customData) => (
       <StandardTextBlock
-        title={responsiveDesign.title}
-        text={responsiveDesign.text}
-        key={responsiveDesign.title}
+        title={customData.title}
+        text={customData.text}
+        key={customData.title}
       />
     )
   );
 
-  const seoImage = Custom.seo.map((seo) => (
+  const seoImage = Custom.seo.map((customData) => (
     <ServiceImage
-      image={seo.image}
-      altText={seo.altText}
+      image={customData.image}
+      altText={customData.altText}
       imageAngle="none"
-      key={seo.image}
-      width={seo.width}
-      height={seo.height}
+      key={customData.image}
+      width={customData.width}
+      height={customData.height}
     />
   ));
 
-  const seoText = Custom.seo.map((seo) => (
-    <StandardTextBlock title={seo.title} text={seo.text} key={seo.title} />
-  ));
-
-  const userExperienceImage = Custom.userExperience.map((userExperience) => (
-    <ServiceImage
-      image={userExperience.image}
-      altText={userExperience.altText}
-      imageAngle="none"
-      key={userExperience.image}
-      width={userExperience.width}
-      height={userExperience.height}
-    />
-  ));
-
-  const userExperienceText = Custom.userExperience.map((userExperience) => (
+  const seoText = Custom.seo.map((customData) => (
     <StandardTextBlock
-      title={userExperience.title}
-      text={userExperience.text}
-      key={userExperience.title}
+      title={customData.title}
+      text={customData.text}
+      key={customData.title}
     />
   ));
 
-  const performanceImage = Custom.performance.map((performance) => (
+  const userExperienceImage = Custom.userExperience.map((customData) => (
     <ServiceImage
-      image={performance.image}
-      altText={performance.altText}
+      image={customData.image}
+      altText={customData.altText}
       imageAngle="none"
-      key={performance.image}
-      width={performance.width}
-      height={performance.height}
+      key={customData.image}
+      width={customData.width}
+      height={customData.height}
     />
   ));
 
-  const performanceText = Custom.performance.map((performance) => (
+  const userExperienceText = Custom.userExperience.map((customData) => (
     <StandardTextBlock
-      title={performance.title}
-      text={performance.text}
-      key={performance.title}
+      title={customData.title}
+      text={customData.text}
+      key={customData.title}
     />
   ));
 
-  const conversionImage = Custom.conversion.map((conversion) => (
+  const performanceImage = Custom.performance.map((customData) => (
     <ServiceImage
-      image={conversion.image}
-      altText={conversion.altText}
+      image={customData.image}
+      altText={customData.altText}
       imageAngle="none"
-      key={conversion.image}
-      width={conversion.width}
-      height={conversion.height}
+      key={customData.image}
+      width={customData.width}
+      height={customData.height}
     />
   ));
 
-  const conversionText = Custom.conversion.map((conversion) => (
+  const performanceText = Custom.performance.map((customData) => (
     <StandardTextBlock
-      title={conversion.title}
-      text={conversion.text}
-      key={conversion.title}
+      title={customData.title}
+      text={customData.text}
+      key={customData.title}
+    />
+  ));
+
+  const conversionImage = Custom.conversion.map((customData) => (
+    <ServiceImage
+      image={customData.image}
+      altText={customData.altText}
+      imageAngle="none"
+      key={customData.image}
+      width={customData.width}
+      height={customData.height}
     />
   ));
 
@@ -141,7 +138,7 @@ function WordPressWebsiteDevelopment() {
         <title>Custom Website Development | Nothing Beats Bespoke</title>
         <meta name="description" content="We build custom websites that are specifically tailored to your business, processes, and needs, not something that is one-size fits all." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Custom Website Development | Nothing Beats Bespoke" />
@@ -159,12 +156,12 @@ function WordPressWebsiteDevelopment() {
           headerBackground="bg-alkali-500"
           headerColor="white"
         />
-        {Custom.headline.map((custom) => (
+        {Custom.headline.map((customData) => (
           <ServiceHero
-            sub={custom.subTitle}
-            title={custom.title}
-            titleLength={custom.titleLength}
-            key={custom.title}
+            sub={customData.subTitle}
+            title={customData.title}
+            titleLength={customData.titleLength}
+            key={customData.title}
           />
         ))}
       </div>
@@ -252,10 +249,10 @@ function WordPressWebsiteDevelopment() {
         child1={userExperienceText}
         child2={userExperienceImage}
       />
-            <ClientScheduleCTA
+      <ClientScheduleCTA
         brandColor="#00baff"
       />
-      {CarroScreenImages.carro.map((carro) => (
+      {CarroScreenImages.carro.map((customData) => (
         <ResponsiveScreens
           style="py-24 pb-12 overflow-hidden z-30 relative"
           link="/clients/"
@@ -265,43 +262,34 @@ function WordPressWebsiteDevelopment() {
           desktopRight="/images/clients/chattr/section1.png"
           tablet="/images/clients/ben/tablet.png"
           phone="/images/clients/chattr/mobile.png"
-          desktopLeftLink={carro.desktopLeftLink}
-          desktopRightLink={carro.desktopRightLink}
-          tabletLink={carro.tabletLink}
-          phoneLink={carro.phoneLink}
-          key={carro.desktopLeft}
+          desktopLeftLink={customData.desktopLeftLink}
+          desktopRightLink={customData.desktopRightLink}
+          tabletLink={customData.tabletLink}
+          phoneLink={customData.phoneLink}
+          key={customData.desktopLeft}
         />
       ))}
-      <div className="pt-80 lg:pt-96 -mt-64 py-24 px-14 2xl:px-0 bg-alkaligrey-300">
-        <h2 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-normal">
+      <div className="pt-80 lg:pt-96 -mt-64 py-24 bg-alkaligrey-300 mb-14 lg:mb-0">
+        <h2 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-normal px-7">
           Integration Is the Name of the Game
         </h2>
-        <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
+        <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4 px-7">
           A website shouldn't only be an extension of your business or brand
           that looks good. It should fit within and optimize your existing
           business processes. Integrations shouldn't be an afterthought, but a
           central part of your next website build.
         </p>
-        <Integration style="pt-24 2xl:px-0" />
+        <Integration style="pt-24" />
       </div>
-      <div className="py-24 max-w-7xl m-auto">
-        <h2 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-normal">
-          Frequently Asked Questions About Our Custom Development
-        </h2>
-        <div className="w-full px-4 pt-16">
-          <div className="p-2 mx-auto bg-white rounded-2xl">
-            <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-              {WordpressFAQ.wordpress.map((wordpress) => (
-                <FAQDropdown
-                  question={wordpress.question}
-                  answer={wordpress.answer}
-                  key={wordpress.question}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
+      <FAQContainer name="Custom Development" titleLength="max-w-4xl">
+        {WordpressFAQ.wordpress.map((customData) => (
+          <FAQDropdown
+            question={customData.question}
+            answer={customData.answer}
+            key={customData.question}
+          />
+        ))}
+      </FAQContainer>
     </div>
   );
 }

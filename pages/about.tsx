@@ -91,7 +91,6 @@ export default function About() {
         </div>
       </div>
       <TwoColumnLayout
-        flexType="reverse"
         style="py-24"
         child1={aboutImage1}
         child2={aboutText1}

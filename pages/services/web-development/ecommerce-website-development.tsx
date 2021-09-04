@@ -15,76 +15,94 @@ import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
 import Head from "next/head";
+import FAQContainer from "../../../components/Services/FAQContainer";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const ResponsiveScreens = dynamic(() => import("../../../components/ResponsiveScreens"));
 const Integration = dynamic(() => import("../../../components/Integration"));
 
 function EcommerceWebsiteDevelopment() {
-  const image1 = Ecommerce.text1.map((text1) => (
+  const image1 = Ecommerce.text1.map((ecommerceData) => (
     <ServiceImage
-      image={text1.image}
-      altText={text1.altText}
+      image={ecommerceData.image}
+      altText={ecommerceData.altText}
       imageAngle="none"
-      height={text1.height}
-      width={text1.width}
+      height={ecommerceData.height}
+      width={ecommerceData.width}
     />
   ));
 
-  const text1 = Ecommerce.text1.map((text1) => (
-    <StandardTextBlock title={text1.title} text={text1.text} />
+  const text1 = Ecommerce.text1.map((ecommerceData) => (
+    <StandardTextBlock
+      title={ecommerceData.title}
+      text={ecommerceData.text}
+    />
   ));
 
-  const image2 = Ecommerce.text2.map((text2) => (
+  const image2 = Ecommerce.text2.map((ecommerceData) => (
     <ServiceImage
-      image={text2.image}
-      altText={text2.altText}
-      height={text2.height}
-      width={text2.width}
+      image={ecommerceData.image}
+      altText={ecommerceData.altText}
+      height={ecommerceData.height}
+      width={ecommerceData.width}
       imageAngle="none" />
   ));
 
-  const text2 = Ecommerce.text2.map((text2) => (
-    <StandardTextBlock title={text2.title} text={text2.text} />
+  const text2 = Ecommerce.text2.map((ecommerceData) => (
+    <StandardTextBlock
+      title={ecommerceData.title}
+      titleLength="max-w-md"
+      text={ecommerceData.text}
+    />
   ));
 
-  const image3 = Ecommerce.text3.map((text3) => (
+  const image3 = Ecommerce.text3.map((ecommerceData) => (
     <ServiceImage
-      image={text3.image}
-      altText={text3.altText}
-      height={text3.height}
-      width={text3.width}
+      image={ecommerceData.image}
+      altText={ecommerceData.altText}
+      height={ecommerceData.height}
+      width={ecommerceData.width}
       imageAngle="none" />
   ));
 
-  const text3 = Ecommerce.text3.map((text3) => (
-    <StandardTextBlock title={text3.title} text={text3.text} />
+  const text3 = Ecommerce.text3.map((ecommerceData) => (
+    <StandardTextBlock 
+    title={ecommerceData.title} 
+    text={ecommerceData.text} 
+    />
   ));
 
-  const image4 = Ecommerce.text4.map((text4) => (
+  const image4 = Ecommerce.text4.map((ecommerceData) => (
     <ServiceImage
-      image={text4.image}
-      altText={text4.altText}
-      height={text4.height}
-      width={text4.width}
+      image={ecommerceData.image}
+      altText={ecommerceData.altText}
+      height={ecommerceData.height}
+      width={ecommerceData.width}
       imageAngle="none" />
   ));
 
-  const text4 = Ecommerce.text4.map((text4) => (
-    <StandardTextBlock title={text4.title} text={text4.text} />
+  const text4 = Ecommerce.text4.map((ecommerceData) => (
+    <StandardTextBlock 
+    title={ecommerceData.title} 
+    text={ecommerceData.text} 
+    />
   ));
 
-  const image5 = Ecommerce.text5.map((text5) => (
+  const image5 = Ecommerce.text5.map((ecommerceData) => (
     <ServiceImage
-      image={text5.image}
-      altText={text5.altText}
-      height={text5.height}
-      width={text5.width}
+      image={ecommerceData.image}
+      altText={ecommerceData.altText}
+      height={ecommerceData.height}
+      width={ecommerceData.width}
       imageAngle="none" />
   ));
 
-  const text5 = Ecommerce.text5.map((text5) => (
-    <StandardTextBlock title={text5.title} text={text5.text} />
+  const text5 = Ecommerce.text5.map((ecommerceData) => (
+    <StandardTextBlock
+      title={ecommerceData.title}
+      titleLength="max-w-sm"
+      text={ecommerceData.text}
+    />
   ));
 
 
@@ -94,7 +112,7 @@ function EcommerceWebsiteDevelopment() {
         <title>E-commerce Website Development | Confidently Sell Online</title>
         <meta name="description" content="At Alkali we build e-commerce websites that drive conversions and fit within your existing business processes." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="E-commerce Website Development | Confidently Sell Online" />
@@ -112,91 +130,37 @@ function EcommerceWebsiteDevelopment() {
           headerBackground="bg-alkali-500"
           headerColor="white"
         />
-        {ServiceHeroContent.ecommerce.map((ecommerce) => (
+        {ServiceHeroContent.ecommerce.map((ecommerceData) => (
           <ServiceHero
-            sub={ecommerce.sub}
-            title={ecommerce.title}
-            backgroundImg={ecommerce.backgroundImg}
+            sub={ecommerceData.sub}
+            title={ecommerceData.title}
+            backgroundImg={ecommerceData.backgroundImg}
           />
         ))}
       </div>
-      <div className="">
-        <div className="p-4 py-24 px-0 lg:px-14">
-          <div className="flex flex-col space-x-0 lg:space-x-14 lg:flex-row m-auto justify-between items-center max-w-7xl">
-            <div className="w-5/6 lg:w-1/2 pb-20 lg:pb-0">
-              <h3 className="text-3xl md:text-4xl font-bold m-auto leading-tight">
-                E-commerce Website Development
-              </h3>
-              <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">
-                Whether you’re an existing brick-and-mortar store looking to add another sales channel or about to
-                launch your B2C product, we can help guide you along your e-commerce journey. There are many options
-                when it comes to e-commerce platforms, which is why we’re always learning. With our knowledge and expertise,
-                we aim to thoroughly understand your business so that we can work closely with you to see your goals realized.
-                So if you’re looking to have a store developed from scratch, increase your conversion rate or sales, you’ve come
-                to the right place.
-              </p>
-            </div>
-            <div className="z-0 pointer-events-none">
-              <div className="angled-mockup rounded-md shadow-2xl">
-                <div className="browser-mockup z-0">
-                  <div style={{ fontSize: "0" }}>
-                    <Image
-                      src="/images/wordpress-stats.png"
-                      alt=""
-                      className="rounded-b-md"
-                      width={588}
-                      height={410}
-                      quality={100}
-                    />
-                  </div>
-                </div>
-                <div className="bg-white stat-container float-right -mr-6 shadow-2xl p-7 rounded-md text-center uppercase font-medium text-sm -mt-14 relative">
-                  <p className="pb-4">Wordpress Statistics</p>
-                  <div className="flex justify-between items-center max-w-7xl m-auto">
-                    <div className="w-1/2 m-auto -ml-3 border-r">
-                      <p className="font-bold text-5xl pb-4">
-                        <FontAwesomeIcon
-                          className="text-2xl relative top-0 mr-3"
-                          icon={faCaretUp}
-                        ></FontAwesomeIcon>
-                        40%
-                      </p>
-                      <p className="text-xs ml-4">Sites Use WordPress</p>
-                    </div>
-                    <div className="w-1/2 m-auto">
-                      <p className="font-bold text-5xl pb-4">
-                        <FontAwesomeIcon
-                          className="text-2xl relative top-0 mr-3"
-                          icon={faCaretUp}
-                        ></FontAwesomeIcon>
-                        150%
-                      </p>
-                      <p className="text-xs ml-4">Monthly Leads Request</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="py-24 px-14 2xl:px-0 bg-alkaligrey-300">
-        <h6 className="text-3xl md:text-4xl text-center font-bold m-auto leading-tight pb-24">
+      <TwoColumnLayout
+        style=""
+        flexType="reverse"
+        child2={image1}
+        child1={text1}
+      />
+      <div className="py-24 bg-alkaligrey-300 px-7">
+        <h6 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-24">
           Our E-commerce Services
         </h6>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {Ecommerce.features.map((features) => (
+          {Ecommerce.features.map((ecommerceData) => (
             <ServiceBlocks
-              serviceTitle={features.serviceTitle}
-              serviceText={features.serviceText}
-              image={features.image}
-              altText={features.altText}
+              serviceTitle={ecommerceData.serviceTitle}
+              serviceText={ecommerceData.serviceText}
+              image={ecommerceData.image}
+              altText={ecommerceData.altText}
             />
           ))}
         </div>
       </div>
       <AuditSection
-        backgroundColor="bg-alkaligrey-300"
+        backgroundColor=""
         serviceName="Local SEO"
         area1="Full website weview (content, CRO, performance)"
         area2="SEO: Comprehensive on-page audit"
@@ -204,67 +168,51 @@ function EcommerceWebsiteDevelopment() {
         portalId="20442125"
         formId="ca7ed626-450f-4b52-8fa7-2c7d2d464006"
       />
-      <div className="pt-24 px-14 2xl:px-0">
-        <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-tight">
-          Tailored for Your Business
-        </h6>
-        <p className="text-center max-w-2xl m-auto text-lg font-normal pt-4">
-          There are a lot of e-commerce solutions out there, which can make the selection process
-          complicated. To combat this, we spend the time to truly understand your business to provide a
-          recommendation based on our years of experience.
-        </p>
+      <div className="bg-alkaligrey-300">
+        <TwoColumnLayout
+          style=""
+          flexType="reverse"
+          child1={image2}
+          child2={text2}
+        />
+        <TwoColumnLayout
+          style="bg-white"
+          child1={text3}
+          child2={image3}
+        />
+        <TwoColumnLayout
+          flexType="reverse"
+          style=""
+          child2={text4}
+          child1={image4}
+        />
+        <TwoColumnLayout
+          style="bg-white"
+          flexType="reverse"
+          child2={image5}
+          child1={text5}
+        />
       </div>
-      <TwoColumnLayout
-        style="py-24"
-        flexType="reverse"
-        child1={image2}
-        child2={text2}
-      />
-      <TwoColumnLayout
-        style="bg-alkaligrey-300"
-        child1={text3}
-        child2={image3}
-      />
-      <TwoColumnLayout
-        flexType="reverse"
-        style=""
-        child2={text4}
-        child1={image4}
-      />
-      <TwoColumnLayout
-        style="bg-alkaligrey-300"
-        flexType="reverse"
-        child2={image5}
-        child1={text5}
-      />
-      <div className="py-24 px-14 2xl:px-0 bg-white">
-        <h6 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-normal">
+      <div className="py-24 bg-alkaligrey-300 bg-white mb-14 lg:mb-0">
+        <h6 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-normal px-7">
           Keep Your Store Connected
         </h6>
-        <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
+        <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4 px-7">
           Platforms such as Shopify, WooCommerce, BigCommerce, and Magento offer countless
           third-party integrations. These integrations provide endless opportunities to streamline
           your workflow, ultimately allowing you to spend more time growing your business.
         </p>
+        <Integration style="pt-24" />
       </div>
-      <Integration style="pb-24 bg-white py-14 2xl:px-0" />
-      <div className="py-24 max-w-7xl m-auto">
-        <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-normal">
-          Frequently Asked Questions About Our WordPress Development
-        </h6>
-        <div className="w-full px-4 pt-16">
-          <div className="p-2 mx-auto bg-white rounded-2xl">
-            <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-              {Ecommerce.faq.map((ecommerce) => (
-                <FAQDropdown
-                  question={ecommerce.question}
-                  answer={ecommerce.answer}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
+      <FAQContainer name="E-commerce" titleLength="max-w-4xl">
+        {Ecommerce.faq.map((ecommerceData) => (
+          <FAQDropdown
+            question={ecommerceData.question}
+            answer={ecommerceData.answer}
+            key={ecommerceData.question}
+          />
+        ))}
+      </FAQContainer>
     </div>
   );
 }

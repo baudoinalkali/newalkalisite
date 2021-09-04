@@ -1,3 +1,18 @@
+const bobtailData = {
+  background: "/images/clients/bobtail/slide-bg.jpg",
+  backgroundOverlay: "bg-pink-300",
+  brandColor: "#07433f",
+  company: "Bobtail",
+  logo: "/images/clients/bobtail/logo.svg",
+  logoWidth: "250",
+  logoHeight: "50",
+  slug: "bobtail/",
+  altText: "",
+  name: "Gurvir Singh, Managing Director",
+  quote:
+    "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
+}
+
 const Testimonials = {
   wordpress: [
     {
@@ -13,6 +28,9 @@ const Testimonials = {
       name: "Gurvir Singh, Managing Director",
       quote:
         "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
+    },
+    {
+      ...bobtailData
     },
     {
       background: "/images/clients/carro/carro-testimonial-bg.jpg",

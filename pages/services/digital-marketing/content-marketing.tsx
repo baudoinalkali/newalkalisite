@@ -9,65 +9,78 @@ import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
 import Head from "next/head";
+import FAQContainer from "../../../components/Services/FAQContainer";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function ContentMarketing() {
-  const contentImage1 = Content.text1.map((text1) => (
+  const contentImage1 = Content.text1.map((contentData) => (
     <ServiceImage
-      image={text1.image}
-      altText={text1.altText}
+      image={contentData.image}
+      altText={contentData.altText}
       imageAngle="none"
-      width={text1.width}
-      height={text1.height}
+      width={contentData.width}
+      height={contentData.height}
     />
   ));
 
-  const contentText1 = Content.text1.map((text1) => (
-    <StandardTextBlock title={text1.title} text={text1.text} />
-  ));
-
-  const contentImage2 = Content.text2.map((text2) => (
-    <ServiceImage
-      image={text2.image}
-      altText={text2.altText}
-      imageAngle="none"
-      width={text2.width}
-      height={text2.height}
+  const contentText1 = Content.text1.map((contentData) => (
+    <StandardTextBlock
+      title={contentData.title}
+      text={contentData.text}
     />
   ));
 
-  const contentText2 = Content.text2.map((text2) => (
-    <StandardTextBlock title={text2.title} text={text2.text} />
-  ));
-
-  const contentImage3 = Content.text3.map((text3) => (
+  const contentImage2 = Content.text2.map((contentData) => (
     <ServiceImage
-      image={text3.image}
-      altText={text3.altText}
+      image={contentData.image}
+      altText={contentData.altText}
       imageAngle="none"
-      width={text3.width}
-      height={text3.height}
+      width={contentData.width}
+      height={contentData.height}
     />
   ));
 
-  const contentText3 = Content.text3.map((text3) => (
-    <StandardTextBlock title={text3.title} text={text3.text} />
-  ));
-
-  const contentImage4 = Content.text4.map((text4) => (
-    <ServiceImage
-      image={text4.image}
-      altText={text4.altText}
-      imageAngle="none"
-      width={text4.width}
-      height={text4.height}
+  const contentText2 = Content.text2.map((contentData) => (
+    <StandardTextBlock
+      title={contentData.title}
+      text={contentData.text}
     />
   ));
 
-  const contentText4 = Content.text4.map((text4) => (
-    <StandardTextBlock title={text4.title} text={text4.text} />
+  const contentImage3 = Content.text3.map((contentData) => (
+    <ServiceImage
+      image={contentData.image}
+      altText={contentData.altText}
+      imageAngle="none"
+      width={contentData.width}
+      height={contentData.height}
+    />
+  ));
+
+  const contentText3 = Content.text3.map((contentData) => (
+    <StandardTextBlock
+      title={contentData.title}
+      text={contentData.text}
+    />
+  ));
+
+  const contentImage4 = Content.text4.map((contentData) => (
+    <ServiceImage
+      image={contentData.image}
+      altText={contentData.altText}
+      imageAngle="none"
+      width={contentData.width}
+      height={contentData.height}
+    />
+  ));
+
+  const contentText4 = Content.text4.map((contentData) => (
+    <StandardTextBlock
+      title={contentData.title}
+      text={contentData.text}
+    />
   ));
 
   return (
@@ -76,7 +89,7 @@ function ContentMarketing() {
         <title>Content Marketing Services | Make Every Word Count</title>
         <meta name="description" content="Alkali provides professional SEO copywriting services. We invite you to learn more about how we can improve establish content that both customers and search engines love." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Content Marketing Services | Make Every Word Count" />
@@ -100,9 +113,12 @@ function ContentMarketing() {
           titleLength={headline.titleLength}
         />
       ))}
-      <TwoColumnLayout style="" child2={contentImage1} child1={contentText1} />
       <TwoColumnLayout
         flexType="reverse"
+        child2={contentImage1}
+        child1={contentText1}
+      />
+      <TwoColumnLayout
         style="bg-alkaligrey-300"
         child1={contentImage2}
         child2={contentText2}
@@ -112,12 +128,12 @@ function ContentMarketing() {
           Our Content Marketing Services
         </h6>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {Content.features.map((features) => (
+          {Content.features.map((contentData) => (
             <ServiceBlocks
-              serviceTitle={features.serviceTitle}
-              serviceText={features.serviceText}
-              image={features.image}
-              altText={features.altText}
+              serviceTitle={contentData.serviceTitle}
+              serviceText={contentData.serviceText}
+              image={contentData.image}
+              altText={contentData.altText}
             />
           ))}
         </div>
@@ -132,36 +148,25 @@ function ContentMarketing() {
         formId="a7151b69-9aec-4d86-b2bf-577b81ddc8ca"
       />
       <TwoColumnLayout
-        style=""
+        flexType="reverse"
         child2={contentImage3}
         child1={contentText3}
       />
       <TwoColumnLayout
-        style="bg-alkaligrey-300"
+        flexType="reverse"
+        style="mb-14 lg:mb-0 bg-alkaligrey-300"
         child2={contentImage4}
         child1={contentText4}
       />
-      <div className="bg-white">
-        <div className="py-24 max-w-7xl m-auto">
-          <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-normal">
-            Frequently Asked Questions About Our SEO Services
-          </h6>
-          <div className="w-full px-4 pt-16">
-            <div className="p-2 mx-auto rounded-2xl">
-              <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-                {Content.faq.map(
-                  (faq) => (
-                    <FAQDropdown
-                      question={faq.question}
-                      answer={faq.answer}
-                    />
-                  )
-                )}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <FAQContainer name="Content Marketing" titleLength="max-w-4xl">
+        {Content.faq.map((localSEOData) => (
+          <FAQDropdown
+            question={localSEOData.question}
+            answer={localSEOData.answer}
+            key={localSEOData.question}
+          />
+        ))}
+      </FAQContainer>
     </div>
   );
 }

@@ -4,7 +4,7 @@ const TwoColumnLayout = props => {
     }
 
     return (
-        <div className={`${props.style} py-24 px-7`}>
+        <div className={`${props.style} py-20 lg:py-24 px-7`}>
             <div className={flexType()}>
                 <div className="w-full lg:w-1/2">
                     {props.child1}

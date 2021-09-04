@@ -9,7 +9,7 @@ const SEO = {
     text1: [
         {
             title: "Start Seeing Results in Just 2 Months!",
-            text: "Many people spend the time and effort to optimize their SEO, but they aren’t tailoring their optimizations for audiences that will provide a lasting impact. We take a step back and thoroughly understand your business, what’s working and what’s not, your competitor landscape, and formulate and implement a strategy to position yourself to get leads you actually want. It’s cool to be number one, but if you’re not getting the leads you want, it really doesn’t matter. We deliver real results, not artificial placings for non-competitive keywords.",
+            text: "Organic SEO traffic provides some of the highest quality leads, generally much better than Google AdWords or other forms of PPC. By optimizing your organic SEO, you are positioning yourself at the top of the search results, reducing your reliance and need to shell out money for paid ads that generate no results after you stop. If you’re looking for a partner to assist you in your SEO journey, you’re in the right place. Our team of experts takes the time to understand your business and its needs, delivering you results in just 2 months!",
             image: "/images/timeline.png",
             altText: "Start seeing SEO results in just 2 months"
         },
@@ -46,10 +46,10 @@ const SEO = {
     ],
     text5: [
         {
-            title: "Our Ethical Commitment",
+            title: "Our Commitment",
             text: "Like most things in business, SEO requires trust. Many people seek to take advantage of people who are not well versed in SEO; that is not us. We strive to not only perform services but also educate our clients. This is a very obscure and often intentionally over complicated service area. We seek to change that. As Albert Einstein once said, “If you can't explain it simply, you don't understand it well enough.” We use those words as a guiding principle in every engagement. If you have questions along the way, we are more than happy to explain.",
             image: "/images/ethical-commitment.svg",
-            altText: "Our ethical commitment",
+            altText: "Our commitment",
             width: "550",
             height: "410"
         },
