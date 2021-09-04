@@ -41,7 +41,7 @@ const DemoSlider = (props) => {
 
   return (
     <div className="px-7">
-      <div className="max-w-7xl m-auto shadow-2xl rounded-md">
+      <div className="max-w-7xl m-auto shadow-2xl rounded-md bg-white">
         <Slider {...settings}>
           {props.children}
         </Slider>

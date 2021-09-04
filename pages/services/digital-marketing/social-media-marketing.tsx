@@ -11,65 +11,78 @@ import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
 import Head from "next/head";
+import FAQContainer from "../../../components/Services/FAQContainer";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function SocialMediaMarketing() {
-  const socialImage1 = SocialMarketing.text1.map((text1) => (
+  const socialImage1 = SocialMarketing.text1.map((socialData) => (
     <ServiceImage
-      image={text1.image}
-      altText={text1.altText}
+      image={socialData.image}
+      altText={socialData.altText}
       imageAngle="none"
-      width={text1.width}
-      height={text1.height}
+      width={socialData.width}
+      height={socialData.height}
     />
   ));
 
-  const socialText1 = SocialMarketing.text1.map((text1) => (
-    <StandardTextBlock title={text1.title} text={text1.text} />
-  ));
-
-  const socialImage2 = SocialMarketing.text2.map((text2) => (
-    <ServiceImage
-      image={text2.image}
-      altText={text2.altText}
-      imageAngle="none"
-      width={text2.width}
-      height={text2.height}
+  const socialText1 = SocialMarketing.text1.map((socialData) => (
+    <StandardTextBlock
+      title={socialData.title}
+      text={socialData.text}
     />
   ));
 
-  const socialText2 = SocialMarketing.text2.map((text2) => (
-    <StandardTextBlock title={text2.title} text={text2.text} />
-  ));
-
-  const socialImage3 = SocialMarketing.text3.map((text3) => (
+  const socialImage2 = SocialMarketing.text2.map((socialData) => (
     <ServiceImage
-      image={text3.image}
-      altText={text3.altText}
+      image={socialData.image}
+      altText={socialData.altText}
       imageAngle="none"
-      width={text3.width}
-      height={text3.height}
+      width={socialData.width}
+      height={socialData.height}
     />
   ));
 
-  const socialText3 = SocialMarketing.text3.map((text3) => (
-    <StandardTextBlock title={text3.title} text={text3.text} />
-  ));
-
-  const socialImage4 = SocialMarketing.text4.map((text4) => (
-    <ServiceImage
-      image={text4.image}
-      altText={text4.altText}
-      imageAngle="none"
-      width={text4.width}
-      height={text4.height}
+  const socialText2 = SocialMarketing.text2.map((socialData) => (
+    <StandardTextBlock
+      title={socialData.title}
+      text={socialData.text}
     />
   ));
 
-  const socialText4 = SocialMarketing.text4.map((text4) => (
-    <StandardTextBlock title={text4.title} text={text4.text} />
+  const socialImage3 = SocialMarketing.text3.map((socialData) => (
+    <ServiceImage
+      image={socialData.image}
+      altText={socialData.altText}
+      imageAngle="none"
+      width={socialData.width}
+      height={socialData.height}
+    />
+  ));
+
+  const socialText3 = SocialMarketing.text3.map((socialData) => (
+    <StandardTextBlock
+      title={socialData.title}
+      text={socialData.text}
+    />
+  ));
+
+  const socialImage4 = SocialMarketing.text4.map((socialData) => (
+    <ServiceImage
+      image={socialData.image}
+      altText={socialData.altText}
+      imageAngle="none"
+      width={socialData.width}
+      height={socialData.height}
+    />
+  ));
+
+  const socialText4 = SocialMarketing.text4.map((socialData) => (
+    <StandardTextBlock
+      title={socialData.title}
+      text={socialData.text}
+    />
   ));
 
   return (
@@ -78,7 +91,7 @@ function SocialMediaMarketing() {
         <title>Social Media Marketing | It's Good to Be Social</title>
         <meta name="description" content="We help share your story, organically connect with your audience, and drive leads using popular social platforms." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Social Media Marketing | It's Good to Be Social" />
@@ -95,16 +108,20 @@ function SocialMediaMarketing() {
         headerBackground="bg-alkali-500"
         headerColor="white"
       />
-      {SocialMarketing.headline.map((headline) => (
+      {SocialMarketing.headline.map((socialData) => (
         <ServiceHero
-          sub={headline.subTitle}
-          title={headline.title}
-          titleLength={headline.titleLength}
+          sub={socialData.subTitle}
+          title={socialData.title}
+          titleLength={socialData.titleLength}
         />
       ))}
-      <TwoColumnLayout style="" child2={socialImage1} child1={socialText1} />
       <TwoColumnLayout
         flexType="reverse"
+        style=""
+        child2={socialImage1}
+        child1={socialText1}
+      />
+      <TwoColumnLayout
         style="bg-alkaligrey-300"
         child1={socialImage2}
         child2={socialText2}
@@ -114,12 +131,12 @@ function SocialMediaMarketing() {
           Our Social Media Marketing Services
         </h6>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {SocialMarketing.features.map((features) => (
+          {SocialMarketing.features.map((socialData) => (
             <ServiceBlocks
-              serviceTitle={features.serviceTitle}
-              serviceText={features.serviceText}
-              image={features.image}
-              altText={features.altText}
+              serviceTitle={socialData.serviceTitle}
+              serviceText={socialData.serviceText}
+              image={socialData.image}
+              altText={socialData.altText}
             />
           ))}
         </div>
@@ -134,35 +151,35 @@ function SocialMediaMarketing() {
         formId="a7151b69-9aec-4d86-b2bf-577b81ddc8ca"
       />
       <TwoColumnLayout
+        flexType="reverse"
         style="bg-white mb-3"
         child2={socialImage3}
         child1={socialText3}
       />
       <TwoColumnLayout
-        flexType="reverse"
         style="bg-alkaligrey-300"
         child1={socialImage4}
         child2={socialText4}
       />
-      <div className="py-24 px-7">
-        <h6 className="text-4xl md:text-5xl pb-24 text-center font-bold m-auto leading-normal">
+      <div className="py-24">
+        <h6 className="text-4xl md:text-5xl pb-24 text-center font-bold m-auto leading-normal px-7">
           Platforms We Work With
         </h6>
         <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-y-10 max-w-7xl m-auto">
-          {SocialIntegrations.social.map((social) => (
+          {SocialIntegrations.social.map((socialData) => (
             <div className="relative m-auto" style={{ fontSize: "0" }}>
               <Image
                 height={144}
                 width={144}
                 quality={100}
                 className="object-center object-cover pointer-events-none rounded-full duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-                src={`/images/icons/${social.fileName}.svg`}
-                alt={social.altText}
+                src={`/images/icons/${socialData.fileName}.svg`}
+                alt={socialData.altText}
               />
               <div className="IntegrationIconContainer relative z-1">
                 <div className="IntegrationIcon text-center py-16 m-auto shadow-2xl h-36 w-36 rounded-full bg-center">
                   <span className="IconSpan transition duration-500 pointer-events-none shadow-2xl relative-30">
-                    {social.name}
+                    {socialData.name}
                   </span>
                 </div>
               </div>
@@ -170,25 +187,15 @@ function SocialMediaMarketing() {
           ))}
         </div>
       </div>
-      <div className="">
-        <div className="py-24 max-w-7xl m-auto">
-          <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-normal px-7">
-            Frequently Asked Questions About Our Social Media Marketing Services
-          </h6>
-          <div className="w-full px-4 pt-16">
-            <div className="p-2 mx-auto rounded-2xl">
-              <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-                {SocialMarketing.faq.map((faq) => (
-                  <FAQDropdown
-                    question={faq.question}
-                    answer={faq.answer}
-                  />
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <FAQContainer name="Social Media Marketing" titleLength="max-w-5xl">
+        {SocialMarketing.faq.map((socialData) => (
+          <FAQDropdown
+            question={socialData.question}
+            answer={socialData.answer}
+            key={socialData.question}
+          />
+        ))}
+      </FAQContainer>
     </div>
   );
 }

@@ -12,65 +12,63 @@ import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
 import Head from "next/head";
+import FAQContainer from "../../../components/Services/FAQContainer";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function Reputation() {
-  const socialImage1 = ReputationManagement.text1.map((text1) => (
+  const socialImage1 = ReputationManagement.text1.map((reputationData) => (
     <ServiceImage
-      image={text1.image}
-      altText={text1.altText}
+      image={reputationData.image}
+      altText={reputationData.altText}
       imageAngle="none"
-      width={text1.width}
-      height={text1.height}
+      width={reputationData.width}
+      height={reputationData.height}
     />
   ));
 
-  const socialText1 = ReputationManagement.text1.map((text1) => (
-    <StandardTextBlock title={text1.title} text={text1.text} />
-  ));
-
-  const socialImage2 = ReputationManagement.text2.map((text2) => (
-    <ServiceImage
-      image={text2.image}
-      altText={text2.altText}
-      imageAngle="none"
-      width={text2.width}
-      height={text2.height}
+  const socialText1 = ReputationManagement.text1.map((reputationData) => (
+    <StandardTextBlock
+      title={reputationData.title}
+      text={reputationData.text}
     />
   ));
 
-  const socialText2 = ReputationManagement.text2.map((text2) => (
-    <StandardTextBlock title={text2.title} text={text2.text} />
-  ));
-
-  const socialImage3 = ReputationManagement.text3.map((text3) => (
+  const socialImage2 = ReputationManagement.text2.map((reputationData) => (
     <ServiceImage
-      image={text3.image}
-      altText={text3.altText}
+      image={reputationData.image}
+      altText={reputationData.altText}
       imageAngle="none"
-      width={text3.width}
-      height={text3.height}
+      width={reputationData.width}
+      height={reputationData.height}
     />
   ));
 
-  const socialText3 = ReputationManagement.text3.map((text3) => (
-    <StandardTextBlock title={text3.title} text={text3.text} />
-  ));
-
-  const socialImage4 = ReputationManagement.text4.map((text4) => (
-    <ServiceImage
-      image={text4.image}
-      altText={text4.altText}
-      imageAngle="none"
-      width={text4.width}
-      height={text4.height}
+  const socialText2 = ReputationManagement.text2.map((reputationData) => (
+    <StandardTextBlock
+      titleLength="max-w-xl"
+      title={reputationData.title}
+      text={reputationData.text}
     />
   ));
 
-  const socialText4 = ReputationManagement.text4.map((text4) => (
-    <StandardTextBlock title={text4.title} text={text4.text} />
+  const socialImage3 = ReputationManagement.text3.map((reputationData) => (
+    <ServiceImage
+      image={reputationData.image}
+      altText={reputationData.altText}
+      imageAngle="none"
+      width={reputationData.width}
+      height={reputationData.height}
+    />
+  ));
+
+  const socialText3 = ReputationManagement.text3.map((reputationData) => (
+    <StandardTextBlock
+      titleLength="max-w-lg"
+      title={reputationData.title}
+      text={reputationData.text}
+    />
   ));
 
   return (
@@ -79,7 +77,7 @@ function Reputation() {
         <title>Reputation Management | We Protect You Online</title>
         <meta name="description" content="Alkali provides online reputation mangement services designed to fix, repair, and manage your online presence." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Reputation Management | We Protect You Online" />
@@ -96,11 +94,11 @@ function Reputation() {
         headerBackground="bg-alkali-500"
         headerColor="white"
       />
-      {ReputationManagement.headline.map((headline) => (
+      {ReputationManagement.headline.map((reputationData) => (
         <ServiceHero
-          sub={headline.subTitle}
-          title={headline.title}
-          titleLength={headline.titleLength}
+          sub={reputationData.subTitle}
+          title={reputationData.title}
+          titleLength={reputationData.titleLength}
         />
       ))}
       <TwoColumnLayout
@@ -119,12 +117,12 @@ function Reputation() {
           Our Social Media Marketing Services
         </h6>
         <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-3 max-w-7xl m-auto gap-x-14 gap-y-14">
-          {ReputationManagement.features.map((features) => (
+          {ReputationManagement.features.map((reputationData) => (
             <ServiceBlocks
-              serviceTitle={features.serviceTitle}
-              serviceText={features.serviceText}
-              image={features.image}
-              altText={features.altText}
+              serviceTitle={reputationData.serviceTitle}
+              serviceText={reputationData.serviceText}
+              image={reputationData.image}
+              altText={reputationData.altText}
             />
           ))}
         </div>
@@ -143,31 +141,25 @@ function Reputation() {
         child2={socialImage3}
         child1={socialText3}
       />
-      <TwoColumnLayout
-        flexType="reverse"
-        style="bg-alkaligrey-300"
-        child1={socialImage4}
-        child2={socialText4}
-      />
-      <div className="py-36">
-        <h6 className="text-4xl md:text-5xl pb-24 text-center font-bold m-auto leading-normal">
+      <div className="mb-14 lg:mb-0 py-24 bg-alkaligrey-300">
+        <h6 className="text-4xl md:text-5xl pb-24 text-center font-bold m-auto leading-normal px-7">
           Platforms We Work With
         </h6>
         <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-y-10 max-w-7xl m-auto">
-          {ReputationIntegrations.reputation.map((reputation) => (
+          {ReputationIntegrations.reputation.map((reputationData) => (
             <div className="relative m-auto" style={{ fontSize: "0" }}>
               <Image
                 height={144}
                 width={144}
                 quality={100}
                 className="object-center object-cover pointer-events-none rounded-full duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-                src={`/images/icons/${reputation.fileName}.svg`}
-                alt={reputation.altText}
+                src={`/images/icons/${reputationData.fileName}.svg`}
+                alt={reputationData.altText}
               />
               <div className="IntegrationIconContainer relative z-1">
                 <div className="IntegrationIcon text-center py-16 m-auto shadow-2xl h-36 w-36 rounded-full bg-center">
                   <span className="IconSpan transition duration-500 pointer-events-none shadow-2xl relative-30">
-                    {reputation.name}
+                    {reputationData.name}
                   </span>
                 </div>
               </div>
@@ -175,25 +167,15 @@ function Reputation() {
           ))}
         </div>
       </div>
-      <div className="">
-        <div className="py-24 max-w-7xl m-auto">
-          <h6 className="text-4xl md:text-5xl pb-7 lg:max-w-5xl text-center font-bold m-auto leading-normal">
-            Frequently Asked Questions About Our Social Media Marketing Services
-          </h6>
-          <div className="w-full px-4 pt-16">
-            <div className="p-2 mx-auto rounded-2xl">
-              <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-                {SocialFAQ.Social.map((Social) => (
-                  <FAQDropdown
-                    question={Social.question}
-                    answer={Social.answer}
-                  />
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <FAQContainer name="Reputation Management" titleLength="max-w-5xl">
+        {SocialFAQ.Social.map((reputationData) => (
+          <FAQDropdown
+            question={reputationData.question}
+            answer={reputationData.answer}
+            key={reputationData.question}
+          />
+        ))}
+      </FAQContainer>
     </div>
   );
 }

@@ -65,7 +65,7 @@ function Footer() {
                         <a href="tel:+12819445711">
                             <p className="text-3xl font-medium my-6 mb-8 text-alkali-500 text-center lg:text-left">(281) 944-5711</p>
                         </a>
-                        <div className="flex items-center space-x-10">
+                        <div className="flex flex-col md:flex-row space-x-0 space-y-10 items-center md:space-y-0 md:space-x-10">
                             <Modal
                                 style="p-4 px-8 font-semibold text-white shadow-2xl rounded-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-700"
                                 text="Schedule a Call"
@@ -108,7 +108,7 @@ function Footer() {
                             height="32"
                         />
                     </div>
-                    <div className="gap-x-10 flex justify-center lg:justify-end text-alkaligrey-400">
+                    <div className="pt-6 lg:pt-0 gap-x-10 flex justify-center lg:justify-end text-alkaligrey-400">
                         <a href="/about/">
                             About
                         </a>
@@ -117,9 +117,6 @@ function Footer() {
                         </a>
                         <a href="/privacy-policy/">
                             Privacy Policy
-                        </a>
-                        <a>
-                            Terms of Use
                         </a>
                     </div>
                 </div>

@@ -18,13 +18,13 @@ const ServiceHero = (props) => {
         style={{ position: "relative", overflow: "hidden" }}
       >
         <div style={{ position: "absolute" }}>{particles}</div>
-        <div className="max-w-7xl flex justify-between items-center m-auto py-24 relative">
+        <div className="max-w-7xl flex justify-between items-center m-auto pb-20 pt-14 lg:py-24 relative">
           <div className="w-full lg:w-8/12">
             <h1 className="portfolio-title text-white uppercase text-md font-medium">
               {props.sub}
             </h1>
             <h2
-              className={`text-4xl md:text-6xl text-white font-bold pt-3 py-10 ${props.titleLength}`}
+              className={`text-5xl md:text-6xl text-white font-bold pt-3 py-10 ${props.titleLength}`}
             >
               {props.title}
             </h2>

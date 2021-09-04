@@ -9,81 +9,94 @@ import ServiceImage from "../../../components/Services/ServiceImage";
 import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
 import Head from "next/head";
+import FAQContainer from "../../../components/Services/FAQContainer";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function LocalSearchEngineOptimization() {
-  const seoImage1 = LocalSEO.text1.map((text1) => (
+  const seoImage1 = LocalSEO.text1.map((localSEOData) => (
     <ServiceImage
-      image={text1.image}
-      altText={text1.altText}
-      height={text1.height}
-      width={text1.width}
+      image={localSEOData.image}
+      altText={localSEOData.altText}
+      height={localSEOData.height}
+      width={localSEOData.width}
     />
   ));
 
-  const seoText1 = LocalSEO.text1.map((text1) => (
+  const seoText1 = LocalSEO.text1.map((localSEOData) => (
     <StandardTextBlock
-      title={text1.title}
-      text={text1.text}
+      title={localSEOData.title}
+      text={localSEOData.text}
     />
   ));
 
-  const seoImage2 = LocalSEO.text2.map((text2) => (
+  const seoImage2 = LocalSEO.text2.map((localSEOData) => (
     <ServiceImage
-      image={text2.image}
-      altText={text2.altText}
+      image={localSEOData.image}
+      altText={localSEOData.altText}
       imageAngle="none"
-      height={text2.height}
-      width={text2.width}
+      height={localSEOData.height}
+      width={localSEOData.width}
     />
   ));
 
-  const seoText2 = LocalSEO.text2.map((text2) => (
-    <StandardTextBlock title={text2.title} text={text2.text} />
+  const seoText2 = LocalSEO.text2.map((localSEOData) => (
+    <StandardTextBlock
+      title={localSEOData.title}
+      text={localSEOData.text}
+    />
   ));
 
-  const seoImage3 = LocalSEO.text3.map((text3) => (
+  const seoImage3 = LocalSEO.text3.map((localSEOData) => (
     <ServiceImage
-      image={text3.image}
-      altText={text3.altText}
+      image={localSEOData.image}
+      altText={localSEOData.altText}
       imageAngle="none"
-      height={text3.height}
-      width={text3.width}
+      height={localSEOData.height}
+      width={localSEOData.width}
     />
   ));
 
-  const seoText3 = LocalSEO.text3.map((text3) => (
-    <StandardTextBlock title={text3.title} text={text3.text} />
+  const seoText3 = LocalSEO.text3.map((localSEOData) => (
+    <StandardTextBlock
+      title={localSEOData.title}
+      text={localSEOData.text}
+    />
   ));
 
-  const seoImage4 = LocalSEO.text4.map((text4) => (
+  const seoImage4 = LocalSEO.text4.map((localSEOData) => (
     <ServiceImage
-      image={text4.image}
-      altText={text4.altText}
+      image={localSEOData.image}
+      altText={localSEOData.altText}
       imageAngle="none"
-      height={text4.height}
-      width={text4.width}
+      height={localSEOData.height}
+      width={localSEOData.width}
     />
   ));
 
-  const seoText4 = LocalSEO.text4.map((text4) => (
-    <StandardTextBlock title={text4.title} text={text4.text} />
+  const seoText4 = LocalSEO.text4.map((localSEOData) => (
+    <StandardTextBlock
+      title={localSEOData.title}
+      text={localSEOData.text}
+    />
   ));
 
-  const seoImage5 = LocalSEO.text5.map((text5) => (
+  const seoImage5 = LocalSEO.text5.map((localSEOData) => (
     <ServiceImage
-      image={text5.image}
-      altText={text5.altText}
+      image={localSEOData.image}
+      altText={localSEOData.altText}
       imageAngle="none"
-      height={text5.height}
-      width={text5.width}
+      height={localSEOData.height}
+      width={localSEOData.width}
     />
   ));
 
-  const seoText5 = LocalSEO.text5.map((text5) => (
-    <StandardTextBlock title={text5.title} text={text5.text} />
+  const seoText5 = LocalSEO.text5.map((localSEOData) => (
+    <StandardTextBlock
+      title={localSEOData.title}
+      text={localSEOData.text}
+    />
   ));
 
   return (
@@ -92,7 +105,7 @@ function LocalSearchEngineOptimization() {
         <title>Local SEO Services | Stand Out In Your Backyard</title>
         <meta name="description" content="At Alkali we improve your local search visbility with our effective local seo services. Whether you're a small business or are a franchise, we can help." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Local SEO Services | Stand Out In Your Backyard" />
@@ -110,16 +123,20 @@ function LocalSearchEngineOptimization() {
         headerColor="white"
       />
       {LocalSEO.headline.map(
-        (headline) => (
+        (localSEOData) => (
           <ServiceHero
-            sub={headline.subTitle}
-            title={headline.title}
+            sub={localSEOData.subTitle}
+            title={localSEOData.title}
           />
         )
       )}
-      <TwoColumnLayout style="" child2={seoImage1} child1={seoText1} />
       <TwoColumnLayout
         flexType="reverse"
+        style=""
+        child2={seoImage1}
+        child1={seoText1}
+      />
+      <TwoColumnLayout
         style="bg-alkaligrey-300"
         child1={seoImage2}
         child2={seoText2}
@@ -148,37 +165,32 @@ function LocalSearchEngineOptimization() {
         portalId="20442125"
         formId="ca7ed626-450f-4b52-8fa7-2c7d2d464006"
       />
-      <TwoColumnLayout style="" child2={seoImage3} child1={seoText3} />
       <TwoColumnLayout
         flexType="reverse"
+        style=""
+        child2={seoImage3}
+        child1={seoText3}
+      />
+      <TwoColumnLayout
         style="bg-alkaligrey-300"
         child1={seoImage5}
         child2={seoText5}
       />
       <TwoColumnLayout
+        flexType="reverse"
         style="py-24"
         child2={seoImage4}
         child1={seoText4}
       />
-      <div className="px-7">
-        <div className="py-24 max-w-7xl m-auto">
-          <h6 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-normal">
-            Frequently Asked Questions About Our SEO Services
-          </h6>
-          <div className="w-full pt-16">
-            <div className="mx-auto rounded-2xl">
-              <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-                {LocalSEO.faq.map((faq) => (
-                  <FAQDropdown
-                    question={faq.question}
-                    answer={faq.answer}
-                  />
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <FAQContainer name="Local SEO" titleLength="max-w-4xl">
+        {LocalSEO.faq.map((localSEOData) => (
+          <FAQDropdown
+            question={localSEOData.question}
+            answer={localSEOData.answer}
+            key={localSEOData.question}
+          />
+        ))}
+      </FAQContainer>
     </div>
   );
 }

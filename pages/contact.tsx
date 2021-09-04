@@ -54,8 +54,8 @@ function Contact() {
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <div className="bg-alkaligrey-200">
-        <CombinedNavigation headerBackground="bg-alkaligrey-200" />
+      <div className="bg-alkaligrey-300">
+        <CombinedNavigation headerBackground="bg-alkaligrey-300" />
         <div className="py-20 pb-64 flex text-center justify-center z-20">
           <div className="relative z-20">
             <h1 className="text-alkaligrey-800 font-bold pt-5 text-5xl lg:text-6xl max-w-6xl">

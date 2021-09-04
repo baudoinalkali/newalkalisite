@@ -30,20 +30,34 @@ const MobileDropdown = (props) => {
       }`;
   };
 
+  const menuIconOpen = () => {
+    return (
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    )
+  }
+
+  const menuIconClosed = () => {
+    return (
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    )
+  }
+
+
   return (
     <div className="w-full max-w-sm top-16">
       <Popover>
         {({ open }) => (
           <>
             <Popover.Button className="block" style={{ width: "24px" }}>
-              <FontAwesomeIcon
-                icon={faBars}
-                className={`${open ? "" : ""
-                  } mobile-dropdown ${headerDropDownColor()} text-xl group-hover:text-opacity-80 transition ease-in-out duration-150`}
-                aria-hidden="true"
-              />
+              <svg xmlns="http://www.w3.org/2000/svg" className={`h-8 w-8 ${headerDropDownColor()}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={`${open ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16" }`}/>
+              </svg>
             </Popover.Button>
-            <Popover.Panel className="absolute z-40 w-screen md:max-w-none pt-14 px-4 right-0 sm:px-0 lg:max-w-3xl">
+            <Popover.Panel className="absolute z-40 w-screen md:max-w-none pt-9 px-4 right-0 sm:px-0 lg:max-w-3xl">
               <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                 <div className="relative grid gap-8 bg-white p-7 lg:grid-cols-2">
                   <ul className="space-y-4 font-mont text-chablack-300 hover:text-chablack-500">
@@ -211,9 +225,9 @@ const MobileDropdown = (props) => {
                     </li>
                   </ul>
                   <MeetingPopUp
-                  style="p-4 px-8 font-semibold text-white shadow-2xl rounded-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-700"
-                  text="Schedule a Call"
-                />
+                    style="p-4 px-8 font-semibold text-white shadow-2xl rounded-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-700"
+                    text="Schedule a Call"
+                  />
                 </div>
               </div>
             </Popover.Panel>

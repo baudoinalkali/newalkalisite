@@ -12,6 +12,7 @@ import dynamic from 'next/dynamic';
 import AuditSection from "../../../components/Services/AuditSection";
 import Head from "next/head";
 import ClientScheduleCTA from "../../../components/Clients/ClientScheduleCTA";
+import FAQContainer from "../../../components/Services/FAQContainer";
 const TestimonialSlide = dynamic(() => import("../../../components/TestimonialSlide"));
 const TestimonialSlider = dynamic(() => import("../../../components/TestimonialSlider"));
 const ResponsiveScreens = dynamic(() => import("../../../components/ResponsiveScreens"));
@@ -19,140 +20,142 @@ const Integration = dynamic(() => import("../../../components/Integration"));
 const FAQDropdown = dynamic(() => import("../../../components/Services/FAQDropdown"));
 
 function WordPressWebsiteDevelopment() {
-  const wordpressImage = Wordpress.wordpressWebsiteDevelopment.map((wordpressWebsiteDevelopment) => (
+  const wordpressImage = Wordpress.wordpressWebsiteDevelopment.map((wordpressData) => (
     <ServiceImage
-      image={wordpressWebsiteDevelopment.image}
-      altText={wordpressWebsiteDevelopment.altText}
+      image={wordpressData.image}
+      altText={wordpressData.altText}
       imageAngle="none"
-      height={wordpressWebsiteDevelopment.height}
-      width={wordpressWebsiteDevelopment.width}
-      key={wordpressWebsiteDevelopment.image}
+      height={wordpressData.height}
+      width={wordpressData.width}
+      key={wordpressData.image}
     />
   ));
 
-  const wordpressText = Wordpress.wordpressWebsiteDevelopment.map((wordpressWebsiteDevelopment) => (
+  const wordpressText = Wordpress.wordpressWebsiteDevelopment.map((wordpressData) => (
     <StandardTextBlock
-      title={wordpressWebsiteDevelopment.title}
-      text={wordpressWebsiteDevelopment.text}
-      key={wordpressWebsiteDevelopment.title}
+      title={wordpressData.title}
+      text={wordpressData.text}
+      key={wordpressData.title}
     />
   ));
 
-  const customBuiltImage = Wordpress.customBuilt.map((customBuilt) => (
+  const customBuiltImage = Wordpress.customBuilt.map((wordpressData) => (
     <ServiceImage
-      image={customBuilt.image}
-      altText={customBuilt.altText}
+      image={wordpressData.image}
+      altText={wordpressData.altText}
       imageAngle="none"
-      height={customBuilt.height}
-      width={customBuilt.width}
-      key={customBuilt.image}
+      height={wordpressData.height}
+      width={wordpressData.width}
+      key={wordpressData.image}
     />
   ));
 
-  const customBuiltText = Wordpress.customBuilt.map((customBuilt) => (
+  const customBuiltText = Wordpress.customBuilt.map((wordpressData) => (
     <StandardTextBlock
-      title={customBuilt.title}
-      text={customBuilt.text}
-      key={customBuilt.title}
+      title={wordpressData.title}
+      text={wordpressData.text}
+      key={wordpressData.title}
     />
   ));
 
   const responsiveDesignImage = Wordpress.responsiveDesign.map(
-    (responsiveDesign) => (
+    (wordpressData) => (
       <ServiceImage
-        image={responsiveDesign.image}
-        altText={responsiveDesign.altText}
+        image={wordpressData.image}
+        altText={wordpressData.altText}
         imageAngle="none"
-        height={responsiveDesign.height}
-        width={responsiveDesign.width}
-        key={responsiveDesign.image}
+        height={wordpressData.height}
+        width={wordpressData.width}
+        key={wordpressData.image}
       />
     )
   );
 
   const responsiveDesignText = Wordpress.responsiveDesign.map(
-    (responsiveDesign) => (
+    (wordpressData) => (
       <StandardTextBlock
-        title={responsiveDesign.title}
-        text={responsiveDesign.text}
-        key={responsiveDesign.title}
+        titleLength="max-w-md"
+        title={wordpressData.title}
+        text={wordpressData.text}
+        key={wordpressData.title}
       />
     )
   );
 
-  const seoImage = Wordpress.seo.map((seo) => (
+  const seoImage = Wordpress.seo.map((wordpressData) => (
     <ServiceImage
-      image={seo.image}
-      altText={seo.altText}
+      image={wordpressData.image}
+      altText={wordpressData.altText}
       imageAngle="none"
-      height={seo.height}
-      width={seo.width}
-      key={seo.image}
+      height={wordpressData.height}
+      width={wordpressData.width}
+      key={wordpressData.image}
     />
   ));
 
-  const seoText = Wordpress.seo.map((seo) => (
+  const seoText = Wordpress.seo.map((wordpressData) => (
     <StandardTextBlock
-      title={seo.title}
-      text={seo.text}
-      key={seo.title}
+      title={wordpressData.title}
+      text={wordpressData.text}
+      key={wordpressData.title}
     />
   ));
 
-  const userExperienceImage = Wordpress.userExperience.map((userExperience) => (
+  const userExperienceImage = Wordpress.userExperience.map((wordpressData) => (
     <ServiceImage
-      image={userExperience.image}
-      altText={userExperience.altText}
+      image={wordpressData.image}
+      altText={wordpressData.altText}
       imageAngle="none"
-      height={userExperience.height}
-      width={userExperience.width}
-      key={userExperience.image}
+      height={wordpressData.height}
+      width={wordpressData.width}
+      key={wordpressData.image}
     />
   ));
 
-  const userExperienceText = Wordpress.userExperience.map((userExperience) => (
+  const userExperienceText = Wordpress.userExperience.map((wordpressData) => (
     <StandardTextBlock
-      title={userExperience.title}
-      text={userExperience.text}
-      key={userExperience.title}
+      title={wordpressData.title}
+      titleLength="max-w-xl"
+      text={wordpressData.text}
+      key={wordpressData.title}
     />
   ));
 
-  const performanceImage = Wordpress.performance.map((performance) => (
+  const performanceImage = Wordpress.performance.map((wordpressData) => (
     <ServiceImage
-      image={performance.image}
-      altText={performance.altText}
+      image={wordpressData.image}
+      altText={wordpressData.altText}
       imageAngle="none"
-      height={performance.height}
-      width={performance.width}
-      key={performance.image}
+      height={wordpressData.height}
+      width={wordpressData.width}
+      key={wordpressData.image}
     />
   ));
 
-  const performanceText = Wordpress.performance.map((performance) => (
+  const performanceText = Wordpress.performance.map((wordpressData) => (
     <StandardTextBlock
-      title={performance.title}
-      text={performance.text}
-      key={performance.title}
+      title={wordpressData.title}
+      text={wordpressData.text}
+      key={wordpressData.title}
     />
   ));
 
-  const conversionImage = Wordpress.conversion.map((conversion) => (
+  const conversionImage = Wordpress.conversion.map((wordpressData) => (
     <ServiceImage
-      image={conversion.image}
-      altText={conversion.altText}
+      image={wordpressData.image}
+      altText={wordpressData.altText}
       imageAngle="none"
-      height={conversion.height}
-      width={conversion.width}
-      key={conversion.image}
+      height={wordpressData.height}
+      width={wordpressData.width}
+      key={wordpressData.image}
     />
   ));
 
-  const conversionText = Wordpress.conversion.map((conversion) => (
+  const conversionText = Wordpress.conversion.map((wordpressData) => (
     <StandardTextBlock
-      title={conversion.title}
-      text={conversion.text}
-      key={conversion.title}
+      title={wordpressData.title}
+      text={wordpressData.text}
+      key={wordpressData.title}
     />
   ));
 
@@ -180,17 +183,18 @@ function WordPressWebsiteDevelopment() {
           headerBackground="bg-alkali-500"
           headerColor="white"
         />
-        {Wordpress.headline.map((wordpress) => (
+        {Wordpress.headline.map((wordpressData) => (
           <ServiceHero
-            sub={wordpress.subTitle}
-            title={wordpress.title}
-            titleLength={wordpress.titleLength}
-            key={wordpress.title}
+            sub={wordpressData.subTitle}
+            title={wordpressData.title}
+            titleLength={wordpressData.titleLength}
+            key={wordpressData.title}
           />
         ))}
       </div>
       <div className="">
         <TwoColumnLayout
+                flexType="reverse"
           style=""
           child1={wordpressText}
           child2={wordpressImage}
@@ -198,7 +202,8 @@ function WordPressWebsiteDevelopment() {
         />
       </div>
       <TwoColumnLayout
-        style="bg-alkaligrey-300"
+        flexType="reverse"
+        style="pb-0 lg:pb-24 bg-alkaligrey-300"
         child1={customBuiltText}
         child2={customBuiltImage}
       />
@@ -247,7 +252,7 @@ function WordPressWebsiteDevelopment() {
       </div>
       <AuditSection
         backgroundColor=""
-        serviceName="SEO"
+        serviceName="Website"
         area1="Full website weview (content, CRO, performance)"
         area2="SEO: Comprehensive on-page audit"
         area3="Digital marketing/reputation management"
@@ -257,13 +262,13 @@ function WordPressWebsiteDevelopment() {
       <TwoColumnLayout
         flexType="reverse"
         style="bg-alkaligrey-300"
-        child1={responsiveDesignImage}
-        child2={responsiveDesignText}
+        child2={responsiveDesignImage}
+        child1={responsiveDesignText}
       />
       <TwoColumnLayout
-        style="pb-20 lg:pb-36"
-        child1={seoText}
-        child2={seoImage}
+        style="pb-10 lg:pb-36"
+        child2={seoText}
+        child1={seoImage}
       />
       <div className="pt-10">
         <h2 className="px-7 text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-14">
@@ -271,20 +276,20 @@ function WordPressWebsiteDevelopment() {
         </h2>
         <div className="relative z-20">
           <TestimonialSlider>
-            {Testimonials.wordpress.map((testimonial) => (
+            {Testimonials.wordpress.map((wordpressData) => (
               <TestimonialSlide
-                background={testimonial.background}
-                backgroundOverlay={testimonial.backgroundOverlay}
-                brandColor={testimonial.brandColor}
-                company={testimonial.company}
-                key={`designTestimonialFor${testimonial.company}`}
-                logo={testimonial.logo}
-                slug={testimonial.slug}
-                logoWidth={testimonial.logoWidth}
-                logoHeight={testimonial.logoHeight}
-                altText={testimonial.altText}
-                name={testimonial.name}
-                quote={testimonial.quote}
+                background={wordpressData.background}
+                backgroundOverlay={wordpressData.backgroundOverlay}
+                brandColor={wordpressData.brandColor}
+                company={wordpressData.company}
+                key={`designTestimonialFor${wordpressData.company}`}
+                logo={wordpressData.logo}
+                slug={wordpressData.slug}
+                logoWidth={wordpressData.logoWidth}
+                logoHeight={wordpressData.logoHeight}
+                altText={wordpressData.altText}
+                name={wordpressData.name}
+                quote={wordpressData.quote}
                 slugVisibility="true"
               />
             ))}
@@ -293,70 +298,61 @@ function WordPressWebsiteDevelopment() {
       </div>
       <TwoColumnLayout
         style="bg-alkaligrey-300 pt-72 lg:pt-82 -mt-48"
-        child1={userExperienceText}
-        child2={userExperienceImage}
+        child2={userExperienceText}
+        child1={userExperienceImage}
       />
 
       <TwoColumnLayout
         style=""
         flexType="reverse"
-        child1={performanceImage}
-        child2={performanceText}
+        child2={performanceImage}
+        child1={performanceText}
       />
       <ClientScheduleCTA
         brandColor="#00baff"
       />
-      {Wordpress.responsiveScreens.map((responsiveScreens) => (
+      {Wordpress.responsiveScreens.map((wordpressData) => (
         <ResponsiveScreens
           style="py-24 lg:py-36 overflow-hidden"
-          link={responsiveScreens.link}
+          link={wordpressData.link}
           buttonName="View Projects"
-          brandColor={responsiveScreens.brandColor}
-          desktopLeft={responsiveScreens.desktopLeft}
-          desktopRight={responsiveScreens.desktopRight}
-          tablet={responsiveScreens.tablet}
-          phone={responsiveScreens.phone}
-          desktopLeftLink={responsiveScreens.desktopLeftLink}
-          desktopRightLink={responsiveScreens.desktopRightLink}
-          tabletLink={responsiveScreens.tabletLink}
-          phoneLink={responsiveScreens.phoneLink}
+          brandColor={wordpressData.brandColor}
+          desktopLeft={wordpressData.desktopLeft}
+          desktopRight={wordpressData.desktopRight}
+          tablet={wordpressData.tablet}
+          phone={wordpressData.phone}
+          desktopLeftLink={wordpressData.desktopLeftLink}
+          desktopRightLink={wordpressData.desktopRightLink}
+          tabletLink={wordpressData.tabletLink}
+          phoneLink={wordpressData.phoneLink}
         />
       ))}
       <TwoColumnLayout
         style="bg-alkaligrey-300 pt-96 -mt-96"
-        child1={conversionText}
-        child2={conversionImage}
+        child2={conversionText}
+        child1={conversionImage}
       />
-      <div className="py-24 pb-0 px-7 bg-white">
-        <h2 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-normal">
+      <div className="py-24 pb-0 bg-white">
+        <h2 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-normal px-7 ">
           Integration Is the Name of the Game
         </h2>
-        <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4">
+        <p className="text-center max-w-4xl m-auto text-lg font-normal pt-4 px-7">
           A website shouldn't only be an extension of your business or brand
           that looks good. It should fit within and optimize your existing
           business processes. Integrations shouldn't be an afterthought, but a
           central part of your next website build.
         </p>
-        <Integration style="py-24 2xl:px-0" />
+        <Integration style="py-24" />
       </div>
-      <div className="py-24 max-w-7xl m-auto">
-        <h2 className="text-3xl md:text-4xl pb-7 text-center font-bold m-auto leading-normal">
-          Frequently Asked Questions About Our WordPress Development
-        </h2>
-        <div className="w-full px-4 pt-16">
-          <div className="p-2 mx-auto bg-white rounded-2xl">
-            <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10">
-              {Wordpress.faq.map((faq) => (
-                <FAQDropdown
-                  question={faq.question}
-                  answer={faq.answer}
-                  key={faq.question}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
+      <FAQContainer name="WordPress Development" titleLength="max-w-5xl">
+        {Wordpress.faq.map((wordpressData) => (
+          <FAQDropdown
+            question={wordpressData.question}
+            answer={wordpressData.answer}
+            key={wordpressData.question}
+          />
+        ))}
+      </FAQContainer>
     </div>
   );
 }
