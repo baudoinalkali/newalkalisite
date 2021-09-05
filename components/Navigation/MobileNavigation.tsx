@@ -33,7 +33,7 @@ const MobileNav = (props) => {
               />
             </a>
           </div>
-          <div className="">
+          <div className="mr-1">
             <MobileDropdown headerColor={props.headerColor} />
           </div>
         </div>
