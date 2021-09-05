@@ -19,26 +19,26 @@ const aboutLinks = [
 const webDevelopmentLinks = [
   {
     name: "WordPress Websites",
-    href: "/services/web-development/wordpress-website-development",
+    href: "/solutions/web-development/wordpress-website-development",
   },
   {
     name: "E-commerce Websites",
-    href: "/services/web-development/ecommerce-website-development",
+    href: "/solutions/web-development/ecommerce-website-development",
   },
   {
     name: "Custom Websites",
-    href: "/services/web-development/custom-website-development",
+    href: "/solutions/web-development/custom-website-development",
   },
 ];
 
 const webDesignLinks = [
   {
     name: "Logo Design",
-    href: "/services/web-design/logo-design",
+    href: "/solutions/web-design/logo-design",
   },
   {
     name: "Pre-Development Mockups",
-    href: "/services/web-design/pre-development-mockups",
+    href: "/solutions/web-design/pre-development-mockups",
   },
 ];
 

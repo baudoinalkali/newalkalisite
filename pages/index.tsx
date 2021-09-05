@@ -56,63 +56,63 @@ const ServicesHome = [
     altText: "Test",
     serviceName: "SEO",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/search-engine-optimization/"
+    slug: "/solutions/digital-marketing/search-engine-optimization/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "WordPress Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/web-development/wordpress-website-development/"
+    slug: "/solutions/web-development/wordpress-website-development/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "PPC & Retargeting",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/pay-per-click-advertising/"
+    slug: "/solutions/digital-marketing/pay-per-click-advertising/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "E-commerce Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/web-development/ecommerce-website-development/"
+    slug: "/solutions/web-development/ecommerce-website-development/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Local SEO",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/local-search-engine-optimization/"
+    slug: "/solutions/digital-marketing/local-search-engine-optimization/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Reputation Management",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/reputation-management/"
+    slug: "/solutions/digital-marketing/reputation-management/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Content Marketing",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/content-marketing/"
+    slug: "/solutions/digital-marketing/content-marketing/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Custom Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/web-development/custom-website-development/"
+    slug: "/solutions/web-development/custom-website-development/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Social Media Marketing",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/social-media-marketing/"
+    slug: "/solutions/digital-marketing/social-media-marketing/"
   }
 ]
 

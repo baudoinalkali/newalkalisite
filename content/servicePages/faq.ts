@@ -40,7 +40,7 @@ const FAQ = {
         },
         {
             question: "Do You Offer Local SEO Services?",
-            answer: `Yes, we leverage our expertise of local SEO to help small businesses increase their local reach through various techniques. <a class="underline text-alkali-500" href="/services/digital-marketing/local-search-engine-optimization">Learn more about our local SEO services.</a>`
+            answer: `Yes, we leverage our expertise of local SEO to help small businesses increase their local reach through various techniques. <a class="underline text-alkali-500" href="/solutions/digital-marketing/local-search-engine-optimization">Learn more about our local SEO services.</a>`
         }
     ],
     ContentMarketing: [

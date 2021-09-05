@@ -11,7 +11,7 @@ const ClientHeroContent = {
             sub: "Home Service",
             title: "Homewatch Amelia Island",
             service: ["Web Development", "Branding"],
-            serviceSlug: ["/services/web-development/wordpress-website-development", "/services/design/branding"],
+            serviceSlug: ["/solutions/web-development/wordpress-website-development", "/solutions/design/branding"],
             backgroundImg: "/images/amelia-hero.jpg"
         }
     ],
@@ -26,7 +26,7 @@ const ClientHeroContent = {
             sub: "Technology",
             title: "Carro",
             service: ["Web Development"],
-            serviceSlug: ["/services/web-development/wordpress-website-development"]
+            serviceSlug: ["/solutions/web-development/wordpress-website-development"]
         }
     ],
     chattr: [
@@ -40,7 +40,7 @@ const ClientHeroContent = {
             sub: "Technology",
             title: "Chattr",
             service: ["Custom Web Development", "Web Design"],
-            serviceSlug: ["/services/web-development/wordpress-website-development"]
+            serviceSlug: ["/solutions/web-development/wordpress-website-development"]
         }
     ],
     ben: [
@@ -54,7 +54,7 @@ const ClientHeroContent = {
             sub: "Non-profit",
             title: "Blockchain Education Network",
             service: ["Custom Web Development"],
-            serviceSlug: ["/services/web-development/wordpress-website-development"]
+            serviceSlug: ["/solutions/web-development/wordpress-website-development"]
         }
     ],
     bobtail: [
@@ -69,7 +69,7 @@ const ClientHeroContent = {
             sub: "Technology",
             title: "Bobtail",
             service: ["WordPress Web Development"],
-            serviceSlug: ["/services/web-development/wordpress-website-development"]
+            serviceSlug: ["/solutions/web-development/wordpress-website-development"]
         }
     ],
 }

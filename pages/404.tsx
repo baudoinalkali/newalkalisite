@@ -35,7 +35,7 @@ export default function Custom404() {
             </Head>
             <CombinedNavigation headerBackground="bg-white" />
             <div className="px-7">
-                <section className="max-w-7xl m-auto py-36 flex flex-col-reverse lg:flex-row items-center">
+                <section className="max-w-7xl m-auto py-24 lg:py-36 flex flex-col-reverse lg:flex-row items-center">
                     <div className="w-full lg:w-1/2 text-center lg:text-left ">
                         <h1 className="text-5xl md:text-6xl font-bold m-auto leading-tight">
                             404
