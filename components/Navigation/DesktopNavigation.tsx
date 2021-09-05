@@ -38,7 +38,7 @@ const DesktopNavigation = (props) => {
       >
         <div className="px-7">
           <div className="max-w-7xl m-auto flex justify-between items-center">
-            <a href="/">
+            <a className="mt-2" href="/">
               <Image
                 src={`${headerLogoColor()}`}
                 width="160"
