@@ -10,6 +10,7 @@ import dynamic from 'next/dynamic';
 import clientMainPage from "../../content/clientPages/clientMainPage";
 import ClientScheduleCTA from "../../components/Clients/ClientScheduleCTA";
 import Head from "next/head";
+import {chattrData} from "../../content/testimonials"
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -96,19 +97,18 @@ function Carro() {
 
       <div className="px-7">
         <div className="pb-4 lg:pb-10 client-testimonial-container">
-          <TestimonialSlide
+        <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
-            background="/images/clients/chattr/chattr-slide-bg.jpg"
-            brandColor="#36ad8b"
-            company="Chattr"
-            newTab={true}
-            logo="/images/clients/chattr/logo.svg"
-            logoWidth="200"
-            logoHeight="80"
-            altText=""
-            slug="chattr"
-            name="Jim Schimpf, Founder"
-            quote="Alkali not only delivered on the technical skills, but they literally acted like one of our team members diving head first, always available, immediate responses, over-communication and adherence to timelines."
+            brandColor={chattrData.brandColor}
+            background={chattrData.background}
+            company={chattrData.company}
+            slug={chattrData.slug}
+            logo={chattrData.logo}
+            logoWidth={chattrData.logoWidth}
+            logoHeight={chattrData.logoHeight}
+            altText={chattrData.altText}
+            name={chattrData.name}
+            quote={chattrData.quote}
           />
         </div>
       </div>

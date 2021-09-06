@@ -10,6 +10,7 @@ import dynamic from 'next/dynamic';
 import ClientScheduleCTA from "../../components/Clients/ClientScheduleCTA";
 import clientMainPage from "../../content/clientPages/clientMainPage";
 import Head from "next/head";
+import {thfData} from "../../content/testimonials"
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -100,16 +101,16 @@ function Carro() {
         <div className="pb-4 lg:pb-10 client-testimonial-container">
           <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
-            background="/images/clients/the-hid-factory/thf-slide-bg.png"
-            brandColor="#0d0d0d"
-            company="Chattr"
-            logo="/images/clients/the-hid-factory/logo.png"
-            logoWidth="275"
-            logoHeight="50"
-            altText=""
-            slug="chattr"
-            name="Travis Deleon, Operations Manager"
-            quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+            brandColor={thfData.brandColor}
+            background={thfData.background}
+            company={thfData.company}
+            slug={thfData.slug}
+            logo={thfData.logo}
+            logoWidth={thfData.logoWidth}
+            logoHeight={thfData.logoHeight}
+            altText={thfData.altText}
+            name={thfData.name}
+            quote={thfData.quote}
           />
         </div>
       </div>

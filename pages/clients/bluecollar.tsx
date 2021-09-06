@@ -10,6 +10,7 @@ import dynamic from 'next/dynamic';
 import ClientScheduleCTA from '../../components/Clients/ClientScheduleCTA'
 import clientMainPage from '../../content/clientPages/clientMainPage'
 import Head from 'next/head'
+import { bluecollarData } from "../../content/testimonials"
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -104,16 +105,16 @@ function BlueCollar() {
             <div className="pb-4 lg:pb-10 client-testimonial-container">
                 <TestimonialSlide
                     style="max-w-7xl m-auto shadow-2xl rounded-md"
-                    background="/images/clients/bluecollar/slide-testimonial-bg.jpg"
-                    brandColor="#0d0d0d"
-                    company="Bluecollar"
-                    logo="/images/clients/bluecollar/logo.png"
-                    logoWidth="325"
-                    logoHeight="45"
-                    altText=""
-                    slug="bluecollar"
-                    name="Ashley McCarthy, Program Development Director"
-                    quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+                    brandColor={bluecollarData.brandColor}
+                    background={bluecollarData.background}
+                    company={bluecollarData.company}
+                    slug={bluecollarData.slug}
+                    logo={bluecollarData.logo}
+                    logoWidth={bluecollarData.logoWidth}
+                    logoHeight={bluecollarData.logoHeight}
+                    altText={bluecollarData.altText}
+                    name={bluecollarData.name}
+                    quote={bluecollarData.quote}
                 />
             </div>
         </div>

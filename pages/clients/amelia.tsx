@@ -1,5 +1,5 @@
 import ClientCardContainer from "../../components/Clients/ClientCardContainer";
-import AmeliaSlide from "../../content/testimonials";
+import { ameliaData } from "../../content/testimonials";
 import TwoColumnLayout from "../../components/TwoColumnLayout";
 import StandardImage from "../../components/StandardImage";
 import StandardTextBlock from "../../components/StandardTextBlock";
@@ -105,23 +105,20 @@ function Amelia() {
 
       <div className="px-7">
         <div className="pb-4 lg:pb-10 client-testimonial-container">
-          {AmeliaSlide.amelia.map((amelia) => (
-            <TestimonialSlide
-              style="max-w-7xl m-auto shadow-2xl rounded-md"
-              brandColor={amelia.brandColor}
-              background={amelia.background}
-              backgroundOverlay={amelia.backgroundOverlay}
-              company={amelia.company}
-              slug={amelia.slug}
-              key={`designTestimonialFor${amelia.company}`}
-              logo={amelia.logo}
-              logoWidth={amelia.logoWidth}
-              logoHeight={amelia.logoHeight}
-              altText={amelia.altText}
-              name={amelia.name}
-              quote={amelia.quote}
-            />
-          ))}
+          <TestimonialSlide
+            style="max-w-7xl m-auto shadow-2xl rounded-md"
+            brandColor={ameliaData.brandColor}
+            background={ameliaData.background}
+            backgroundOverlay={ameliaData.backgroundOverlay}
+            company={ameliaData.company}
+            slug={ameliaData.slug}
+            logo={ameliaData.logo}
+            logoWidth={ameliaData.logoWidth}
+            logoHeight={ameliaData.logoHeight}
+            altText={ameliaData.altText}
+            name={ameliaData.name}
+            quote={ameliaData.quote}
+          />
         </div>
       </div>
 

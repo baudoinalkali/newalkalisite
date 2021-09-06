@@ -10,6 +10,7 @@ import dynamic from 'next/dynamic';
 import ClientScheduleCTA from "../../components/Clients/ClientScheduleCTA";
 import clientMainPage from "../../content/clientPages/clientMainPage";
 import Head from "next/head";
+import { goCottageData } from "../../content/testimonials"
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -62,7 +63,7 @@ function Carro() {
         <title>Go-Cottage Project | Alkali</title>
         <meta name="description" content="Learn more about how we revitalized Go-Cottage's digital presence to improve user experience." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Go-Cottage Project | Alkali" />
@@ -110,16 +111,16 @@ function Carro() {
         <div className="pb-4 lg:pb-10 -mt-56">
           <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
-            background="/images/clients/go-cottage/testimonial-slide-bg.jpg"
-            brandColor="#778a51"
-            company="Chattr"
-            logo="/images/clients/go-cottage/logo-alt.svg"
-            logoWidth="225"
-            logoHeight="80"
-            altText=""
-            slug="chattr"
-            name="Sharon Middendorf, Owner"
-            quote="5 stars all the way! Thank you for building our amazing new website. Top notch, professional, on time, responsive. Can't say enough good things about Alkali."
+            brandColor={goCottageData.brandColor}
+            background={goCottageData.background}
+            company={goCottageData.company}
+            slug={goCottageData.slug}
+            logo={goCottageData.logo}
+            logoWidth={goCottageData.logoWidth}
+            logoHeight={goCottageData.logoHeight}
+            altText={goCottageData.altText}
+            name={goCottageData.name}
+            quote={goCottageData.quote}
           />
         </div>
       </div>

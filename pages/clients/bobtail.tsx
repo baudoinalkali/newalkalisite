@@ -10,6 +10,7 @@ import dynamic from 'next/dynamic';
 import ClientScheduleCTA from "../../components/Clients/ClientScheduleCTA";
 import clientMainPage from "../../content/clientPages/clientMainPage";
 import Head from "next/head";
+import {bobtailData} from "../../content/testimonials"
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -104,23 +105,20 @@ function Amelia() {
 
       <div className="px-7">
         <div className="pb-4 lg:pb-10 client-testimonial-container">
-          {BobtailContent.bobtail.testimonial.map((bobtail) => (
             <TestimonialSlide
               style="max-w-7xl m-auto shadow-2xl rounded-md"
-              background={bobtail.background}
-              backgroundOverlay={bobtail.backgroundOverlay}
-              brandColor={bobtail.brandColor}
-              slug={bobtail.slug}
-              company={bobtail.company}
-              key={`designTestimonialFor${bobtail.company}`}
-              logo={bobtail.logo}
-              logoWidth={bobtail.logoWidth}
-              logoHeight={bobtail.logoHeight}
-              altText={bobtail.altText}
-              name={bobtail.name}
-              quote={bobtail.quote}
+              background={bobtailData.background}
+              backgroundOverlay={bobtailData.backgroundOverlay}
+              brandColor={bobtailData.brandColor}
+              slug={bobtailData.slug}
+              company={bobtailData.company}
+              logo={bobtailData.logo}
+              logoWidth={bobtailData.logoWidth}
+              logoHeight={bobtailData.logoHeight}
+              altText={bobtailData.altText}
+              name={bobtailData.name}
+              quote={bobtailData.quote}
             />
-          ))}
         </div>
       </div>
 
