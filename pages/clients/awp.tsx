@@ -11,6 +11,7 @@ import dynamic from 'next/dynamic';
 import ClientScheduleCTA from "../../components/Clients/ClientScheduleCTA";
 import clientMainPage from "../../content/clientPages/clientMainPage";
 import Head from "next/head";
+import { awpData } from "../../content/testimonials"
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -105,21 +106,19 @@ function Amelia() {
 
       <div className="px-7">
         <div className="pb-4 lg:pb-10 client-testimonial-container">
-          {AmeliaSlide.amelia.map((amelia) => (
-            <TestimonialSlide
-              style="max-w-7xl m-auto shadow-2xl rounded-md"
-              background="/images/clients/awp/slide-testimonial-bg.jpg"
-              brandColor="#d4d9e2"
-              company="Aerial Work Platforms"
-              logo="/images/clients/awp/logo.png"
-              logoWidth="220"
-              logoHeight="104"
-              altText=""
-              slug="https://awpdelivers.com"
-              name="Robert Rivera, Founder"
-              quote="I cannot say enough positive things about Alkali. It was a great experience and I would highly recommend anyone interested on a new website or a refresher call them up."
-            />
-          ))}
+          <TestimonialSlide
+            style="max-w-7xl m-auto shadow-2xl rounded-md"
+            brandColor={awpData.brandColor}
+            background={awpData.background}
+            company={awpData.company}
+            slug={awpData.slug}
+            logo={awpData.logo}
+            logoWidth={awpData.logoWidth}
+            logoHeight={awpData.logoHeight}
+            altText={awpData.altText}
+            name={awpData.name}
+            quote={awpData.quote}
+          />
         </div>
       </div>
 

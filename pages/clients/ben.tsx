@@ -11,6 +11,7 @@ import dynamic from 'next/dynamic';
 import ClientScheduleCTA from "../../components/Clients/ClientScheduleCTA";
 import clientMainPage from "../../content/clientPages/clientMainPage";
 import Head from "next/head";
+import { benData } from "../../content/testimonials"
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -57,7 +58,7 @@ function Ben() {
         <title>Blockchain Education Network Project | Alkali</title>
         <meta name="description" content="Learn more about how we transformed Blockchain Education Network's website to better align with their organization's goals." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Blockchain Education Network Project | Alkali" />
@@ -95,31 +96,12 @@ function Ben() {
 
       <TwoColumnLayout
         flexType="reverse"
-        style="bg-alkaligrey-300 py-24 lg:py-36 pb-80 lg:pb-80 mb-6"
+        style="bg-alkaligrey-300"
         child1={carroGoalImage}
         child2={carroGoalText}
       ></TwoColumnLayout>
 
-      <div className="px-7">
-      <div className="pb-4 lg:pb-10 client-testimonial-container">
-          <TestimonialSlide
-            style="max-w-7xl m-auto shadow-2xl rounded-md"
-            background="/images/clients/ben/ben-slide-bg.jpg"
-            brandColor="#FF936B"
-            company="ben"
-            logo="/images/clients/ben/logo.svg"
-            logoWidth="225"
-            logoHeight="71"
-            altText=""
-            slug="ben"
-            name="António Gomes, Director of Operations"
-            quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
-          />
-        </div>
-      </div>
-
       <TwoColumnLayout
-        style="py-24 pb-20 lg:pb-24 mb-0 lg:mb-6"
         child1={carroResultText}
         child2={carroResultImage}
       />
@@ -131,8 +113,8 @@ function Ben() {
 
       {CarroScreenImages.carro.map((carro) => (
         <ResponsiveScreens
-        style="py-24 lg:py-36 overflow-hidden"
-        link="https://ben.ai"
+          style="py-24 lg:py-36 overflow-hidden"
+          link="https://ben.ai"
           buttonName="Visit Site"
           brandColor="#ff936b"
           newTab={true}

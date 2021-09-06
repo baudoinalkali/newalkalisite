@@ -10,6 +10,7 @@ import dynamic from 'next/dynamic';
 import ClientScheduleCTA from "../../components/Clients/ClientScheduleCTA";
 import clientMainPage from "../../content/clientPages/clientMainPage";
 import Head from "next/head";
+import {magnetiteData} from "../../content/testimonials"
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -110,16 +111,16 @@ function Carro() {
         <div className="pb-4 lg:pb-10 -mt-56">
           <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
-            background="/images/clients/magnetite/testimonial-bg-large.png"
-            brandColor="#fefefe"
-            company="Chattr"
-            logo="/images/clients/magnetite/logo.png"
-            logoWidth="275"
-            logoHeight="65"
-            altText=""
-            slug="chattr"
-            name="Ray Wolfe, Owner"
-            quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+            brandColor={magnetiteData.brandColor}
+            background={magnetiteData.background}
+            company={magnetiteData.company}
+            slug={magnetiteData.slug}
+            logo={magnetiteData.logo}
+            logoWidth={magnetiteData.logoWidth}
+            logoHeight={magnetiteData.logoHeight}
+            altText={magnetiteData.altText}
+            name={magnetiteData.name}
+            quote={magnetiteData.quote}
           />
         </div>
       </div>

@@ -186,7 +186,6 @@ function SearchEngineOptimization() {
           {Testimonials.wordpress.map((seoData) => (
             <TestimonialSlide
               background={seoData.background}
-              backgroundOverlay={seoData.backgroundOverlay}
               brandColor={seoData.brandColor}
               company={seoData.company}
               key={`designTestimonialFor${seoData.company}`}

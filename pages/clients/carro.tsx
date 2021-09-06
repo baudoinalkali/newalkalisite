@@ -1,5 +1,5 @@
 import ClientCardContainer from "../../components/Clients/ClientCardContainer";
-import Testimonials from "../../content/testimonials";
+import { carroData } from "../../content/testimonials";
 import TwoColumnLayout from "../../components/TwoColumnLayout";
 import StandardImage from "../../components/StandardImage";
 import StandardTextBlock from "../../components/StandardTextBlock";
@@ -97,22 +97,19 @@ function Carro() {
 
       <div className="mx-7">
         <div className="pb-4 lg:pb-10 client-testimonial-container">
-          {Testimonials.carro.map((carro) => (
-            <TestimonialSlide
-              style="max-w-7xl m-auto shadow-2xl rounded-md"
-              background="/images/clients/carro/carro-testimonial-bg.jpg"
-              backgroundOverlay="bg-pink-300"
-              brandColor="#F9A8D4"
-              company="Carro"
-              slug="https://getcarro.com"
-              logo="/images/clients/carro/logo.svg"
-              logoWidth="175"
-              logoHeight="40"
-              altText=" "
-              name="Person"
-              quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
-            />
-          ))}
+          <TestimonialSlide
+            style="max-w-7xl m-auto shadow-2xl rounded-md"
+            background={carroData.background}
+            brandColor={carroData.brandColor}
+            company={carroData.company}
+            logo={carroData.logo}
+            logoWidth={carroData.logoWidth}
+            logoHeight={carroData.logoHeight}
+            altText={carroData.altText}
+            slug={carroData.slug}
+            name={carroData.name}
+            quote={carroData.quote}
+          />
         </div>
       </div>
 
