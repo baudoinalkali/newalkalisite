@@ -279,7 +279,6 @@ function WordPressWebsiteDevelopment() {
             {Testimonials.wordpress.map((wordpressData) => (
               <TestimonialSlide
                 background={wordpressData.background}
-                backgroundOverlay={wordpressData.backgroundOverlay}
                 brandColor={wordpressData.brandColor}
                 company={wordpressData.company}
                 key={`designTestimonialFor${wordpressData.company}`}
