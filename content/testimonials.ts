@@ -142,6 +142,62 @@ const Testimonials = {
       quote:
         "5 stars all the way! Thank you for building our amazing new website. Top notch, professional, on time, responsive. Can't say enough good things about Alkali.",
     },
+        {
+      background: "/images/carro-testimonial-bg.jpg",
+      backgroundOverlay: "bg-pink-300",
+      brandColor: "#bad380",
+      company: "Go-Cottage",
+      logo: "/images/clients/go-cottage/logo-alt.svg",
+      logoWidth: "150",
+      logoHeight: "50",
+      slug: "go-cottage/",
+      altText: "Getcarro.com project",
+      name: "Sharon Middendorf, Owner",
+      quote:
+        "5 stars all the way! Thank you for building our amazing new website. Top notch, professional, on time, responsive. Can't say enough good things about Alkali.",
+    },
+    {
+      background: "/images/carro-testimonial-bg.jpg",
+      backgroundOverlay: "bg-pink-300",
+      brandColor: "#bad380",
+      company: "Go-Cottage",
+      logo: "/images/clients/go-cottage/logo-alt.svg",
+      logoWidth: "150",
+      logoHeight: "50",
+      slug: "go-cottage/",
+      altText: "Getcarro.com project",
+      name: "Sharon Middendorf, Owner",
+      quote:
+        "5 stars all the way! Thank you for building our amazing new website. Top notch, professional, on time, responsive. Can't say enough good things about Alkali.",
+    },
+    {
+      background: "/images/carro-testimonial-bg.jpg",
+      backgroundOverlay: "bg-pink-300",
+      brandColor: "#bad380",
+      company: "Go-Cottage",
+      logo: "/images/clients/go-cottage/logo-alt.svg",
+      logoWidth: "150",
+      logoHeight: "50",
+      slug: "go-cottage/",
+      altText: "Getcarro.com project",
+      name: "Sharon Middendorf, Owner",
+      quote:
+        "5 stars all the way! Thank you for building our amazing new website. Top notch, professional, on time, responsive. Can't say enough good things about Alkali.",
+    },
+    {
+      background: "/images/carro-testimonial-bg.jpg",
+      backgroundOverlay: "bg-pink-300",
+      brandColor: "#bad380",
+      company: "Go-Cottage",
+      logo: "/images/clients/go-cottage/logo-alt.svg",
+      logoWidth: "150",
+      logoHeight: "50",
+      slug: "go-cottage/",
+      altText: "Getcarro.com project",
+      name: "Sharon Middendorf, Owner",
+      quote:
+        "5 stars all the way! Thank you for building our amazing new website. Top notch, professional, on time, responsive. Can't say enough good things about Alkali.",
+    },
   ],
   custom: [
     {

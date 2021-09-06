@@ -8,7 +8,7 @@ function HomeHero() {
         <CombinedNavigation headerBackground="bg-alkaligrey-200" />
         <div className="pt-24 flex text-center justify-center z-20">
           <div className="relative z-20">
-            <h1 className="text-alkaligrey-800 font-bold pt-5 text-5xl md:text-6xl lg:text-7xl max-w-7xl leading-normal">
+            <h1 className="text-alkaligrey-800 font-bold pt-5 text-home md:text-6xl lg:text-7xl max-w-7xl leading-normal">
               Digital Experiences and Marketing Solutions Tailored for You
             </h1>
             <p className="text-white py-10 text-alkaligrey-800 max-w-4xl m-auto text-xl lg:text-2xl">

@@ -10,7 +10,7 @@ const HomeClientsSlider = dynamic(() => import("../components/HomeClientsSlider"
 
 const contentSection1Image = [
   <ServiceImage
-    image="/images/web-development/wordpress/custom-built.svg"
+    image="/images/building-presence.svg"
     imageAngle="none"
     width="600"
     height="450"
@@ -31,7 +31,7 @@ const contentSection1Text = [
 
 const contentSection2Image = [
   <ServiceImage
-    image="/images/web-development/wordpress/custom-built.svg"
+    image="/images/reach-goals.svg"
     imageAngle="none"
     width="600"
     height="450"
@@ -182,18 +182,18 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <TwoColumnLayout
-        style="bg-alkaligrey-300 py-24"
-        child1={contentSection2Image}
-        child2={contentSection2Text}
-      />
       <AuditSection
+        backgroundColor="bg-alkaligrey-300"
         serviceName="Marketing"
         area1="Full website weview (content, CRO, performance)"
         area2="SEO: Comprehensive on-page audit"
         area3="Digital marketing/reputation management"
         portalId="20442125"
         formId="0b0a2ef2-726c-4d98-a8ae-23108c2c922a"
+      />
+      <TwoColumnLayout
+        child2={contentSection2Image}
+        child1={contentSection2Text}
       />
       <div className="pt-24 py-36 pb-0 bg-alkaligrey-300">
         <h3 className="text-5xl pt-2 pb-24 font-bold text-center">
