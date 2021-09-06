@@ -10,7 +10,7 @@ const HomeClientsSlider = dynamic(() => import("../components/HomeClientsSlider"
 
 const contentSection1Image = [
   <ServiceImage
-    image="/images/web-development/wordpress/custom-built.svg"
+    image="/images/building-presence.svg"
     imageAngle="none"
     width="600"
     height="450"
@@ -31,7 +31,7 @@ const contentSection1Text = [
 
 const contentSection2Image = [
   <ServiceImage
-    image="/images/web-development/wordpress/custom-built.svg"
+    image="/images/reach-goals.svg"
     imageAngle="none"
     width="600"
     height="450"
@@ -56,63 +56,63 @@ const ServicesHome = [
     altText: "Test",
     serviceName: "SEO",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/search-engine-optimization/"
+    slug: "/solutions/digital-marketing/search-engine-optimization/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "WordPress Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/web-development/wordpress-website-development/"
+    slug: "/solutions/web-development/wordpress-website-development/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "PPC & Retargeting",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/pay-per-click-advertising/"
+    slug: "/solutions/digital-marketing/pay-per-click-advertising/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "E-commerce Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/web-development/ecommerce-website-development/"
+    slug: "/solutions/web-development/ecommerce-website-development/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Local SEO",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/local-search-engine-optimization/"
+    slug: "/solutions/digital-marketing/local-search-engine-optimization/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Reputation Management",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/reputation-management/"
+    slug: "/solutions/digital-marketing/reputation-management/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Content Marketing",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/content-marketing/"
+    slug: "/solutions/digital-marketing/content-marketing/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Custom Development",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/web-development/custom-website-development/"
+    slug: "/solutions/web-development/custom-website-development/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Social Media Marketing",
     serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    slug: "/services/digital-marketing/social-media-marketing/"
+    slug: "/solutions/digital-marketing/social-media-marketing/"
   }
 ]
 
@@ -182,18 +182,18 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <TwoColumnLayout
-        style="bg-alkaligrey-300 py-24"
-        child1={contentSection2Image}
-        child2={contentSection2Text}
-      />
       <AuditSection
+        backgroundColor="bg-alkaligrey-300"
         serviceName="Marketing"
         area1="Full website weview (content, CRO, performance)"
         area2="SEO: Comprehensive on-page audit"
         area3="Digital marketing/reputation management"
         portalId="20442125"
         formId="0b0a2ef2-726c-4d98-a8ae-23108c2c922a"
+      />
+      <TwoColumnLayout
+        child2={contentSection2Image}
+        child1={contentSection2Text}
       />
       <div className="pt-24 py-36 pb-0 bg-alkaligrey-300">
         <h3 className="text-5xl pt-2 pb-24 font-bold text-center">

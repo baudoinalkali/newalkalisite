@@ -49,6 +49,9 @@ module.exports = {
       },
       lineHeight: {
         'standard': "4.2",
+      },
+      fontSize: {
+        'home' : '2.5rem'
       }
     }
   },

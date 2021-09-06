@@ -5,53 +5,53 @@ import { Fragment } from "react";
 const digitalMarketingLinks = [
   {
     name: "SEO",
-    href: "/services/digital-marketing/search-engine-optimization",
+    href: "/solutions/digital-marketing/search-engine-optimization",
   },
   {
     name: "Local SEO",
-    href: "/services/digital-marketing/local-search-engine-optimization",
+    href: "/solutions/digital-marketing/local-search-engine-optimization",
   },
   {
     name: "PPC & Retargeting",
-    href: "/services/digital-marketing/pay-per-click-advertising",
+    href: "/solutions/digital-marketing/pay-per-click-advertising",
   },
   {
     name: "Content Marketing",
-    href: "/services/digital-marketing/content-marketing",
+    href: "/solutions/digital-marketing/content-marketing",
   },
   {
     name: "Social Media Marketing",
-    href: "/services/digital-marketing/social-media-marketing",
+    href: "/solutions/digital-marketing/social-media-marketing",
   },
   {
     name: "Reputation Management",
-    href: "/services/digital-marketing/reputation-management",
+    href: "/solutions/digital-marketing/reputation-management",
   },
 ];
 
 const webDevelopmentLinks = [
   {
     name: "WordPress Websites",
-    href: "/services/web-development/wordpress-website-development",
+    href: "/solutions/web-development/wordpress-website-development",
   },
   {
     name: "E-commerce Websites",
-    href: "/services/web-development/ecommerce-website-development",
+    href: "/solutions/web-development/ecommerce-website-development",
   },
   {
     name: "Custom Websites",
-    href: "/services/web-development/custom-website-development",
+    href: "/solutions/web-development/custom-website-development",
   },
 ];
 
 const webDesignLinks = [
   {
     name: "Logo Design",
-    href: "/services/web-design/logo-design",
+    href: "/solutions/web-design/logo-design",
   },
   {
     name: "Pre-Development Mockups",
-    href: "/services/web-design/pre-development-mockups",
+    href: "/solutions/web-design/pre-development-mockups",
   },
 ];
 

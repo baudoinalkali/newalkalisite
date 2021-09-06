@@ -91,7 +91,7 @@ const SocialMarketing = {
         },
         {
             question: "How much content do I need for a social campaign?",
-            answer: `It can vary based on the strategy we determine works best for your use case. If you don’t have sufficient content to leverage, we can create the content for you. <a class="text-alkali-500 underline" href="/services/digital-marketing/content-marketing">Learn more about our content services.</a>`
+            answer: `It can vary based on the strategy we determine works best for your use case. If you don’t have sufficient content to leverage, we can create the content for you. <a class="text-alkali-500 underline" href="/solutions/digital-marketing/content-marketing">Learn more about our content services.</a>`
         },
         {
             question: "What if I don't have any social media accounts?",
