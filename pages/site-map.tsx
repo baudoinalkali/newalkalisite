@@ -5,39 +5,39 @@ import Image from "next/image"
 const ServiceLinks = [
     {
         name: "Search Engine Optimization",
-        slug: "search-engine-optimization"
+        slug: "digital-marketing/search-engine-optimization"
     },
     {
         name: "WordPress Development",
-        slug: "wordpress-website-development"
+        slug: "web-development/wordpress-website-development"
     },
     {
         name: "PPC & Retargeting",
-        slug: "pay-per-click-advertising"
+        slug: "digital-marketing/pay-per-click-advertising"
     },
     {
         name: "E-commerce Development",
-        slug: "ecommerce-website-development"
+        slug: "web-development/ecommerce-website-development"
     },
     {
         name: "Local Seach Engine Optimization",
-        slug: "local-search-engine-optimization"
+        slug: "digital-marketing/local-search-engine-optimization"
     },
     {
         name: "Reputation Management",
-        slug: "reputation-management"
+        slug: "digital-marketing/reputation-management"
     },
     {
         name: "Content Marketing",
-        slug: "content-marketing"
+        slug: "digital-marketing/content-marketing"
     },
     {
         name: "Custom Development",
-        slug: "custom-website-development"
+        slug: "web-development/custom-website-development"
     },
     {
         name: "Social Media Marketing",
-        slug: "social-media-marketing"
+        slug: "digital-marketing/social-media-marketing"
     }
 ]
 
@@ -109,7 +109,7 @@ export default function ThankYou() {
                 </Head>
                 <CombinedNavigation headerBackground="bg-white" />
                 <section className="px-7">
-                    <div className="max-w-7xl m-auto py-24 lg:py-36">
+                    <div className="max-w-7xl m-auto py-24">
                         <h1 className="text-5xl lg:text-6xl font-bold">
                             Site Map
                         </h1>
@@ -146,19 +146,6 @@ export default function ThankYou() {
                         </ul>
                     </div>
                 </section>
-                <div className="py-24 lg:py-36 flex text-center justify-center z-20 px-7">
-                    <div className="relative z-20">
-                        <Image
-                            src="/images/thank-you.svg"
-                            width="460"
-                            height="311"
-                        />
-                        <p className="py-10 pt-24 text-alkaligrey-800 max-w-xl m-auto text-lg lg:text-xl">
-                            If you need to talk before your scheduled meeting please use the following email:
-                        </p>
-                        <a className="text-alkali-500 text-xl" href="mailto:solutions@alkalidesigns.com">solutions@alkalidesigns.com</a>
-                    </div>
-                </div>
             </div>
         </div>
     );

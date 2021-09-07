@@ -8,7 +8,7 @@ function Footer() {
     const solutionLinks = [
         {
             name: "SEO",
-            slug: " "
+            slug: ""
         },
         {
             name: "PPC & Retargeting",
@@ -112,7 +112,7 @@ function Footer() {
                         <a href="/about/">
                             About
                         </a>
-                        <a>
+                        <a href="/site-map">
                             Site Map
                         </a>
                         <a href="/privacy-policy/">
