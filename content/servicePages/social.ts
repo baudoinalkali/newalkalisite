@@ -2,7 +2,7 @@ const SocialMarketing = {
     headline: [
         {
             subTitle: "Social Media Marketing",
-            title: "Maximizing your social presence",
+            title: "Maximizing Your Social Presence",
             titleLength: "max-w-xl",
         }
     ],

@@ -2,7 +2,7 @@ const PPC = {
     headline: [
         {
             subTitle: "Pay Per Click Advertising",
-            title: "Generate more Leads and Sales",
+            title: "Generate More Leads and Sales",
             titleLength: "max-w-2xl"
         }
     ],
@@ -59,13 +59,13 @@ const PPC = {
     features: [
         {
             serviceTitle: "Search Ads",
-            serviceText: "Pay to be placed at the top of search results for specific keywords if specified conditions are met. Search ads can provide immediate results that SEO campaigns cannot.",
+            serviceText: "Pay to be placed at the top of search results for specific keywords if specified conditions are met. Search ads can provide immediate results that SEO campaigns cannot. Target potential clients searching within your industry or niche.",
             image: "/images/digital-marketing/ppc/search-ads.svg",
             altText: "Search ads"
         },
         {
             serviceTitle: "Display Ads",
-            serviceText: "Test",
+            serviceText: "Display your brand across Google's extensive partner website network. Reaching more than 90% of online users, these ads utilize photos and text to capture the user's attention, driving them to your website.",
             image: "/images/digital-marketing/ppc/display-ads.svg",
             altText: "Display ads"
         },
@@ -89,7 +89,7 @@ const PPC = {
         },
         {
             serviceTitle: "In-stream Ads",
-            serviceText: "Test",
+            serviceText: "Most commonly, YouTube, Facebook, and Twitch ads, in-stream ads allow you to present your business in a memorable way utilizing video content. Choose where and how your content is displayed for maximum impact.",
             image: "/images/digital-marketing/ppc/local-service-ads.svg",
             altText: "In-stream ads"
         },
@@ -100,8 +100,8 @@ const PPC = {
             altText: "Retargeting"
         },
         {
-            serviceTitle: "GSP",
-            serviceText: "test",
+            serviceTitle: "Gmail Sponsored Promotions",
+            serviceText: "Gmail sponsored promotions allow you to reach interested leads right in their inbox. These ads have a high conversion rate that enables prospects to make direct calls and convert at multiple points during your sales funnel.",
             image: "/images/digital-marketing/ppc/gsp.svg",
             altText: "GSP"
         },

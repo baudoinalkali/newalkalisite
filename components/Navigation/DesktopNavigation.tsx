@@ -17,7 +17,7 @@ const DesktopNavigation = (props) => {
     return `${props.headerColor === "white"
       ? "text-alkaligrey-800 bg-white hover:bg-alkaligrey-700"
       : "text-white bg-alkali-500 hover:bg-alkali-700"
-      } p-3 px-6 font-semibold shadow-2xl rounded-md`;
+      } p-3 px-6 font-semibold shadow-2xl rounded-md duration-500`;
   };
   const headerTopLevelColor = () => {
     return `${props.headerColor === "white"

@@ -15,13 +15,33 @@ import ResponsiveScreens from "../../../components/ResponsiveScreens";
 import Image from "next/image";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
 import FAQDropdown from "../../../components/Services/FAQDropdown";
-import WordpressFAQ from "../../../content/servicePages/faq";
 import ServiceImage from "../../../components/Services/ServiceImage";
 import Head from "next/head";
 import ClientScheduleCTA from "../../../components/Clients/ClientScheduleCTA";
 import FAQContainer from "../../../components/Services/FAQContainer";
 
 function WordPressWebsiteDevelopment() {
+
+  const section1Image = Custom.section1.map((customData) => (
+    <ServiceImage
+      image={customData.image}
+      altText={customData.altText}
+      imageAngle="none"
+      key={customData.image}
+      width={customData.width}
+      height={customData.height}
+    />
+  ));
+
+  const section1Text = Custom.section1.map((customData) => (
+    <StandardTextBlock
+      titleLength="max-w-lg"
+      title={customData.title}
+      text={customData.text}
+      key={customData.title}
+    />
+  ));
+
   const customBuiltImage = Custom.customBuilt.map((customData) => (
     <ServiceImage
       image={customData.image}
@@ -57,6 +77,7 @@ function WordPressWebsiteDevelopment() {
   const responsiveDesignText = Custom.responsiveDesign.map(
     (customData) => (
       <StandardTextBlock
+        titleLength="max-w-md"
         title={customData.title}
         text={customData.text}
         key={customData.title}
@@ -165,87 +186,29 @@ function WordPressWebsiteDevelopment() {
           />
         ))}
       </div>
-      <div className="">
-        <div className="py-24 px-0 lg:px-14">
-          <div className="flex flex-col space-x-0 lg:space-x-14 lg:flex-row m-auto justify-between items-center max-w-7xl">
-            <div className="px-10 w-full lg:w-1/2 2xl:px-0 pb-20 lg:pb-0">
-              <h2 className="text-3xl md:text-4xl font-bold m-auto leading-tight">
-                Structured For You From the Start
-              </h2>
-              <p className="text-alkaligrey-400 max-w-4xl text-lg font-normal pt-7">
-                Standing out in a crowded marketplace can be difficult. Our
-                specialty is not only driving interested users to your site and
-                catching their attention once there but enticing them to engage
-                and come back for more. Whether your site is orientated toward
-                Sales, Information, Charity, or something else, we’ve seen it
-                all, so we do it all. Let our team of talented, inspired
-                professionals give your website the attention it deserves,
-                leaving you free to devote your attention to what matters to
-                you!
-              </p>
-            </div>
-            <div className="z-0 pointer-events-none w-96 md:w-auto">
-              <div className="angled-mockup rounded-md shadow-2xl">
-                <div className="browser-mockup z-0">
-                  <div style={{ fontSize: "0" }}>
-                    <Image
-                      src="/images/wordpress-stats.png"
-                      alt=""
-                      className="rounded-b-md"
-                      width={588}
-                      height={410}
-                      quality={100}
-                    />
-                  </div>
-                </div>
-                <div className="bg-white stat-container float-right -mr-6 shadow-2xl p-7 rounded-md text-center uppercase font-medium text-sm -mt-14 relative w-80 lg:w-5/6">
-                  <p className="pb-4">Wordpress Statistics</p>
-                  <div className="flex justify-between items-center max-w-7xl m-auto">
-                    <div className="w-1/2 m-auto -ml-3 border-r">
-                      <p className="font-bold text-3xl lg:text-5xl pb-4">
-                        <FontAwesomeIcon
-                          className="text-2xl relative top-0 mr-3"
-                          icon={faCaretUp}
-                        ></FontAwesomeIcon>
-                        40%
-                      </p>
-                      <p className="text-xs ml-4">Sites Use WordPress</p>
-                    </div>
-                    <div className="w-1/2 m-auto">
-                      <p className="font-bold text-3xl lg:text-5xl pb-4">
-                        <FontAwesomeIcon
-                          className="text-2xl relative top-0 mr-3"
-                          icon={faCaretUp}
-                        ></FontAwesomeIcon>
-                        150%
-                      </p>
-                      <p className="text-xs ml-4">Monthly Leads Request</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <TwoColumnLayout
+        flexType="reverse"
+        child1={section1Text}
+        child2={section1Image}
+      />
       <TwoColumnLayout
         style="bg-alkaligrey-300"
-        child1={customBuiltText}
-        child2={customBuiltImage}
+        child2={customBuiltText}
+        child1={customBuiltImage}
       />
       <TwoColumnLayout
         flexType="reverse"
-        child1={responsiveDesignImage}
-        child2={responsiveDesignText}
+        child2={responsiveDesignImage}
+        child1={responsiveDesignText}
       />
 
       <TwoColumnLayout
         style="bg-alkaligrey-300"
-        child1={seoText}
-        child2={seoImage}
+        child2={seoText}
+        child1={seoImage}
       />
       <TwoColumnLayout
-        style=""
+        flexType="reverse"
         child1={userExperienceText}
         child2={userExperienceImage}
       />
@@ -254,7 +217,7 @@ function WordPressWebsiteDevelopment() {
       />
       {CarroScreenImages.carro.map((customData) => (
         <ResponsiveScreens
-          style="py-24 pb-12 overflow-hidden z-30 relative"
+          style="py-24 lg:py-36 overflow-hidden"
           link="/clients/"
           brandColor="#00baff"
           buttonName="View Projects"
@@ -269,7 +232,7 @@ function WordPressWebsiteDevelopment() {
           key={customData.desktopLeft}
         />
       ))}
-      <div className="pt-80 lg:pt-96 -mt-64 py-24 bg-alkaligrey-300 mb-14 lg:mb-0">
+      <div className="pt-72 lg:pt-72 -mt-64 py-24 bg-alkaligrey-300 mb-14 lg:mb-0">
         <h2 className="text-4xl md:text-5xl pb-7 text-center font-bold m-auto leading-normal px-7">
           Integration Is the Name of the Game
         </h2>
@@ -282,7 +245,7 @@ function WordPressWebsiteDevelopment() {
         <Integration style="pt-24" />
       </div>
       <FAQContainer name="Custom Development" titleLength="max-w-4xl">
-        {WordpressFAQ.wordpress.map((customData) => (
+        {Custom.faq.map((customData) => (
           <FAQDropdown
             question={customData.question}
             answer={customData.answer}

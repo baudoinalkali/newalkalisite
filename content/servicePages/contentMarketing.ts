@@ -2,8 +2,8 @@ const ContentMarketing = {
     headline: [
         {
             subTitle: "Content Marketing",
-            title: "Sell more products. Build repeat customers",
-            titleLength: "max-w-2xl"
+            title: `Sell More Products Build Repeat Customers`,
+            titleLength: "max-w-3xl"
         }
     ],
     text1: [

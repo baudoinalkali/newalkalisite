@@ -533,6 +533,10 @@ const ClientContent = {
                         {
                             service: "WordPress Web Development",
                             serviceSlug: "/solutions/web-development/wordpress-website-development/"
+                        },
+                        {
+                            service: "SEO",
+                            serviceSlug: "/solutions/digital-marketing/search-engine-optimization/"
                         }
                     ],
                     backgroundImg: "/images/clients/go-cottage/hero-background.jpg",
@@ -903,6 +907,14 @@ const ClientContent = {
                     services: [
                         {
                             service: "WordPress Web Development",
+                            serviceSlug: "/solutions/web-development/wordpress-website-development/"
+                        },
+                        {
+                            service: "Local SEO",
+                            serviceSlug: "/solutions/digital-marketing/local-search-engine-optimization/"
+                        },
+                        {
+                            service: "Branding",
                             serviceSlug: "/solutions/web-development/wordpress-website-development/"
                         }
                     ],

@@ -127,6 +127,7 @@ function LocalSearchEngineOptimization() {
           <ServiceHero
             sub={localSEOData.subTitle}
             title={localSEOData.title}
+            titleLength={localSEOData.titleLength}
           />
         )
       )}
