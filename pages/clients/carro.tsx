@@ -146,7 +146,7 @@ function Carro() {
         </h3>
         <div className="max-w-7xl m-auto -mb-20">
           <ClientCardContainer>
-            {clientMainPage.slice(1, 4).map((clientMainPage, idx) => (
+            {clientMainPage.slice(2, 5).map((clientMainPage, idx) => (
               <ClientCard
                 key={idx}
                 name={clientMainPage.name}
