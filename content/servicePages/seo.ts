@@ -2,14 +2,14 @@ const SEO = {
     headline: [
         {
             subTitle: "Search Engine Optimization",
-            title: "Propelling businesses higher in ranking is what we do",
+            title: "Propelling Businesses Higher in Ranking is What We Do",
             titleLength: ""
         }
     ],
     text1: [
         {
             title: "Start Seeing Results in Just 2 Months!",
-            text: "Organic SEO traffic provides some of the highest quality leads, generally much better than Google AdWords or other forms of PPC. By optimizing your organic SEO, you are positioning yourself at the top of the search results, reducing your reliance and need to shell out money for paid ads that generate no results after you stop. If you’re looking for a partner to assist you in your SEO journey, you’re in the right place. Our team of experts takes the time to understand your business and its needs, delivering you results in just 2 months!",
+            text: "Organic search engine optimization (SEO) traffic provides the highest-quality leads, superior to Google AdWords and other forms of PPC. By utilizing organic SEO for your website, you’re positioning your brand at the top of search results on popular search engines like Google, reducing cost on paid ads that cease to generate results when you cancel your service. Looking for a partner to assist you in driving high-quality traffic to your website? Look no further. Our team of experts will work with you to evaluate your business’s needs and deliver results starting in only two months!",
             image: "/images/timeline.png",
             altText: "Start seeing SEO results in just 2 months"
         },
@@ -17,7 +17,7 @@ const SEO = {
     text2: [
         {
             title: "Are You Currently Optimizing SEO For Leads?",
-            text: "Many people spend the time and effort to optimize their SEO, but they aren’t tailoring their optimizations for audiences that will provide a lasting impact. We take a step back and thoroughly understand your business, what’s working and what’s not, your competitor landscape, and formulate and implement a strategy to position yourself to get leads you actually want. It’s cool to be number one, but if you’re not getting the leads you want, it really doesn’t matter. We deliver real results, not artificial placings for non-competitive keywords.",
+            text: "Many businesses focus their attention on SEO without considering whether or not their optimizations are tailored to create a lasting impact for their brand. At Alkali, we take a step back to examine your business so we can understand what is and isn’t working, as well as the landscape of your competition, so that we can formulate and implement a strategy that will better position your business to generate high-quality leads. Being number one doesn’t matter unless you’re attracting visitors that will grow your business. We deliver real results, not artificial placings for non-competitive keywords.",
             image: "/images/digital-marketing/seo/currently-optimizing.svg",
             altText: "Optimize SEO for leads",
             width: "600",
@@ -27,7 +27,7 @@ const SEO = {
     text3: [
         {
             title: "Leverage Your Online Presence to the Fullest",
-            text: "If you have an existing website, you should leverage your online presence by optimizing your SEO. A website is a digital representation of your business, and getting your business in front of the eyes of potential customers is critical for long-term success. Whether you’re looking to target new customers or increase brand recognition, taking control of your online presence is the best way to accomplish that.",
+            text: "Your website is a digital representation of your business. You should be leveraging your online presence by utilizing best SEO practices. Increasing exposure for your brand to potential customers is a critical factor of long-term success. Whether you’re interested in targeting new customers or simply gaining brand recognition, taking control of your online presence is the best way to accomplish your goals.",
             image: "/images/digital-marketing/seo/leverage-fully.svg",
             altText: "Leverage your online presence to the fullest",
             width: "550",
@@ -37,7 +37,7 @@ const SEO = {
     text4: [
         {
             title: "Positioned To Best Serve You",
-            text: "We work with various industries and businesses, from online stores generating 25M+ yearly revenue to local service businesses. In all cases, SEO was critical to their success. We leverage our experiences from past projects and our commitment to continuous self-improvement to every project we are engaged. As a result, we are positioned to serve you not only because of what we have done but because of what we are committed to do and keep doing in the future.",
+            text: "We work with a variety of business across nearly every industry, from online stores generating $25M+ in yearly revenue to local service businesses. In every case, SEO has proven critical to the company’s success. We leverage our experience from previous projects and our commitment to continuous self-improvement with each new project that we take on. As a result, we are ideally positioned to serve you, not only based on our experience, but based on our commitment to deliver the best possible result to every client.",
             image: "/images/digital-marketing/seo/positioned-serve.svg",
             altText: "Alkali, positioned to best serve you",
             width: "600",

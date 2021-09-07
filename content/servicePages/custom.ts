@@ -6,12 +6,14 @@ const Custom = {
             titleLength: "",
         }
     ],
-    wordpressWebsiteDevelopment: [
+    section1: [
         {
             title: "Structured For You From the Start",
-            text: "WordPress is the most popular content management system on the planet, comprising approximately 34% of all the websites on the internet today. Having a professional website built with WordPress has never been this easy. Remaining up to date with ever-changing software, updates, and best practices can be overwhelming, but that’s why we’re here. Ensuring your visitors have a smoothly and frictionless experience is our number one priority. From your site’s launch and beyond we take care of what’s under the hood, so you don’t have to.",
-            image: "/images/web-development/responsive.png",
-            altText: ""        
+            text: "Standing out in a crowded marketplace can be difficult. Our specialty is not only driving interested users to your site and catching their attention once there but enticing them to engage and come back for more. Whether your site is orientated toward Sales, Information, Charity, or something else, we’ve seen it all, so we do it all. Let our team of talented, inspired professionals give your website the attention it deserves, leaving you free to devote your attention to what matters to you!",
+            image: "/images/web-development/custom/hero.png",
+            altText: "",
+            width: "600",
+            height: "516"    
         },
     ],
     customBuilt: [
@@ -73,7 +75,22 @@ const Custom = {
             width: "600",
             height: "400"  
         },
-    ]
+    ],
+    faq: [
+        {
+            question: "How much does a custom solution cost?",
+            answer: "Custom website design and development costs vary greatly. To provide pricing for your specific project, please reach out to us for a free consultation to thoroughly understand your project requirements and the implications that would have on pricing."
+        },
+        {
+            question: "Do I need a custom site?",
+            answer: "This depends greatly on the desired functionality of a website. If it's primarily to display information, the case to make a custom site isn't as great. On the other hand, if you need to couple complex business functionalities with various systems or have complete control over every aspect of your application, a custom website is exactly what you need."
+        },
+
+        {
+            question: "Do you offer support or customization for existing custom websites?",
+            answer: "If you are looking to refresh an existing site, make minor adjustments, or have someone conduct ongoing support and maintenance, we can assist you. In some cases, it might make more sense to redesign an existing site rather than start from the ground. We would be glad to discuss the specifics of your needs so that we may offer proper guidance."
+        }
+    ],
 }
 
 export default Custom;

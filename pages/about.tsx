@@ -83,7 +83,7 @@ export default function About() {
             <h1 className="text-alkaligrey-800 font-bold pt-5 text-5xl lg:text-6xl max-w-6xl">
               About Alkali
             </h1>
-            <p className="text-white py-10 text-alkaligrey-800 max-w-2xl m-auto text-xl lg:text-2xl">
+            <p className="text-white py-10 text-alkaligrey-800 max-w-xl m-auto text-lg lg:text-xl">
               Learn more about Alkali and the values that drive us to deliver
               for our clients, partners, and team.
             </p>
@@ -95,7 +95,7 @@ export default function About() {
         child1={aboutImage1}
         child2={aboutText1}
       />
-      <div className="bg-alkaligrey-300 py-36">
+      <div className="bg-alkaligrey-300 py-24">
         <div className="px-7 pb-36 2xl:px-0">
           <h6 className="text-4xl md:text-5xl text-center font-bold m-auto leading-tight pb-20">
             Core Values
@@ -111,7 +111,7 @@ export default function About() {
             ))}
           </div>
         </div>
-        <div className="px-7 -mb-80">
+        <div className="px-7 -mb-64">
           <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
             brandColor="#00baff"

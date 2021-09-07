@@ -90,7 +90,7 @@ export const benData = {
   logo: "/images/clients/ben/logo-alt.svg",
   logoWidth: "150",
   logoHeight: "45",
-  slug: "ben/",
+  slug: "ben",
   altText: "Getcarro.com project",
   name: "António Gomes, Director of Operations",
   quote:
@@ -100,12 +100,12 @@ export const benData = {
 export const goCottageData = {
   background:"/images/clients/go-cottage/testimonial-slide-bg.jpg",
   brandColor:"#778a51",
-  company:"Chattr",
+  company:"Go-Cottage",
   logo:"/images/clients/go-cottage/logo-alt.svg",
   logoWidth:"225",
   logoHeight:"80",
   altText:"",
-  slug:"chattr",
+  slug:"go-cottage",
   name:"Sharon Middendorf, Owner",
   quote:"5 stars all the way! Thank you for building our amazing new website. Top notch, professional, on time, responsive. Can't say enough good things about Alkali."
 }
@@ -198,6 +198,20 @@ const Testimonials = {
     },
     {
       ...benData
+    },
+    {
+      ...goCottageData
+    }
+  ],
+  seo: [
+    {
+      ...ameliaData
+    },
+    {
+      ...magnetiteData
+    },
+    {
+      ...carTalkData
     },
     {
       ...goCottageData

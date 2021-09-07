@@ -5,7 +5,6 @@ import Testimonials from "../../../content/testimonials";
 import Image from "next/image";
 import CombinedNavigation from "../../../components/Navigation/CombinedNavigation";
 import ServiceBlocks from "../../../components/Services/ServiceBlocks";
-import SocialFAQ from "../../../content/servicePages/faq";
 import ReputationManagement from "../../../content/servicePages/reputation";
 import ReputationIntegrations from "../../../content/servicePages/integrationContent";
 import ServiceImage from "../../../components/Services/ServiceImage";
@@ -102,12 +101,11 @@ function Reputation() {
         />
       ))}
       <TwoColumnLayout
-        style=""
+        flexType="reverse"
         child2={socialImage1}
         child1={socialText1}
       />
       <TwoColumnLayout
-        flexType="reverse"
         style="bg-alkaligrey-300"
         child1={socialImage2}
         child2={socialText2}
@@ -138,6 +136,7 @@ function Reputation() {
       />
       <TwoColumnLayout
         style="bg-white"
+        flexType="reverse"
         child2={socialImage3}
         child1={socialText3}
       />
@@ -168,7 +167,7 @@ function Reputation() {
         </div>
       </div>
       <FAQContainer name="Reputation Management" titleLength="max-w-5xl">
-        {SocialFAQ.Social.map((reputationData) => (
+        {ReputationManagement.faq.map((reputationData) => (
           <FAQDropdown
             question={reputationData.question}
             answer={reputationData.answer}

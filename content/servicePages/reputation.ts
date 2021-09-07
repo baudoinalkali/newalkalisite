@@ -2,8 +2,8 @@ const ReputationManagement = {
     headline: [
         {
             subTitle: "Reputation Management",
-            title: "Safeguarding your online reputation",
-            titleLength: ""
+            title: "Safeguarding Your Online Reputation",
+            titleLength: "max-w-2xl"
         }
     ],
     text1: [
@@ -83,7 +83,25 @@ const ReputationManagement = {
             image: "/images/digital-marketing/reputation/content-removal.svg",
             altText: "Content removal"
         },
-    ]
+    ],
+    faq: [
+        {
+            question: "Can you remove negative content from search results?",
+            answer: "While each situation is unique, content such as fake customer reviews, false or misleading content, or inaccurate blog posts can be removed."
+        },
+        {
+            question: "How can you help if I have multiple locations?",
+            answer: "We help businesses of varying sizes and industries create a streamlined reputation management process that can scale with them as their business expands. Once the processes are in place, it doesn't matter if you have one location or 50. The foundation for success is in place."
+        },
+        {
+            question: "Can you work with my current business management software?",
+            answer: "We have experience working with home service businesses such as plumbers, locksmiths, and cleaning services to utilize their existing management platforms to create a tailored process that leverages existing data to serve your online presence better."
+        },
+        {
+            question: "How do you help me get more reviews?",
+            answer: "Getting reviews from verified customers is critical for your online reputation. We analyze your existing business processes and develop a tailored solution that utilizes existing processes to drive verified reviews for your business."
+        }
+    ],
 }
 
 export default ReputationManagement;

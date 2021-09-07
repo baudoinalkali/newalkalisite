@@ -138,6 +138,7 @@ function SearchEngineOptimization() {
         )
       )}
       <TwoColumnLayout
+        flexType="reverse"
         child2={seoImage1}
         child1={seoText1}
       />
@@ -183,7 +184,7 @@ function SearchEngineOptimization() {
       </div>
       <div className="relative z-20">
         <TestimonialSlider>
-          {Testimonials.wordpress.map((seoData) => (
+          {Testimonials.seo.map((seoData) => (
             <TestimonialSlide
               background={seoData.background}
               brandColor={seoData.brandColor}

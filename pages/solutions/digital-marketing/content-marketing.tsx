@@ -61,6 +61,7 @@ function ContentMarketing() {
 
   const contentText3 = Content.text3.map((contentData) => (
     <StandardTextBlock
+      titleLength="max-w-lg"
       title={contentData.title}
       text={contentData.text}
     />
@@ -153,10 +154,9 @@ function ContentMarketing() {
         child1={contentText3}
       />
       <TwoColumnLayout
-        flexType="reverse"
         style="mb-14 lg:mb-0 bg-alkaligrey-300"
-        child2={contentImage4}
-        child1={contentText4}
+        child1={contentImage4}
+        child2={contentText4}
       />
       <FAQContainer name="Content Marketing" titleLength="max-w-4xl">
         {Content.faq.map((localSEOData) => (

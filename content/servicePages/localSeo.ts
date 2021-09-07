@@ -2,7 +2,8 @@ const LocalSEO = {
     headline: [
         {
             subTitle: "Local Search Engine Optimization",
-            title: "Increase Your Visibility Closer to Home"
+            title: "Increase Your Visibility Closer to Home",
+            titleLength: "max-w-2xl"
         }
     ],
     text1: [

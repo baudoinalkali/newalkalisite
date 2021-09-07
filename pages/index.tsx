@@ -55,63 +55,63 @@ const ServicesHome = [
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "SEO",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    serviceDescription: "From keyword research to on-site and off-site SEO, we drive organic traffic to your business.",
     slug: "/solutions/digital-marketing/search-engine-optimization/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "WordPress Development",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    serviceDescription: "Crafting digital experiences that showcase your business and brand through an easy to maintain and scale platform.",
     slug: "/solutions/web-development/wordpress-website-development/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "PPC & Retargeting",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    serviceDescription: "Target your ideal customer and get results immediately. Our campaigns ensure every dollar is maximized.",
     slug: "/solutions/digital-marketing/pay-per-click-advertising/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "E-commerce Development",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    serviceDescription: "Whether it be Shopif, WooCommerce, BigCommerce, or Magento, we best position you to sell one.",
     slug: "/solutions/web-development/ecommerce-website-development/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Local SEO",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    serviceDescription: "Attract potential customers in your backyard, don't get stuck competing nationally.",
     slug: "/solutions/digital-marketing/local-search-engine-optimization/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Reputation Management",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    serviceDescription: "We safeguard your online reputation so you can focus on what matters most: your business.",
     slug: "/solutions/digital-marketing/reputation-management/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Content Marketing",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    serviceDescription: "Carefully crafted and tailored content that is informative, educational, and loved by search engines.",
     slug: "/solutions/digital-marketing/content-marketing/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Custom Development",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    serviceDescription: "Develop a truly unique website, built to serve all of your needs from the start, not conform to existing systems.",
     slug: "/solutions/web-development/custom-website-development/"
   },
   {
     icon: "/images/digital-marketing/seo/competitive-analysis.svg",
     altText: "Test",
     serviceName: "Social Media Marketing",
-    serviceDescription: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    serviceDescription: "Maximize your online presence through the use of popular social channels to better market your business.",
     slug: "/solutions/digital-marketing/social-media-marketing/"
   }
 ]
@@ -151,7 +151,7 @@ export default function Home() {
       <div style={{ width: "500px" }} className="meetings-iframe-container" data-src="https://app.hubspot.com/meetings/nbaudoin?embed=true"></div>
       <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
       <div className="pt-24 bg-alkaligrey-300">
-        <h3 className="text-5xl pt-2 pb-10 font-bold text-center">
+        <h3 className="text-4xl lg:text-5xl pt-2 pb-10 font-bold text-center">
           What Our Clients Say
         </h3>
       </div>
@@ -159,9 +159,9 @@ export default function Home() {
       <div className="py-24 pt-60 -mt-36 bg-white px-7">
         <h3
           id="services"
-          className="pb-20 text-5xl font-bold text-center"
+          className="pb-20 text-4xl lg:text-5xl font-bold text-center"
         >
-          Our Services
+          Our Solutions
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto justify-between gap-y-14 gap-x-14">
           {ServicesHome.map((wordpress) => (
@@ -192,6 +192,7 @@ export default function Home() {
         formId="0b0a2ef2-726c-4d98-a8ae-23108c2c922a"
       />
       <TwoColumnLayout
+        flexType="reverse"
         child2={contentSection2Image}
         child1={contentSection2Text}
       />
@@ -202,10 +203,10 @@ export default function Home() {
         <HomeClientsSlider />
       </div>
       <div className="bg-white pt-72 -mt-56 pb-36">
-        <h3 className="text-5xl pt-2 pb-20 font-bold text-center">
+        <h3 className="text-4xl lg:text-5xl pt-2 pb-20 font-bold text-center px-7">
           Some of Our Partners
         </h3>
-        <div className="grid grid-cols-4 max-w-6xl m-auto gap-y-10">
+        <div className="grid grid-cols-2 lg:grid-cols-4 max-w-6xl m-auto gap-y-10">
           <img className="m-auto" src="/images/google-partner-logo.svg" />
           <img
             className="m-auto align-middle"
