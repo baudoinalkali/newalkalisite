@@ -129,7 +129,7 @@ export default function Home() {
         <meta property="og:title" content="Alkali | Digital Marketing" />
         <meta property="og:description" content="Alkali is a people focused digital marketing agency. We provide SEO, Web Development, PPC, social, and other services to help our clients win online." />
         <meta property="og:url" content="/" />
-        <meta property="og:site_name" content="DAP" />
+        <meta property="og:site_name" content="Alkali" />
         <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
         <meta property="og:image" content="/images/facebook-image.jpg" />
         <meta property="og:image:width" content="1200" />
@@ -216,6 +216,7 @@ export default function Home() {
           <img className="m-auto" src="/images/vercel-partner-logo.svg" alt="Vercel partner"/>
           <img className="m-auto" src="/images/hubspot-partner.svg" alt="Hubspot solutions partner"/>
           <img className="m-auto" src="/images/shopify-partner.svg" alt="Shopify partner"/>
+          <img className="m-auto" src="/images/stripe-partner.svg" alt="Stripe Verified Partner"/>
         </div>
       </div>
     </div>

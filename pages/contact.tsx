@@ -99,10 +99,6 @@ function Contact() {
                   className="flex justify-center items-center w-full"
                   style={{ height: 600 }}
                 >
-                  <FontAwesomeIcon
-                    className="text-4xl text-alkali-500 transition duration-300"
-                    icon={faSpinner}
-                  />
                 </div>
               }
             />

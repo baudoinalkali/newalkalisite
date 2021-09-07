@@ -1,18 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
-import HomeHero from "../components/HomeHero";
-import SplitTextImageAlt from "../components/SplitTextImageAlt";
-import SplitTextImage from "../components/SplitTextImage";
-import ResponsiveScreens from "../components/ResponsiveScreens";
-import Modal from "../components/Modal";
-import Footer from "../components/Footer";
-import DesktopNavigation from "../components/Navigation/DesktopNavigation";
-import HomeTestimonialSlider from "../components/HomeTestimonialSlider";
 import CombinedNavigation from "../components/Navigation/CombinedNavigation";
-import TestimonialSlide from "../components/TestimonialSlide";
-import ServiceBlocks from "../components/Services/ServiceBlocks";
-import ServiceLeadSection from "../components/ServiceLeadSection";
-import AboutContent from "../content/about";
 import Image from 'next/image'
 import Head from "next/head";
 
@@ -44,7 +30,7 @@ export default function Custom404() {
                             Looks like there was a problem...
                         </h2>
                         <p className="text-lg pb-6 mx-auto lg:mx-0 max-w-md">
-                            Sorry, but it doesn't seem like the page you are looking for exists. Please use the button below or the navigation above to find the page you're looking for.
+                            Sorry, but it doesn't seem like the page you are looking for exists. Please use the button below to return to the homepage or the navigation above to find the page you're looking for.
                         </p>
                         <a href="/">
                             <button className="bg-alkali-500 hover:bg-alkali-700 duration-500 text-white p-3 px-10 font-semibold shadow-2xl rounded-md">
