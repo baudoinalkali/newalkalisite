@@ -1,12 +1,5 @@
 const clientMainPage = [
   {
-    name: "Carro",
-    backgroundImage: "/images/clients/carro/testimonial-bg.png",
-    industry: "Technology",
-    slug: "carro",
-    backgroundColor: "#93469a",
-  },
-  {
     name: "Chattr",
     backgroundImage: "/images/clients/chattr/testimonial-bg.png",
     industry: "Technology",
@@ -19,6 +12,13 @@ const clientMainPage = [
     industry: "Non-profit",
     slug: "ben",
     backgroundColor: "#ff936b",
+  },
+  {
+    name: "Carro",
+    backgroundImage: "/images/clients/carro/testimonial-bg.png",
+    industry: "Technology",
+    slug: "carro",
+    backgroundColor: "#93469a",
   },
   {
     name: "Homewatch Amelia",

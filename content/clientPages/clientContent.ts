@@ -29,9 +29,9 @@ const ClientContent = {
         section1:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Challenge",
+                    title: "Free Up Internal Resources",
+                    text: "Carro had an extensive product roadmap and didn't want to free up internal development resources to facilitate their website overhaul. Instead, they sought a partner who could collaborate with their world-class design team to create something truly unique. They needed to translate high-fidelity Figma mockups into a fully functioning website to showcase their software offering.",
                     image: "/images/clients/carro/carro-desktop.png",
                     altText: ""
                 },
@@ -39,9 +39,9 @@ const ClientContent = {
         section2:
             [
                 {
-                    sub: "The Goal",
-                    title: "Test Title",
-                    text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
+                    sub: "The Solution",
+                    title: "New Aesthetic",
+                    text: "Carro had many existing pages and blog posts that needed to remain. We developed specific pages and released them into production to ensure minimal downtime and a faster go-live date. This was followed up by translating additional Figma designs into functional pages and optimizing other existing pages.",
                     image: "/images/clients/carro/carro-desktop-home.png",
                     altText: ""
                 },

@@ -52,63 +52,63 @@ const contentSection2Text = [
 
 const ServicesHome = [
   {
-    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    icon: "/images/icons/search-engine-optimization.svg",
     altText: "Test",
     serviceName: "SEO",
     serviceDescription: "From keyword research to on-site and off-site SEO, we drive organic traffic to your business.",
     slug: "/solutions/digital-marketing/search-engine-optimization/"
   },
   {
-    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    icon: "/images/icons/wordpress-website-development.svg",
     altText: "Test",
     serviceName: "WordPress Development",
     serviceDescription: "Crafting digital experiences that showcase your business and brand through an easy to maintain and scale platform.",
     slug: "/solutions/web-development/wordpress-website-development/"
   },
   {
-    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    icon: "/images/icons/pay-per-click-advertising.svg",
     altText: "Test",
     serviceName: "PPC & Retargeting",
     serviceDescription: "Target your ideal customer and get results immediately. Our campaigns ensure every dollar is maximized.",
     slug: "/solutions/digital-marketing/pay-per-click-advertising/"
   },
   {
-    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    icon: "/images/icons/ecommerce-website-development.svg",
     altText: "Test",
     serviceName: "E-commerce Development",
     serviceDescription: "Whether it be Shopif, WooCommerce, BigCommerce, or Magento, we best position you to sell one.",
     slug: "/solutions/web-development/ecommerce-website-development/"
   },
   {
-    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    icon: "/images/icons/local-search-engine-optimization.svg",
     altText: "Test",
     serviceName: "Local SEO",
     serviceDescription: "Attract potential customers in your backyard, don't get stuck competing nationally.",
     slug: "/solutions/digital-marketing/local-search-engine-optimization/"
   },
   {
-    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    icon: "/images/icons/reputation-management.svg",
     altText: "Test",
     serviceName: "Reputation Management",
     serviceDescription: "We safeguard your online reputation so you can focus on what matters most: your business.",
     slug: "/solutions/digital-marketing/reputation-management/"
   },
   {
-    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    icon: "/images/icons/content-marketing.svg",
     altText: "Test",
     serviceName: "Content Marketing",
     serviceDescription: "Carefully crafted and tailored content that is informative, educational, and loved by search engines.",
     slug: "/solutions/digital-marketing/content-marketing/"
   },
   {
-    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    icon: "/images/icons/custom-website-development.svg",
     altText: "Test",
     serviceName: "Custom Development",
     serviceDescription: "Develop a truly unique website, built to serve all of your needs from the start, not conform to existing systems.",
     slug: "/solutions/web-development/custom-website-development/"
   },
   {
-    icon: "/images/digital-marketing/seo/competitive-analysis.svg",
+    icon: "/images/icons/social-media-marketing.svg",
     altText: "Test",
     serviceName: "Social Media Marketing",
     serviceDescription: "Maximize your online presence through the use of popular social channels to better market your business.",
@@ -123,7 +123,7 @@ export default function Home() {
         <title>Alkali | Digital Marketing</title>
         <meta name="description" content="Alkali is a people focused digital marketing agency. We provide SEO, Web Development, PPC, social, and other services to help our clients win online." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Alkali | Digital Marketing" />
@@ -212,12 +212,12 @@ export default function Home() {
             className="m-auto align-middle"
             src="/images/facebook-partner-logo.svg"
           />
-          <img className="m-auto" src="/images/zapier-partner-logo.svg" alt="Zapier partner"/>
+          <img className="m-auto" src="/images/zapier-partner-logo.svg" alt="Zapier partner" />
           <img className="m-auto" src="/images/digitalocean-partner-logo.svg" alt="DigitalOcean partner" />
-          <img className="m-auto" src="/images/vercel-partner-logo.svg" alt="Vercel partner"/>
-          <img className="m-auto" src="/images/hubspot-partner.svg" alt="Hubspot solutions partner"/>
-          <img className="m-auto" src="/images/shopify-partner.svg" alt="Shopify partner"/>
-          <img className="m-auto" src="/images/stripe-partner.svg" alt="Stripe Verified Partner"/>
+          <img className="m-auto" src="/images/vercel-partner-logo.svg" alt="Vercel partner" />
+          <img className="m-auto" src="/images/hubspot-partner.svg" alt="Hubspot solutions partner" />
+          <img className="m-auto" src="/images/shopify-partner.svg" alt="Shopify partner" />
+          <img className="m-auto" src="/images/stripe-partner.svg" alt="Stripe Verified Partner" />
         </div>
       </div>
     </div>

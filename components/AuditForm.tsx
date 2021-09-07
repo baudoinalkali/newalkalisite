@@ -40,11 +40,11 @@ export default function AuditForm(props) {
                                         </button>
                                     </div>
 
-                                    <div className="relative p-0 md:p-6 flex-auto">
+                                    <div className="relative p-0 md:p-6 md:pt-0 flex-auto">
                                         <div className="max-w-7xl m-auto py-10 px-5 md:px-0">
                                             <div style={{ minHeight: 600 }}>
-                                                <div className="font-bold max-w-xs leading-normal md:max-w-3xl text-3xl mb-6">Complimentary {props.serviceName} Audit</div>
-                                                <p className="mb-10 lg:mb-20">Please fill out the information below and we will be in touch.</p>
+                                                <div className="font-bold max-w-xs leading-normal md:max-w-3xl text-3xl mb-6">{props.serviceName}</div>
+                                                <p className="mb-10">Please fill out the information below and we will be in touch.</p>
                                                 {/* Hubspot Form */}
                                                 <HubspotForm
                                                     portalId={props.portalId}

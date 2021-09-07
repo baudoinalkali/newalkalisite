@@ -161,12 +161,16 @@ function EcommerceWebsiteDevelopment() {
       </div>
       <AuditSection
         backgroundColor=""
-        serviceName="Local SEO"
+        serviceName="Complimentary Ecommerce Audit"
+        serviceDescription="Every successful engagement begins with an audit. 
+        Allow us to provide you a comprehensive audit of your existing e-commerce site, completely 
+        free of charge. We will analyze your website and provide actionable insights as well as recommendations 
+        if you're looking for a fresh start."
         area1="Full website weview (content, CRO, performance)"
         area2="SEO: Comprehensive on-page audit"
         area3="Digital marketing/reputation management"
         portalId="20442125"
-        formId="ca7ed626-450f-4b52-8fa7-2c7d2d464006"
+        formId="2bc8f42e-ed09-4557-a783-275a9c10158e"
       />
       <div className="bg-alkaligrey-300">
         <TwoColumnLayout
