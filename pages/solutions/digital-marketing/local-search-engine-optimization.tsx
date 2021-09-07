@@ -159,10 +159,10 @@ function LocalSearchEngineOptimization() {
       </div>
       <AuditSection
         backgroundColor="bg-alkaligrey-300"
-        serviceName="Local SEO"
-        area1="Full website weview (content, CRO, performance)"
-        area2="SEO: Comprehensive on-page audit"
-        area3="Digital marketing/reputation management"
+        serviceName="Complimentary Local SEO Audit"
+        serviceDescription="Every successful engagement begins with an audit. Allow us to provide you a comprehensive 
+        audit completely free of charge. Our digital marketing experts will examine your business's 
+        website and provide you with actionable insights."
         portalId="20442125"
         formId="ca7ed626-450f-4b52-8fa7-2c7d2d464006"
       />

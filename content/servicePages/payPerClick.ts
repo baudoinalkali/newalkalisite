@@ -90,7 +90,7 @@ const PPC = {
         {
             serviceTitle: "In-stream Ads",
             serviceText: "Most commonly, YouTube, Facebook, and Twitch ads, in-stream ads allow you to present your business in a memorable way utilizing video content. Choose where and how your content is displayed for maximum impact.",
-            image: "/images/digital-marketing/ppc/local-service-ads.svg",
+            image: "/images/digital-marketing/ppc/in-stream-ads.svg",
             altText: "In-stream ads"
         },
         {
