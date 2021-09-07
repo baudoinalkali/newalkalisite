@@ -7,18 +7,18 @@ const clientMainPage = [
     backgroundColor: "#36ad8b",
   },
   {
-    name: "Blockchain Education Network",
-    backgroundImage: "/images/clients/ben/testimonial-bg.png",
-    industry: "Non-profit",
-    slug: "ben",
-    backgroundColor: "#ff936b",
-  },
-  {
     name: "Carro",
     backgroundImage: "/images/clients/carro/testimonial-bg.png",
     industry: "Technology",
     slug: "carro",
     backgroundColor: "#93469a",
+  },
+  {
+    name: "Blockchain Education Network",
+    backgroundImage: "/images/clients/ben/testimonial-bg.png",
+    industry: "Non-profit",
+    slug: "ben",
+    backgroundColor: "#ff936b",
   },
   {
     name: "Homewatch Amelia",
