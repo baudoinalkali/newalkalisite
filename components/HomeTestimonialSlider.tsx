@@ -4,12 +4,11 @@ import HomepageSlide from "../content/testimonials";
 
 const HomeTestimonialSlider = () => {
   const settings = {
-    infinite: true,
     className: "testimonial-slider-container",
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: true,
     speed: 60000,
+    autoplay: true,
     autoplaySpeed: 0,
     cssEase: "linear",
     responsive: [
@@ -17,10 +16,29 @@ const HomeTestimonialSlider = () => {
         breakpoint: 980,
         settings: {
           speed: 40000,
-          infinite: true
-        }
-      }
-    ]
+          infinite: true,
+        },
+      },
+    ],
+  };
+
+  const delayShowing = () => {
+    setTimeout(() => {
+      const hiddenItems = document.querySelectorAll(
+        `.delayed-group-hover-hidden`
+      );
+      const shownItems = document.querySelectorAll(`.delayed-group-hover-flex`);
+      hiddenItems.forEach((item) => item.classList.add("group-hover:hidden"));
+      shownItems.forEach((item) => item.classList.add("group-hover:flex"));
+    }, 500);
+  };
+  const delayHiding = () => {
+    const hiddenItems = document.querySelectorAll(
+      `.delayed-group-hover-hidden`
+    );
+    const shownItems = document.querySelectorAll(`.delayed-group-hover-flex`);
+    hiddenItems.forEach((item) => item.classList.remove("group-hover:hidden"));
+    shownItems.forEach((item) => item.classList.remove("group-hover:flex"));
   };
 
   return (
@@ -30,7 +48,13 @@ const HomeTestimonialSlider = () => {
           <div key={idx} className="duration-500">
             <div
               className="group rounded-md"
-              style={{ backgroundColor: `${props.brandColor}`, borderTopLeftRadius: ".575rem", borderTopRightRadius: ".575rem" }}
+              onMouseEnter={delayShowing}
+              onMouseLeave={delayHiding}
+              style={{
+                backgroundColor: `${props.brandColor}`,
+                borderTopLeftRadius: ".575rem",
+                borderTopRightRadius: ".575rem",
+              }}
             >
               <div className="p-10 py-7 bg-white duration-500 rounded-t-md">
                 <svg
@@ -45,17 +69,14 @@ const HomeTestimonialSlider = () => {
               </div>
               <div className="h-20 flex justify-center">
                 <div className="flex justify-center gap-x-10 items-center px-10">
-                  <div className="group-hover:hidden">
-                    <img width="90"
-                      src={props.logo}
-                      alt={props.altText}
-                    />
+                  <div className="delayed-group-hover-hidden">
+                    <img width="90" src={props.logo} alt={props.altText} />
                   </div>
-                  <div className="text-white group-hover:hidden">{props.name}</div>
+                  <div className="text-white delayed-group-hover-hidden">
+                    {props.name}
+                  </div>
                   <a href={`/clients/${props.slug}`}>
-                    <div
-                      className="justify-center py-3 px-6 w-48 m-auto font-medium text-white hover:bg-white hover:bg-opacity-20 rounded-md transition duration-500 ease-in-out border border-white hidden group-hover:flex"
-                    >
+                    <div className="justify-center py-3 px-6 w-48 m-auto font-medium text-white hover:bg-white hover:bg-opacity-20 rounded-md transition duration-500 ease-in-out border border-white hidden delayed-group-hover-flex delay-500">
                       View Project
                     </div>
                   </a>
@@ -70,3 +91,4 @@ const HomeTestimonialSlider = () => {
 };
 
 export default HomeTestimonialSlider;
+
