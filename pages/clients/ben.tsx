@@ -110,21 +110,21 @@ function Ben() {
         />
       ))}
 
-      {CarroScreenImages.carro.map((carro) => (
+      {BenContent.ben.screens.map((benData) => (
         <ResponsiveScreens
           style="py-24 lg:py-36 overflow-hidden"
-          link="https://ben.ai"
+          link="https://blockchainedu.org"
           buttonName="Visit Site"
           brandColor="#ff936b"
           newTab={true}
-          desktopLeft="/images/clients/ben/desktop-left.png"
-          desktopRight="/images/clients/ben/desktop-right.png"
-          tablet="/images/clients/ben/tablet.png"
-          phone="/images/clients/ben/mobile.png"
-          desktopLeftLink="https://ben.ai"
-          desktopRightLink="https://ben.ai/about"
-          tabletLink="https://ben.ai/pricing"
-          phoneLink="https://ben.ai/product"
+          desktopLeft={benData.desktopLeft}
+          desktopRight={benData.desktopRight}
+          tablet={benData.tablet}
+          phone={benData.phone}
+          desktopLeftLink={benData.desktopLeftLink}
+          desktopRightLink={benData.desktopRightLink}
+          tabletLink={benData.tabletLink}
+          phoneLink={benData.phoneLink}
         />
       ))}
       <section className="bg-alkaligrey-300 pt-96 -mt-96">

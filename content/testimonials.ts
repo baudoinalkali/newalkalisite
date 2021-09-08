@@ -146,7 +146,7 @@ export const thfData = {
   altText:"",
   slug:"chattr",
   name:"Travis Deleon, Operations Manager",
-  quote:"Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+  quote:"I initially engaged Alkali to refresh our e-commerce store and they have continued to provide support ever since. They are always willing to assist and provide input to give our customers the best experience possible."
 }
 
 const Testimonials = {
