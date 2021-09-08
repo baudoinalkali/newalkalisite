@@ -10,7 +10,7 @@ import dynamic from 'next/dynamic';
 import ClientScheduleCTA from "../../components/Clients/ClientScheduleCTA";
 import clientMainPage from "../../content/clientPages/clientMainPage";
 import Head from "next/head";
-import {magnetiteData} from "../../content/testimonials"
+import { magnetiteData } from "../../content/testimonials"
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -63,7 +63,7 @@ function Carro() {
         <title>Magnetite Project | Alkali</title>
         <meta name="description" content="Learn more about how we transformed Magnetite's website focusing on the impact their products have." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Magnetite Project | Alkali" />
@@ -115,7 +115,7 @@ function Carro() {
             background={magnetiteData.background}
             company={magnetiteData.company}
             slug={magnetiteData.slug}
-            logo={magnetiteData.logo}
+            logo="/images/clients/magnetite/logo-alt.png"
             logoWidth={magnetiteData.logoWidth}
             logoHeight={magnetiteData.logoHeight}
             altText={magnetiteData.altText}
@@ -154,7 +154,7 @@ function Carro() {
           phoneLink={magnetite.phoneLink}
         />
       ))}
-      <section className="bg-alkaligrey-300 pt-20 lg:pt-36">
+      <section className="bg-alkaligrey-300 pt-96 -mt-96">
         <h3 className="text-center text-4xl md:text-5xl font-bold max-w-4xl m-auto mb-14 lg:mb-20 leading-normal">
           Other Projects
         </h3>

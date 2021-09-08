@@ -30,22 +30,22 @@ export const carroData = {
 export const ameliaData = {
   background: "/images/amelia-slide-bg.jpg",
   backgroundOverlay: "bg-gray-50",
-  brandColor: "#F9FAFB",
+  brandColor: "#4f80c2",
   company: "Homewatch Amelia",
-  logo: "/images/amelia-logo.png",
+  logo: "/images/clients/amelia/logo-alt.svg",
   logoWidth: "275",
   slug: "amelia/",
   logoHeight: "125",
   altText: "",
   name: "Ann Wood, Owner",
   quote:
-    "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
+    "This is the second time I have worked with Alkali, and the results speak for themselves. They took the concept I had for my new business and created a complete digital presence from scratch. I cannot recommend them enough.",
 }
 
 export const magnetiteData = {
   style: "max-w-7xl m-auto shadow-2xl rounded-md",
   background: "/images/clients/magnetite/testimonial-bg-large.png",
-  brandColor: "#fefefe",
+  brandColor: "#46b7e6",
   company: "Magnetite",
   logo: "/images/clients/magnetite/logo.png",
   logoWidth: "275",
@@ -71,15 +71,15 @@ export const chattrData = {
 
 export const carTalkData = {
   background: "/images/clients/cartalk/slide-bg.jpg",
-  brandColor: "#fff",
+  brandColor: "#bf1e2e",
   company: "CarTalk Repair",
   logo: "/images/clients/cartalk/logo.svg",
   logoWidth: "225",
   logoHeight: "102",
   altText: "",
   slug: "chattr",
-  name: "Cody Lintz, Owner",
-  quote: "I think I chose the best company to do this. The adviser was up front on cost and explained everything to me. He made the experience perfect. He will do all my websites as my company grows."
+  name: "Cody Lintz, Co-owner",
+  quote: "I think I chose the best company to do this. The adviser was up front on cost and explained everything to me. They made the experience perfect. They will do all my websites as my company grows."
 }
 
 export const benData = {
@@ -133,7 +133,7 @@ export const bluecollarData = {
   altText:"",
   slug:"bluecollar",
   name:"Ashley McCarthy, Program Development Director",
-  quote:"Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+  quote:"Alkali communicated clearly throughout the entire process. They assisted us with the initial development, maintenance, and even training. They are willing to work with you on what you need!"
 }
 
 export const thfData = {
@@ -185,23 +185,9 @@ const Testimonials = {
       ...carroData
     },
     {
-      ...ameliaData
+      ...bluecollarData
     },
-    {
-      ...magnetiteData
-    },
-    {
-      ...chattrData
-    },
-    {
-      ...carTalkData
-    },
-    {
-      ...benData
-    },
-    {
-      ...goCottageData
-    }
+
   ],
   seo: [
     {
@@ -297,7 +283,7 @@ const Testimonials = {
       altText: "",
       name: "Ann Wood, Owner",
       quote:
-        "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
+        "This is the second time I have worked with Alkali, and the results speak for themselves. They took the concept I had for my new business and created a complete digital presence from scratch.",
     },
   ],
   thf: [

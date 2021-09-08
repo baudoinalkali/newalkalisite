@@ -92,7 +92,7 @@ const ClientContent = {
         section1:
             [
                 {
-                    sub: "The Goal",
+                    sub: "The Challenge",
                     title: "A New Beginning",
                     text: "Chattr’s old website’s speed and performance was becoming an issue. Additionally, the way their website had been developed utilized a lot of imagery instead of traditional HTML. As a result, much of their website content wasn’t indexable and not fully responsive. Chattr liked parts of the existing design, but sought to improve the site overall by creating a more consistent look, implementing unique animations, improving user experience, and improving site speed.",
                     image: "/images/clients/chattr/section1.png",
@@ -102,7 +102,7 @@ const ClientContent = {
         section2:
             [
                 {
-                    sub: "The Goal",
+                    sub: "The Solution",
                     title: "Engaging and Fast",
                     text: "Utilizing Next.js, a framework they leverage in their technology stack, we converted all the unnecessary images into pure HTML and CSS. This eliminated the need to load massive images and improved overall responsiveness. We explored unique animations through the development process, ultimately deciding upon animating their branding elements throughout. We improved the user experience by reducing unnecessary information toggles and rearranged relevant content. Finally, we optimized every aspect of the site, reducing the overall site load time by 97%.",
                     image: "/images/clients/chattr/section2.png",
@@ -614,7 +614,7 @@ const ClientContent = {
                 {
                     name: "CarTalk Repair",
                     slug: "https://cartalkrepair.com",
-                    bio: "CarTalk is a father and son repair facility. With over 15 years in the automotive repair industry, they service a wide range of domestic and import automobiles. They pride themselves on their transparent pricing and customer-centric values.",
+                    bio: "CarTalk is a father and son automotive repair facility. With over 15 years in the automotive repair industry, they service a wide range of domestic and import automobiles. They pride themselves on their transparent pricing and customer-centric values.",
                     brandColor: "#bf1e2e",
                 },
             ],
@@ -622,9 +622,9 @@ const ClientContent = {
             [
                 {
                     sub: "The Challenge",
-                    title: "No Digital Presence of Branding",
+                    title: "No Digital Presence or Branding",
                     text: "CarTalk Repair had an idea, but needed branding and an online presence to be successful in their new venture. They needed something that would showcase their services, experience, and dedication to transparency and customer service. Additionally, they also wanted a way for customers to schedule appointments that would hook directly into their existing scheduling software.",
-                    image: "/images/clients/cartalk-repair/section1.png",
+                    image: "/images/clients/cartalk/section1.png",
                     altText: ""
                 },
             ],
@@ -634,7 +634,7 @@ const ClientContent = {
                     sub: "The Solution",
                     title: "A Complete Digital Presence",
                     text: "We developed branding for CarTalk that fit with their target demographic after conducting extensive market research. We designed and developed a website that showcased their service offerings and core values. To provide full connectivity to their existing business processes, we connected booking to their current bookings platform via a custom API.",
-                    image: "/images/clients/cartalk-repair/section2.png",
+                    image: "/images/clients/cartalk/section2.png",
                     altText: ""
                 },
             ],
@@ -642,14 +642,14 @@ const ClientContent = {
             [
                 {
                     name: "CarTalk Repair",
-                    desktopLeft: "/images/clients/cartalk-repair/desktop-left.png",
-                    desktopLeftLink: "https://go-cottage/about",
-                    desktopRight: "/images/clients/cartalk-repair/desktop-right.png",
-                    desktopRightLink: "https://go-cottage/directions",
-                    tablet: "/images/clients/cartalk-repair/tablet.png",
-                    tabletLink: "https://go-cottage",
-                    phone: "/images/clients/cartalk-repair/mobile.png",
-                    phoneLink: "https://go-cottage/two-bedroom-cottage",
+                    desktopLeft: "/images/clients/cartalk/desktop-left.png",
+                    desktopLeftLink: "https://cartalkrepair.com",
+                    desktopRight: "/images/clients/cartalk/desktop-right.png",
+                    desktopRightLink: "https://cartalkrepair.com",
+                    tablet: "/images/clients/cartalk/tablet.png",
+                    tabletLink: "https://cartalkrepair.com",
+                    phone: "/images/clients/cartalk/phone.png",
+                    phoneLink: "https://cartalkrepair.com",
                 },
             ],
     },
@@ -676,7 +676,7 @@ const ClientContent = {
             [
                 {
                     name: "The Blue Collar Success Group",
-                    slug: "https://thebluecollarsuccessgroup.com",
+                    slug: "https://bluecollaraccess.com",
                     bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
                     brandColor: "#0a98cc",
                 },
@@ -684,7 +684,7 @@ const ClientContent = {
         section1:
             [
                 {
-                    sub: "The Goal",
+                    sub: "The Challenge",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
                     image: "/images/clients/bluecollar/section1.png",
@@ -694,7 +694,7 @@ const ClientContent = {
         section2:
             [
                 {
-                    sub: "The Goal",
+                    sub: "The Solution",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
                     image: "/images/clients/bluecollar/section2.png",
@@ -744,7 +744,7 @@ const ClientContent = {
         section1:
             [
                 {
-                    sub: "The Goal",
+                    sub: "The Challenge",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
                     image: "/images/clients/zexster/section1.png",
@@ -754,7 +754,7 @@ const ClientContent = {
         section2:
             [
                 {
-                    sub: "The Goal",
+                    sub: "The Solution",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
                     image: "/images/clients/zexster/section2.png",
@@ -804,7 +804,7 @@ const ClientContent = {
         section1:
             [
                 {
-                    sub: "The Goal",
+                    sub: "The Challenge",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
                     image: "/images/clients/lessons-that-rock/section1.png",
@@ -814,7 +814,7 @@ const ClientContent = {
         section2:
             [
                 {
-                    sub: "The Goal",
+                    sub: "The Solution",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
                     image: "/images/clients/lessons-that-rock/section2.png",
@@ -865,7 +865,7 @@ const ClientContent = {
         section1:
             [
                 {
-                    sub: "The Goal",
+                    sub: "The Challenge",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
                     image: "/images/clients/lessons-that-rock/section1.png",
@@ -875,7 +875,7 @@ const ClientContent = {
         section2:
             [
                 {
-                    sub: "The Goal",
+                    sub: "The Solution",
                     title: "Test Title",
                     text: "Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation. Talk about the website creation.",
                     image: "/images/clients/lessons-that-rock/section2.png",
@@ -932,7 +932,7 @@ const ClientContent = {
                 {
                     name: "Homewatch Amelia",
                     slug: "https://homewatchamelia.com",
-                    bio: "Over the past 35+ years, Magnetite has installed over 5-million insulating window panels across the globe. After being picked up by the Sears Home Improvement Division, Magnetite began growing at such a blistering rate that it was recognized by Inc. 500 as one of the nation’s fastest growing privately held companies in 1993.",
+                    bio: "East Coast Home Watch of Amelia Island, LLC was formed to provide home watch services to absentee homeowners in Amelia Island, Fernandina Beach, and surrounding areas of North East Florida. They provide over 25 years of looking after client's homes.",
                     brandColor: "#4f80c2",
                 },
             ],
@@ -940,7 +940,7 @@ const ClientContent = {
             [
                 {
                     sub: "The Challenge",
-                    title: "Test Title",
+                    title: "No Digital Presence",
                     text: "Homewatch Amelia had no existing brand, website, or online presence. They needed to establish themselves in a brand new market to attract clients and build a positive reputation. They needed a website that communicated trust, professionalism and highlighted the founder's experience in a similar industry. When it came to the website, they valued greatly the ability to maintain it easily after the initial development.",
                     image: "/images/clients/amelia/desktop-left.png",
                     altText: ""
@@ -950,7 +950,7 @@ const ClientContent = {
             [
                 {
                     sub: "The Solution",
-                    title: "Test Title",
+                    title: "Every Base Covered",
                     text: "We created a complete branding kit, social accounts and designed and developed their website from start to finish. We created a custom WordPress website that was set up to be easily maintained by non-technical individuals. In addition, we provided documentation and recorded videos of standard updates so they could easily follow along.",
                     image: "/images/clients/amelia/desktop-right.png",
                     altText: ""

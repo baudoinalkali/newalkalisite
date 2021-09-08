@@ -67,7 +67,7 @@ const clientMainPage = [
     backgroundImage: "/images/clients/bluecollar/testimonial-bg.jpg",
     industry: "Home Service",
     slug: "bluecollar",
-    backgroundColor: "#1caaeb",
+    backgroundColor: "#0a98cc",
   },
   {
     name: "AWP Delivers",
