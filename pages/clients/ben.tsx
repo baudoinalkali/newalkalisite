@@ -90,7 +90,6 @@ function Ben() {
           name={ben.name}
           about={ben.bio}
           slug={ben.slug}
-          brandColor={ben.brandColor}
         />
       ))}
 

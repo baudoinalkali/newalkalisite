@@ -10,7 +10,7 @@ import dynamic from 'next/dynamic';
 import ClientScheduleCTA from '../../components/Clients/ClientScheduleCTA'
 import clientMainPage from '../../content/clientPages/clientMainPage'
 import Head from 'next/head'
-import { bobtailData } from '../../content/testimonials'
+import { carTalkData } from '../../content/testimonials'
 
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
@@ -102,19 +102,20 @@ function CarTalkRepair() {
         >
         </TwoColumnLayout>
 
-        <div className="px-7 mb-10">
+        <div className="px-7">
             <div className="pb-4 lg:pb-10 client-testimonial-container">
                 <TestimonialSlide
-                    background={bobtailData.background}
-                    brandColor={bobtailData.brandColor}
-                    company={bobtailData.company}
-                    logo={bobtailData.logo}
-                    logoWidth={bobtailData.logoWidth}
-                    logoHeight={bobtailData.logoHeight}
-                    altText={bobtailData.altText}
-                    slug={bobtailData.slug}
-                    name={bobtailData.name}
-                    quote={bobtailData.quote}
+                    style="max-w-7xl m-auto shadow-2xl rounded-md"
+                    brandColor="#F9FAFB"
+                    background={carTalkData.background}
+                    company={carTalkData.company}
+                    slug={carTalkData.slug}
+                    logo={carTalkData.logo}
+                    logoWidth={carTalkData.logoWidth}
+                    logoHeight={carTalkData.logoHeight}
+                    altText={carTalkData.altText}
+                    name={carTalkData.name}
+                    quote={carTalkData.quote}
                 />
             </div>
         </div>
@@ -133,7 +134,7 @@ function CarTalkRepair() {
         {CarTalkContent.cartalkRepair.screens.map(cartalkRepair =>
             <ResponsiveScreens
                 style="py-24 lg:py-36 overflow-hidden"
-                link="https://chattr.ai"
+                link="https://cartalkrepair.com"
                 buttonName="Visit Site"
                 brandColor="#bf1e2e"
                 newTab={true}

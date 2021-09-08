@@ -107,12 +107,12 @@ function Amelia() {
         <div className="pb-4 lg:pb-10 client-testimonial-container">
           <TestimonialSlide
             style="max-w-7xl m-auto shadow-2xl rounded-md"
-            brandColor={ameliaData.brandColor}
+            brandColor="#F9FAFB"
             background={ameliaData.background}
             backgroundOverlay={ameliaData.backgroundOverlay}
             company={ameliaData.company}
             slug={ameliaData.slug}
-            logo={ameliaData.logo}
+            logo="/images/clients/amelia/logo.svg"
             logoWidth={ameliaData.logoWidth}
             logoHeight={ameliaData.logoHeight}
             altText={ameliaData.altText}
