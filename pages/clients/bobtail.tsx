@@ -137,7 +137,7 @@ function Amelia() {
       {BobtailContent.bobtail.screens.map((amelia) => (
         <ResponsiveScreens
           style="py-24 lg:py-36 overflow-hidden"
-          link="https://getcarro.com"
+          link="https://www.bobtail.com"
           buttonName="Visit Site"
           brandColor="#f6a326"
           newTab={true}

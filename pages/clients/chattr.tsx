@@ -130,6 +130,7 @@ function Carro() {
           link="https://chattr.ai"
           buttonName="Visit Site"
           brandColor="#36ad8b"
+          newTab={true}
           desktopLeft={chattr.desktopLeft}
           desktopRight={chattr.desktopRight}
           tablet={chattr.tablet}

@@ -135,7 +135,7 @@ function Amelia() {
       {AmeliaContent.amelia.screens.map((screens) => (
         <ResponsiveScreens
           style="py-24 lg:py-36 overflow-hidden"
-          link="https://getcarro.com"
+          link="https://homewatchamelia.com"
           brandColor="#4f80c2"
           newTab={true}
           buttonName="Visit Site"
