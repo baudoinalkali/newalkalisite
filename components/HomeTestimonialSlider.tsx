@@ -4,12 +4,11 @@ import HomepageSlide from "../content/testimonials";
 
 const HomeTestimonialSlider = () => {
   const settings = {
-    infinite: true,
     className: "testimonial-slider-container",
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: true,
     speed: 60000,
+    autoplay: true,
     autoplaySpeed: 0,
     cssEase: "linear",
     responsive: [
