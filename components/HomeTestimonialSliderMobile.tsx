@@ -28,7 +28,7 @@ const PreviousArrow = (props) => {
     );
 }
 
-const HomeClientSliderMobile = (props) => {
+const HomeTestimonialSliderMobile = (props) => {
     const settings = {
         infinite: true,
         speed: 500,
@@ -89,4 +89,4 @@ const HomeClientSliderMobile = (props) => {
     );
 }
 
-export default HomeClientSliderMobile;
+export default HomeTestimonialSliderMobile;
