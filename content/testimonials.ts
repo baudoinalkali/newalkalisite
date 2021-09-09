@@ -106,7 +106,7 @@ export const goCottageData = {
   logoHeight:"80",
   altText:"",
   slug:"go-cottage",
-  name:"Sharon Middendorf, Owner",
+  name:"Sharon Middendorf, Founder",
   quote:"5 stars all the way! Thank you for building our amazing new website. Top notch, professional, on time, responsive. Can't say enough good things about Alkali."
 }
 

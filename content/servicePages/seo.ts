@@ -10,7 +10,9 @@ const SEO = {
         {
             title: "Start Seeing Results in Just 2 Months!",
             text: "Organic search engine optimization (SEO) traffic provides the highest-quality leads, superior to Google AdWords and other forms of PPC. By utilizing organic SEO for your website, you’re positioning your brand at the top of search results on popular search engines like Google, reducing cost on paid ads that cease to generate results when you cancel your service. Looking for a partner to assist you in driving high-quality traffic to your website? Look no further. Our team of experts will work with you to evaluate your business’s needs and deliver results starting in only two months!",
-            image: "/images/timeline.png",
+            image: "/images/digital-marketing/seo/see-results.svg",
+            width: "600",
+            height: "450",
             altText: "Start seeing SEO results in just 2 months"
         },
     ],

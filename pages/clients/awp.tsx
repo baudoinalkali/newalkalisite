@@ -132,10 +132,10 @@ function Amelia() {
           brandColor={about.brandColor}
         />
       ))}
-      {AWPContent.amelia.screens.map((screens) => (
+      {AWPContent.awp.screens.map((screens) => (
         <ResponsiveScreens
           style="py-24 lg:py-36 overflow-hidden"
-          link="https://getcarro.com"
+          link="https://awpdelivers.com"
           brandColor="#4f80c2"
           buttonName="Visit Site"
           newTab={true}
