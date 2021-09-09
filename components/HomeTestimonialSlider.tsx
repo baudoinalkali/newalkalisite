@@ -24,23 +24,24 @@ const HomeTestimonialSlider = () => {
     ],
   };
 
-  const delayShowing = () => {
-    setTimeout(() => {
-      const hiddenItems = document.querySelectorAll(
-        `.delayed-group-hover-hidden`
-      );
-      const shownItems = document.querySelectorAll(`.delayed-group-hover-flex`);
-      hiddenItems.forEach((item) => item.classList.add("group-hover:hidden"));
-      shownItems.forEach((item) => item.classList.add("group-hover:flex"));
-    }, 500);
-  };
-  const delayHiding = () => {
-    const hiddenItems = document.querySelectorAll(
-      `.delayed-group-hover-hidden`
+  function delayShowing(ev) {
+    var flexItems = ev.target.parentNode.querySelectorAll(
+      `.delayed-group-hover-flex`
     );
-    const shownItems = document.querySelectorAll(`.delayed-group-hover-flex`);
-    hiddenItems.forEach((item) => item.classList.remove("group-hover:hidden"));
-    shownItems.forEach((item) => item.classList.remove("group-hover:flex"));
+    if (flexItems.length == 0) {
+      flexItems = ev.target.querySelectorAll(`.delayed-group-hover-flex`);
+    }
+    flexItems.forEach((item) => {
+      item.classList.remove("opacity-0");
+      item.classList.add("fade-in");
+    });
+  }
+  const delayHiding = () => {
+    const flexItems = document.querySelectorAll(`.delayed-group-hover-flex`);
+    flexItems.forEach((item) => {
+      item.classList.add("opacity-0");
+      item.classList.remove("fade-in");
+    });
   };
 
   return (
@@ -71,14 +72,14 @@ const HomeTestimonialSlider = () => {
               </div>
               <div className="h-20 flex justify-center">
                 <div className="flex justify-center gap-x-10 items-center px-10">
-                  <div className="delayed-group-hover-hidden">
+                  <div className="group-hover:hidden">
                     <img width="90" src={props.logo} alt={props.altText} />
                   </div>
-                  <div className="text-white delayed-group-hover-hidden">
+                  <div className="text-white group-hover:hidden">
                     {props.name}
                   </div>
                   <a href={`/clients/${props.slug}`}>
-                    <div className="justify-center py-3 px-6 w-48 m-auto font-medium text-white hover:bg-white hover:bg-opacity-20 rounded-md transition duration-500 ease-in-out border border-white hidden delayed-group-hover-flex delay-500">
+                    <div className="justify-center py-3 px-6 w-48 m-auto font-medium text-white hover:bg-white hover:bg-opacity-20 rounded-md transition duration-1000 ease-in-out border border-white opacity-0 hidden delayed-group-hover-flex">
                       View Project
                     </div>
                   </a>
