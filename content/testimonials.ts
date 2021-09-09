@@ -185,8 +185,23 @@ const Testimonials = {
       ...carroData
     },
     {
-      ...bluecollarData
+      ...ameliaData
     },
+    {
+      ...magnetiteData
+    },
+    {
+      ...chattrData
+    },
+    {
+      ...carTalkData
+    },
+    {
+      ...benData
+    },
+    {
+      ...goCottageData
+    }
 
   ],
   seo: [
