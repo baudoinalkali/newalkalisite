@@ -10,7 +10,7 @@ const HomeClientsSlider = (props) => {
   const settings = {
     infinite: true,
     className: "client-slider-container",
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     speed: 60000,

@@ -16,6 +16,8 @@ const HomeTestimonialSlider = () => {
         breakpoint: 980,
         settings: {
           speed: 40000,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
         },
       },

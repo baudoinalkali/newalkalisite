@@ -5,6 +5,7 @@ import TwoColumnLayout from "../components/TwoColumnLayout";
 import ServiceImage from "../components/Services/ServiceImage";
 import StandardTextBlock from "../components/StandardTextBlock";
 import Head from "next/head";
+import HomeClientSliderMobile from "../components/HomeClientSliderMobile";
 const HomeTestimonialSlider = dynamic(() => import("../components/HomeTestimonialSlider"));
 const HomeClientsSlider = dynamic(() => import("../components/HomeClientsSlider"));
 
@@ -156,6 +157,7 @@ export default function Home() {
         </h3>
       </div>
       <HomeTestimonialSlider />
+      <HomeClientSliderMobile />
       <div className="py-24 pt-60 -mt-36 bg-white px-7">
         <h3
           id="services"
