@@ -123,7 +123,7 @@ export default function About() {
             logoHeight={35}
             altText="test"
             name="Nick Baudoin, Owner"
-            quote="Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+            quote="Our mission is to gain a deep understanding of your business so that we can serve you best. We value long-lasting relationships and take immense pride in contributing to our client's online success."
           />
         </div>
       </div>
@@ -133,15 +133,17 @@ export default function About() {
           child2={aboutText2}
         />
       </div>
-      <section className="py-24 bg-alkaligrey-300">
+      <section className="py-24 pb-10 bg-alkaligrey-300">
         <div className="">
           <h3 className="text-4xl md:text-5xl pt-2 pb-24 font-bold text-center">
             Don't Just Take Our Word For It
           </h3>
         </div>
+        <div className="">
         <ClientTestimonialSlide />
+        </div>
       </section>
-      <section className="">
+      {/* <section className="">
         <div className="w-5/6 lg:w-full m-auto py-24 mb-24">
           <h5 className="text-4xl text-center font-bold m-auto leading-tight">
             Your Next Adventure is Waiting
@@ -156,7 +158,12 @@ export default function About() {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
+                  <style global jsx>{`
+        .footer {
+          background: #f8f8f8;
+        }
+      `}</style>
     </div>
   );
 }

@@ -25,7 +25,7 @@ const AuditSection = (props) => {
                     <div>
                         <AuditForm
                             style="flex mx-auto lg:mx-0 p-4 px-10 font-semibold text-white shadow-2xl rounded-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-700"
-                            text="Request Free Audit"
+                            text={props.buttonName}
                             portalId={props.portalId}
                             serviceName={props.serviceName}
                             formId={props.formId}

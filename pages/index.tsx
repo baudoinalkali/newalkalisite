@@ -194,9 +194,9 @@ export default function Home() {
         </h3>
       </div>
       {TestimonialSlider}
-      <div className="py-24 pt-60 -mt-36 bg-white px-7">
+      <div id="solutions" className="py-24 pt-60 -mt-36 bg-white px-7">
         <h3
-          id="services"
+          
           className="pb-20 text-4xl lg:text-5xl font-bold text-center"
         >
           Our Solutions
@@ -244,10 +244,11 @@ export default function Home() {
       </div>
       <AuditSection
         backgroundColor="bg-alkaligrey-300"
-        serviceName="Marketing"
-        area1="Full website weview (content, CRO, performance)"
-        area2="SEO: Comprehensive on-page audit"
-        area3="Digital marketing/reputation management"
+        serviceName="Complimentary Marketing Audit"
+        serviceDescription="Every successful engagement begins with an audit. Allow us to provide you a comprehensive 
+        audit completely free of charge. Our digital marketing experts will examine your business's 
+        online presence and provide you with actionable insights."
+        buttonName="Request Free Audit"
         portalId="20442125"
         formId="0b0a2ef2-726c-4d98-a8ae-23108c2c922a"
       />

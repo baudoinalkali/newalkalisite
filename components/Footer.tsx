@@ -87,26 +87,34 @@ function Footer() {
                 </div>
                 <div className="w-full lg:w-1/2 pt-14">
                     <div className="flex justify-center lg:justify-end gap-x-5 pb-7">
-                        <Image
-                            src="/images/facebook-icon.svg"
-                            width="32"
-                            height="32"
-                        />
-                        <Image
-                            src="/images/instagram-icon.svg"
-                            width="32"
-                            height="32"
-                        />
-                        <Image
-                            src="/images/linkedin-icon.svg"
-                            width="32"
-                            height="32"
-                        />
-                        <Image
-                            src="/images/twitter-icon.svg"
-                            width="32"
-                            height="32"
-                        />
+                        <a href="https://facebook.com/alkalidesigns" target="_blank">
+                            <Image
+                                src="/images/facebook-icon.svg"
+                                width="32"
+                                height="32"
+                            />
+                        </a>
+                        <a href="https://instagram.com/alkalidesigns" target="_blank">
+                            <Image
+                                src="/images/instagram-icon.svg"
+                                width="32"
+                                height="32"
+                            />
+                        </a>
+                        <a href="https://www.linkedin.com/company/alkalidesigns" target="_blank">
+                            <Image
+                                src="/images/linkedin-icon.svg"
+                                width="32"
+                                height="32"
+                            />
+                        </a>
+                        <a href="https://twitter.com/alkalidesigns" target="_blank">
+                            <Image
+                                src="/images/twitter-icon.svg"
+                                width="32"
+                                height="32"
+                            />
+                        </a>
                     </div>
                     <div className="pt-6 lg:pt-0 gap-x-10 flex justify-center lg:justify-end text-alkaligrey-400">
                         <a href="/about/">

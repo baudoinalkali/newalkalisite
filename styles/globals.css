@@ -37,6 +37,10 @@ li:hover > button svg {
   min-width: 8rem;
 }
 
+#solutions {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -90,7 +94,7 @@ ul.inputs-list {
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-bottom: 12px solid #ffffff;
-  margin-left: 13.5rem;
+  margin-left: 13rem;
   margin-bottom: -0.1rem;
   z-index: 100;
   position: relative;
