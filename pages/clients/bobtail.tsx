@@ -10,7 +10,6 @@ import dynamic from 'next/dynamic';
 import ClientScheduleCTA from "../../components/Clients/ClientScheduleCTA";
 import clientMainPage from "../../content/clientPages/clientMainPage";
 import Head from "next/head";
-import {bobtailData} from "../../content/testimonials"
 const TestimonialSlide = dynamic(() => import("../../components/TestimonialSlide"));
 const ResponsiveScreens = dynamic(() => import("../../components/ResponsiveScreens"));
 
@@ -98,32 +97,13 @@ function Amelia() {
 
       <TwoColumnLayout
         flexType="reverse"
-        style="bg-alkaligrey-300 py-24 lg:py-36 pb-80 lg:pb-80 mb-6"
+        style="bg-alkaligrey-300"
         child1={ameliaGoalImage}
         child2={ameliaGoalText}
       ></TwoColumnLayout>
 
-      <div className="px-7">
-        <div className="pb-4 lg:pb-10 client-testimonial-container">
-            <TestimonialSlide
-              style="max-w-7xl m-auto shadow-2xl rounded-md"
-              background={bobtailData.background}
-              backgroundOverlay={bobtailData.backgroundOverlay}
-              brandColor={bobtailData.brandColor}
-              slug={bobtailData.slug}
-              company={bobtailData.company}
-              logo={bobtailData.logo}
-              logoWidth={bobtailData.logoWidth}
-              logoHeight={bobtailData.logoHeight}
-              altText={bobtailData.altText}
-              name={bobtailData.name}
-              quote={bobtailData.quote}
-            />
-        </div>
-      </div>
 
       <TwoColumnLayout
-        style="py-24 pb-20 lg:pb-24 mb-0 lg:mb-6"
         child1={ameliaResultText}
         child2={ameliaResultImage}
       />
