@@ -1,5 +1,7 @@
 import Modal from "../components/Modal";
 import CombinedNavigation from "../components/Navigation/CombinedNavigation";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 function HomeHero() {
   return (
@@ -21,12 +23,12 @@ function HomeHero() {
               style="p-4 px-6 font-semibold text-white shadow-2xl rounded-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-700"
               text="Schedule a Discovery Call"
             />
-              <a
-                href=""
+              <AnchorLink
+                href="#solutions"
                 className="p-4 shadow-2xl px-16 font-semibold text-text-alkaligrey-600 border border-alkaligrey-600 rounded-md transition duration-500 ease-in-out hover:bg-alkaligrey-600 hover:text-white"
               >
                 View Services
-              </a>
+              </AnchorLink>
         </div>
       </div>
     </section>

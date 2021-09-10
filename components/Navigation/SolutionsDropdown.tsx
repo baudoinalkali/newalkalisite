@@ -87,7 +87,7 @@ export default function SolutionsDropdown(props) {
                 aria-hidden="true"
               />
             </Popover.Button>
-            <Popover.Panel className="absolute z-50 mt-3 transform -translate-x-1/4 mt-4 ml-3" style={{ width: "50rem" }}>
+            <Popover.Panel className="absolute z-50 mt-3 transform -translate-x-1/4 mt-4 ml-6" style={{ width: "50rem" }}>
               <div className="arrow-up"></div>
               <div className="flex justify-center overflow-hidden rounded-lg p-7 pb-5 bg-white shadow-2xl space-x-14">
                 <div className="relative p-7">

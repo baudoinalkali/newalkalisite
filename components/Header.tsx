@@ -73,7 +73,7 @@ const Header = props => {
                 <div>
                     <Modal
                         style={headerCTAColor()}
-                        text="Schedule a call"
+                        text="Schedule Discovery Call"
                     />
                 </div>
             </div>

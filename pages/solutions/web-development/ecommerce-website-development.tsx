@@ -166,9 +166,7 @@ function EcommerceWebsiteDevelopment() {
         Allow us to provide you a comprehensive audit of your existing e-commerce site, completely 
         free of charge. We will analyze your website and provide actionable insights as well as recommendations 
         if you're looking for a fresh start."
-        area1="Full website weview (content, CRO, performance)"
-        area2="SEO: Comprehensive on-page audit"
-        area3="Digital marketing/reputation management"
+        buttonName="Request Free Audit"
         portalId="20442125"
         formId="2bc8f42e-ed09-4557-a783-275a9c10158e"
       />

@@ -24,23 +24,24 @@ const HomeTestimonialSlider = () => {
     ],
   };
 
-  const delayShowing = () => {
-    setTimeout(() => {
-      const hiddenItems = document.querySelectorAll(
-        `.delayed-group-hover-hidden`
-      );
-      const shownItems = document.querySelectorAll(`.delayed-group-hover-flex`);
-      hiddenItems.forEach((item) => item.classList.add("group-hover:hidden"));
-      shownItems.forEach((item) => item.classList.add("group-hover:flex"));
-    }, 500);
-  };
-  const delayHiding = () => {
-    const hiddenItems = document.querySelectorAll(
-      `.delayed-group-hover-hidden`
+  function delayShowing(ev) {
+    var flexItems = ev.target.parentNode.querySelectorAll(
+      `.delayed-group-hover-flex`
     );
-    const shownItems = document.querySelectorAll(`.delayed-group-hover-flex`);
-    hiddenItems.forEach((item) => item.classList.remove("group-hover:hidden"));
-    shownItems.forEach((item) => item.classList.remove("group-hover:flex"));
+    if (flexItems.length == 0) {
+      flexItems = ev.target.querySelectorAll(`.delayed-group-hover-flex`);
+    }
+    flexItems.forEach((item) => {
+      item.classList.remove("opacity-0");
+      item.classList.add("fade-in");
+    });
+  }
+  const delayHiding = () => {
+    const flexItems = document.querySelectorAll(`.delayed-group-hover-flex`);
+    flexItems.forEach((item) => {
+      item.classList.add("opacity-0");
+      item.classList.remove("fade-in");
+    });
   };
 
   return (
@@ -58,7 +59,7 @@ const HomeTestimonialSlider = () => {
                 borderTopRightRadius: ".575rem",
               }}
             >
-              <div className="p-10 py-7 bg-white duration-500 rounded-t-md">
+              <div className="p-10 py-7 pt-12 bg-white duration-500 rounded-t-md">
                 <svg
                   width="45"
                   height="36"
@@ -67,18 +68,18 @@ const HomeTestimonialSlider = () => {
                 >
                   <path d="M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z"></path>
                 </svg>
-                <div className="text-lg h-48">{props.quote}</div>
+                <div className="text-lg h-36">{props.quote}</div>
               </div>
               <div className="h-20 flex justify-center">
                 <div className="flex justify-center gap-x-10 items-center px-10">
-                  <div className="delayed-group-hover-hidden">
+                  <div className="group-hover:hidden">
                     <img width="90" src={props.logo} alt={props.altText} />
                   </div>
-                  <div className="text-white delayed-group-hover-hidden">
+                  <div className="text-white group-hover:hidden">
                     {props.name}
                   </div>
                   <a href={`/clients/${props.slug}`}>
-                    <div className="justify-center py-3 px-6 w-48 m-auto font-medium text-white hover:bg-white hover:bg-opacity-20 rounded-md transition duration-500 ease-in-out border border-white hidden delayed-group-hover-flex delay-500">
+                    <div className="justify-center py-3 px-6 w-48 m-auto font-medium text-white hover:bg-white hover:bg-opacity-20 rounded-md transition duration-1000 ease-in-out border border-white opacity-0 hidden delayed-group-hover-flex">
                       View Project
                     </div>
                   </a>

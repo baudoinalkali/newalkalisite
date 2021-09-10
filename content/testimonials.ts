@@ -18,13 +18,13 @@ export const carroData = {
   backgroundOverlay: "bg-pink-300",
   brandColor: "#F9A8D4",
   company: "Carro",
-  slug: "https://getcarro.com",
+  slug: "carro/",
   logo: "/images/clients/carro/logo.svg",
   logoWidth: "175",
   logoHeight: "40",
   altText: "",
-  name: "Person",
-  quote: "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+  name: "Eric Sanchez, Operations Manager",
+  quote: "After working with them on a few projects, we decided to bring them on as our main contractor to help with our landing page. We have been very happy with the speed and quality of work.",
 }
 
 export const ameliaData = {
@@ -51,9 +51,9 @@ export const magnetiteData = {
   logoWidth: "275",
   logoHeight: "65",
   altText: "",
-  slug: "chattr",
+  slug: "magnetite/",
   name: "Ray Wolfe, Owner",
-  quote: "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial."
+  quote: "Alkali was there for me every step of the way. They acted more like a partner than a vendor and ensured the solution served my immediate and long-term business needs."
 }
 
 export const chattrData = {
@@ -64,7 +64,7 @@ export const chattrData = {
   logoWidth: "200",
   logoHeight: "80",
   altText: "",
-  slug: "chattr",
+  slug: "chattr/",
   name: "Jim Schimpf, Founder",
   quote: "Alkali not only delivered on the technical skills, but they literally acted like one of our team members diving head first, always available, immediate responses, over-communication and adherence to timelines."
 }
@@ -77,7 +77,7 @@ export const carTalkData = {
   logoWidth: "225",
   logoHeight: "102",
   altText: "",
-  slug: "chattr",
+  slug: "cartalk-repair",
   name: "Cody Lintz, Co-owner",
   quote: "I think I chose the best company to do this. The adviser was up front on cost and explained everything to me. They made the experience perfect. They will do all my websites as my company grows."
 }
@@ -90,11 +90,11 @@ export const benData = {
   logo: "/images/clients/ben/logo-alt.svg",
   logoWidth: "150",
   logoHeight: "45",
-  slug: "ben",
+  slug: "ben/",
   altText: "Getcarro.com project",
   name: "António Gomes, Director of Operations",
   quote:
-    "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
+    "They were really helpful in choosing the best solution given our current systems and where we were looking to grow. The turnaround time and ability to iterate allowed us to provide a truly unique experience.",
 }
 
 export const goCottageData = {
@@ -105,8 +105,8 @@ export const goCottageData = {
   logoWidth:"225",
   logoHeight:"80",
   altText:"",
-  slug:"go-cottage",
-  name:"Sharon Middendorf, Owner",
+  slug:"go-cottage/",
+  name:"Sharon Middendorf, Founder",
   quote:"5 stars all the way! Thank you for building our amazing new website. Top notch, professional, on time, responsive. Can't say enough good things about Alkali."
 }
 
@@ -118,7 +118,7 @@ export const awpData = {
   logoWidth:"220",
   logoHeight:"104",
   altText:"",
-  slug:"https://awpdelivers.com",
+  slug:"awp/",
   name:"Robert Rivera, Founder",
   quote:"I cannot say enough positive things about Alkali. It was a great experience and I would highly recommend anyone interested on a new website or a refresher call them up."
 }
@@ -131,7 +131,7 @@ export const bluecollarData = {
   logoWidth:"325",
   logoHeight:"45",
   altText:"",
-  slug:"bluecollar",
+  slug:"bluecollar/",
   name:"Ashley McCarthy, Program Development Director",
   quote:"Alkali communicated clearly throughout the entire process. They assisted us with the initial development, maintenance, and even training. They are willing to work with you on what you need!"
 }
@@ -144,7 +144,7 @@ export const thfData = {
   logoWidth:"275",
   logoHeight:"50",
   altText:"",
-  slug:"chattr",
+  slug:"thf/",
   name:"Travis Deleon, Operations Manager",
   quote:"I initially engaged Alkali to refresh our e-commerce store and they have continued to provide support ever since. They are always willing to assist and provide input to give our customers the best experience possible."
 }
@@ -282,7 +282,7 @@ const Testimonials = {
       altText: " ",
       name: "Eric Sanchez, Operations Manager",
       quote:
-        "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
+        "After working with them on a few projects, we decided to bring them on as our main contractor to help with our landing page. We have been very happy with the speed and quality of work.",
     },
   ],
   amelia: [

@@ -256,9 +256,7 @@ function WordPressWebsiteDevelopment() {
         serviceDescription="Every successful engagement begins with an audit. Allow us to provide you a comprehensive 
         audit completely free of charge. Our digital marketing experts will examine your business's 
         website and provide you with actionable insights."
-        area1="Full website weview (content, CRO, performance)"
-        area2="SEO: Comprehensive on-page audit"
-        area3="Digital marketing/reputation management"
+        buttonName="Request Free Audit"
         portalId="20442125"
         formId="a0ec1e71-c6d7-4a48-9bf0-6172bea03a5a"
       />
