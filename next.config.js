@@ -32,7 +32,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/carla-romo',
+        source: '/clients/carla-romo',
         destination: '/clients/',
         permanent: true,
       },
@@ -92,7 +92,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/clients/pj-turner-dance-computer',
+        source: '/pj-turner-dance-computer',
         destination: '/clients/',
         permanent: true,
       },
@@ -112,8 +112,8 @@ module.exports = {
         permanent: true,
       },   
       {
-        source: '/clients/bluecollar',
-        destination: '/clients/',
+        source: '/clients/blue-collar-membership',
+        destination: '/clients/bluecollar/',
         permanent: true,
       },  
       {
@@ -127,7 +127,7 @@ module.exports = {
         permanent: true,
       }, 
       {
-        source: '/hosting-offer',
+        source: '/houston-website-hosting/hosting-offer',
         destination: '/',
         permanent: true,
       }, 
