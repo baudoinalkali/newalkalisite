@@ -27,7 +27,7 @@ function HomeHero() {
                 href="#solutions"
                 className="p-4 shadow-2xl px-16 font-semibold text-text-alkaligrey-600 border border-alkaligrey-600 rounded-md transition duration-500 ease-in-out hover:bg-alkaligrey-600 hover:text-white"
               >
-                View Services
+                View Solutions
               </AnchorLink>
         </div>
       </div>

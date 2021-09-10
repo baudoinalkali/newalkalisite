@@ -96,7 +96,7 @@ function PayPerClick() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Pay Per Click | Drive Results Instantly" />
         <meta property="og:description" content="With optimized and data-driven PPC campaigns we help drive traffic and conversions immediately." />
-        <meta property="og:url" content="/" />
+        <meta property="og:url" content="https://www.alkalidesigns.com/solutions/digital-marketing/pay-per-click-advertising/" />
         <meta property="og:site_name" content="Alkali" />
         <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
         <meta property="og:image" content="/images/facebook-image.jpg" />

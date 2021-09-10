@@ -170,7 +170,7 @@ function WordPressWebsiteDevelopment() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="WordPress Website Development | WordPress Experts" />
         <meta property="og:description" content="Build a user-friendly, SEO-optimized WordPress website that maximizes your online presence with Alkali's bespoke WordPress solutions." />
-        <meta property="og:url" content="/" />
+        <meta property="og:url" content="https://www.alkalidesigns.com/solutions/web-development/wordpress-website-development/" />
         <meta property="og:site_name" content="Alkali" />
         <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
         <meta property="og:image" content="/images/facebook-image.jpg" />

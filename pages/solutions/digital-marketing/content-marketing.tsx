@@ -95,7 +95,7 @@ function ContentMarketing() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Content Marketing Services | Make Every Word Count" />
         <meta property="og:description" content="Alkali provides professional SEO copywriting services. We invite you to learn more about how we can improve establish content that both customers and search engines love." />
-        <meta property="og:url" content="/" />
+        <meta property="og:url" content="https://www.alkalidesigns.com/solutions/digital-marketing/content-marketing/" />
         <meta property="og:site_name" content="Alkali" />
         <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
         <meta property="og:image" content="/images/facebook-image.jpg" />

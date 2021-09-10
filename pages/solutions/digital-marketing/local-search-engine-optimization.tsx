@@ -110,7 +110,7 @@ function LocalSearchEngineOptimization() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Local SEO Services | Stand Out In Your Backyard" />
         <meta property="og:description" content="At Alkali we improve your local search visbility with our effective local seo services. Whether you're a small business or are a franchise, we can help." />
-        <meta property="og:url" content="https://new.alkali.cloud/services/local-search-engine-optimization/" />
+        <meta property="og:url" content="https://www.alkalidesigns.com/solutions/digital-marketing/local-search-engine-optimization/" />
         <meta property="og:site_name" content="Alkali" />
         <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
         <meta property="og:image" content="/images/facebook-image.jpg" />

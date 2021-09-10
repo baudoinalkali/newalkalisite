@@ -5,4 +5,4 @@ Disallow: /thank-you/
 Disallow: /about/careers/
 Disallow: /about/partners/
 Disallow: /demo/
-Sitemap: https://new.alkali.cloud/sitemap.xml
+Sitemap: https://www.alkalidesigns.com/sitemap.xml

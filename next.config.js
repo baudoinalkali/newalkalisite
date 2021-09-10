@@ -1,5 +1,4 @@
 module.exports = {
-  trailingSlash: true,
   async redirects() {
     return [
       {
@@ -14,4 +13,5 @@ module.exports = {
       },
     ]
   },
+  trailingSlash: true,
 }

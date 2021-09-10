@@ -96,7 +96,7 @@ function SocialMediaMarketing() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Social Media Marketing | It's Good to Be Social" />
         <meta property="og:description" content="We help share your story, organically connect with your audience, and drive leads using popular social platforms." />
-        <meta property="og:url" content="/" />
+        <meta property="og:url" content="https://www.alkalidesigns.com/solutions/digital-marketing/social-media-marketing/" />
         <meta property="og:site_name" content="Alkali" />
         <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
         <meta property="og:image" content="/images/facebook-image.jpg" />

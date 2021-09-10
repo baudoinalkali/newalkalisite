@@ -81,7 +81,7 @@ function Reputation() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Reputation Management | We Protect You Online" />
         <meta property="og:description" content="Alkali provides online reputation mangement services designed to fix, repair, and manage your online presence." />
-        <meta property="og:url" content="/" />
+        <meta property="og:url" content="https://www.alkalidesigns.com/solutions/digital-marketing/reputation-management/" />
         <meta property="og:site_name" content="Alkali" />
         <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
         <meta property="og:image" content="/images/facebook-image.jpg" />
