@@ -9,7 +9,7 @@ export default function ThankYou() {
                 <Head>
                     <title>Thank You | Alkali</title>
                     <meta name="robots" content="noindex, follow," />
-                    <link rel="canonical"/>
+                    <link rel="canonical" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:type" content="website" />
                     <meta property="og:title" content="Thank You | Alkali" />
@@ -24,11 +24,11 @@ export default function ThankYou() {
                 <CombinedNavigation headerBackground="bg-white" />
                 <div className="py-24 lg:py-36 flex text-center justify-center z-20 px-7">
                     <div className="relative z-20">
-                            <Image 
-                                src="/images/thank-you.svg"
-                                width="460"
-                                height="311"
-                            />
+                        <Image
+                            src="/images/thank-you.svg"
+                            width="460"
+                            height="311"
+                        />
                         <p className="py-10 pt-24 text-alkaligrey-800 max-w-xl m-auto text-lg lg:text-xl">
                             If you need to talk before your scheduled meeting please use the following email:
                         </p>
