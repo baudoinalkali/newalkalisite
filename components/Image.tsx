@@ -1,7 +1,9 @@
-import NextImage, { ImageProps } from "next/image";
+import NextImage from "next/image";
+import { ImageProps } from "next/image"
 
 type IImageProps = {
   aspectRatio?: number;
+  src: string;
 } & Partial<ImageProps>;
 
 const Image = (props: IImageProps) => {
