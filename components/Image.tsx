@@ -1,4 +1,4 @@
-import NextImage from "next/image";
+import Image from "next/image";
 import ImageProps from "next/image"
 
 type IImageProps = {
@@ -13,7 +13,7 @@ const Image = (props: IImageProps) => {
       style={{ "--aspectRatio": `${(1 / aspectRatio) * 100}%` }}
       className="next-image-wrapper"
     >
-      <NextImage
+      <Image
         // @ts-ignore
         layout="fill"
         {...restProps}
