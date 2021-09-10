@@ -363,8 +363,8 @@ const ClientContent = {
             [
                 {
                     sub: "The Challenge",
-                    title: "No Automated Solution",
-                    text: "The HID Factory needed an e-commerce solution to house thousands of SKUs and have a highly customizable vehicle filter that wouldn’t take forever to produce results. They spent a lot of time educating customers to make the correct selection, bogging down their customer service resources. In addition, this filter needed to match thousands of possible vehicle configurations with every compatible product they sold and would sell in the future.",
+                    title: "Complete Revamp",
+                    text: "AWP's old website wasn't fully responsive and lacked the functionality they needed to provide customers a more seamless experience. This, in conjunction with not being able to edit the website internally, drove them to look for someone to take their vision and create a website.",
                     image: "/images/clients/awp/section1.png",
                     altText: ""
                 },
@@ -373,8 +373,8 @@ const ClientContent = {
             [
                 {
                     sub: "The Solution",
-                    title: "Fast and Easy to Use",
-                    text: "We had to leverage a third-party vehicle lighting fitment database to create a database of all the lighting sizes for all popular vehicle models. We then mapped those to all of the client’s products through a tagging system. To enable this filter to stay up-to-date when new products are added, we designed it so that any new products would populate automatically. To reduce the query time, we leveraged a special data model to optimize the filtering process. Most importantly, this significantly reduced the call volume THF received, freeing up their internal resources.",
+                    title: "Customer Focused, Easy to Maintain",
+                    text: "The new site was centered around two areas: displaying inventory and showcasing the company. Keeping the inventory up to date is critical, which is why we built the site in an easy-to-maintain way without technical knowledge. The old site didn't have much company information, which we looked to change. We created several content-based pages that enable customers to learn more about their potential vendor.",
                     image: "/images/clients/awp/section2.png",
                     altText: ""
                 },
@@ -684,7 +684,7 @@ const ClientContent = {
                 {
                     name: "The Blue Collar Success Group",
                     slug: "https://bluecollaraccess.com",
-                    bio: "The Blue Collar Success Group provide small business coaprovidesor home service contractors and professionals. They are dedicated to helping business owners in a variety of ways, such as online training.",
+                    bio: "The Blue Collar Success Group provide small business coaching to home service contractors and professionals. They are dedicated to helping business owners in a variety of ways, such as online training.",
                     brandColor: "#0a98cc",
                 },
             ],
