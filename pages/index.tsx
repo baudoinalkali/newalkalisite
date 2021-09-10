@@ -6,6 +6,7 @@ import ServiceImage from "../components/Services/ServiceImage";
 import StandardTextBlock from "../components/StandardTextBlock";
 import Head from "next/head";
 import HomeTestimonialSliderMobile from "../components/HomeTestimonialSliderMobile";
+import HomeClientSliderMobile from "../components/HomeClientsSliderMobile";
 const HomeTestimonialSlider = dynamic(
   () => import("../components/HomeTestimonialSlider")
 );
@@ -24,13 +25,9 @@ const contentSection1Image = [
 
 const contentSection1Text = [
   <StandardTextBlock
-    title="Our Commitment"
-    text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
-    Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem 
-    ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
-    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem 
-    ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
-    Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
+    title="Maximizing Your Digital Presence"
+    titleLength="max-w-md"
+    text="Creating, managing, and marketing your businesses' online presence can seem like an impossible task, but that's where we come in. At Alkali, we take the time to understand your business to help you succeed online. So while we maximize your online presence, you can focus on growing your business. Rest assured that your digital presence is safe in our hands (or keyboards)."
   />,
 ];
 
@@ -46,12 +43,7 @@ const contentSection2Image = [
 const contentSection2Text = [
   <StandardTextBlock
     title="Helping You Succeed"
-    text="Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
-    Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem 
-    ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
-    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem 
-    ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum 
-    Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
+    text="At the start of every customer interaction, we look for ways to help your business succeed online. Whether you have an existing online presence or are starting from scratch, we strive to gain a deep understanding of your short and long-term goals so that we can assist you in the best way possible. This dedication enables us to provide you guidance that will have a long-lasting impact. We are here to see you succeed, and we take our role of helping you do so very seriously."
   />,
 ];
 
@@ -131,13 +123,6 @@ const ServicesHome = [
 ];
 
 export default function Home() {
-  const isBrowser = () => typeof window !== "undefined";
-  const isSmallScreen = isBrowser() && window.innerWidth < 1024;
-  const TestimonialSlider = isSmallScreen ? (
-    <HomeTestimonialSliderMobile />
-  ) : (
-    <HomeTestimonialSlider />
-  );
   return (
     <div className="overflow-hidden">
       <Head>
@@ -189,15 +174,19 @@ export default function Home() {
         src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"
       ></script>
       <div className="pt-24 bg-alkaligrey-300">
-        <h3 className="text-4xl lg:text-5xl pt-2 pb-10 font-bold text-center">
+        <h3 className="text-4xl md:text-5xl pt-2 pb-10 font-bold text-center">
           What Our Clients Say
         </h3>
+        <div className="hidden lg:contents">
+          <HomeTestimonialSlider />
+        </div>
+        <div className="lg:hidden mt-10 bg-alkaligrey-300">
+          <HomeTestimonialSliderMobile />
+        </div>
       </div>
-      {TestimonialSlider}
-      <div id="solutions" className="py-24 pt-60 -mt-36 bg-white px-7">
+      <div id="solutions" className="py-24 pt-64 lg:pt-60 -mt-36 bg-white px-7">
         <h3
-          
-          className="pb-20 text-4xl lg:text-5xl font-bold text-center"
+          className="pb-20 text-4xl md:text-5xl font-bold text-center"
         >
           Our Solutions
         </h3>
@@ -258,10 +247,15 @@ export default function Home() {
         child1={contentSection2Text}
       />
       <div className="pt-24 py-36 pb-0 bg-alkaligrey-300">
-        <h3 className="text-5xl pt-2 pb-24 font-bold text-center">
+        <h3 className="text-5xl pt-2 pb-10 lg:pb-24 font-bold text-center">
           Our Clients
         </h3>
-        <HomeClientsSlider />
+        <div className="hidden lg:contents">
+          <HomeClientsSlider />
+        </div>
+        <div className="lg:hidden mt-10 bg-alkaligrey-300">
+          <HomeClientSliderMobile />
+        </div>
       </div>
       <div className="bg-white pt-72 -mt-56 pb-36">
         <h3 className="text-4xl lg:text-5xl pt-2 pb-20 font-bold text-center px-7">

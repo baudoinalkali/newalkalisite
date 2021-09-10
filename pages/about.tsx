@@ -11,6 +11,8 @@ import ServiceImage from "../components/Services/ServiceImage";
 import StandardTextBlock from "../components/StandardTextBlock";
 import TwoColumnLayout from "../components/TwoColumnLayout";
 import Head from "next/head";
+import HomeClientsSlider from "../components/HomeClientsSlider";
+import HomeClientSliderMobile from "../components/HomeClientsSliderMobile";
 
 export default function About() {
 
@@ -63,7 +65,7 @@ export default function About() {
         <title>About Alkali | Learn How and Why We Serve </title>
         <meta name="description" content="Learn more about what Alkali stands for, our mission, and the commitment to our clients that drives us." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical"/>
+        <link rel="canonical" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="About Alkali" />
@@ -135,12 +137,17 @@ export default function About() {
       </div>
       <section className="py-24 pb-10 bg-alkaligrey-300">
         <div className="">
-          <h3 className="text-4xl md:text-5xl pt-2 pb-24 font-bold text-center">
+          <h3 className="text-4xl md:text-5xl pt-2 pb-10 lg:pb-24 font-bold text-center">
             Don't Just Take Our Word For It
           </h3>
         </div>
         <div className="">
-        <ClientTestimonialSlide />
+          <div className="hidden lg:contents">
+            <HomeClientsSlider />
+          </div>
+          <div className="lg:hidden mt-10 bg-alkaligrey-300">
+            <HomeClientSliderMobile />
+          </div>
         </div>
       </section>
       {/* <section className="">
@@ -159,7 +166,7 @@ export default function About() {
           </div>
         </div>
       </section> */}
-                  <style global jsx>{`
+      <style global jsx>{`
         .footer {
           background: #f8f8f8;
         }

@@ -5,7 +5,7 @@ import HomepageSlide from "../content/testimonials";
 const HomeTestimonialSlider = () => {
   const settings = {
     className: "testimonial-slider-container",
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
     speed: 60000,
     autoplay: true,
