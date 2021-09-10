@@ -1,17 +1,17 @@
-export const bobtailData = {
-  background: "/images/clients/bobtail/slide-bg.jpg",
-  backgroundOverlay: "bg-pink-300",
-  brandColor: "#07433f",
-  company: "Bobtail",
-  logo: "/images/clients/bobtail/logo.svg",
-  logoWidth: "200",
-  logoHeight: "40",
-  slug: "bobtail/",
-  altText: "",
-  name: "Gurvir Singh, Managing Director",
-  quote:
-    "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
-}
+// export const bobtailData = {
+//   background: "/images/clients/bobtail/slide-bg.jpg",
+//   backgroundOverlay: "bg-pink-300",
+//   brandColor: "#07433f",
+//   company: "Bobtail",
+//   logo: "/images/clients/bobtail/logo.svg",
+//   logoWidth: "200",
+//   logoHeight: "40",
+//   slug: "bobtail/",
+//   altText: "",
+//   name: "Gurvir Singh, Managing Director",
+//   quote:
+//     "Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial Client testimonial.",
+// }
 
 export const carroData = {
   background: "/images/clients/carro/carro-testimonial-bg.jpg",
@@ -152,9 +152,6 @@ export const thfData = {
 const Testimonials = {
   wordpress: [
     {
-      ...bobtailData
-    },
-    {
       ...carroData
     },
     {
@@ -164,13 +161,7 @@ const Testimonials = {
       ...magnetiteData
     },
     {
-      ...chattrData
-    },
-    {
       ...carTalkData
-    },
-    {
-      ...benData
     },
     {
       ...goCottageData
@@ -178,9 +169,6 @@ const Testimonials = {
   ],
 
   homepage: [
-    {
-      ...bobtailData
-    },
     {
       ...carroData
     },

@@ -88,6 +88,11 @@ ul.inputs-list {
   }
 }
 
+.testimonial-slider-container-mobile .slick-slide{
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+  var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+
 .arrow-up {
   width: 0;
   height: 0;
