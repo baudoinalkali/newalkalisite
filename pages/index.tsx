@@ -123,6 +123,8 @@ const ServicesHome = [
 ];
 
 export default function Home() {
+  const isBrowser = () => typeof window !== "undefined";
+  const isSmallScreen = isBrowser() && window.innerWidth < 1024;
   return (
     <div className="overflow-hidden">
       <Head>
@@ -178,16 +180,14 @@ export default function Home() {
           What Our Clients Say
         </h3>
         <div className="hidden lg:contents">
-          <HomeTestimonialSlider />
+          {!isSmallScreen && <HomeTestimonialSlider />}
         </div>
         <div className="lg:hidden mt-10 bg-alkaligrey-300">
-          <HomeTestimonialSliderMobile />
+          {isSmallScreen && <HomeTestimonialSliderMobile />}
         </div>
       </div>
       <div id="solutions" className="py-24 pt-64 lg:pt-60 -mt-36 bg-white px-7">
-        <h3
-          className="pb-20 text-4xl md:text-5xl font-bold text-center"
-        >
+        <h3 className="pb-20 text-4xl md:text-5xl font-bold text-center">
           Our Solutions
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-7xl m-auto justify-between gap-y-14 gap-x-14">
