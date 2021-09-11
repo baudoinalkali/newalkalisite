@@ -2,7 +2,7 @@ import Head from "next/head";
 import CombinedNavigation from "../components/Navigation/CombinedNavigation";
 import Image from "next/image"
 
-export default function ThankYou() {
+export default function MeetingConfirmation() {
     return (
         <div>
             <div className="">
