@@ -61,7 +61,7 @@ function Contact() {
             <h1 className="text-alkaligrey-800 font-bold pt-5 text-5xl lg:text-6xl max-w-6xl">
               Contact
             </h1>
-            <p className="text-white py-10 text-alkaligrey-800 max-w-2xl m-auto text-lg lg:text-xl">
+            <p className="text-white py-10 text-alkaligrey-800 max-w-2xl m-auto text-lg lg:text-xl px-7">
               We are here to assist at every stage of your digital journey. Please choose a communication method that works best for you below.
             </p>
           </div>
@@ -70,11 +70,11 @@ function Contact() {
       <section className="px-7">
         <div className="flex flex-col lg:flex-row gap-x-0 md:gap-x-10 gap-y-24 lg:gap-y-0  xl:mx-auto justify-between items-center max-w-7xl -mt-32">
           {contactInfo.map((item) => (
-            <div className="rounded-md shadow-2xl p-14 bg-white w-1/3">
+            <div className="rounded-md shadow-2xl p-14 bg-white w-full lg:w-1/3">
               <div className="-mt-24 rounded-full bg-white w-36 h-36 shadow-2xl mx-auto" style={{backgroundImage: `url(${item.icon})`, backgroundSize:"fit", backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
               </div>
               <h2 className="text-center py-3 pt-11 text-xl font-medium">{item.method}</h2>
-              <p className="text-center max-w-xs text-lg pb-7">
+              <p className="text-center mx-auto max-w-xs text-lg pb-7">
                 {item.description}
               </p>
               <div className="flex justify-center">
