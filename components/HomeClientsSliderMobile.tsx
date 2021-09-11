@@ -48,7 +48,7 @@ const HomeClientSliderMobile = (props) => {
       <div className="max-w-7xl m-auto rounded-md">
         <Slider {...settings}>
           {clientMainPage.map((clientMainPage, idx) => (
-            <div key={idx} className="px-4 pb-20 duration-500">
+            <div key={idx} className="-ml-4 px-4 pb-20 duration-500">
               <div className="w-96 px-4 mx-auto">
                 <ClientCard
                   name={clientMainPage.name}
