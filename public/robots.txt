@@ -1,7 +1,8 @@
 User-Agent: *
 Allow: /
 Disallow: /privacy-policy/
-Disallow: /thank-you/
+Disallow: /meeting-confirmation/
+Disallow: /submission-confirmation/
 Disallow: /about/careers/
 Disallow: /about/partners/
 Disallow: /demo/

@@ -1,6 +1,5 @@
 import Head from "next/head";
 import CombinedNavigation from "../components/Navigation/CombinedNavigation";
-import Image from "next/image"
 
 const ServiceLinks = [
     {
@@ -93,13 +92,13 @@ export default function ThankYou() {
         <div>
             <div className="">
                 <Head>
-                    <title>Thank You | Alkali</title>
+                    <title>Site Map | Alkali</title>
                     <meta name="robots" content="noindex, follow," />
                     <link rel="canonical" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:type" content="website" />
                     <meta property="og:title" content="Thank You | Alkali" />
-                    <meta property="og:url" content="/" />
+                    <meta property="og:url" content="/site-map/" />
                     <meta property="og:site_name" content="Alkali" />
                     <meta property="article:modified_time" content="2021-08-05T14:33:32+00:00" />
                     <meta property="og:image" content="/images/facebook-image.jpg" />
@@ -115,9 +114,9 @@ export default function ThankYou() {
                         </h1>
                         <ul className="list-disc text-lg ml-10 pt-10 space-y-3">
                             <li className="text-alkali-500">
-                                    <a href="/" className="text-alkaligrey-400 hover:text-alkali-500 duration-500">
-                                        Home
-                                    </a>
+                                <a href="/" className="text-alkaligrey-400 hover:text-alkali-500 duration-500">
+                                    Home
+                                </a>
                             </li>
                             <li className="text-alkali-500">
                                 <a href="" className="text-alkaligrey-400 hover:text-alkali-500 duration-500">
@@ -126,23 +125,38 @@ export default function ThankYou() {
                             </li>
                             {ServiceLinks.map((linksData) => (
                                 <li className="text-alkali-500 ml-10">
-                                        <a href={`/solutions/${linksData.slug}`} className="text-alkaligrey-400 hover:text-alkali-500 duration-500">
-                                            {linksData.name}
-                                        </a>
+                                    <a href={`/solutions/${linksData.slug}/`} className="text-alkaligrey-400 hover:text-alkali-500 duration-500">
+                                        {linksData.name}
+                                    </a>
                                 </li>
                             ))}
                             <li className="text-alkali-500">
-                                    <a href="/clients" className="text-alkaligrey-400 hover:text-alkali-500 duration-500">
-                                        Clients
-                                    </a>
+                                <a href="/clients" className="text-alkaligrey-400 hover:text-alkali-500 duration-500">
+                                    Clients
+                                </a>
                             </li>
                             {clientLinks.map((linksData) => (
                                 <li className="text-alkali-500 ml-10">
-                                        <a href={`/clients/${linksData.slug}`} className="text-alkaligrey-400 hover:text-alkali-500 duration-500">
-                                            {linksData.name}
-                                        </a>
+                                    <a href={`/clients/${linksData.slug}/`} className="text-alkaligrey-400 hover:text-alkali-500 duration-500">
+                                        {linksData.name}
+                                    </a>
                                 </li>
                             ))}
+                            <li className="text-alkali-500">
+                                <a href="/about/" className="text-alkaligrey-400 hover:text-alkali-500 duration-500">
+                                    About
+                                </a>
+                            </li>
+                            <li className="text-alkali-500">
+                                <a href="/contact/" className="text-alkaligrey-400 hover:text-alkali-500 duration-500">
+                                    Contact
+                                </a>
+                            </li>
+                            <li className="text-alkali-500">
+                                <a href="/privacy-policy/" className="text-alkaligrey-400 hover:text-alkali-500 duration-500">
+                                    Privacy Policy
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </section>
