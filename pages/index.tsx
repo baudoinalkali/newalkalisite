@@ -208,7 +208,7 @@ export default function Home() {
               <p className="text-alkaligrey-400">
                 {wordpress.serviceDescription}
               </p>
-              <div className="mt-5 flex items-center justify-center lg:justify-start group space-x-3">
+              <div className="mt-5 flex items-center lg:justify-start group space-x-3">
                 <div className="font-medium text-md text-alkaligrey-400 group-hover:text-alkali-500">
                   Learn More
                 </div>
