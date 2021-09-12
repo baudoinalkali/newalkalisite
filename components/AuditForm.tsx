@@ -3,7 +3,7 @@ import { faTimes, faSpinner } from "@fortawesome/free-solid-svg-icons"; // impor
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import CalendlyCalendar from "../components/CalendlyCalendar";
 import { Portal } from "@headlessui/react";
-import HubspotForm from "react-hubspot-form";
+import HubSpotForm from "./HubSpotForm";
 
 
 export default function AuditForm(props) {
@@ -46,21 +46,7 @@ export default function AuditForm(props) {
                                                 <div className="font-bold max-w-xs leading-normal md:max-w-3xl text-3xl mb-6">{props.serviceName}</div>
                                                 <p className="mb-10">Please fill out the information below and we will be in touch.</p>
                                                 {/* Hubspot Form */}
-                                                <HubspotForm
-                                                    portalId={props.portalId}
-                                                    formId={props.formId}
-                                                    loading={
-                                                        <div
-                                                            className="flex justify-center items-center w-full"
-                                                            style={{ height: 600 }}
-                                                        >
-                                                            <FontAwesomeIcon
-                                                                className="text-4xl text-alkali-500 transition duration-300"
-                                                                icon={faSpinner}
-                                                            />
-                                                        </div>
-                                                    }
-                                                />
+                                                <HubSpotForm />
                                             </div>
                                         </div>
                                     </div>
