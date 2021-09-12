@@ -41,7 +41,7 @@ const ClientHeader = (props) => {
               {props.title}
             </h1>
             <div className="">
-              <div className="">
+              <div className="flex flex-wrap">
                 {props.services.map((serviceInfo) => (
                   <a href={serviceInfo.serviceSlug} className="mb-5">
                     <span
