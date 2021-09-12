@@ -33,7 +33,7 @@ const PreviousArrow = (props) => {
 const HomeClientSliderMobile = (props) => {
   const settings = {
     infinite: true,
-    className: "",
+    className: "shadow-2xl rounded-md",
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -48,8 +48,8 @@ const HomeClientSliderMobile = (props) => {
       <div className="max-w-7xl m-auto rounded-md">
         <Slider {...settings}>
           {clientMainPage.map((clientMainPage, idx) => (
-            <div key={idx} className="-ml-4 px-4 pb-20 duration-500">
-              <div className="w-96 px-4 mx-auto">
+            <div key={idx} className="duration-500">
+              <div className=" mx-auto">
                 <ClientCard
                   name={clientMainPage.name}
                   backgroundColor={clientMainPage.backgroundColor}
