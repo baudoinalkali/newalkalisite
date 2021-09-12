@@ -247,13 +247,13 @@ export default function Home() {
         child1={contentSection2Text}
       />
       <div className="pt-24 py-36 pb-0 bg-alkaligrey-300">
-        <h3 className="text-5xl pt-2 pb-10 lg:pb-24 font-bold text-center">
+        <h3 className="text-4xl md:text-5xl pt-2 pb-10 lg:pb-24 font-bold text-center">
           Our Clients
         </h3>
         <div className="hidden lg:contents">
           <HomeClientsSlider />
         </div>
-        <div className="lg:hidden mt-10 bg-alkaligrey-300">
+        <div className="lg:hidden mt-10 bg-alkaligrey-300 mb-20">
           <HomeClientSliderMobile />
         </div>
       </div>

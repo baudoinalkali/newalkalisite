@@ -70,18 +70,27 @@ function Footer() {
                                 style="p-4 px-8 font-semibold text-white shadow-2xl rounded-md transition duration-500 ease-in-out bg-alkali-500 hover:bg-alkali-700"
                                 text="Schedule a Call"
                             />
-                            <p className={`flex items-center`}>
-                                <a
-                                    href={`/contact/#contact-form`}
-                                    className="font-medium duration-500 hover:mr-3 text-alkaligrey-900"
-                                >
-                                    {`Contact Form`}
-                                </a>
-                                <FontAwesomeIcon
-                                    className="ml-3 w-5 text-alkaligrey-900"
-                                    icon={faLongArrowAltRight}
-                                ></FontAwesomeIcon>
-                            </p>
+                            <a href="/contact">
+                                <div className="flex items-center lg:justify-start group space-x-3">
+                                    <div className="font-medium text-md text-alkaligrey-400 group-hover:text-alkali-500">
+                                        Contact Form
+                                    </div>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="group-hover:transform duration-500 group-hover:translate-x-3 h-4 w-4 group-hover:text-alkali-500 text-alkaligrey-400"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                        />
+                                    </svg>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
