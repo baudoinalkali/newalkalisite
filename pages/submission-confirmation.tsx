@@ -30,7 +30,7 @@ export default function SubmissionConfirmation() {
                             height="311"
                         />
                         <p className="py-10 pt-24 text-alkaligrey-800 max-w-xl m-auto text-lg lg:text-xl">
-                            If you need to talk before your scheduled meeting please use the following email:
+                            Thank you for your submission, we will be in touch shortly. Should you need to contact us sooner, please use the email below:
                         </p>
                         <a className="text-alkali-500 text-xl" href="mailto:solutions@alkalidesigns.com">solutions@alkalidesigns.com</a>
                     </div>
