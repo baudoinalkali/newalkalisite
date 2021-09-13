@@ -3,10 +3,10 @@ const Ecommerce = {
         {
             title: "E-commerce Website Development",
             text: `Whether you’re an existing brick-and-mortar store looking to add another sales channel or about to launch your B2C product, we can help guide you along your e-commerce journey. There are many options when it comes to e-commerce platforms, which is why we’re always learning. With our knowledge and expertise, we aim to thoroughly understand your business so that we can work closely with you to see your goals realized. So if you’re looking to have a store developed from scratch, increase your conversion rate or sales, you’ve come to the right place.`,
-            image: "/images/web-development/wordpress/hero.png",
+            image: "/images/web-development/e-commerce/hero.svg",
             altText: "",
-            height: "516",
-            width: "600"
+            height: "431",
+            width: "575"
         },
     ],
     text2: [
