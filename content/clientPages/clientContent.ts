@@ -279,7 +279,7 @@ const ClientContent = {
                             serviceSlug: "/solutions/web-development/ecommerce-website-development/"
                         }
                     ],
-                    backgroundImg: "/images/clients/bobtail/hero-background.jpg",
+                    backgroundImg: "/images/clients/the-hid-factory/hero.jpg",
                     image: "/",
                     width: "100",
                     height: "100",
