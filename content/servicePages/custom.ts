@@ -3,7 +3,7 @@ const Custom = {
         {
             subTitle: "Custom Website Development",
             title: "Endless Customizations to Reach Your Goals",
-            titleLength: "",
+            titleLength: "max-w-2xl",
         }
     ],
     section1: [

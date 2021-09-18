@@ -1,4 +1,11 @@
 const Ecommerce = {
+    headline: [
+        {
+            subTitle: "E-commerce website development",
+            title: `Sell More Products and Build Repeat Customers`,
+            titleLength: "max-w-3xl"
+        }
+    ],
     text1: [
         {
             title: "E-commerce Website Development",

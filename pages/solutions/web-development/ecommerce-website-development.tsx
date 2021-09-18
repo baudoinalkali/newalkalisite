@@ -130,11 +130,11 @@ function EcommerceWebsiteDevelopment() {
           headerBackground="bg-alkali-500"
           headerColor="white"
         />
-        {ServiceHeroContent.ecommerce.map((ecommerceData) => (
+        {Ecommerce.headline.map((ecommerceData) => (
           <ServiceHero
-            sub={ecommerceData.sub}
+            sub={ecommerceData.subTitle}
             title={ecommerceData.title}
-            backgroundImg={ecommerceData.backgroundImg}
+            titleLength={ecommerceData.titleLength}
           />
         ))}
       </div>
