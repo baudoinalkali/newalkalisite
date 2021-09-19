@@ -3,7 +3,7 @@ const PPC = {
         {
             subTitle: "Pay Per Click Advertising",
             title: "Generate More Leads and Sales",
-            titleLength: "max-w-2xl"
+            titleLength: "max-w-xl"
         }
     ],
     text1: [

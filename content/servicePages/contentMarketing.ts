@@ -2,7 +2,7 @@ const ContentMarketing = {
     headline: [
         {
             subTitle: "Content Marketing",
-            title: `Sell More Products Build Repeat Customers`,
+            title: "Craft Content Your Customers Will Love",
             titleLength: "max-w-3xl"
         }
     ],

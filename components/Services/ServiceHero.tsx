@@ -25,8 +25,9 @@ const ServiceHero = (props) => {
             </h1>
             <h2
               className={`text-5xl md:text-6xl text-white font-bold pt-3 py-10 ${props.titleLength}`}
+              dangerouslySetInnerHTML={{ __html: props.title }}
             >
-              {props.title}
+              
             </h2>
             <Modal
               style="p-3 px-4 font-semibold text-alkali-500 shadow-2xl rounded-md transition duration-500 ease-in-out bg-white hover:bg-gray-100"

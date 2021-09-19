@@ -2,8 +2,8 @@ const Wordpress = {
     headline: [
         {
             subTitle: "WordPress Website Development",
-            title: "Bespoke WordPress solutions that drive results",
-            titleLength: "max-w-3xl"
+            title: "WordPress Solutions That Drive Results",
+            titleLength: "max-w-2xl"
         }
     ],
     wordpressWebsiteDevelopment: [
