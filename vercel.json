@@ -1,0 +1,18 @@
+{
+    "routes": [
+      {
+        "src": "/blog",
+        "dest": "https://blog.alkalidesigns.com/"
+      },
+  
+      {
+        "src": "/blog/(.*?)([.]\\w{2,5})(\\?[^/]+)?",
+        "dest": "https://blog.alkalidesigns.com/$1$2$3"
+      },
+  
+      {
+        "src": "/blog/([\\S\\s]+)",
+        "dest": "https://blog.alkalidesigns.com/blog/$1/"
+      }
+    ]
+  }
