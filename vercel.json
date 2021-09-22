@@ -2,17 +2,17 @@
     "routes": [
       {
         "src": "/blog",
-        "dest": "https://blog.alkalidesigns.com/"
+        "dest": "https://blog.alkalidesigns.com/posts/"
       },
   
       {
         "src": "/blog/(.*?)([.]\\w{2,5})(\\?[^/]+)?",
-        "dest": "https://blog.alkalidesigns.com/$1$2$3"
+        "dest": "https://blog.alkalidesigns.com/posts/$1$2$3"
       },
   
       {
         "src": "/blog/([\\S\\s]+)",
-        "dest": "https://blog.alkalidesigns.com/blog/$1/"
+        "dest": "https://blog.alkalidesigns.com/posts/$1/"
       }
     ]
   }
