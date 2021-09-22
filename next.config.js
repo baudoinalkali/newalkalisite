@@ -154,4 +154,7 @@ module.exports = {
     ]
   },
   trailingSlash: true,
+  images: {
+    domains: ['static.ghost.org'],
+  },
 }

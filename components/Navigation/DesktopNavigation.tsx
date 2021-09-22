@@ -5,6 +5,7 @@ import Image from "next/image";
 import SolutionsDropdown from "./SolutionsDropdown";
 import AboutDropdown from "./AboutDropdown";
 import { Fragment } from "react";
+import ProgressBar from "../Blog/progressBar";
 
 const DesktopNavigation = (props) => {
   const headerLogoColor = () => {
@@ -83,6 +84,7 @@ const DesktopNavigation = (props) => {
             </div>
           </div>
         </div>
+        <ProgressBar />
       </nav>
       <div className="h-32" />
     </Fragment>
