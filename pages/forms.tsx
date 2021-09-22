@@ -1,3 +1,5 @@
+import Form from "../components/Form"
+
 const Forms = () => {
   return (
     <div className="">
@@ -5,6 +7,9 @@ const Forms = () => {
         <input className='bg-gray-200 shadow-inner rounded-l p-2 flex-1' type='email' aria-label='email address' placeholder='Enter your email address' />
         <input className='bg-blue-600 hover:bg-blue-700 duration-300 text-white shadow p-2 rounded-r' type='submit' />
       </form>
+      <div>
+        <Form/>
+      </div>
     </div>
   )
 }
