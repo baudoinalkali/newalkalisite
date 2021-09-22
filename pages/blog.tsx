@@ -2,7 +2,7 @@ import Container from '../components/Blog/container'
 import Layout from '../components//Blog/layout'
 import MoreStories from '../components/Blog/more-stories'
 import CombinedNavigation from '../components/Navigation/CombinedNavigation'
-import { getAllGhostPosts } from '../lib/ghost'
+import { getAllGhostPosts } from '.././lib/ghost'
 import Post from '../types/post'
 
 type Props = {
