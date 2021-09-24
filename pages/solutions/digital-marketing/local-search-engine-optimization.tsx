@@ -100,7 +100,7 @@ function LocalSearchEngineOptimization() {
   ));
 
   return (
-    <div className="overflow-hidden">
+    <div id="service-page" className="overflow-hidden">
       <Head>
         <title>Local SEO Services | Stand Out In Your Backyard</title>
         <meta name="description" content="At Alkali we improve your local search visbility with our effective local seo services. Whether you're a small business or are a franchise, we can help." />

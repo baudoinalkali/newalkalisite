@@ -86,7 +86,7 @@ function PayPerClick() {
   ));
 
   return (
-    <div className="overflow-hidden">
+    <div id="service-page" className="overflow-hidden">
       <Head>
         <title>Pay Per Click | Drive Results Instantly</title>
         <meta name="description" content="With optimized and data-driven PPC campaigns we help drive traffic and conversions immediately." />

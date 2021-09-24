@@ -106,7 +106,7 @@ function SearchEngineOptimization() {
   ));
 
   return (
-    <div className="overflow-hidden">
+    <div id="service-page" className="overflow-hidden">
       <Head>
         <title>Search Engine Optimization | Get Results in Just 2 Months</title>
         <meta name="description" content="At Alkali, we provide our clients comprehensive search engine marketing results. We stop at nothing to get our clients results." />
