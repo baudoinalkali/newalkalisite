@@ -48,32 +48,35 @@ input {
   border-color: rgba(209, 213, 219, var(--tw-border-opacity)) !important;
 }
 
-#service-page textarea {
+textarea {
   --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   --tw-border-opacity: 1;
   border-color: rgba(209, 213, 219, var(--tw-border-opacity));
 }
 
-#service-page .form-columns-2{
-  width:100%;
-  max-width: 100%;
+.form-columns-2{
+  width:100% !important;
+  max-width: 100% !important;
+  margin-top: 1.5rem !important;
 }
 
-#service-page textarea {
+textarea {
   min-height: 6rem;
+  width: 100% !important;
 }
 
-#service-page .form-columns-1{
-  width:100%;
-  max-width: 100%;
+.form-columns-1{
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-top: 1.5rem !important;
 }
 
-#service-page .hs-input {
+.hs-input {
   width: 100%;
 }
 
-#service-page textarea:focus {
+textarea:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
   --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
@@ -84,11 +87,7 @@ input {
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
 }
 
-#service-page .form-columns-2, .form-columns-1{
-  margin-top: 1.5rem;
-}
-
-#service-page .form-columns-1{
+.form-columns-2, .form-columns-1{
   margin-top: 1.5rem;
 }
 
@@ -137,6 +136,10 @@ input {
 .inputs-list.multi-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.multi-container > li {
+  margin-top: 15px !important
 }
 
 .inputs-list.multi-container li {
