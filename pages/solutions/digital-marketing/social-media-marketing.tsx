@@ -86,7 +86,7 @@ function SocialMediaMarketing() {
   ));
 
   return (
-    <div className="overflow-hidden">
+    <div id="service-page" className="overflow-hidden">
       <Head>
         <title>Social Media Marketing | It's Good to Be Social</title>
         <meta name="description" content="We help share your story, organically connect with your audience, and drive leads using popular social platforms." />
