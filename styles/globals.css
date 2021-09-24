@@ -50,6 +50,19 @@ h6 {
   line-height: 1.2 !important;
 }
 
+#home .scrollbar {
+  display: none !important;
+}
+
+
+#home .navigation {
+  background-color: #f8f8f8;
+}
+
+#post .navigation {
+  background-color: #fff;
+}
+
 .responsive-screen-button:hover {
   opacity: 0.75;
 }

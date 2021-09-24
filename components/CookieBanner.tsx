@@ -20,7 +20,7 @@ const CookieBanner = (props) => {
   }, []);
 
   const handleCookie = (allowCookie) => {
-    Cookies.set("__responded_to_alkali_consent__", true);
+    Cookies.set("__responded_to_alkali_consent__", "true");
     Cookies.set("__allow_alkali_cookie__", allowCookie);
     setShow(false);
   };
