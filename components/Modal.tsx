@@ -9,7 +9,7 @@ export default function MeetingPopUp(props) {
   return (
     <>
       <button
-        className={props.style}
+        className={`schedule-button ${props.style}`}
         type="button"
         onClick={() => setShowModal(true)}
       >
