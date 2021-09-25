@@ -1,5 +1,5 @@
 var _hsp = window['_hsp'] = window['_hsp'] || [];
-_hsp.push(['setCookiePolicy', [{"portalId":14539076,"id":3756966,"domain":null,"path":"/hubspot-analytics-default-policy","label":null,"enabled":false,"privacyPolicy":0,"privacyHideDecline":false,"privacyDefault":true,"privacyPolicyWording":null,"privacyAcceptWording":null,"privacyDismissWording":null,"privacyDisclaimerWording":null,"privacyBannerAccentColor":"#425b76","privacyBannerType":"TOP","cookiesByCategory":null,"targetedCountries":[]}]]);
+_hsp.push(['setCookiePolicy', [{"portalId":20442125,"id":3756966,"domain":null,"path":"/hubspot-analytics-default-policy","label":null,"enabled":false,"privacyPolicy":0,"privacyHideDecline":false,"privacyDefault":true,"privacyPolicyWording":null,"privacyAcceptWording":null,"privacyDismissWording":null,"privacyDisclaimerWording":null,"privacyBannerAccentColor":"#425b76","privacyBannerType":"TOP","cookiesByCategory":null,"targetedCountries":[]}]]);
 _hsp.push(['addCookieDomain', '.hsforms.com']);
 _hsp.push(['addCookieDomain', '.alkalidesigns.com']);
 _hsp.push(['addCookieDomain', '.hubspot.com']);

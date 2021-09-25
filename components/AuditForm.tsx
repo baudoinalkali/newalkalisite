@@ -21,7 +21,7 @@ export default function AuditForm(props) {
             {showModal ? (
                 <>
                     <Portal>
-                        <div className="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none flex h-screen items-center justify-center">
+                        <div className="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none flex h-screen items-start md:items-center justify-center">
                             <div className="relative my-6 m-auto px-5" style={{width: "100%", maxWidth: "80rem"}}>
                                 <div className="hs-form-popup-container--inner border-0 md:px-10 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                                     <div
