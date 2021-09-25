@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import Script from 'next/script'
+import FACEBOOK_PIXEL_1 from './facebook/pixel-1'
 
 class MyDocument extends Document {
   render() {
@@ -97,6 +98,7 @@ class MyDocument extends Document {
         fbq('track', 'PageView');
       `}
           </Script>
+          <FACEBOOK_PIXEL_1 />
         </Head>
         <body>
           <Main />
