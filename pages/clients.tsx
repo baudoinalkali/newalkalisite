@@ -38,7 +38,7 @@ function Clients() {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl m-auto pt-36">
+      <div className="max-w-7xl m-auto pt-20 lg:pt-36">
         <ClientCardContainer>
           {ClientMainPage.map((clientMainPage, idx) => (
             <ClientCard
