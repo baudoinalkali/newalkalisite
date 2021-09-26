@@ -7,4 +7,6 @@ Disallow: /about/careers/
 Disallow: /about/partners/
 Disallow: /demo/
 Disallow: /forms/
+Disallow: /blog/
+Disallow: /blog/*
 Sitemap: https://www.alkalidesigns.com/sitemap.xml
